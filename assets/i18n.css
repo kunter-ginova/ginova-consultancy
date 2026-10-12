@@ -1,0 +1,12 @@
+@font-face{font-family:'GiNOVA Universal';src:url('fonts/ginova-universal.woff') format('woff');font-weight:400;font-display:swap}
+@font-face{font-family:'Noto Sans Arabic';src:url('fonts/ginova-arabic.woff') format('woff');font-weight:400;font-display:swap}
+@font-face{font-family:'Noto Sans SC';src:url('fonts/ginova-chinese.woff') format('woff');font-weight:400;font-display:swap}
+html:lang(ar) body,html:lang(ar) button,html:lang(ar) input,html:lang(ar) select,html:lang(ar) textarea,html:lang(ar) h1,html:lang(ar) h2,html:lang(ar) h3{text-transform:none}
+html:lang(zh) body,html:lang(zh) button,html:lang(zh) input,html:lang(zh) select,html:lang(zh) textarea,html:lang(zh) h1,html:lang(zh) h2,html:lang(zh) h3{text-transform:none;word-break:normal;line-break:strict}html[dir=rtl] .navlinks,html[dir=rtl] .hero,html[dir=rtl] .proposal-form,html[dir=rtl] .scope-row{text-align:start}
+a[href^='mailto:'],.sku,.item-index,.n,.album-track-time{unicode-bidi:isolate;direction:ltr}
+.langs{display:flex;flex-wrap:wrap;gap:4px;max-width:250px}.langs button{min-width:30px;min-height:32px}.navlinks{flex-wrap:wrap}.nav .cta,button,.button,.btn{white-space:normal}.nav{height:auto;min-height:84px}.nav-inner{flex-wrap:wrap;gap:12px}
+@media(max-width:760px){.langs{display:flex!important;max-width:100%;gap:3px}.langs button{min-height:34px}.nav-inner{padding-block:10px}.navlinks{overflow-wrap:anywhere}h1{overflow-wrap:normal}.proposal-form{min-width:0}.scope-row,.scope-row p{overflow-wrap:anywhere}}
+
+@media(max-width:760px){.decision-entry>.wrap,.hero>.wrap{width:100%;max-width:100%;box-sizing:border-box}.decision-entry>.wrap>div,.hero>.wrap>div{min-width:0;max-width:100%}.welcome-film,.welcome-controls{max-width:100%;box-sizing:border-box}.welcome-controls{flex-wrap:wrap}}
+@media(max-width:760px){.wrap,.eng-hero>.wrap{width:100%;max-width:100%;padding-inline:20px!important;box-sizing:border-box}.nav.wrap{margin-inline:0}.nav .brand{min-width:0}.menu-toggle{margin-inline-start:auto;margin-left:0}}
+@media(max-width:760px){.nav.wrap{display:flex!important;justify-content:space-between;gap:12px;padding:12px 20px!important}.nav .brand{flex:1;max-width:calc(100% - 84px);width:auto}.nav .menu-toggle{flex:0 0 auto;max-width:80px;min-width:0;margin:0}}

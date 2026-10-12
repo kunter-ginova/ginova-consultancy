@@ -1,0 +1,1 @@
+(()=>{'use strict';for(const [lang,c]of Object.entries(window.GinovaCommercialCopy)){if(!D[lang])continue;const s=D[lang].s;s.services=c.offers.map(o=>({name:o.title,body:o.body,output:o.output,responsibility:o.responsibility}));s['services.title']=c.offersTitle;s['services.body']=c.consultancyLead;}})();

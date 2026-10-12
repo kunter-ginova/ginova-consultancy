@@ -1,0 +1,17 @@
+/* R4: one typographic contract for all ten locales.
+   Responsive sizes may change with viewport/state, never with language/text length.
+   Local script fonts are glyph fallbacks in the SAME stack, not smaller locale styles. */
+:root{
+ --gn-font-sans:'Inter','Noto Sans Arabic','Noto Sans SC','GiNOVA Universal',Arial,sans-serif;
+ --gn-font-serif:'Newsreader','Noto Sans Arabic','Noto Sans SC','GiNOVA Universal',Georgia,serif;
+ --sans:var(--gn-font-sans);
+ --serif:var(--gn-font-serif);
+}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%;}
+body,button,input,select,textarea,.language-name{font-family:var(--gn-font-sans)!important;}
+header .navlinks>a,.bdesc,.gn-corporate-links{font-family:var(--gn-font-sans)!important;}
+h1,h2,h3,h4,h5,h6,summary,.gate-title{overflow-wrap:anywhere;word-break:normal;hyphens:auto;}
+.gate-title{font-family:var(--gn-font-sans)!important;line-height:1.25!important;overflow:visible;}
+/* Keep the MediaLab proper name intact; every locale sees the same label and size. */
+.gate-soundlab .gate-title{overflow-wrap:normal;hyphens:none;}
+.gate-description,.gate-offer,.lead{overflow-wrap:anywhere;word-break:normal;}

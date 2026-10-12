@@ -1,0 +1,8 @@
+
+header .navlinks>.header-contact-icon{position:relative;display:inline-flex;align-items:center;justify-content:center;flex:0 0 44px;width:44px;min-width:44px;height:44px;min-height:44px;padding:0;border:0;border-radius:0;background:transparent;color:var(--ink,#173a35);cursor:pointer;overflow:visible}
+.header-contact-icon svg{display:block;width:16px;height:16px;fill:currentColor;pointer-events:none}
+.header-contact-icon:hover{color:var(--header-branch-accent,#6f3faa)}
+.header-contact-icon:focus-visible{outline:2px solid var(--header-branch-accent,#6f3faa);outline-offset:3px}
+.header-contact-tooltip{position:absolute;top:calc(100% + 6px);inset-inline-end:0;z-index:20;width:max-content;max-width:220px;padding:6px 9px;border:1px solid #d8ded8;background:#fff;color:#173a35;box-shadow:0 4px 16px #10282415;font:500 12px/1.4 var(--gn-font-sans);letter-spacing:normal;text-transform:none;white-space:normal;text-align:start;pointer-events:none;opacity:0;visibility:hidden;transition:opacity .14s ease}
+.header-contact-icon:hover .header-contact-tooltip,.header-contact-icon:focus-visible .header-contact-tooltip{opacity:1;visibility:visible}
+@media(prefers-reduced-motion:reduce){.header-contact-tooltip{transition:none}}

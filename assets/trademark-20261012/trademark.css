@@ -1,0 +1,15 @@
+/* Trademark notice, not a representation of registration. Artwork bytes stay unchanged. */
+.gn-tm-text{display:inline-block;white-space:nowrap;unicode-bidi:isolate;direction:ltr;}
+.gn-tm-text::after{content:'™';font-family:Arial,sans-serif;font-size:.54em;font-weight:500;line-height:0;vertical-align:super;margin-inline-start:.035em;letter-spacing:0;}
+.ginova-wordmark-frame.gn-tm-logo,.gn-tm-image{position:relative!important;overflow:visible!important;}
+.ginova-wordmark-frame.gn-tm-logo::after,.gn-tm-image::after{content:'™';position:absolute;inset:auto -8px auto auto;top:0;font-family:Arial,sans-serif;font-size:8px;font-weight:600;line-height:1;letter-spacing:0;color:var(--gn-navy,#0B1F3B);pointer-events:none;}
+header .ginova-wordmark-frame.gn-tm-logo::after{top:-1px;}
+.gn-tm-image{display:inline-flex;align-items:center;line-height:0;max-width:100%;}
+.gn-tm-image>img{display:block;}
+footer .gn-tm-image::after{color:inherit;}
+body:has(.portal-stage) .gate-title::before{content:'GiNOVA™';}
+/* Portal trigger and body-portaled list use one restrained light theme. */
+[data-language-theme="portal"]{--language-bg:#ffffff;--language-ink:#0B1F3B;--language-muted:#5c6a73;--language-line:#d7dfe3;--language-accent:#2b6d70;--language-tint:#eef4f3;--language-shadow:0 12px 32px #0b1f3b18;--language-radius:7px;color-scheme:light;}
+body:has(.portal-stage) .language-panel{background:#fff;color:#0B1F3B;border-color:#d7dfe3;box-shadow:0 12px 32px #0b1f3b18;}
+body:has(.portal-stage) .language-panel .language-option{color:#0B1F3B;}
+body:has(.portal-stage) .language-panel .language-option:hover,body:has(.portal-stage) .language-panel .language-option[aria-checked="true"],body:has(.portal-stage) .language-panel .language-option:focus-visible{background:#eef4f3;}

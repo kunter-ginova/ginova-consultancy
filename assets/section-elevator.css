@@ -1,0 +1,13 @@
+/* A quiet, shared section elevator. The document remains freely scrollable. */
+.section-elevator{position:fixed;right:max(10px,env(safe-area-inset-right));bottom:var(--elevator-bottom,18px);z-index:70;display:grid;grid-template-rows:44px 44px;width:44px;border:1px solid #17232733;border-radius:24px;background:#fffffff0;color:#172327;box-shadow:0 2px 12px #0000000e;isolation:isolate;transition:opacity .16s ease,background .16s ease}
+.section-elevator[hidden]{display:none!important}
+.section-elevator button{display:grid;place-items:center;width:44px;height:44px;padding:0;border:0;border-radius:22px;background:transparent;color:inherit;cursor:pointer;touch-action:manipulation}
+.section-elevator button+button{border-top:1px solid #17232720;border-radius:0 0 22px 22px}
+.section-elevator button:hover:not(:disabled){background:#eef0e9}
+.section-elevator button:focus-visible{outline:2px solid #7653bb;outline-offset:3px}
+.section-elevator button:disabled{opacity:.22;cursor:default}
+.section-elevator svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round}
+.elevator-status{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+html.elevator-travelling{scroll-behavior:auto!important;scroll-snap-type:none!important}
+@media(prefers-reduced-motion:reduce){.section-elevator{transition:none}}
+@media print{.section-elevator{display:none!important}}

@@ -1,0 +1,159 @@
+/* Consultancy, adapted from the accepted Decision Systems v46 presentation.
+   The white islands, type, palette, brand and media remain the accepted design.
+   Compact controls replace the previous long reading chapters. */
+[hidden]{display:none!important}
+:root{--chapter-space:clamp(24px,4.5dvh,54px)}
+html{scroll-behavior:smooth}
+.consultancy-page main>section{min-height:calc(var(--ds-screen-height) - var(--ds-header-height));padding-block:var(--chapter-space)!important;overflow:visible;scroll-margin-top:0!important}
+.consultancy-page main>section>.wrap{width:min(86%,1160px);padding:0!important}
+.consultancy-page main>section::before{inset:14px max(2%,calc((100% - 1320px)/2))!important;border-radius:42px!important}
+.consultancy-page .hero.decision-entry>.wrap:not(.ds-back){grid-template-columns:1.05fr 1fr;gap:6%}
+.consultancy-page .hero.decision-entry>.ds-back{margin-bottom:22px}
+.consultancy-page .decision-entry .eyebrow{margin-bottom:16px!important}
+.consultancy-page .decision-entry h1{font-size:clamp(40px,4.9vw,68px)!important;line-height:1.05!important}
+.consultancy-page .decision-entry .lead{font-size:17px!important;line-height:1.65!important;margin:22px 0!important}
+.consultancy-page .heroctas{gap:10px}.consultancy-page .heroctas .cta{font-size:13px;min-height:44px;padding:10px 16px}
+.consultancy-page .welcome-controls{padding-top:12px}.consultancy-page .welcome-status{padding-top:8px!important}
+.consultancy-page h2{font-size:clamp(32px,3.4vw,46px)!important;margin:16px 0!important;max-width:24ch}
+.consultancy-page .lead{font-size:17px!important;line-height:1.65!important;max-width:65ch}
+.consultancy-tab-layout{display:grid;grid-template-columns:minmax(220px,.8fr) minmax(0,1.8fr);gap:40px;align-items:start;margin-top:28px}
+.consultancy-tabs{display:grid;gap:0;min-width:0;border-top:1px solid var(--stone)}
+.consultancy-tabs button{display:flex;align-items:center;gap:16px;padding:12px 16px;text-align:start;min-height:44px;border:0;border-bottom:1px solid var(--stone);background:transparent;color:var(--green);font:400 15px/1.4 var(--sans);white-space:normal}
+.consultancy-tabs button[aria-selected=true]{background:var(--green);color:#fff}
+.consultancy-tabs .tab-number{font-size:11px;opacity:.7;min-width:18px}
+.consultancy-tabs button:hover:not([aria-selected=true]){background:#eef3f1}
+.consultancy-panel{min-width:0;border:1px solid var(--stone);padding:28px 32px;background:#fff;min-height:280px}
+.consultancy-panel>h3{font-size:clamp(27px,2.6vw,35px);margin:12px 0 14px!important;line-height:1.2!important}
+.consultancy-panel p{font-size:17px;line-height:1.6;color:var(--grey);max-width:55ch}
+.service-index,.proposal-index{color:var(--bronze);font-size:11px;letter-spacing:.13em}
+.service-output{margin-top:25px;padding-top:20px;border-top:1px solid var(--stone)}
+.service-output h4{font:600 11px/1.5 var(--sans);letter-spacing:.12em;text-transform:uppercase;color:var(--bronze);margin:0 0 8px}
+.scope-note{font-size:13px;line-height:1.65;color:var(--grey);margin-top:24px;max-width:90ch}
+.compact-picker{display:none}
+.consultancy-page .ds-workflow-slice .ds-intelligence{grid-template-columns:4fr 6fr;gap:7%;align-items:center}
+.consultancy-page .motion-intro h2{max-width:20ch}
+.consultancy-page .motion-disclaimer{font-size:17px;line-height:1.65;max-width:39ch}
+.consultancy-page .intelligence-drawing{max-height:200px}
+.consultancy-page .motion-detail{min-height:170px;padding:20px 0 16px}
+.consultancy-page .motion-detail h3{font-size:28px;margin:9px 0 12px!important}
+.consultancy-page .motion-detail p{font-size:16px;line-height:1.65}
+.consultancy-page .motion-controls{padding-top:12px}
+.consultancy-page .motion-controls p{max-width:none}
+.consultancy-text{max-width:940px!important}
+.consultancy-text h2{max-width:22ch}
+.consultancy-text .lead{font-size:clamp(18px,2vw,23px)!important;max-width:65ch}
+.consultancy-text .scope-note{font-size:16px;max-width:70ch;margin-top:28px;border-top:1px solid var(--stone);padding-top:24px}
+.consultancy-page .entry-carousel .wrap>h2{max-width:35ch}
+.consultancy-page .decision-scenes{margin:20px 0 0;border:0;background:#fff}
+.consultancy-page .decision-scene img{width:100%;height:min(39dvh,360px);object-fit:contain;aspect-ratio:auto;background:#fff}
+.consultancy-page .decision-scene figcaption{padding:20px 0;grid-template-columns:30px .9fr 1.1fr;gap:22px}
+.consultancy-page .decision-scene h3{font-size:25px;margin:0!important}
+.consultancy-page .decision-scene p{font-size:15px;line-height:1.6}
+.consultancy-page .scene-controls{padding:10px 0 0;background:#fff}
+.consultancy-page .actual-media .media-heading{margin-bottom:20px;align-items:center}
+.consultancy-page .actual-media h2{font-size:clamp(30px,3vw,42px)!important;max-width:24ch}
+.consultancy-page .actual-media .media-heading>p{font-size:16px;max-width:36ch}
+.consultancy-page .actual-video video{max-height:min(47dvh,410px);object-fit:contain;background:#fff}
+.consultancy-page .actual-media .media-caption{font-size:13px;margin-top:16px}
+.consultancy-page .media-fallback{font-size:13px;text-decoration:underline;text-underline-offset:4px}
+.consultancy-contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.consultancy-form{display:grid;gap:16px;border:1px solid var(--stone);padding:28px}
+.consultancy-form label{display:grid;gap:8px;font-size:13px;line-height:1.5;font-weight:500}
+.consultancy-form input,.consultancy-form textarea,.compact-picker select{font:400 16px/1.5 var(--sans);color:var(--ink);background:#fff;border:1px solid #adbab2;border-radius:0;width:100%;padding:10px 12px}
+.consultancy-form textarea{resize:none;height:108px}
+.consultancy-form .scope-note{font-size:12px;margin:0;line-height:1.55}
+.consultancy-form .cta{width:100%}.consultancy-contact-grid .proposal-mail{display:inline-block;margin-top:22px;font-size:20px}
+.consultancy-page footer{padding:32px 0}
+.consultancy-footer{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:25px}
+.consultancy-footer .footer-brand{display:flex;align-items:center;gap:10px}
+.consultancy-footer nav{display:flex;gap:20px;font-size:14px}.consultancy-footer p{font-size:12px;color:#cad3c7;width:100%;border-top:1px solid #ffffff30;padding-top:20px}
+#welcome-chapter .welcome-chapter-wrap{max-width:860px}#welcome-chapter .welcome-film{max-width:none}#welcome-chapter .welcome-screen video{max-height:50dvh;width:100%;height:auto}#welcome-chapter h2{max-width:none}
+html[dir=rtl] .consultancy-tabs button{text-align:right}html[dir=rtl] .consultancy-panel{text-align:right}
+@media(max-width:1000px){.consultancy-tab-layout{gap:24px;grid-template-columns:minmax(210px,.9fr) minmax(0,1.6fr)}.consultancy-contact-grid{gap:30px}}
+@media(max-width:900px){
+ .consultancy-page .hero.decision-entry>.wrap:not(.ds-back){grid-template-columns:1fr;gap:0}
+ .consultancy-page .decision-entry h1{font-size:clamp(42px,7vw,66px)!important;max-width:16ch}
+ .consultancy-page .hero-media:empty{display:none}
+ .consultancy-page .decision-entry .lead{max-width:52ch}
+ .consultancy-page .ds-workflow-slice .ds-intelligence{grid-template-columns:1fr;gap:12px}
+ .consultancy-page .motion-intro h2{max-width:28ch}.consultancy-page .motion-disclaimer{max-width:70ch;font-size:15px}
+ .consultancy-page .intelligence-drawing{height:clamp(80px,16dvh,140px);width:100%;margin:0;max-height:none}
+ .consultancy-page .motion-detail{min-height:130px;padding:14px 0}.consultancy-page .motion-detail p{font-size:15px;max-width:70ch}
+ .consultancy-page .motion-detail h3{font-size:26px;margin:5px 0 8px!important}.consultancy-page .motion-stages{margin:0}
+ .consultancy-page .motion-stages button{font-size:11px;min-height:40px;padding:8px 2px}
+}
+@media(max-width:700px){
+ :root{--chapter-space:30px}
+ .consultancy-page main>section>.wrap{width:calc(100% - 52px);padding:0!important}
+ .consultancy-page main>section::before{inset:10px 8px!important;border-radius:28px!important}
+ .consultancy-page h2{font-size:32px!important;margin:12px 0!important;max-width:24ch}
+ .consultancy-page .eyebrow,.consultancy-page .motion-kicker{font-size:10px!important;letter-spacing:.11em!important;line-height:1.6!important}
+ .consultancy-page .lead{font-size:16px!important;line-height:1.6!important}
+ .consultancy-page .decision-entry h1{font-size:46px!important}
+ .consultancy-page .decision-entry .lead{font-size:17px!important;line-height:1.65!important;margin:22px 0!important}
+ .consultancy-page .heroctas{flex-direction:column;align-items:stretch;max-width:330px}
+ .consultancy-page .heroctas .cta{font-size:14px}
+ .consultancy-page .hero.decision-entry>.ds-back{margin-bottom:24px;padding:0!important}
+ .consultancy-tab-layout{display:block;margin-top:18px}
+ .consultancy-tabs{display:none}
+ .compact-picker{display:grid;gap:6px;margin-bottom:16px;font-size:12px;color:var(--grey)}
+ .compact-picker select{height:48px;font-size:15px;padding:9px 34px 9px 10px}
+ .consultancy-panel{padding:20px;min-height:0}.consultancy-panel>h3{font-size:27px;margin:8px 0 12px!important}.consultancy-panel p{font-size:16px;line-height:1.6}
+ .service-output{margin-top:18px;padding-top:14px}.service-output p{font-size:15px}.service-output h4{font-size:10px}
+ .scope-note{font-size:12px;line-height:1.55;margin-top:16px}
+ .consultancy-text .lead{font-size:19px!important}.consultancy-text .scope-note{font-size:15px;margin-top:24px;padding-top:20px}
+ .consultancy-page .motion-intro h2{font-size:30px!important}.consultancy-page .motion-detail{min-height:132px}
+ .consultancy-page .motion-detail h3{font-size:24px}.consultancy-page .motion-controls{padding-top:8px}
+ .consultancy-page .decision-scene img{height:min(28dvh,240px);object-fit:contain}
+ .consultancy-page .decision-scene figcaption{grid-template-columns:24px 1fr;gap:10px;padding:16px 0}
+ .consultancy-page .decision-scene h3{font-size:24px}.consultancy-page .decision-scene p{grid-column:2;font-size:15px}.consultancy-page .scene-controls p{font-size:11px;max-width:24ch}
+ .consultancy-page .actual-media .media-heading{display:block;margin-bottom:16px}.consultancy-page .actual-media .media-heading>p{font-size:15px;max-width:none}.consultancy-page .actual-video video{max-height:37dvh}
+ .consultancy-contact-grid{display:block}.consultancy-contact-grid .proposal-mail{display:none}
+ .consultancy-form{padding:0;border:0;margin-top:20px;gap:12px}.consultancy-form textarea{height:82px}.consultancy-form input{height:42px}.consultancy-form .scope-note{font-size:12px}
+ .consultancy-footer{width:calc(100% - 52px)!important;padding:0!important;gap:20px}.consultancy-footer nav{font-size:12px;gap:15px}.consultancy-footer p{font-size:11px}
+ #welcome-chapter .welcome-screen video{max-height:43dvh}
+}
+@media(max-height:700px){
+ :root{--chapter-space:24px}
+ .consultancy-page h2{font-size:30px!important;margin:10px 0!important}
+ .consultancy-page .decision-entry h1{font-size:42px!important}
+ .consultancy-page .decision-entry .lead{margin:18px 0!important}
+ .consultancy-page .hero.decision-entry>.ds-back{margin-bottom:18px}
+ .consultancy-panel{padding:18px 22px;min-height:0}
+ .consultancy-panel>h3{font-size:26px;margin:6px 0 10px!important}.consultancy-panel p{font-size:15px;line-height:1.5}
+ .consultancy-tab-layout{margin-top:14px}.service-output{margin-top:14px;padding-top:12px}.scope-note{margin-top:12px;font-size:12px;line-height:1.5}
+ .consultancy-page .motion-intro h2{font-size:28px!important}.consultancy-page .motion-disclaimer{font-size:15px;line-height:1.5}
+ .consultancy-page .intelligence-drawing{height:76px;max-height:120px}
+ .consultancy-page .motion-detail{min-height:112px;padding:10px 0}.consultancy-page .motion-detail p{font-size:14px;line-height:1.5}
+ .consultancy-page .motion-detail h3{font-size:23px}.consultancy-page .motion-stages button{min-height:36px}
+ .consultancy-page .decision-scene img{height:25dvh}.consultancy-page .decision-scene figcaption{padding:12px 0}.consultancy-page .decision-scene p{font-size:14px}
+ .consultancy-form{margin-top:14px;gap:9px}.consultancy-form textarea{height:62px}.consultancy-form input{height:38px}
+ .consultancy-contact .lead{font-size:15px!important}.consultancy-form label{font-size:12px;gap:4px}
+ .compact-picker{margin-bottom:12px;gap:4px}.compact-picker select{height:44px}
+}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}}
+@media print{.consultancy-page main>section{min-height:0!important;padding:30px 0!important;break-inside:avoid}.consultancy-page main>section::before{display:none}.consultancy-tabs{display:grid!important}.compact-picker{display:none!important}.section-elevator,.menu-toggle{display:none!important}}
+/* On narrow screens the accepted film and animated method receive their own
+   arrow stops rather than making the opening/method chapters scroll taller. */
+.consultancy-page .regulatory-note{font-size:14px!important;max-width:85ch}
+@media(max-width:900px){
+ .consultancy-page #method .ds-intelligence{display:block}
+ .consultancy-page #method .motion-intro h2{font-size:clamp(34px,6vw,48px)!important;max-width:22ch}
+ .consultancy-page #method .motion-disclaimer{font-size:18px;max-width:58ch}
+ #workflow-chapter>.wrap{max-width:720px}
+ #workflow-chapter h2{max-width:24ch}
+ .workflow-mobile-host .motion-demo{max-width:none}
+}
+@media(max-width:700px){
+ #service-panel>h3,#service-panel>.service-index{display:none}
+ #service-panel{padding:20px}
+ #services .compact-picker>span{display:none}
+ .consultancy-page #workflow-chapter .motion-detail{min-height:160px}
+}
+@media(max-height:700px) and (max-width:700px){
+ #service-panel{padding:16px 20px}
+ #services .lead{font-size:15px!important;line-height:1.5!important}
+ .consultancy-page #workflow-chapter .motion-detail{min-height:140px}
+}
+.motion-demo[data-stage="3"] .option-branches{opacity:1}
+.motion-demo[data-stage="4"] .decision-commit-line{opacity:1}

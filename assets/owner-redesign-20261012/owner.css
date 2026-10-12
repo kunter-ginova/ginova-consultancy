@@ -1,0 +1,110 @@
+/* Owner-directed compact portal. Header/footer remain outside the full-screen stage. */
+body:has(.portal-stage)>header{height:auto;min-height:76px;flex-wrap:wrap;column-gap:22px;row-gap:8px}
+body:has(.portal-stage)>header .brand-line{display:flex!important;flex-direction:column;justify-content:center;flex-shrink:0;gap:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;margin:0;color:#0B1F3B;font-size:12px;line-height:1.18;letter-spacing:0;max-width:245px}
+body:has(.portal-stage)>header .brand-line>span{display:block;white-space:nowrap}
+.gn-owner-intro{background:#FAFAF8;color:#0B1F3B;margin:0;border:0;border-bottom:1px solid #dfe5e5}
+.gn-owner-intro>summary{min-height:44px;display:flex;justify-content:space-between;align-items:center;gap:18px;padding:10px 5%;cursor:pointer;font-size:14px;font-weight:600;list-style:none}
+.gn-owner-intro>summary::-webkit-details-marker{display:none}.gn-owner-intro>summary:after{content:'+';font-size:22px;font-weight:400}.gn-owner-intro[open]>summary:after{content:'−'}
+.gn-owner-intro>summary:focus-visible{outline:3px solid #2F8F8F;outline-offset:-4px}
+.gn-owner-brief{padding-block:26px 34px}.gn-owner-brief h1{font-size:clamp(30px,4vw,50px);max-width:28ch;margin-bottom:14px}.gn-owner-brief .gn-strategy-hero-lead{font-size:16px;line-height:1.5!important}.gn-owner-brief .gn-strategy-cta{margin-top:8px}
+body:has(.portal-stage) .portal-stage{height:100svh!important;min-height:100svh!important;max-height:100svh;scroll-margin-top:0}
+.gate-title:before{content:'GiNOVA';display:block;font-size:.35em;line-height:1.15;font-weight:500;letter-spacing:.02em;margin-bottom:.15em;white-space:nowrap;text-transform:none}
+.gate-engineering .gate-title,.gate-decision .gate-title{text-transform:uppercase}
+header.ginova-branch-header .brand>span:last-child{display:flex;flex-direction:column;align-items:flex-start;gap:3px}
+header.ginova-branch-header .bdesc{display:block!important;font-size:11px!important;font-weight:600;line-height:1.2;letter-spacing:.11em;max-width:none!important}
+body[data-gn-site="engineering"] header .bdesc,body[data-gn-site="consultancy"] header .bdesc{text-transform:uppercase}
+#service-panel .gn-service-problem,#service-panel .service-output{padding:16px 18px;border-inline-start:3px solid #2F8F8F;background:#FAFAF8;margin-block:18px}
+#service-panel .gn-service-problem h4,#service-panel .service-output h4{font-size:15px;line-height:1.4;font-weight:700;margin:0 0 8px;color:#0B1F3B}
+#service-panel #service-body,#service-panel #service-output{font-size:16px;line-height:1.6;color:#4B4F56;margin:0}
+.gn-service-responsibility{font-size:14px;line-height:1.5;color:#4B4F56}.gn-offer-terms{margin-top:18px;border-top:1px solid #dfe5e5;padding-top:12px}.gn-offer-terms>summary{cursor:pointer;min-height:44px;color:#0B1F3B;font-size:14px}.gn-offer-terms .wrap{padding:0!important;width:100%!important}.gn-offer-terms h2{font-size:20px!important}.gn-offer-terms p{font-size:14px!important}
+@media(max-width:700px){
+ body:has(.portal-stage)>header{gap:8px 12px;padding-inline:4%;min-height:72px}
+ body:has(.portal-stage)>header .brand-line{font-size:10px;max-width:180px}
+ body:has(.portal-stage)>header .header-actions{margin-left:auto}
+ body:has(.portal-stage) .quick-nav{display:none!important}
+ body:has(.portal-stage) .portal-stage{display:flex!important;flex-direction:column;overflow:hidden}
+ .portal-stage .gate{flex:1 1 0!important;height:auto!important;min-height:0!important;border-right:0;border-bottom:1px solid #ffffff30}
+ .portal-stage.has-selection .gate{flex:1 1 0!important}.portal-stage.has-selection .gate.is-selected{flex:4 1 0!important}
+ .portal-stage .gate-top{display:none}.portal-stage .gate-title,.portal-stage.has-selection .gate:not(.is-selected) .gate-title{font-size:clamp(21px,5vw,32px)!important;line-height:1.08!important;writing-mode:horizontal-tb!important;transform:none!important;left:6%!important;right:6%!important;top:18px!important;bottom:auto!important;max-height:none!important;width:auto!important;text-align:start;letter-spacing:-.02em}
+ .portal-stage .gate-title:before{font-size:14px;margin-bottom:5px}.portal-stage .select-label{display:none!important}.portal-stage .select-symbol{top:22px!important;bottom:auto!important;left:auto!important;right:5%!important;font-size:22px}
+ .portal-stage .gate-bottom{left:6%;right:6%;bottom:10px}.portal-stage .gate-copy{display:none!important}.portal-stage .gate-description,.portal-stage .gate-offer{display:none!important}
+ .portal-stage .gate .enter{min-height:44px!important;font-size:13px!important;padding:8px 0!important;line-height:1.35}
+ .portal-stage.has-selection .gate:not(.is-selected) .gate-bottom{display:none}
+ .portal-stage .gate.is-selected .gate-copy{display:block!important;height:auto!important;max-height:22svh;overflow:auto}
+ .portal-stage .gate.is-selected .gate-offer{display:block!important;font-size:14px;line-height:1.5;margin-bottom:10px}
+ .portal-stage .gate.is-selected .gate-title{font-size:clamp(28px,7vw,42px)!important}
+ html[dir=rtl] .portal-stage .select-symbol{right:auto!important;left:5%!important}
+}
+@media(prefers-reduced-motion:reduce){.gn-owner-intro,.portal-stage .gate{scroll-behavior:auto;transition:none!important}}
+/* Engineering contact is available without a trailing page chapter. */
+.gn-engineering-dialog{width:min(960px,calc(100vw - 28px));max-width:calc(100vw - 28px);max-height:88svh;padding:24px;border:1px solid #cbd5d1;border-radius:12px;background:#FAFAF8;color:#0B1F3B;overflow:auto}.gn-engineering-dialog::backdrop{background:#071018aa}.gn-engineering-dialog [data-enquiry-close]{display:block;margin-inline-start:auto;min-width:44px;min-height:44px;border:0;border-radius:6px;background:#0B1F3B;color:#FAFAF8;font-size:25px;cursor:pointer}.gn-engineering-dialog #enquiry{min-height:0;height:auto;padding:12px 0;background:transparent}.gn-engineering-dialog #enquiry .wrap{width:100%;padding:0}.gn-engineering-dialog .proposal-grid{grid-template-columns:minmax(0,1fr)}
+body>footer.gn-owner-compact-footer{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:6px 20px;min-height:43px;height:auto;padding:6.5px 5%;background:#071018;color:#FAFAF8;font-size:12px}
+body>footer.gn-owner-compact-footer .gn-corporate-links{width:auto;flex:1;justify-content:flex-end;min-height:0;padding:0;gap:6px 18px}
+body>footer.gn-owner-compact-footer a{color:inherit;text-decoration:none;min-height:30px;display:inline-flex;align-items:center}
+.eng-select-menu.eng-select-portal{min-width:0;min-inline-size:0;max-inline-size:calc(100vw - 24px)}.eng-select-option{white-space:normal;overflow-wrap:anywhere}.eng-select-toggle{min-width:0;white-space:normal;overflow-wrap:anywhere}
+/* Latest owner header direction: right-hand wordmark and two lines end at crest bottom. */
+body:has(.portal-stage)>header{height:84px;min-height:84px;flex-wrap:nowrap}
+body:has(.portal-stage)>header .ginova-brand-lockup{align-items:center;gap:14px!important}
+body:has(.portal-stage)>header .ginova-crest-frame{height:50px;width:50px;display:flex;align-items:center}
+body:has(.portal-stage)>header .ginova-crest-frame img{height:50px!important;width:auto!important;max-width:50px}
+.gn-owner-wording-stack{display:flex;flex-direction:column;align-items:flex-start;justify-content:space-between;height:50px;min-width:0}
+body:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark-frame{height:26px;display:block;line-height:0}
+body:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark{height:26px!important;width:auto!important;max-width:160px}
+body:has(.portal-stage)>header .gn-owner-wording-stack .brand-line{height:auto!important;display:flex!important;font-size:9.5px;line-height:10px;max-width:none;letter-spacing:0;flex:0 0 auto}
+@media(max-width:700px){body:has(.portal-stage)>header{height:70px;min-height:70px}.gn-owner-wording-stack{height:46px}body:has(.portal-stage)>header .ginova-crest-frame,body:has(.portal-stage)>header .ginova-crest-frame img{height:46px!important}body:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark{height:23px!important}body:has(.portal-stage)>header .ginova-brand-lockup{gap:10px!important}}
+/* Outer illustration panels round independently of body-portaled menus. */
+.eng-page .eng-domain-canvas{border-radius:18px;overflow:hidden}.eng-page .eng-scope-panels{border-radius:18px}
+/* Four Engineering screens: welcome, understanding, lead-time scenario, unified fields. */
+[data-owner-legacy][hidden],.gn-unified-pane[hidden],.gn-legacy-method-choice,.gn-legacy-process-choice{display:none!important}
+.gn-sourcing-decisions{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin:18px 0}.gn-sourcing-decisions article{padding:16px 20px;border:1px solid #bfd0c0;border-radius:14px;background:#FAFAF8;color:#0B1F3B}.gn-sourcing-decisions h3{font-size:18px;margin:0 0 8px}.gn-sourcing-decisions p,.gn-sourcing-note{font-size:14px;line-height:1.6;margin:0}.gn-sourcing-note{padding:14px 0;color:#385344}
+.gn-unified-head{padding-block:24px}.gn-purchase-offer{max-width:90ch;font-size:16px;line-height:1.65}.gn-unified-label{display:grid;gap:8px;max-width:720px;margin:20px 0}.gn-unified-label>span{font-size:13px}.gn-unified-label select{width:100%;min-width:0;min-height:48px;white-space:normal;padding:12px 14px;border:1px solid #bfd0c0;border-radius:10px;background:#FAFAF8;color:#0B1F3B;font:inherit}
+.eng-page #method .gn-unified-pane{min-height:0!important;height:auto!important;margin:0;padding-block:0 24px}.eng-page #method .eng-domain-scene>.wrap{padding-inline:0;width:100%}.eng-page #method .eng-domain-scene{background:transparent}.eng-page #method .eng-domain-heading{display:none}.eng-page #method .eng-domain-canvas{width:100%;max-width:1200px;margin-inline:auto}.eng-page #method #gn-field-food{max-width:1440px;margin-inline:auto}.eng-page #method .gn-unified-pane .eng-method-head{padding-block:0}
+@media(max-width:700px){.gn-sourcing-decisions{grid-template-columns:minmax(0,1fr)}.gn-unified-label{max-width:100%}.gn-purchase-offer{font-size:15px}}
+body:has(.portal-stage)>header .gn-owner-wording-stack .brand-line{font-style:italic}
+/* Business descriptor treatment belongs only to the three subsite headers. */
+header.ginova-branch-header .brand .ginova-crest-frame{height:50px;display:flex;align-items:center}header.ginova-branch-header .brand .ginova-crest-frame img{height:50px!important;width:auto!important}
+header.ginova-branch-header .brand>span:last-child{height:50px;justify-content:space-between;align-items:center;gap:3px;min-width:140px}
+header.ginova-branch-header .brand .ginova-wordmark{height:27px!important;width:auto!important;max-width:170px}
+header.ginova-branch-header .bdesc{box-sizing:border-box;align-self:stretch;min-height:19px;margin:0;padding:1px 10px;border:1px solid #071018;border-radius:999px;background:#11232b;color:#FAFAF8!important;box-shadow:inset 0 1px 1px #ffffff20,0 2px 3px #07101825;font-size:12px!important;line-height:15px!important;font-weight:800;text-align:center;letter-spacing:.03em;white-space:normal}
+/* Complete newly drawn vector compositions stay visible without the old kiosk crop. */
+.eng-page #people .eng-people-slide img[data-owner-collaboration-art]{width:100%;height:auto!important;max-height:60svh;aspect-ratio:16/9;object-fit:contain!important;object-position:center!important;transform:none!important;background:#FAFAF8}
+/* Moved technical canvases retain dark reading text on their light scenario cards. */
+.eng-page #method .eng-domain-bottom p,.eng-page #method .eng-domain-bottom p:last-child{color:#243e31;text-shadow:none}
+.eng-page #method #gn-field-food .scope-body p,.eng-page #method #gn-field-food .scope-body p:last-child,.eng-page #method #gn-field-food .eng-fit-panel>span{color:#243e31;text-shadow:none}
+/* Explicit native-dialog centering survives the site's universal margin reset. */
+.gn-engineering-dialog{position:fixed;inset:0;margin:auto}
+/* Override inherited generic lockup span display and padded wordmark frame. */
+body:has(.portal-stage)>header .ginova-brand-lockup>.gn-owner-wording-stack{display:flex!important;flex-direction:column;justify-content:space-between;align-items:flex-start;box-sizing:border-box;height:50px;flex:0 0 auto}
+body:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark-frame{padding:0!important;flex:0 0 26px;height:26px;min-height:0}
+body:has(.portal-stage)>header .gn-owner-wording-stack .brand-line{margin:0!important;padding:0!important;line-height:10px}
+@media(max-width:700px){body:has(.portal-stage)>header .ginova-brand-lockup>.gn-owner-wording-stack{height:46px}body:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark-frame{flex-basis:23px;height:23px}}
+
+/* Portal owner refinement: larger single-line quoted motto beneath the wordmark. */
+body:has(.portal-stage)>header .gn-owner-wording-stack .brand-line{font-size:clamp(10.5px,1.2vw,14px);line-height:1.2;white-space:nowrap;}
+body:has(.portal-stage)>header .gn-owner-wording-stack .brand-line>span{white-space:nowrap;}
+
+/* Restore the existing blueprint as the master final-screen backdrop. */
+.eng-page #method>.gn-unified-pane{position:relative;z-index:2;}
+.eng-page #method>.eng-method-backdrop{position:absolute;inset:0;margin:0;width:100%;height:100%;max-width:none;z-index:0;pointer-events:none;}
+.eng-page #method>.eng-method-backdrop img{width:100%;height:100%;object-fit:contain;object-position:center bottom;}
+
+/* Common final-screen containment, with visible panes above its master backdrop. */
+.eng-page #method>.gn-unified-head,.eng-page #method>.gn-unified-pane{width:calc(100% - 100px);max-width:1440px;margin-inline:auto;box-sizing:border-box;}
+.eng-page #method>.gn-unified-head{display:block;}
+.eng-page #method>.gn-unified-head h2{max-width:28ch;}
+.eng-page #method .gn-purchase-offer{margin-block:16px 0;max-width:85ch;}
+.eng-page #method .gn-original-method>.wrap{width:100%;max-width:none;padding-inline:0;}
+.eng-page #method .gn-original-method .eng-method-panel>div>p{color:#FAFAF8!important;}
+.eng-page #method .gn-concept-film-pane .branch-hero-film{width:100%;max-width:960px;margin:0 auto;background:#FAFAF8;border-radius:16px;padding:18px;color:#0B1F3B;}
+.eng-page #method .gn-concept-film-pane .gn-engineering-film-context{color:#0B1F3B!important;background:#FAFAF8;}
+.eng-page #method .gn-concept-film-pane .branch-film-screen{aspect-ratio:16/9;}
+@media(max-width:760px){.eng-page #method>.gn-unified-head,.eng-page #method>.gn-unified-pane{width:calc(100% - 40px);}}
+/* The portal's cream starts at the top; motto is lifted without layout movement. */
+body:has(.portal-stage)>header,body:has(.portal-stage)>footer{background:linear-gradient(180deg,#FAFAF8 0%,#f6f2e9 45%,#f0e8d8 100%)!important;}
+body:has(.portal-stage)>header .gn-owner-wording-stack .brand-line{transform:translateY(-2px);}
+
+/* Portal card lockups: reduce only the space below the small GiNOVA line. */
+body:has(.portal-stage) .gate-title:before{line-height:1;margin-bottom:-.12em;}
+
+/* Latest owner choice: white portal header with restrained raised depth. */
+body:has(.portal-stage)>header{background:#ffffff!important;box-shadow:inset 0 1px 0 #ffffff,0 2px 5px #0b1f3b18;}

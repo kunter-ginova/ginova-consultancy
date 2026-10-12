@@ -1,0 +1,19 @@
+/* Shared branch geometry. Page palettes remain owned by their branch styles. */
+header.ginova-branch-header{line-height:1.65}
+header.ginova-branch-header .ginova-brand-lockup>span:not(.ginova-crest-frame){line-height:1.65}
+header.ginova-branch-header .nav.wrap{width:calc(100% - 100px)!important;max-width:1440px!important;box-sizing:border-box;margin:0 auto!important;min-height:88px!important;height:auto!important;padding:12px 0!important;align-items:center!important}
+header.ginova-branch-header .navlinks>a{font-family:var(--gn-font-sans);font-size:12px!important;font-weight:550!important;line-height:1.65;letter-spacing:.01em;padding:4px 0;white-space:nowrap}
+header.ginova-branch-header .navlinks>a[aria-current="page"]{font-weight:600!important}
+@media(min-width:1381px){
+ header.ginova-branch-header .nav.wrap{display:grid!important;grid-template-columns:max-content minmax(0,1fr)!important;gap:24px!important}
+ header.ginova-branch-header .menu-toggle{display:none!important}
+ header.ginova-branch-header .navlinks{display:flex!important;position:static!important;flex-direction:row!important;flex-wrap:nowrap!important;justify-content:flex-end!important;align-items:center!important;gap:20px!important;width:auto!important;margin:0!important;padding:0!important;border:0!important;box-shadow:none!important;max-height:none!important;overflow:visible!important;background:transparent!important}
+}
+@media(max-width:1380px){
+ header.ginova-branch-header .nav.wrap{display:grid!important;grid-template-columns:minmax(0,1fr) 64px!important;column-gap:15px!important;position:relative}
+ header.ginova-branch-header .menu-toggle{display:flex!important;align-items:center;justify-content:center;width:64px!important;min-width:64px!important;height:44px!important;min-height:44px!important;margin:0!important;padding:0!important;font-size:13px!important;line-height:44px}
+ header.ginova-branch-header .navlinks{display:none!important;position:absolute!important;top:calc(100% + 1px)!important;inset-inline-end:0!important;inset-inline-start:auto!important;width:min(480px,calc(100vw - 40px))!important;box-sizing:border-box;padding:24px!important;flex-direction:column!important;align-items:stretch!important;justify-content:flex-start!important;gap:18px!important;max-height:calc(100dvh - 104px)!important;overflow-y:auto!important;overscroll-behavior:contain}
+ header.ginova-branch-header .nav.menu-open .navlinks{display:flex!important}
+ header.ginova-branch-header .navlinks>a{font-size:16px!important;padding:5px 0;white-space:normal}
+}
+@media(max-width:760px){header.ginova-branch-header .nav.wrap{width:100%!important;max-width:100%!important;padding:12px 20px!important;column-gap:12px!important}}
