@@ -108,3 +108,128 @@ body:has(.portal-stage) .gate-title:before{line-height:1;margin-bottom:-.12em;}
 
 /* Latest owner choice: white portal header with restrained raised depth. */
 body:has(.portal-stage)>header{background:#ffffff!important;box-shadow:inset 0 1px 0 #ffffff,0 2px 5px #0b1f3b18;}
+
+/* Proposed GiNOVA header presence refinement.
+   Scope: current Portal, Engineering and Consultancy only.
+   Append to assets/owner-redesign-20261012/owner.css after existing rules.
+   Artwork: assets/brand-20261012/primary.png, 1232 x 283; alpha height 251.
+   40px canvas height gives about 35.5px visible artwork; 32px gives 28.4px.
+   Existing crest, wordmark colors, division badges and language behavior stay.
+   Footer sizing and the separate trademark fix are outside this proposal. */
+
+body[data-gn-site="portal"]:has(.portal-stage)>header,
+body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header {
+  --gn-presence-logo-height:40px;
+  --gn-presence-logo-width:174.14px;
+}
+
+/* Remove the old 26px crop and allow long translated mottos to add height. */
+body[data-gn-site="portal"]:has(.portal-stage)>header {
+  height:auto;
+  min-height:88px;
+  align-items:center;
+  overflow:visible;
+}
+body[data-gn-site="portal"]:has(.portal-stage)>header .ginova-brand-lockup>.gn-owner-wording-stack {
+  flex:0 1 auto!important;
+  height:auto!important;
+  min-height:62px;
+  min-width:var(--gn-presence-logo-width);
+  max-width:340px;
+  justify-content:flex-start;
+  gap:4px;
+}
+body[data-gn-site="portal"]:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark-frame {
+  padding:0!important;
+  flex:0 0 var(--gn-presence-logo-height);
+  height:var(--gn-presence-logo-height);
+  min-height:var(--gn-presence-logo-height);
+  overflow:visible!important;
+}
+body[data-gn-site="portal"]:has(.portal-stage)>header .gn-owner-wording-stack .brand-line {
+  height:auto!important;
+  max-width:100%;
+  white-space:normal;
+  line-height:1.2;
+  transform:none;
+}
+body[data-gn-site="portal"]:has(.portal-stage)>header .gn-owner-wording-stack .brand-line>span {
+  white-space:normal;
+}
+
+/* The branch stack needs 40px artwork + 19px badge + 3px separation.
+   Zero frame padding prevents the old 4px top/bottom padding adding a crop. */
+body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header .brand>span:last-child {
+  height:auto;
+  min-height:62px;
+  min-width:var(--gn-presence-logo-width);
+  justify-content:flex-start;
+  gap:3px;
+}
+body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header .brand .ginova-wordmark-frame {
+  padding:0!important;
+  height:var(--gn-presence-logo-height);
+  min-height:var(--gn-presence-logo-height);
+  line-height:0;
+  overflow:visible!important;
+}
+body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header .brand .bdesc {
+  margin-block-start:0!important;
+}
+
+/* More specific than the existing !important image dimensions in identity.css,
+   brand-lockup.css and owner.css. Preserve the artwork's intrinsic proportions. */
+body[data-gn-site="portal"]:has(.portal-stage)>header .gn-owner-wording-stack .ginova-wordmark-frame .ginova-wordmark,
+body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header .brand .ginova-wordmark-frame .ginova-wordmark {
+  display:block!important;
+  height:var(--gn-presence-logo-height)!important;
+  width:var(--gn-presence-logo-width)!important;
+  min-height:0!important;
+  max-width:none!important;
+  aspect-ratio:1232/283;
+  object-fit:contain!important;
+  flex:none!important;
+}
+
+@media(max-width:700px) {
+  body[data-gn-site="portal"]:has(.portal-stage)>header,
+  body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header {
+    --gn-presence-logo-height:32px;
+    --gn-presence-logo-width:139.31px;
+  }
+  body[data-gn-site="portal"]:has(.portal-stage)>header {
+    height:auto;
+    min-height:76px;
+  }
+  body[data-gn-site="portal"]:has(.portal-stage)>header .ginova-brand-lockup>.gn-owner-wording-stack {
+    min-height:48px;
+    max-width:min(240px,calc(100vw - 272px));
+    gap:3px;
+  }
+  body:is([data-gn-site="engineering"],[data-gn-site="consultancy"])>header.ginova-branch-header .brand>span:last-child {
+    min-height:54px;
+  }
+}
+
+/* Portrait phones: keep the complete 168px language trigger readable.
+   It can occupy a second row instead of squeezing the larger identity.
+   Header height stays intrinsic; never hide the trigger or clip its popup. */
+@media(max-width:420px) {
+  body[data-gn-site="portal"]:has(.portal-stage)>header {
+    flex-wrap:wrap;
+    row-gap:8px;
+  }
+  body[data-gn-site="portal"]:has(.portal-stage)>header .ginova-brand-lockup {
+    max-width:100%;
+  }
+  body[data-gn-site="portal"]:has(.portal-stage)>header .ginova-brand-lockup>.gn-owner-wording-stack {
+    max-width:calc(100vw - 100px);
+  }
+  body[data-gn-site="portal"]:has(.portal-stage)>header .header-actions {
+    flex:0 0 100%;
+    width:100%;
+    margin:0;
+    justify-content:flex-end;
+  }
+}
+
