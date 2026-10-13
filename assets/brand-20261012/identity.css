@@ -1,10 +1,10 @@
-/* Supplied GiNOVA identity, 12 October 2026. Artwork is an exact clipped viewport of the owner-provided board. */
+/* GiNOVA identity: fuller owner-approved wordmark, 13 October 2026. */
 :root{--gn-navy:#0B1F3B;--gn-white:#FAFAF8;--gn-graphite:#4B4F56;--gn-teal:#2F8F8F;--ivory:#FAFAF8;--paper:#FAFAF8;--ink:#0B1F3B;--green:#0B1F3B;--grey:#4B4F56;--muted:#4B4F56;--bronze:#4B4F56;--accent:#2F8F8F;--line:#d8dedf;--stone:#d8dedf}
 body>header{background:var(--gn-white)!important;color:var(--gn-navy)!important}
 /* Language controls retain their theme-specific readable foreground/background pair. */
 body:has(.portal-stage)>footer,body:not(:has(.portal-stage))>footer{background:var(--gn-navy);color:var(--gn-white)}
 .ginova-wordmark-frame{background:var(--gn-white)!important;border-radius:2px!important;padding:4px 6px!important;overflow:hidden!important}
-.ginova-wordmark-frame .ginova-wordmark,header .ginova-wordmark-frame .ginova-wordmark{width:148px!important;height:auto!important;aspect-ratio:980/228;object-fit:contain!important;filter:none!important}
+.ginova-wordmark-frame .ginova-wordmark,header .ginova-wordmark-frame .ginova-wordmark{width:148px!important;height:auto!important;aspect-ratio:1232/283;object-fit:contain!important;filter:none!important}
 header .ginova-crest-frame{width:53px!important;height:50px!important;flex:0 0 53px!important;background:var(--gn-white);border-radius:2px}
 header .ginova-crest-frame>img{position:static!important;left:auto!important;top:auto!important;width:53px!important;height:48px!important;object-fit:contain!important;max-width:100%!important;margin:0!important;filter:none!important}
 footer img[src$="/crest.png"]{width:58px!important;height:53px!important;object-fit:contain!important;background:var(--gn-white);border-radius:2px;filter:none!important;opacity:1!important}
@@ -24,3 +24,7 @@ body>footer{--bronze:#FAFAF8;}
 
 @media(min-width:951px){body:has(.portal-stage)>header .brand-line{display:block;}}
 body>footer img[src$="/brand-20261012/primary.png"]{object-fit:contain;background:var(--gn-white);}
+
+/* This wordmark includes its own trademark notice. */
+.ginova-wordmark-frame.gn-tm-logo::after,.gn-tm-image:has(>img[src$="/brand-20261012/primary.png"])::after{content:none!important;}
+
