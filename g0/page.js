@@ -1,117 +1,18 @@
-(() => {
-  'use strict';
-  const $ = s => document.querySelector(s);
-  const $$ = s => [...document.querySelectorAll(s)];
-  const escape = text => String(text).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-  const data = window.G0DATA;
-  if (!data) return;
-  let lang = new URLSearchParams(location.search).get('lang') === 'en' ? 'en' : 'tr';
-  let dimension = 0, lens = 0, trace = 0, dossier = 0, actor = 0, time = '2016';
-  const dimensions = {
-    tr: [
-      'Neyi anlamaya çalışıyoruz? Kapsamı, zaman ufkunu ve bağlamın sınırlarını belirleriz.',
-      'Kimler etkiliyor, kimler etkileniyor? Çıkarları, yetkileri, baskıları ve eksik sesleri birlikte görürüz.',
-      'Hangi parça hangisine bağlı? Teknik, ekonomik, kurumsal ve çevresel ilişkileri birlikte izleriz.',
-      'Neyi, hangi kaynaktan biliyoruz? Tarihi, kapsamı, birimi ve karşı kanıtı iddiayla birlikte taşırız.',
-      'Aynı olayı başka ne açıklayabilir? Rakip yorumları, fırsatları ve riskleri aynı özenle inceleriz.',
-      'Ne hâlâ bilinmiyor? Kör noktaları, kapsam dışını ve öğrenilmesi gereken ilişkileri görünür kılarız.'
-    ],
-    en: [
-      'What are we trying to understand? Define the scope, time horizon and boundaries of the context.',
-      'Who influences the subject, and who is affected? Map interests, authority, pressures and missing voices.',
-      'What depends on what? Connect technical, economic, institutional and environmental relationships.',
-      'What do we know, and from which source? Keep dates, scope, units and counterevidence attached to claims.',
-      'What else could explain the same observation? Examine rival interpretations, opportunities and risks with equal care.',
-      'What remains unknown? Make blind spots, exclusions and relationships still to be understood explicit.'
-    ]
-  };
-  $$('[data-en]').forEach(el => el.dataset.tr = el.innerHTML);
-  function sourceLink(item) {
-    return item.source ? `<a class="source-link" href="${escape(item.source)}" target="_blank" rel="noopener noreferrer">${escape(item.sourceLabel || (lang === 'tr' ? 'Kaynağı incele' : 'Inspect source'))} ↗</a>` : '';
-  }
-  function setButtons(selector,markup,key,active){
-    const container=$(selector);
-    if(container.dataset.renderLanguage!==lang){container.innerHTML=markup;container.dataset.renderLanguage=lang;}
-    container.querySelectorAll(`[data-${key}]`).forEach((b,i)=>b.setAttribute('aria-pressed',String(i===active)));
-  }
-  function renderDimension() {
-    $('#dimension-index').textContent = `${String(dimension + 1).padStart(2,'0')} / 06`;
-    $('#dimension-text').textContent = dimensions[lang][dimension];
-    $$('[data-dimension]').forEach((b,i) => b.setAttribute('aria-pressed', String(i === dimension)));
-    $$('[data-point]').forEach((p,i) => p.classList.toggle('active', i === dimension));
-  }
-  function renderLens() {
-    const items = data[lang].lenses;
-    setButtons('#lens-buttons',items.map((x,i) => `<button type="button" data-lens="${i}" aria-pressed="${i === lens}" title="${escape(x.title)}" aria-label="${escape(x.title)}">${String(i+1).padStart(2,'0')}</button>`).join(''),'lens',lens);
-    $('#lens-detail').innerHTML = `<h3>${escape(items[lens].title)}</h3><p>${escape(items[lens].body)}</p>`;
-    $('#lens-number').textContent = String(lens+1).padStart(2,'0');
-    $$('[data-petal]').forEach((x,i) => x.classList.toggle('active',i===lens));
-  }
-  function renderCase() {
-    const item = data[lang]['case'+time];
-    $('#case-panel').innerHTML = `<h3>${escape(item.title)}</h3><p>${escape(item.intro)}</p><div class="facts count-${item.facts.length}">${item.facts.map(f => `<article class="fact"><p class="fact-label">${escape(f.label)}</p><strong class="fact-value">${escape(f.value)}</strong><span class="fact-unit">${escape(f.unit)}</span><p class="fact-note">${escape(f.note)}</p>${sourceLink(f)}</article>`).join('')}</div><p class="case-lesson">${escape(item.lesson)}</p>`;
-    $$('[data-time]').forEach(b => b.setAttribute('aria-pressed',String(b.dataset.time===time)));
-  }
-  function renderTrace() {
-    const items = data[lang].trace;
-    setButtons('#trace-buttons',items.map((x,i) => `<button type="button" data-trace="${i}" aria-pressed="${i===trace}"><span>${String(i+1).padStart(2,'0')}</span>${escape(x.label.replace(/^\d+\s*·\s*/,''))}</button>`).join(''),'trace',trace);
-    const item = items[trace];
-    $('#trace-detail').innerHTML = `<span class="trace-index">${String(trace+1).padStart(2,'0')}</span><div><h3>${escape(item.title)}</h3><p>${escape(item.body)}</p>${sourceLink(item)}</div>`;
-  }
-  function renderDossier() {
-    const items = data[lang].dossier;
-    setButtons('#dossier-tabs',items.map((x,i) => `<button type="button" data-dossier="${i}" aria-pressed="${i===dossier}"><span>${String(i+1).padStart(2,'0')}</span>${escape(x.label)}</button>`).join(''),'dossier',dossier);
-    const item = items[dossier];
-    $('#paper-index').textContent = `${String(dossier+1).padStart(2,'0')} / 04`;
-    $('#dossier-content').innerHTML = `<h3>${escape(item.title)}</h3><p>${escape(item.body)}</p><ul>${item.bullets.map(b => `<li>${escape(b)}</li>`).join('')}</ul>`;
-  }
-  function renderLearning() {
-    $('#learning-steps').innerHTML = data[lang].learning.map((item,i) => `<article class="learning-step"><span>${String(i+1).padStart(2,'0')} /</span><h3>${escape(item.title)}</h3><p>${escape(item.body)}</p></article>`).join('');
-  }
-  function renderActors() {
-    const items = data[lang].actors;
-    if(!items || !$('#actor-buttons'))return;
-    setButtons('#actor-buttons',items.map((x,i)=>`<button type="button" data-actor="${i}" aria-pressed="${i===actor}"><span>${String(i+1).padStart(2,'0')}</span>${escape(x.label)}</button>`).join(''),'actor',actor);
-    const item=items[actor];
-    $('#actor-detail').innerHTML=`<h3>${escape(item.title)}</h3><p>${escape(item.body)}</p><div class="readings"><div><span>${lang==='tr'?'BAKIŞ A':'READING A'}</span><p>${escape(item.readingA)}</p></div><div><span>${lang==='tr'?'BAKIŞ B':'READING B'}</span><p>${escape(item.readingB)}</p></div></div><p class="actor-question">${escape(item.openQuestion)}</p>${sourceLink(item)}`;
-    $$('[data-branch]').forEach((x,i)=>x.classList.toggle('active',i===actor));
-  }
-  function renderLanguage() {
-    document.documentElement.lang = lang;
-    $$('[data-en]').forEach(el => el.innerHTML = el.dataset[lang]);
-    $$('[data-lang]').forEach(b => b.setAttribute('aria-pressed',String(b.dataset.lang===lang)));
-    document.title = lang === 'tr' ? 'GiNOVA G-0 | Önce, bağlam.' : 'GiNOVA G-0 | Context. Before everything.';
-    $('#contact-mail').href = 'mailto:satis@ginova.org?subject='+encodeURIComponent(lang==='tr'?'GiNOVA G-0 | Bağlam görüşmesi':'GiNOVA G-0 | Context conversation');
-    const labels=lang==='tr'?['Temsili bağlam haritası','Disiplinler','Bilgi penceresi','Kanıt izi','Dosya kesitleri','Aktörler']:['Illustrative context map','Disciplines','Information window','Evidence trace','Dossier excerpts','Actors'];
-    ['.observatory','#lens-buttons','.time-switch','#trace-buttons','#dossier-tabs','#actor-buttons'].forEach((s,i)=>{if($(s))$(s).setAttribute('aria-label',labels[i]);});
-    $('#map-title').textContent=lang==='tr'?'G-0 bağlam alanı':'G-0 context field';
-    $('#map-desc').textContent=lang==='tr'?'Ortak bir konuyu çevreleyen altı boyut: misyon, aktörler, sistemler, kanıt, bakış açıları ve bilinmeyenler. Temsili harita.':'Six dimensions surround a shared subject: mission, actors, systems, evidence, perspectives and unknowns. Illustrative map.';
-    renderDimension();renderLens();renderCase();renderTrace();renderDossier();renderLearning();renderActors();renderMotion();
-  }
-  function renderMotion() {
-    const paused = document.body.classList.contains('paused');
-    $('#motion-toggle').textContent = lang==='tr' ? (paused?'Hareketi sürdür':'Hareketi durdur') : (paused?'Resume motion':'Pause motion');
-    $('#motion-toggle').setAttribute('aria-pressed',String(paused));
-  }
-  document.addEventListener('click', e => {
-    const b = e.target.closest('button'); if(!b)return;
-    if(b.dataset.lang){lang=b.dataset.lang;const u=new URL(location.href);u.searchParams.set('lang',lang);history.replaceState(null,'',u);renderLanguage();}
-    if(b.dataset.dimension!==undefined){dimension=Number(b.dataset.dimension);renderDimension();}
-    if(b.dataset.lens!==undefined){lens=Number(b.dataset.lens);renderLens();$(`[data-lens="${lens}"]`).focus({preventScroll:true});}
-    if(b.dataset.time){time=b.dataset.time;renderCase();}
-    if(b.dataset.trace!==undefined){trace=Number(b.dataset.trace);renderTrace();$(`[data-trace="${trace}"]`).focus({preventScroll:true});}
-    if(b.dataset.dossier!==undefined){dossier=Number(b.dataset.dossier);renderDossier();$(`[data-dossier="${dossier}"]`).focus({preventScroll:true});}
-    if(b.dataset.actor!==undefined){actor=Number(b.dataset.actor);renderActors();$(`[data-actor="${actor}"]`).focus({preventScroll:true});}
-    if(b.id==='motion-toggle'){document.body.classList.toggle('paused');renderMotion();}
-  });
-  document.addEventListener('keydown', e => {
-    if(e.ctrlKey || e.metaKey || e.altKey)return;
-    if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key))return;
-    const b=e.target.closest('button');if(!b)return;
-    const key=['dimension','lens','time','trace','dossier','actor','lang'].find(k=>b.dataset[k]!==undefined);if(!key)return;
-    const buttons=$$(`[data-${key}]`), index=buttons.indexOf(b);if(index<0)return;
-    const next=e.key==='Home'?0:e.key==='End'?buttons.length-1:(index+(e.key==='ArrowRight'||e.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length;
-    e.preventDefault();buttons[next].click();$$(`[data-${key}]`)[next].focus({preventScroll:true});
-  });
-  renderLanguage();
+/* G-0 public context demonstration. No storage, analytics or submission endpoint. */
+(()=>{'use strict';
+const $=id=>document.getElementById(id);let lang=GinovaI18n.initial(),subject=0,lens=0,stage=0,expanded=false;
+const words=()=>G0_COPY[lang]||G0_COPY.en;
+const text=(id,value)=>$(id).textContent=value;
+function closeMenu(){document.querySelector('.nav').classList.remove('menu-open');document.querySelector('.menu-toggle').setAttribute('aria-expanded','false')}
+window.goStart=()=>{closeMenu();$('start').scrollIntoView({behavior:'auto'});const h=$('start').querySelector('h2');h.tabIndex=-1;h.focus({preventScroll:true})};
+function makeButton(label,action){const b=document.createElement('button');b.type='button';b.textContent=label;b.addEventListener('click',action);return b}
+function showReading(){const t=words(),c=t.cases[subject],n=c.nodes[lens];text('case-question',c.question);text('node-question',n[1]);text('node-detail',n[2]);text('node-evidence',n[3]);text('case-opening',c.opening);text('lens-number',String(lens+1).padStart(2,'0'));$('explorer').dataset.expanded=String(expanded);$('reset-context').hidden=!expanded;$('expand-context').hidden=expanded;document.querySelectorAll('[data-lens]').forEach(b=>b.setAttribute('aria-pressed',String(+b.dataset.lens===lens)));document.querySelectorAll('[data-edge]').forEach(p=>p.classList.toggle('active',+p.dataset.edge===lens));if($('stage-content'))showStage();}
+function renderCases(){const t=words();$('case-tabs').setAttribute('aria-label',t.demoTitle);$('case-tabs').replaceChildren();t.cases.forEach((c,i)=>{const b=makeButton(c.name,()=>{subject=i;lens=0;expanded=true;renderCases();$('case-tabs').children[i].focus({preventScroll:true})});b.setAttribute('aria-pressed',String(i===subject));$('case-tabs').append(b)});$('node-buttons').replaceChildren();$('node-buttons').setAttribute('aria-label',t.selectLens);t.cases[subject].nodes.forEach((n,i)=>{const b=makeButton(n[0],()=>{lens=i;expanded=true;showReading()});b.dataset.lens=i;b.style.setProperty('--i',i);b.insertAdjacentHTML('afterbegin','<span aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span>');$('node-buttons').append(b)});showReading()}
+function showStage(){const s=words().stages[stage],host=$('stage-content');host.replaceChildren();const h=document.createElement('h3');h.textContent=s.heading;const p=document.createElement('p');p.textContent=s.body;const dl=document.createElement('dl');(stage===0?[[words().questionLabel,words().cases[subject].question],[words().connectionLabel,words().cases[subject].nodes[lens][1]],[words().evidenceLabel,words().cases[subject].nodes[lens][3]]]:s.rows).forEach(row=>{const wrap=document.createElement('div'),dt=document.createElement('dt'),dd=document.createElement('dd');dt.textContent=row[0];dd.textContent=row[1];wrap.append(dt,dd);dl.append(wrap)});host.append(h,p,dl);text('stage-number',String(stage+1).padStart(2,'0')+' / 03');$('stage-panel').setAttribute('aria-labelledby','stage-'+stage);document.querySelectorAll('[data-stage]').forEach(b=>{const selected=+b.dataset.stage===stage;b.setAttribute('aria-selected',String(selected));b.tabIndex=selected?0:-1})}
+function renderStages(){const host=$('stage-tabs');host.setAttribute('aria-label',words().dossierMark);host.replaceChildren();words().stages.forEach((s,i)=>{const b=makeButton(s.name,()=>{stage=i;showStage()});b.id='stage-'+i;b.dataset.stage=i;b.setAttribute('role','tab');b.setAttribute('aria-controls','stage-panel');b.insertAdjacentHTML('afterbegin','<span aria-hidden="true">'+String(i+1).padStart(2,'0')+'</span>');b.addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey)return;const k=GinovaI18n.key(e);let next;if(k==='ArrowRight'||k==='ArrowDown')next=(stage+1)%3;else if(k==='ArrowLeft'||k==='ArrowUp')next=(stage+2)%3;else if(k==='Home')next=0;else if(k==='End')next=2;else return;e.preventDefault();stage=next;showStage();$('stage-'+stage).focus({preventScroll:true})});host.append(b)});showStage()}
+function render(){GinovaI18n.apply(lang);document.documentElement.dataset.locale=lang;const t=words(),shell=D[lang].s;document.querySelectorAll('[data-t]').forEach(el=>{if(typeof shell[el.dataset.t]==='string')el.textContent=shell[el.dataset.t]});document.querySelectorAll('[data-g]').forEach(el=>{const val=t[el.dataset.g];if(typeof val==='string')el.textContent=val});document.querySelectorAll('[data-ga]').forEach(el=>el.setAttribute('aria-label',t[el.dataset.ga]));document.querySelectorAll('[data-art]').forEach(el=>el.textContent=t.artLabels[+el.dataset.art]);document.querySelectorAll('[data-route]').forEach(el=>GinovaI18n.route(el,lang));$('primaryNav').setAttribute('aria-label',GinovaI18n.runtime[lang].primary);document.querySelector('.brand').setAttribute('aria-label',GinovaI18n.portal[lang].homeLabel);document.querySelector('meta[name="description"]').content=t.meta;document.title=t.title;$('enquiry').href='mailto:satis@ginova.org?subject='+encodeURIComponent(t.mailSubject)+'&body='+encodeURIComponent(t.mailBody);renderCases();renderStages();document.dispatchEvent(new Event('ginova-language'))}
+$('expand-context').addEventListener('click',()=>{expanded=true;showReading();$('node-buttons').firstElementChild.focus({preventScroll:true})});$('reset-context').addEventListener('click',()=>{expanded=false;showReading();$('expand-context').focus({preventScroll:true})});
+$('language-select').addEventListener('change',e=>{lang=e.target.value;GinovaI18n.navigate(lang);render()});addEventListener('popstate',()=>{lang=GinovaI18n.initial();render()});
+const menu=document.querySelector('.menu-toggle');menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));document.querySelector('.nav').classList.toggle('menu-open',open)});document.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){closeMenu();menu.focus()}});document.querySelectorAll('header a').forEach(a=>a.addEventListener('click',closeMenu));
+render();document.documentElement.removeAttribute('data-locale-pending');
 })();
