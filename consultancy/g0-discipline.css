@@ -1,0 +1,53 @@
+/* Homepage-only review revision. The dedicated G-0 page and shared brand remain unchanged. */
+.consultancy-page #g0-discipline{position:relative;isolation:isolate;color:#f2f7f8;padding-block:clamp(58px,7vw,96px)!important}
+.consultancy-page #g0-discipline::before{content:"";position:absolute;background:#0b1f32;border:1px solid #183d4e;z-index:-1;box-shadow:none}
+#g0-discipline .g0-discipline-heading{display:grid;grid-template-columns:.6fr 1.4fr;gap:6%;align-items:center}
+#g0-discipline .g0-discipline-mark{font:400 clamp(100px,14vw,190px)/1 var(--gn-font-sans);letter-spacing:-.095em;color:#f4fafb;position:relative;padding-bottom:20px;white-space:nowrap;direction:ltr;unicode-bidi:isolate}
+#g0-discipline .g0-discipline-mark>span{color:#64d6cd;font-weight:300}
+#g0-discipline .g0-discipline-mark i{display:block;position:absolute;bottom:0;inset-inline-start:5px;width:58px;height:3px;background:#64d6cd}
+#g0-discipline .g0-kicker{font-size:12px;font-weight:600;line-height:1.5;letter-spacing:.13em;text-transform:uppercase;color:#80d9d1;margin-bottom:17px}
+.consultancy-page #g0-discipline h2{font-size:clamp(34px,3.7vw,52px)!important;font-weight:400;letter-spacing:-.025em;line-height:1.1!important;max-width:23ch;margin:0 0 22px!important;color:#f4fafb}
+#g0-discipline .g0-discipline-lead{font-size:17px;line-height:1.7;color:#c2d1da;max-width:65ch;margin:0}
+#g0-discipline .g0-discipline-panels{display:grid;grid-template-columns:minmax(0,1fr) 64px minmax(0,1fr);gap:0;align-items:stretch;margin-top:48px}
+#g0-discipline .g0-discipline-panel{border:1px solid #375263;border-radius:20px;padding:28px 30px;background:#102a3d;min-width:0}
+#g0-discipline .g0-dossier-panel{background:#10323f;border-color:#33756f}
+#g0-discipline .g0-panel-label{display:flex;gap:15px;align-items:baseline;color:#87ded6;font-size:12px;letter-spacing:.05em;margin:0 0 22px}
+#g0-discipline .g0-panel-label>span:first-child{font-size:11px;color:#a3b5c0;letter-spacing:.08em}
+#g0-discipline .g0-panel-label>span[lang=en]{font-size:13px;letter-spacing:.02em;direction:ltr;unicode-bidi:isolate}
+#g0-discipline .g0-discipline-panel h3{font:400 clamp(24px,2.1vw,30px)/1.18 var(--gn-font-serif);color:#f5fafa;letter-spacing:-.01em;margin:0 0 17px}
+#g0-discipline .g0-discipline-panel>p:last-child{color:#c1d1db;font-size:15px;line-height:1.75;margin:0;max-width:51ch}
+#g0-discipline .g0-panel-connection{display:flex;align-items:center;justify-content:center;color:#71d4ca}
+#g0-discipline .g0-panel-connection>span{height:1px;flex:1;background:#3d7a7c}
+#g0-discipline .g0-panel-connection svg{width:30px;height:30px;flex:none}
+#g0-discipline .g0-structure-note{font-size:11px;line-height:1.6;color:#9fb4c1;margin:12px 0 0}
+#g0-discipline .g0-discipline-bottom{border-top:1px solid #2b495b;margin-top:32px;padding-top:28px;display:grid;grid-template-columns:1.1fr 1fr;gap:8%;align-items:center}
+#g0-discipline .g0-value h3{font:400 23px/1.25 var(--gn-font-serif);color:#f3f7f8;margin:0 0 11px}
+#g0-discipline .g0-value p{color:#c2d1da;font-size:14px;line-height:1.7;margin:0;max-width:58ch}
+#g0-discipline .g0-discipline-actions{display:flex;flex-direction:column;align-items:stretch;gap:10px}
+#g0-discipline .g0-discipline-primary,#g0-discipline .g0-discipline-detail{display:flex;justify-content:space-between;align-items:center;gap:18px;min-height:48px;padding:14px 19px;text-decoration:none;font-size:13px;font-weight:500;line-height:1.5;border-radius:12px;transition:background .2s}
+#g0-discipline .g0-discipline-primary{background:#85e0d4;color:#082d36;border:1px solid #85e0d4}
+#g0-discipline .g0-discipline-primary:hover{background:#b4f1e8}
+#g0-discipline .g0-discipline-detail{border:1px solid #506b7b;color:#ebf6f7;background:transparent}
+#g0-discipline .g0-discipline-detail:hover{background:#173b4d}
+#g0-discipline a:focus-visible{outline:3px solid #b7fff3;outline-offset:5px}
+html[dir=rtl] #g0-discipline .g0-panel-connection svg{transform:scaleX(-1)}
+@media(max-width:760px){
+ .consultancy-page #g0-discipline{padding-block:48px!important}
+ /* The retained navigator sits on the physical right, including in RTL. */
+ .consultancy-page #g0-discipline>.wrap{padding-right:34px!important;box-sizing:border-box}
+ #g0-discipline .g0-discipline-heading{display:block}
+ #g0-discipline .g0-discipline-mark{font-size:100px;margin-bottom:30px;padding-bottom:16px}
+ #g0-discipline .g0-kicker{font-size:11px;letter-spacing:.08em;margin-bottom:16px}
+ .consultancy-page #g0-discipline h2{font-size:36px!important;line-height:1.12!important;margin-bottom:22px!important}
+ #g0-discipline .g0-discipline-lead{font-size:16px}
+ #g0-discipline .g0-discipline-panels{grid-template-columns:1fr;margin-top:32px}
+ #g0-discipline .g0-discipline-panel{padding:25px 23px;border-radius:18px}
+ #g0-discipline .g0-panel-label{flex-wrap:wrap;gap:8px 13px;margin-bottom:19px}
+ #g0-discipline .g0-panel-connection{height:42px;flex-direction:column}
+ #g0-discipline .g0-panel-connection>span{width:1px;min-height:4px;flex:1}
+ #g0-discipline .g0-panel-connection svg,html[dir=rtl] #g0-discipline .g0-panel-connection svg{width:28px;height:28px;transform:rotate(90deg)}
+ #g0-discipline .g0-discipline-bottom{grid-template-columns:1fr;gap:27px;margin-top:26px;padding-top:24px}
+ #g0-discipline .g0-discipline-actions{padding-inline-end:0}
+}
+@media(prefers-reduced-motion:reduce){#g0-discipline a{transition:none!important}}
+@media print{.consultancy-page #g0-discipline{color:#0b1f32}#g0-discipline :is(h2,h3,p){color:#0b1f32!important}.g0-discipline-mark{display:none}.g0-discipline-panel{background:white!important}}
