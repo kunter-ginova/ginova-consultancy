@@ -1,0 +1,605 @@
+{
+ "note": "Machine translations of the publishers’ English headlines. Applied only while the English headline is unchanged.",
+ "items": {
+  "https://fortune.com/2026/11/07/korn-ferry-survey-ai-transformation-leaders-middle-managers/": {
+   "en": "‘Shock absorbers’: Korn Ferry says managers are carrying AI change that executives aren’t ready to lead",
+   "t": "‘ماصّات الصدمات’: كورن فيري تقول إن المديرين يحملون تغيير الذكاء الاصطناعي الذي لم يستعد التنفيذيون لقيادته"
+  },
+  "https://www.fastcompany.com/91636817/5-ways-to-use-ai-to-actually-make-your-life-easier": {
+   "en": "5 tips for getting the most out of AI",
+   "t": "5 نصائح للاستفادة القصوى من الذكاء الاصطناعي"
+  },
+  "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/": {
+   "en": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+   "t": "الدعاية الحكومية في بعض نماذج الذكاء الاصطناعي الصينية ليست سوى «طبقة رقيقة» يمكن إزالتها بالضبط الدقيق"
+  },
+  "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/": {
+   "en": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+   "t": "تسعة وكلاء ذكاء اصطناعي جرّبوا بحثًا ذاتيًا في أسئلة مفتوحة للمختبرات الوطنية الأمريكية ولم يجتز أيٌّ منهم معيار الخبراء"
+  },
+  "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/": {
+   "en": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+   "t": "تطبيقات لمقدّمي الرعاية تحصل على جرعة من الذكاء الاصطناعي، لكن ذلك قد لا يكفي"
+  },
+  "https://fortune.com/2026/11/07/harwood-north-dakota-data-center-ballot-measure-midterm-elections-2026/": {
+   "en": "‘Like being hit between the eyes with a sledgehammer’: Meet the one town in America that defied election trends and voted in favor of data centers",
+   "t": "‘كمن ضُرب بين عينيه بمطرقة’: البلدة الوحيدة في أمريكا التي تحدّت الاتجاه الانتخابي وصوّتت لصالح مراكز البيانات"
+  },
+  "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/": {
+   "en": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+   "t": "ذكاء Google الاصطناعي يكشف ارتفاع ضغط الدم من ساعة ذكية عادية دون حزام ضغط"
+  },
+  "https://fortune.com/2026/11/06/midterm-elections-ai-data-center-build-out-social-license/": {
+   "en": "The midterms didn’t stop the AI buildout. They simply repriced it—and OpenAI is already promising to pay up",
+   "t": "الانتخابات النصفية لم توقف طفرة الذكاء الاصطناعي. لقد أعادت تسعيرها فقط، وOpenAI تعد بالدفع بالفعل"
+  },
+  "https://www.fastcompany.com/91637493/godaddys-ceo-wont-read-ai-generated-work": {
+   "en": "GoDaddy’s CEO won’t read AI-generated work",
+   "t": "رئيس GoDaddy التنفيذي لن يقرأ أعمالًا مولّدة بالذكاء الاصطناعي"
+  },
+  "https://www.ciodive.com/news/tech-workforce-AI-jobs-october/874043/": {
+   "en": "Tech employment rebounded in October, bolstered by AI jobs",
+   "t": "توظيف التقنية يتعافى في أكتوبر بدعم من وظائف الذكاء الاصطناعي"
+  },
+  "https://www.ciodive.com/news/insurers-race-capture-value-agentic-ai/874047/": {
+   "en": "Insurers race to capture value from agentic AI",
+   "t": "شركات التأمين تتسابق لاقتناص القيمة من الذكاء الاصطناعي الوكيلي"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/": {
+   "en": "Taxonomy of agentic primitives in Amazon Quick",
+   "t": "تصنيف المكوّنات الأولية الوكيلية في Amazon Quick"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/": {
+   "en": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+   "t": "خادم MCP بلا خوادم لوصول وكلاء الذكاء الاصطناعي إلى بحيرة البيانات على Amazon ECS Fargate"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/": {
+   "en": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "t": "حوكمة وصول وكلاء الذكاء الاصطناعي عبر Okta Cross App Access وAmazon Bedrock AgentCore – الجزء 2"
+  },
+  "https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html?utm_source=rss&utm_medium=rss&utm_campaign=untethered-ai-agents-in-delaware": {
+   "en": "Untethered AI agents in Delaware?",
+   "t": "وكلاء ذكاء اصطناعي غير مقيّدين في ديلاوير؟"
+  },
+  "https://www.fastcompany.com/91637532/rip-cybertruck-the-perfect-symbol-of-every-elon-musk-failure": {
+   "en": "RIP Cybertruck: The perfect symbol for all of Elon Musk’s mistakes",
+   "t": "وداعًا Cybertruck: الرمز المثالي لكل أخطاء إيلون ماسك"
+  },
+  "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/": {
+   "en": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
+   "t": "OpenAI تحصل على جولة تمويل بـ 11 مليار دولار، لكنها مضطرة لاستمالة أطباء الأسنان لجمع مزيد من رأس المال"
+  },
+  "https://www.cybersecuritydive.com/news/ai-agents-normal-baseline-security-governance/873998/": {
+   "en": "Companies struggle to know what normal looks like for AI agents",
+   "t": "الشركات تجد صعوبة في معرفة ما هو «الطبيعي» لوكلاء الذكاء الاصطناعي"
+  },
+  "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/": {
+   "en": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+   "t": "The Download: روبوت بشري ينظف المنزل وسامسونج تبني لطفرة الذكاء الاصطناعي"
+  },
+  "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/": {
+   "en": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+   "t": "Sharp Tech فيديو: أمريكا تصوّت على مراكز البيانات، والتداعيات على كبرى شركات التقنية، ورد Google على الذكاء الاصطناعي"
+  },
+  "https://interestingengineering.com/innovation/us-researchers-map-domains-under-1-nm-for-denser-memory": {
+   "en": "US scientists find domains under 1 nm² that could help shrink chip memory",
+   "t": "علماء أمريكيون يعثرون على نطاقات أقل من 1 نانومتر² قد تساعد في تقليص ذاكرة الرقائق"
+  },
+  "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy": {
+   "en": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "t": "الصين جنّدت مسؤولًا تنفيذيًا في الذكاء الاصطناعي للتجسس على جنسن هوانغ"
+  },
+  "https://interestingengineering.com/innovation/diamond-foundry-grows-200mm-diamond-chips": {
+   "en": "World’s first 200 mm single-crystal diamond grown in US, can boost next-gen chips",
+   "t": "أول ماسة أحادية البلورة بقطر 200 ملم في العالم تُنمّى في الولايات المتحدة، وقد تعزز رقائق الجيل القادم"
+  },
+  "https://interestingengineering.com/energy/explainer-how-sand-batteries-turn-surplus-renewable-electricity-into-stored-heat": {
+   "en": "Explainer: How sand batteries turn surplus renewable electricity into stored heat",
+   "t": "شرح: كيف تحوّل بطاريات الرمل فائض الكهرباء المتجددة إلى حرارة مخزّنة"
+  },
+  "https://interestingengineering.com/energy/battery-technologies-that-could-transform-electric-vehicles": {
+   "en": "7 Battery technologies that could transform electric vehicles and grid storage",
+   "t": "7 تقنيات بطاريات قد تحوّل السيارات الكهربائية وتخزين الشبكة"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity": {
+   "en": "AI is the new dating dealbreaker",
+   "t": "الذكاء الاصطناعي هو العائق الجديد في المواعدة"
+  },
+  "https://interestingengineering.com/energy/1200-miles-chinese-firms-new-ev-battery": {
+   "en": "1,200-mile EV range: Chinese firm’s new lithium air EV battery offers 5x energy density",
+   "t": "مدى 1900 كم للسيارة الكهربائية: بطارية الليثيوم-هواء الجديدة لشركة صينية توفر كثافة طاقة أعلى 5 مرات"
+  },
+  "https://interestingengineering.com/energy/semiconductor-technologies-behind-faster-computing": {
+   "en": "10 semiconductor technologies behind faster computing and efficient power",
+   "t": "10 تقنيات لأشباه الموصلات وراء حوسبة أسرع وطاقة أكثر كفاءة"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy": {
+   "en": "All the latest updates on AI data centers",
+   "t": "كل آخر المستجدات حول مراكز بيانات الذكاء الاصطناعي"
+  },
+  "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces": {
+   "en": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+   "t": "ذكاء Muse من Meta يستطيع إنشاء «مساحات» مخصصة لنسخة التطبيق التي تحتاجها الآن"
+  },
+  "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/": {
+   "en": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+   "t": "Ripple-65B Preview يقدم نتائج برمجة وكيلية قوية كنموذج أمريكي مفتوح بالكامل بترخيص Apache 2.0"
+  },
+  "https://techxplore.com/news/2026-11-techniques-hidden-ai-backdoors-major.html": {
+   "en": "Three new techniques target hidden AI backdoors without major performance losses",
+   "t": "ثلاث تقنيات جديدة تستهدف الأبواب الخلفية الخفية للذكاء الاصطناعي دون خسائر كبيرة في الأداء"
+  },
+  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/": {
+   "en": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "t": "العثور على مئات أدوات اختراق الذكاء الاصطناعي من Artex مكشوفة علنًا على الويب"
+  },
+  "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/": {
+   "en": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+   "t": "Meta تقدّم Spaces، طريقة جديدة للتعاون مع وكيل Muse الخاص بك"
+  },
+  "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/": {
+   "en": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+   "t": "نماذج الذكاء الاصطناعي الصينية المجانية تصبح بارعة بشكل مخيف في الاختراق"
+  },
+  "https://variety.com/2026/film/markets-festivals/ai-filmmaking-platform-core-studio-launches-24-agents-tccf-1236941957/": {
+   "en": "AI Filmmaking Platform Core Studio Launches at Taiwan Creative Content Fest With 24 Specialized Agents",
+   "t": "منصة صناعة الأفلام بالذكاء الاصطناعي Core Studio تنطلق في Taiwan Creative Content Fest بـ 24 وكيلًا متخصصًا"
+  },
+  "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/": {
+   "en": "‘Triplets of Belleville’ Director Sylvain Chomet Fires Back at AI Accusations Over Dior Film Featuring Robert Pattinson’s Voice: ‘Everything Was Drawn by Hand’ (EXCLUSIVE)",
+   "t": "مخرج ‘ثلاثي بلفيل’ سيلفان شوميه يرد على اتهامات الذكاء الاصطناعي حول فيلم ديور بصوت روبرت باتينسون: ‘كل شيء رُسم يدويًا’ (حصري)"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/": {
+   "en": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+   "t": "SageMaker Inference يدعم الآن GPU متعدد المثيلات لتعظيم استخدام GPU في نقاط نهاية النماذج"
+  },
+  "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/": {
+   "en": "How a Blue Wave midterm might reshape the AI industry",
+   "t": "كيف يمكن لانتخابات نصفية بـ«موجة زرقاء» أن تعيد تشكيل صناعة الذكاء الاصطناعي"
+  },
+  "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/": {
+   "en": "After the midterms, is the AI industry in for a rough two years?",
+   "t": "بعد الانتخابات النصفية، هل تنتظر صناعة الذكاء الاصطناعي عامين صعبين؟"
+  },
+  "https://techxplore.com/news/2026-11-ai-products-thought-problem-machines.html": {
+   "en": "AI learns from the products of thinking, not thought itself. That's a problem for machines—and for us",
+   "t": "الذكاء الاصطناعي يتعلم من نواتج التفكير لا من التفكير نفسه. وهذه مشكلة للآلات ولنا"
+  },
+  "https://aibusiness.com/data-centers/prompt-ai-s-next-bottleneck-is-outside-data-center": {
+   "en": "Prompt: AI's next bottleneck is outside the data center",
+   "t": "Prompt: عنق الزجاجة التالي للذكاء الاصطناعي خارج مركز البيانات"
+  },
+  "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/": {
+   "en": "Perplexity now has its own always-on AI agent",
+   "t": "Perplexity لديها الآن وكيل ذكاء اصطناعي خاص يعمل دائمًا"
+  },
+  "https://techxplore.com/news/2026-11-qa-american-evolving-ai-robotics.html": {
+   "en": "Q&A: How is American manufacturing evolving with AI and robotics?",
+   "t": "أسئلة وأجوبة: كيف يتطور التصنيع الأمريكي مع الذكاء الاصطناعي والروبوتات؟"
+  },
+  "https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/": {
+   "en": "How to Measure AI Adoption, Performance, and ROI With 12 KPIs",
+   "t": "كيف تقيس اعتماد الذكاء الاصطناعي وأداءه وعائده بـ 12 مؤشرًا"
+  },
+  "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/": {
+   "en": "Could potential AI clones of GTA VI force a quicker official port?",
+   "t": "هل قد تجبر نسخ الذكاء الاصطناعي المحتملة من GTA VI على إطلاق نسخة رسمية أسرع؟"
+  },
+  "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/": {
+   "en": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+   "t": "شركات الذكاء الاصطناعي تريد حقًا شراء ملفات عملك ورسائلك الإلكترونية"
+  },
+  "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/": {
+   "en": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "t": "بيانات Ramp تُظهر ركود الإنفاق على الذكاء الاصطناعي مع اقتراب Anthropic من الطرح العام"
+  },
+  "https://aibusiness.com/ai-policy/google-s-ai-first-search-creates-challenges": {
+   "en": "Google's AI-first Search creates challenges for schools and businesses",
+   "t": "بحث Google القائم على الذكاء الاصطناعي أولًا يخلق تحديات للمدارس والشركات"
+  },
+  "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/what-caught-your-eye-ai-bust-qualcomm-mmios-rf-emitters-2026-11/": {
+   "en": "What caught your eye? AI bust, Qualcomm MMIOs, RF emitters",
+   "t": "ما الذي لفت انتباهك؟ فقاعة الذكاء الاصطناعي، وMMIO من Qualcomm، ومصادر الترددات الراديوية"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss": {
+   "en": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+   "t": "لماذا يرفض تجار النفط شراء الديزل الروسي بعد صفقة ترامب وبوتين؟"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss": {
+   "en": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+   "t": "ضرب جزيرة قشم وهرمز بينما يحاول الوسطاء منع التصعيد بين أمريكا وإيران"
+  },
+  "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe": {
+   "en": "Protesters storm Microsoft AI data center construction site",
+   "t": "محتجون يقتحمون موقع إنشاء مركز بيانات Microsoft للذكاء الاصطناعي"
+  },
+  "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status": {
+   "en": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+   "t": "Nvidia تشدد تتبع وحدات GPU للذكاء الاصطناعي في جنوب شرق آسيا مع تزايد التدقيق في تهريب الرقائق الصينية، وفق تقرير"
+  },
+  "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/": {
+   "en": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
+   "t": "METR: قد تكون Anthropic تجاوزت عتبة التحذير الخاصة بها من تسارع الذكاء الاصطناعي في يوليو"
+  },
+  "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/": {
+   "en": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+   "t": "ابنِ أول وكيل ذكاء اصطناعي متعدد الأدوات باستخدام Ollama وPython"
+  },
+  "https://www.ciodive.com/news/ibm-confluent-debuts-streamhouse-data-architecture-agents/873943/": {
+   "en": "IBM’s Confluent debuts Streamhouse data architecture for agents",
+   "t": "Confluent التابعة لـ IBM تطلق بنية بيانات Streamhouse للوكلاء"
+  },
+  "https://www.engineering.com/honeywell-and-rws-advance-ai-powered-cooling-optimization/": {
+   "en": "Honeywell and RWS advance AI-powered cooling optimization",
+   "t": "Honeywell وRWS تطوّران تحسين التبريد المدعوم بالذكاء الاصطناعي"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss": {
+   "en": "Rains flood thousands of displaced families’ tents in Gaza",
+   "t": "الأمطار تغمر خيام آلاف العائلات النازحة في غزة"
+  },
+  "https://www.engineering.com/mouser-offers-advantech-mic-743-at-ai-inference-system/": {
+   "en": "Mouser offers Advantech MIC-743-AT AI inference system",
+   "t": "Mouser تعرض نظام الاستدلال بالذكاء الاصطناعي Advantech MIC-743-AT"
+  },
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits": {
+   "en": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
+   "t": "ذكاء اصطناعي منفلت كُلّف بإعادة ترقيم الصفحات يحذف بالخطأ كامل منهج أستاذة قانون وعامًا من ملاحظات المحاضرات"
+  },
+  "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/": {
+   "en": "Give Your Python AI Agent Persistent Memory with One JSON File",
+   "t": "امنح وكيل الذكاء الاصطناعي في Python ذاكرة دائمة بملف JSON واحد"
+  },
+  "https://www.ciodive.com/news/tech-execs-grapple-costs-data-overload/873928/": {
+   "en": "As AI costs climb, knowing when to pull back becomes critical",
+   "t": "مع ارتفاع تكاليف الذكاء الاصطناعي، تصبح معرفة وقت التراجع أمرًا حاسمًا"
+  },
+  "https://www.electronicsweekly.com/news/products/test-measurement-products/emerson-ni-pxie-instruments-for-ai-accelerated-automated-testing-2026-11/": {
+   "en": "Emerson NI PXIe instruments for AI-accelerated automated testing",
+   "t": "أجهزة Emerson NI PXIe للاختبار الآلي المعزز بالذكاء الاصطناعي"
+  },
+  "https://www.ciodive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873856/": {
+   "en": "McDonald’s aims for nationwide drive-thru AI in 2027",
+   "t": "ماكدونالدز تستهدف خدمة السيارات بالذكاء الاصطناعي في أنحاء البلاد عام 2027"
+  },
+  "https://www.fastcompany.com/91634134/beware-this-captcha-scam-designed-to-steal-your-data": {
+   "en": "Beware this CAPTCHA scam designed to steal your data",
+   "t": "احذر من احتيال CAPTCHA هذا المصمم لسرقة بياناتك"
+  },
+  "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/": {
+   "en": "Crusoe sells troubled Wyoming data center project to Google",
+   "t": "Crusoe تبيع مشروع مركز بيانات وايومنغ المتعثر إلى Google"
+  },
+  "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled": {
+   "en": "Home Office sued after stripping almost 1,500 EU citizens of right to live in UK",
+   "t": "مقاضاة وزارة الداخلية بعد سحب حق الإقامة في بريطانيا من قرابة 1500 مواطن من الاتحاد الأوروبي"
+  },
+  "https://www.scmp.com/business/china-business/article/3373588/chinas-ev-safety-push-gives-foreign-brands-tesla-gm-opening-comeback": {
+   "en": "China’s EV safety push gives foreign brands from Tesla to GM an opening for a comeback",
+   "t": "دفعة الصين لسلامة السيارات الكهربائية تمنح العلامات الأجنبية، من Tesla إلى GM، فرصة للعودة"
+  },
+  "https://techxplore.com/news/2026-11-energy-spur-faster-renewables-growth.html": {
+   "en": "Energy security concerns spur faster renewables growth across a widening constellation of countries",
+   "t": "مخاوف أمن الطاقة تسرّع نمو الطاقة المتجددة في مجموعة متسعة من الدول"
+  },
+  "https://www.hrdive.com/news/ai-rebounding-could-cost-companies/873462/": {
+   "en": "‘AI rebounding’ could cost companies",
+   "t": "‘ارتداد الذكاء الاصطناعي’ قد يكلف الشركات"
+  },
+  "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections": {
+   "en": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+   "t": "مضيق هرمز قد يُعاد فتحه ضمن خطة قطرية لعمليات تفتيش نووية في إيران"
+  },
+  "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats": {
+   "en": "Firms are racing to protect themselves from AI cyber threats",
+   "t": "الشركات تتسابق لحماية نفسها من التهديدات السيبرانية للذكاء الاصطناعي"
+  },
+  "https://www.al-monitor.com/originals/2026/11/cop31-comes-turkey-satellites-reveal-landfill-methane-problem": {
+   "en": "As COP31 comes to Turkey, satellites reveal a landfill methane problem",
+   "t": "مع قدوم COP31 إلى تركيا، الأقمار الصناعية تكشف مشكلة ميثان في مكبات النفايات"
+  },
+  "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/": {
+   "en": "The Download: Texas’s fragile AI boom and energy policy shifts",
+   "t": "The Download: ازدهار الذكاء الاصطناعي الهش في تكساس وتحولات سياسة الطاقة"
+  },
+  "https://www.energy-storage.news/bess-industry-buzz-blue-wave-in-the-midterms-rte-disagreements-cybersecurity-incident-in-chile/": {
+   "en": "BESS Industry Buzz: Blue Wave in the midterms, RTE disagreements, cybersecurity incident in Chile",
+   "t": "BESS Industry Buzz: موجة زرقاء في الانتخابات النصفية، خلافات RTE، حادثة أمن سيبراني في تشيلي"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/05/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot/?utm_source=rss&utm_medium=rss&utm_campaign=when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot": {
+   "en": "When an Algorithm Reads Your Proxy and AI Is on the Ballot",
+   "t": "عندما تقرأ خوارزمية وكالتك والذكاء الاصطناعي على ورقة الاقتراع"
+  },
+  "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu": {
+   "en": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+   "t": "نتائج الانتخابات النصفية الأمريكية قد تساعد في توحيد الائتلاف الإسرائيلي للإطاحة بنتنياهو"
+  },
+  "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending": {
+   "en": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
+   "t": "نماذج الذكاء الاصطناعي الصينية بقيادة Kimi تهيمن على إنفاق المؤسسات على المصادر المفتوحة"
+  },
+  "https://www.al-monitor.com/originals/2026/11/iran-says-forces-stronger-beginning-war": {
+   "en": "Iran says forces 'stronger' than at beginning of war",
+   "t": "إيران تقول إن قواتها ‘أقوى’ مما كانت عند بداية الحرب"
+  },
+  "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/": {
+   "en": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+   "t": "مقابلة مع الرئيس التنفيذي لـ Intuit ساسان غودرزي حول المحاسبة والذكاء الاصطناعي"
+  },
+  "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/": {
+   "en": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+   "t": "خبراء الصناعة يناقشون منع الصين استحواذ SoftBank على ABB Robotics"
+  },
+  "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation": {
+   "en": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
+   "t": "قطر: جهود الوساطة بين أمريكا وإيران تواصل منع التصعيد"
+  },
+  "https://www.cartoonbrew.com/newsletter/pixars-executive-shakeup-wildwood-gains-ground-chomet-ai-questions-269148.html": {
+   "en": "Pixar’s Executive Shakeup; ‘Wildwood’ Gains Ground; Chomet AI Questions",
+   "t": "تغيير في قيادة بيكسار؛ ‘Wildwood’ يكسب أرضًا؛ أسئلة حول الذكاء الاصطناعي عند شوميه"
+  },
+  "https://aibusiness.com/data-centers/enterprises-face-tougher-ai-regulatory-landscape": {
+   "en": "Enterprises face tougher AI regulatory landscape after midterms",
+   "t": "المؤسسات تواجه بيئة تنظيمية أشد للذكاء الاصطناعي بعد الانتخابات النصفية"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/07/proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-national-association-of-manufacturers/?utm_source=rss&utm_medium=rss&utm_campaign=proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-national-association-of-manufacturers": {
+   "en": "Proposed SEC Rule on Rescinding Shareholder Proposal Rule 14a-8: A Comment from the National Association of Manufacturers",
+   "t": "قاعدة SEC المقترحة لإلغاء القاعدة 14a-8 بشأن مقترحات المساهمين: تعليق من الرابطة الوطنية للمصنّعين"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/07/sec-sets-2027-exam-priorities-with-focus-on-conflicts-complex-products-and-technology/?utm_source=rss&utm_medium=rss&utm_campaign=sec-sets-2027-exam-priorities-with-focus-on-conflicts-complex-products-and-technology": {
+   "en": "SEC Sets 2027 Exam Priorities with Focus on Conflicts, Complex Products, and Technology",
+   "t": "SEC تحدد أولويات فحص 2027 مع التركيز على تضارب المصالح والمنتجات المعقدة والتقنية"
+  },
+  "https://www.cybersecuritydive.com/news/congress-cybersecurity-democrats-agenda-cisa-ai/873883/": {
+   "en": "What to expect from Democrats’ cybersecurity agenda in Congress",
+   "t": "ماذا نتوقع من أجندة الديمقراطيين للأمن السيبراني في الكونغرس"
+  },
+  "https://latent.space/p/ainews-anthropic-ipo-whither-now/": {
+   "en": "[AINews] Anthropic IPO: Whither Now?",
+   "t": "[AINews] الطرح العام لـ Anthropic: ماذا بعد؟"
+  },
+  "https://www.dailysabah.com/business/tech/turkcell-to-showcase-green-technology-investments-at-cop31": {
+   "en": "Turkcell to showcase green technology investments at COP31",
+   "t": "Turkcell تعرض استثمارات التقنية الخضراء في COP31"
+  },
+  "https://www.cybersecuritydive.com/news/french-probe-cyberattack-blood-supply/873871/": {
+   "en": "French authorities probe cyberattack targeting nation’s blood supply",
+   "t": "السلطات الفرنسية تحقق في هجوم سيبراني استهدف إمدادات الدم الوطنية"
+  },
+  "https://www.utilitydive.com/news/historic-election-night-wont-change-growth-focus-at-duke-energy-executi/873965/": {
+   "en": "Duke Energy to stay course on data center-fueled growth plan after ‘historic’ election",
+   "t": "Duke Energy تواصل خطة النمو المدعومة بمراكز البيانات بعد انتخابات ‘تاريخية’"
+  },
+  "https://www.al-monitor.com/originals/2026/11/us-offers-20-mn-reward-info-irans-nuclear-program-centcom": {
+   "en": "US offers $20 mn reward for info on 'Iran's nuclear program': CENTCOM",
+   "t": "الولايات المتحدة تعرض 20 مليون دولار مكافأة لمعلومات عن ‘البرنامج النووي الإيراني’: القيادة المركزية"
+  },
+  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+   "en": "Measuring how AI agents handle everyday wet-lab science",
+   "t": "قياس كيفية تعامل وكلاء الذكاء الاصطناعي مع علوم المختبر اليومية"
+  },
+  "https://www.cartoonbrew.com/artificial-intelligence/sylvain-chomet-dior-ad-ai-use-269124.html": {
+   "en": "On The Use Of AI In Sylvain Chomet’s Dior Ad: A Correction And An Apology",
+   "t": "حول استخدام الذكاء الاصطناعي في إعلان ديور لسيلفان شوميه: تصحيح واعتذار"
+  },
+  "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/": {
+   "en": "Flo Milli Wins Dismissal of Copyright Lawsuit Over ‘Never Lose Me’ Beat Sample",
+   "t": "Flo Milli تحصل على رفض دعوى حقوق النشر بشأن عينة إيقاع ‘Never Lose Me’"
+  },
+  "https://www.hollywoodreporter.com/movies/movie-news/poff-standing-with-ukraine-tallinn-2026-films-events-war-1236741671/": {
+   "en": "PÖFF Stands With Ukraine: A Look at Films Featured at Tallinn Made Despite, and Because of, the War",
+   "t": "PÖFF يقف مع أوكرانيا: نظرة على الأفلام المعروضة في تالين، المصنوعة رغم الحرب وبسببها"
+  },
+  "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/": {
+   "en": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
+   "t": "Google تطلق Gemini Omni 1.2 Flash: فيديو ذكاء اصطناعي مدته 15 ثانية بسعر 0.07 دولار للثانية"
+  },
+  "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/": {
+   "en": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+   "t": "Google: يمكن للمدارس الاحتفاظ بالبحث وتجاوز Gemini، لكن البحث بالذكاء الاصطناعي غير قابل للتفاوض"
+  },
+  "https://www.servethehome.com/supermicro-super-ai-station-review-the-ai-server-that-doubles-as-a-workstation/": {
+   "en": "Supermicro Super AI Station Review: The AI Server That Doubles as a Workstation",
+   "t": "مراجعة Supermicro Super AI Station: خادم الذكاء الاصطناعي الذي يعمل أيضًا كمحطة عمل"
+  },
+  "https://www.musicbusinessworldwide.com/rotor-videos-opens-artist-unlimited-to-any-artist-from-9-99-a-month-with-unlimited-release-visuals-and-a-library-of-17m-non-ai-generated-clips/": {
+   "en": "Rotor Videos opens Artist Unlimited to any artist from $9.99 a month, with unlimited release visuals and a library of 17M+, non-AI-generated clips",
+   "t": "Rotor Videos تفتح Artist Unlimited لأي فنان بدءًا من 9.99 دولار شهريًا، مع مرئيات إصدار غير محدودة ومكتبة تضم أكثر من 17 مليون مقطع غير مولّد بالذكاء الاصطناعي"
+  },
+  "https://www.al-monitor.com/originals/2026/11/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says": {
+   "en": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
+   "t": "صاروخان يضربان جزيرة قشم الإيرانية، وفق وكالة تسنيم"
+  },
+  "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/": {
+   "en": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+   "t": "Vera تقدم أفضل ما في العالمين: أعلى إنتاجية وأسرع الوكلاء"
+  },
+  "https://www.energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess/": {
+   "en": "Ford Energy partners with DESRI to deploy US BESS",
+   "t": "Ford Energy تتشارك مع DESRI لنشر BESS في الولايات المتحدة"
+  },
+  "https://www.energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity/": {
+   "en": "India approves Viability Gap Funding to support 92GWh of BESS and pumped hydro energy storage capacity",
+   "t": "الهند توافق على تمويل سد فجوة الجدوى لدعم 92 غيغاواط ساعة من BESS وتخزين الطاقة الكهرومائية بالضخ"
+  },
+  "https://www.ciodive.com/news/ai-security-governance-spending-dnsfilter/873782/": {
+   "en": "Companies spend more on cybersecurity but still struggle with AI oversight",
+   "t": "الشركات تنفق أكثر على الأمن السيبراني لكنها لا تزال تعاني في الإشراف على الذكاء الاصطناعي"
+  },
+  "https://www.just-food.com/news/bernard-matthews-plant-closure-backtracks/": {
+   "en": "Bernard Matthews backtracks on UK plant closure plan but jobs still at risk",
+   "t": "Bernard Matthews تتراجع عن خطة إغلاق المصنع في بريطانيا لكن الوظائف لا تزال مهددة"
+  },
+  "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/": {
+   "en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "t": "OpenAI تجمع، بحسب التقارير، 11 مليار دولار إضافية بتقييم 1.25 تريليون دولار"
+  },
+  "https://www.ciodive.com/news/midterms-democrats-data-centers-AI/873807/": {
+   "en": "What does a midterm power shift mean for AI policy?",
+   "t": "ماذا يعني تغيّر ميزان القوى بعد الانتخابات النصفية لسياسة الذكاء الاصطناعي؟"
+  },
+  "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears": {
+   "en": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
+   "t": "سرقة ست منصات نقالة من معالجات Nvidia GPU بقيمة 11.4 مليون دولار في عملية سطو على شحنة في كاليفورنيا"
+  },
+  "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management": {
+   "en": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
+   "t": "Nvidia تريد إعادة استخدام أكثر من 130 مبنى اتصالات قديمًا كمراكز بيانات صغيرة، وفق تقرير"
+  },
+  "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": {
+   "en": "Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution",
+   "t": "على الديمقراطيين ألا يضيّعوا فرصتهم لإطلاق ثورة في السياسة الخارجية"
+  },
+  "https://www.al-monitor.com/originals/2026/11/us-treasury-sanctions-canadian-money-services-firms-over-iran-related": {
+   "en": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+   "t": "الخزانة الأمريكية تفرض عقوبات على شركات خدمات مالية كندية بسبب معاملات مرتبطة بإيران"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/": {
+   "en": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+   "t": "كانت تكساس المركز الجديد لبناء مراكز بيانات الذكاء الاصطناعي. قد يكون ذلك انتهى."
+  },
+  "https://www.eenewseurope.com/en/openai-samsung-talks-ai-memory-supply/": {
+   "en": "OpenAI-Samsung talks amid tightening AI memory supply",
+   "t": "محادثات OpenAI وSamsung وسط تشدد إمدادات ذاكرة الذكاء الاصطناعي"
+  },
+  "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/": {
+   "en": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "t": "Into the Omniverse: كيف يحوّل المطورون الأفكار إلى محاكاة بوكلاء ذكاء اصطناعي متقدمين"
+  },
+  "https://openai.com/index/australian-universities-ai-native-graduates": {
+   "en": "Australian universities are creating AI-native graduates",
+   "t": "الجامعات الأسترالية تخرّج خريجين أصيلين في الذكاء الاصطناعي"
+  },
+  "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam": {
+   "en": "Protesters break into Microsoft data center site in Amsterdam",
+   "t": "محتجون يقتحمون موقع مركز بيانات Microsoft في أمستردام"
+  },
+  "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really/": {
+   "en": "To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).",
+   "t": "لتسوية حرب روسيا في أوكرانيا، على أوروبا أن تُدخل كييف. يمكن لترامب أن يساعد (حقًا)."
+  },
+  "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/": {
+   "en": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "t": "ساحر الأوزان المفتوحة: كريس أليوكيوك يجعل الذكاء الاصطناعي سهلًا بالنماذج المفتوحة"
+  },
+  "https://blogs.nvidia.com/blog/memory-full-stack-codesign/": {
+   "en": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "t": "أداء أكبر من كل بايت: كيف يحل التصميم المشترك الشامل مشكلة ذاكرة الذكاء الاصطناعي"
+  },
+  "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties": {
+   "en": "Israel's Arab-led parties in spotlight after inconclusive election",
+   "t": "الأحزاب العربية في إسرائيل تحت الأضواء بعد انتخابات غير حاسمة"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/": {
+   "en": "The Download: blended meat, restored sight, and the agentic web",
+   "t": "The Download: لحم مختلط وبصر مستعاد والويب الوكيلي"
+  },
+  "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/": {
+   "en": "Securing the agentic enterprise with data lineage",
+   "t": "تأمين المؤسسة الوكيلية بنسب البيانات"
+  },
+  "https://www.al-monitor.com/originals/2026/11/iran-turns-putin-war-us-election-reshape-strategic-calculations": {
+   "en": "Iran turns to Putin as war, US election reshape strategic calculations",
+   "t": "إيران تتجه إلى بوتين بينما تعيد الحرب والانتخابات الأمريكية تشكيل الحسابات الاستراتيجية"
+  },
+  "https://thediplomat.com/2026/11/the-taipei-mayor-election-is-not-about-china/": {
+   "en": "The Taipei Mayor Election Is Not About China",
+   "t": "انتخابات رئاسة بلدية تايبيه ليست عن الصين"
+  },
+  "https://stratechery.com/2026/ai-on-the-ballot/": {
+   "en": "AI on the Ballot",
+   "t": "الذكاء الاصطناعي على ورقة الاقتراع"
+  },
+  "https://thediplomat.com/2026/11/can-europe-regulate-chinas-e-commerce-giants-without-closing-its-market/": {
+   "en": "Can Europe Regulate China’s E-Commerce Giants Without Closing Its Market?",
+   "t": "هل تستطيع أوروبا تنظيم عمالقة التجارة الإلكترونية الصينية دون إغلاق سوقها؟"
+  },
+  "https://www.energy-storage.news/energyaustralia-takes-delivery-of-final-units-for-250mwh-hallett-battery-storage-system/": {
+   "en": "EnergyAustralia takes delivery of final units for 250MWh Hallett battery storage system",
+   "t": "EnergyAustralia تتسلم الوحدات الأخيرة لنظام تخزين البطاريات Hallett بسعة 250 ميغاواط ساعة"
+  },
+  "https://www.feedstrategy.com/animal-health-veterinary/mycotoxins/article/15834635/mycotoxin-testing-evolution-from-compliance-to-strategy": {
+   "en": "How the feed industry is rethinking mycotoxin risk",
+   "t": "كيف تعيد صناعة الأعلاف التفكير في مخاطر السموم الفطرية"
+  },
+  "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/": {
+   "en": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+   "t": "دعوى: رجل عرّف زوجته على ChatGPT. استخدمته للتخطيط لقتله."
+  },
+  "https://gcaptain.com/u-s-targets-cubas-oil-tanker-fleet-in-new-sanctions-crackdown/": {
+   "en": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+   "t": "الولايات المتحدة تستهدف أسطول ناقلات النفط الكوبي في حملة عقوبات جديدة"
+  },
+  "https://gcaptain.com/eu-lawmakers-push-back-against-approval-of-indian-ship-recycling-yards/": {
+   "en": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards",
+   "t": "نواب أوروبيون يعترضون على الموافقة على ساحات تدوير السفن الهندية"
+  },
+  "https://www.manufacturingdive.com/news/bls-manufacturing-employment-situation-october-jolts-september-2026/873897/": {
+   "en": "Manufacturing industry added 19K jobs in October",
+   "t": "قطاع التصنيع أضاف 19 ألف وظيفة في أكتوبر"
+  },
+  "https://variety.com/2026/film/markets-festivals/chang-chen-emerging-taiwanese-actors-taiwan-creative-content-fest-1236941891/": {
+   "en": "Chang Chen Urges Emerging Taiwanese Actors to ‘Be Like Water’ at Taiwan Creative Content Fest Golden Horse Showcase",
+   "t": "تشانغ تشن يحث الممثلين التايوانيين الصاعدين على ‘أن يكونوا مثل الماء’ في Golden Horse Showcase ضمن Taiwan Creative Content Fest"
+  },
+  "https://www.scmp.com/economy/china-economy/article/3373565/former-evergrande-economist-faces-wechat-gag-order-after-buy-dip-call": {
+   "en": "Former Evergrande economist faces WeChat gag order after ‘buy the dip’ call",
+   "t": "اقتصادي سابق في إيفرغراند يواجه أمر حظر على WeChat بعد دعوته إلى «الشراء عند الانخفاض»"
+  },
+  "https://www.eenewseurope.com/en/analog-devices-completes-alif-semiconductor-acquisition-to-boost-edge-ai/": {
+   "en": "Analog Devices completes Alif Semiconductor acquisition to boost edge AI",
+   "t": "Analog Devices تكمل الاستحواذ على Alif Semiconductor لتعزيز الذكاء الاصطناعي على الحافة"
+  },
+  "https://gcaptain.com/china-adopts-law-on-antarctic-activities-and-environmental-protection/": {
+   "en": "China Adopts Law on Antarctic Activities and Environmental Protection",
+   "t": "الصين تعتمد قانونًا بشأن الأنشطة في القارة القطبية الجنوبية وحماية البيئة"
+  },
+  "https://www.eenewseurope.com/en/bosch-sensortec-ceo-stefan-finkbeiner-on-sensors-ai-and-innovation/": {
+   "en": "Bosch Sensortec CEO Stefan Finkbeiner on Sensors, AI and Innovation",
+   "t": "الرئيس التنفيذي لـ Bosch Sensortec ستيفان فينكباينر عن المستشعرات والذكاء الاصطناعي والابتكار"
+  },
+  "https://www.rapporteur.com/news/peace-agreement-in-ukraine-will-require-eu-kallas/": {
+   "en": "Europe rebuffs US push for new ‘security architecture’ in Russia deal",
+   "t": "أوروبا ترفض الدفع الأمريكي نحو ‘بنية أمنية’ جديدة في صفقة روسيا"
+  },
+  "https://thediplomat.com/2026/11/how-chinas-naval-air-reach-is-offsetting-the-malacca-dilemma/": {
+   "en": "How China’s Naval-Air Reach Is Offsetting the Malacca Dilemma",
+   "t": "كيف يعوّض مدى الصين البحري والجوي معضلة ملقا"
+  },
+  "https://thediplomat.com/2026/11/does-china-have-a-plan-for-dealing-with-a-democratic-congress/": {
+   "en": "Does China Have a Plan for Dealing With a Democratic Congress?",
+   "t": "هل لدى الصين خطة للتعامل مع كونغرس ديمقراطي؟"
+  },
+  "https://www.manufacturingdive.com/news/zipline-drone-delivery-plans-manufacturing-expansion-uber-walmart/873940/": {
+   "en": "Zipline raises $1.5B, plans US drone manufacturing expansion",
+   "t": "Zipline تجمع 1.5 مليار دولار وتخطط لتوسيع تصنيع الطائرات المسيّرة في الولايات المتحدة"
+  },
+  "https://www.manufacturingdive.com/news/century-aluminum-ceo-oklahoma-project-on-track-community-concerns-q3-2026/873971/": {
+   "en": "Century Aluminum CEO says Oklahoma project ‘on track’ despite community concerns",
+   "t": "الرئيس التنفيذي لـ Century Aluminum: مشروع أوكلاهوما ‘في موعده’ رغم مخاوف المجتمع"
+  },
+  "https://www.al-monitor.com/originals/2026/11/trump-weighs-iran-strikes-possible-nuclear-opening-emerges": {
+   "en": "As Trump weighs Iran strikes, possible nuclear opening emerges",
+   "t": "بينما يدرس ترامب ضرب إيران، يظهر انفتاح نووي محتمل"
+  },
+  "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-risks-of-corporate-political-spending/": {
+   "en": "The Hidden Risks of Corporate Political Spending",
+   "t": "المخاطر الخفية للإنفاق السياسي للشركات"
+  },
+  "https://www.rapporteur.com/news/poland-urges-faster-eu-social-media-ban-for-kids/": {
+   "en": "Poland urges faster EU social media ban for kids",
+   "t": "بولندا تحث على حظر أسرع في الاتحاد الأوروبي لوسائل التواصل الاجتماعي للأطفال"
+  },
+  "https://www.foodsafetynews.com/2026/11/fda-increases-enforcement-of-import-rules-on-shellfish-tamarind-and-canned-foods/": {
+   "en": "FDA increases enforcement of import rules on shellfish, tamarind and canned foods",
+   "t": "FDA تشدد إنفاذ قواعد الاستيراد على المحار والتمر الهندي والأغذية المعلبة"
+  },
+  "https://www.foodsafetynews.com/2026/11/polish-man-faces-court-for-food-contamination-threat/": {
+   "en": "Polish man faces court for food contamination threat",
+   "t": "رجل بولندي أمام المحكمة بتهمة تهديد بتلويث الغذاء"
+  },
+  "https://www.foodsafetynews.com/2026/11/food-safety-week-focuses-on-raw-fish-risk/": {
+   "en": "Food safety week focuses on raw fish risk",
+   "t": "أسبوع سلامة الغذاء يركز على مخاطر السمك النيء"
+  }
+ }
+}

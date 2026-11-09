@@ -1,0 +1,142 @@
+{
+ "updated": "2026-11-07T11:58:36+00:00",
+ "observed": [
+  {
+   "d": "2026-09-24",
+   "kind": "model_t0",
+   "ankara_median": 92.0,
+   "usdtry": 48.81,
+   "note": "GiNOVA G-0 model, A-class inputs (median Ankara pump price)"
+  },
+  {
+   "d": "2026-11-07",
+   "kind": "opet",
+   "ankara_ecoforce": 96.16,
+   "ankara_ultraforce": 96.16,
+   "usdtry": 50.0724,
+   "usdtry_date": "2026-11-06"
+  }
+ ],
+ "model": {
+  "name": "GiNOVA G-0 Bayesian V3, Türkiye diesel supply-price strategy model",
+  "t0": "2026-09-24",
+  "scenario": "S2: 50% US diesel export restriction; Package D (Monte Carlo, 50,000 iterations)",
+  "inputs_t0": {
+   "ankara_median_tl_l": 92.0,
+   "usdtry": 48.81,
+   "brent_usd_bbl": 102.85,
+   "gasoil_usd_t": 1442.5,
+   "margin_usd_t": 364.5,
+   "otv_tl_l": 3.0
+  },
+  "path": {
+   "dates": [
+    "2026-09-24",
+    "2026-09-25",
+    "2026-09-27",
+    "2026-10-01",
+    "2026-10-08",
+    "2026-10-15",
+    "2026-10-24",
+    "2026-10-31",
+    "2026-11-30",
+    "2026-12-31",
+    "2027-01-15",
+    "2027-01-31"
+   ],
+   "p10": [
+    91.4,
+    91.55,
+    91.8,
+    96.5,
+    97.4,
+    98.15,
+    98.9,
+    99.8,
+    106.5,
+    113.4,
+    115.1,
+    115.5
+   ],
+   "p50": [
+    92.0,
+    92.15,
+    92.5,
+    97.55,
+    99.05,
+    100.2,
+    101.4,
+    102.65,
+    110.35,
+    118.2,
+    120.6,
+    121.5
+   ],
+   "p90": [
+    92.7,
+    92.85,
+    93.5,
+    99.3,
+    101.6,
+    103.4,
+    105.8,
+    107.6,
+    117.2,
+    126.5,
+    129.4,
+    131.2
+   ]
+  },
+  "decomposition_p50_jan2027": {
+   "tax_otv_kdv": 13.08,
+   "fx_drift": 8.1,
+   "global_diesel_margin": 6.5,
+   "logistics_winter": 1.82
+  },
+  "constants": {
+   "kdv": 0.2,
+   "litres_per_tonne": 1197.6
+  },
+  "product_share_of_pretax": 0.7983
+ },
+ "tax_schedule_otv_tl_l": [
+  {
+   "from": "2026-09-01",
+   "otv": 3.0
+  },
+  {
+   "from": "2026-10-01",
+   "otv": 6.0
+  },
+  {
+   "from": "2026-11-01",
+   "otv": 9.0
+  },
+  {
+   "from": "2026-12-01",
+   "otv": 12.0
+  },
+  {
+   "from": "2027-01-01",
+   "otv": 13.9006
+  }
+ ],
+ "sources": [
+  {
+   "what": "Observed Ankara diesel list price",
+   "url": "https://api.opet.com.tr/api/fuelprices/prices?ProvinceCode=6"
+  },
+  {
+   "what": "USD/TRY (Central Bank of Türkiye, forex selling)",
+   "url": "https://www.tcmb.gov.tr/kurlar/today.xml"
+  },
+  {
+   "what": "Diesel ÖTV schedule, Presidential Decree 11606, Official Gazette 33339 (13 Aug 2026)",
+   "url": "https://www.pwc.com.tr/tr/hizmetlerimiz/vergi/dolayli-vergi/bultenler/kdv-otv-bultenleri/2026/motorinde-otv-indirimi.html"
+  },
+  {
+   "what": "Model: GiNOVA G-0 Bayesian V3 (infographic of 24 Sep 2026)",
+   "url": ""
+  }
+ ]
+}

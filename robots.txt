@@ -1,2 +1,16 @@
 User-agent: *
 Allow: /
+
+# AI search and assistants are welcome
+User-agent: GPTBot
+Allow: /
+User-agent: OAI-SearchBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://consultancy.ginova.net/sitemap.xml

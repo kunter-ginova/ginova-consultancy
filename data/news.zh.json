@@ -1,0 +1,605 @@
+{
+ "note": "Machine translations of the publishers’ English headlines. Applied only while the English headline is unchanged.",
+ "items": {
+  "https://fortune.com/2026/11/07/korn-ferry-survey-ai-transformation-leaders-middle-managers/": {
+   "en": "‘Shock absorbers’: Korn Ferry says managers are carrying AI change that executives aren’t ready to lead",
+   "t": "“减震器”：光辉国际称，经理们在承担高管尚未准备好引领的 AI 变革"
+  },
+  "https://www.fastcompany.com/91636817/5-ways-to-use-ai-to-actually-make-your-life-easier": {
+   "en": "5 tips for getting the most out of AI",
+   "t": "充分利用 AI 的 5 个技巧"
+  },
+  "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/": {
+   "en": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+   "t": "一些中国 AI 模型中的国家宣传只是“薄薄一层”，微调即可去除"
+  },
+  "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/": {
+   "en": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+   "t": "九个 AI 智能体尝试对美国国家实验室的开放问题进行自主研究，无一达到专家标准"
+  },
+  "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/": {
+   "en": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+   "t": "面向护理人员的应用获得一剂 AI，但这可能还不够"
+  },
+  "https://fortune.com/2026/11/07/harwood-north-dakota-data-center-ballot-measure-midterm-elections-2026/": {
+   "en": "‘Like being hit between the eyes with a sledgehammer’: Meet the one town in America that defied election trends and voted in favor of data centers",
+   "t": "“像被大锤砸在两眼之间”：美国唯一逆着选举趋势投票支持数据中心的小镇"
+  },
+  "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/": {
+   "en": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+   "t": "谷歌 AI 用普通智能手表即可检测高血压，无需袖带"
+  },
+  "https://fortune.com/2026/11/06/midterm-elections-ai-data-center-build-out-social-license/": {
+   "en": "The midterms didn’t stop the AI buildout. They simply repriced it—and OpenAI is already promising to pay up",
+   "t": "中期选举没有阻止 AI 建设热潮，只是重新定价，而 OpenAI 已承诺买单"
+  },
+  "https://www.fastcompany.com/91637493/godaddys-ceo-wont-read-ai-generated-work": {
+   "en": "GoDaddy’s CEO won’t read AI-generated work",
+   "t": "GoDaddy 首席执行官不会阅读 AI 生成的工作成果"
+  },
+  "https://www.ciodive.com/news/tech-workforce-AI-jobs-october/874043/": {
+   "en": "Tech employment rebounded in October, bolstered by AI jobs",
+   "t": "科技业就业在 10 月反弹，受 AI 岗位提振"
+  },
+  "https://www.ciodive.com/news/insurers-race-capture-value-agentic-ai/874047/": {
+   "en": "Insurers race to capture value from agentic AI",
+   "t": "保险公司竞相从智能体 AI 中获取价值"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/": {
+   "en": "Taxonomy of agentic primitives in Amazon Quick",
+   "t": "Amazon Quick 中智能体原语的分类"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/": {
+   "en": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+   "t": "在 Amazon ECS Fargate 上为 AI 智能体访问数据湖的无服务器 MCP 服务器"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/": {
+   "en": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "t": "用 Okta Cross App Access 和 Amazon Bedrock AgentCore 管控 AI 智能体访问 – 第 2 部分"
+  },
+  "https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html?utm_source=rss&utm_medium=rss&utm_campaign=untethered-ai-agents-in-delaware": {
+   "en": "Untethered AI agents in Delaware?",
+   "t": "特拉华州出现不受约束的 AI 智能体？"
+  },
+  "https://www.fastcompany.com/91637532/rip-cybertruck-the-perfect-symbol-of-every-elon-musk-failure": {
+   "en": "RIP Cybertruck: The perfect symbol for all of Elon Musk’s mistakes",
+   "t": "告别 Cybertruck：埃隆·马斯克所有失误的完美象征"
+  },
+  "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/": {
+   "en": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
+   "t": "OpenAI 获得 110 亿美元融资，但需向牙医争取更多资金"
+  },
+  "https://www.cybersecuritydive.com/news/ai-agents-normal-baseline-security-governance/873998/": {
+   "en": "Companies struggle to know what normal looks like for AI agents",
+   "t": "企业难以判断 AI 智能体的“正常”是什么样"
+  },
+  "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/": {
+   "en": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+   "t": "The Download：人形机器人打扫房屋，三星为 AI 热潮而建"
+  },
+  "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/": {
+   "en": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+   "t": "Sharp Tech 视频：美国就数据中心投票、对大型科技公司的影响、谷歌对 AI 的回应"
+  },
+  "https://interestingengineering.com/innovation/us-researchers-map-domains-under-1-nm-for-denser-memory": {
+   "en": "US scientists find domains under 1 nm² that could help shrink chip memory",
+   "t": "美国科学家发现小于 1 nm² 的畴，可能有助于缩小芯片存储"
+  },
+  "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy": {
+   "en": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "t": "据报道，中国招募 AI 高管监视黄仁勋"
+  },
+  "https://interestingengineering.com/innovation/diamond-foundry-grows-200mm-diamond-chips": {
+   "en": "World’s first 200 mm single-crystal diamond grown in US, can boost next-gen chips",
+   "t": "全球首块 200 毫米单晶金刚石在美国培育成功，可助力下一代芯片"
+  },
+  "https://interestingengineering.com/energy/explainer-how-sand-batteries-turn-surplus-renewable-electricity-into-stored-heat": {
+   "en": "Explainer: How sand batteries turn surplus renewable electricity into stored heat",
+   "t": "解析：沙子电池如何将过剩的可再生电力转化为储存的热能"
+  },
+  "https://interestingengineering.com/energy/battery-technologies-that-could-transform-electric-vehicles": {
+   "en": "7 Battery technologies that could transform electric vehicles and grid storage",
+   "t": "可能改变电动汽车和电网储能的 7 种电池技术"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity": {
+   "en": "AI is the new dating dealbreaker",
+   "t": "AI 成为约会的新“致命缺点”"
+  },
+  "https://interestingengineering.com/energy/1200-miles-chinese-firms-new-ev-battery": {
+   "en": "1,200-mile EV range: Chinese firm’s new lithium air EV battery offers 5x energy density",
+   "t": "1900 公里续航：中国公司新型锂空气电动车电池能量密度提升 5 倍"
+  },
+  "https://interestingengineering.com/energy/semiconductor-technologies-behind-faster-computing": {
+   "en": "10 semiconductor technologies behind faster computing and efficient power",
+   "t": "推动更快计算与高效电力的 10 项半导体技术"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy": {
+   "en": "All the latest updates on AI data centers",
+   "t": "AI 数据中心的所有最新动态"
+  },
+  "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces": {
+   "en": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+   "t": "Meta 的 Muse AI 可为您当下所需的应用版本创建定制“空间”"
+  },
+  "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/": {
+   "en": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+   "t": "Ripple-65B 预览版作为完全 Apache 2.0 许可的美国开放模型，展现出强大的智能体编程成果"
+  },
+  "https://techxplore.com/news/2026-11-techniques-hidden-ai-backdoors-major.html": {
+   "en": "Three new techniques target hidden AI backdoors without major performance losses",
+   "t": "三种新技术针对隐藏的 AI 后门，且性能损失不大"
+  },
+  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/": {
+   "en": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "t": "数百个 Artex AI 黑客工具被发现公开暴露在网上"
+  },
+  "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/": {
+   "en": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+   "t": "Meta 推出 Spaces，与您的 Muse 智能体协作的新方式"
+  },
+  "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/": {
+   "en": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+   "t": "免费的中国 AI 模型在黑客攻击方面强得吓人"
+  },
+  "https://variety.com/2026/film/markets-festivals/ai-filmmaking-platform-core-studio-launches-24-agents-tccf-1236941957/": {
+   "en": "AI Filmmaking Platform Core Studio Launches at Taiwan Creative Content Fest With 24 Specialized Agents",
+   "t": "AI 电影制作平台 Core Studio 在台湾创意内容大会上线，配备 24 个专业智能体"
+  },
+  "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/": {
+   "en": "‘Triplets of Belleville’ Director Sylvain Chomet Fires Back at AI Accusations Over Dior Film Featuring Robert Pattinson’s Voice: ‘Everything Was Drawn by Hand’ (EXCLUSIVE)",
+   "t": "《魔法灵球》导演西尔万·肖梅回应罗伯特·帕丁森配音的迪奥影片的 AI 指控：“一切都是手绘的”（独家）"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/": {
+   "en": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+   "t": "SageMaker Inference 现支持多实例 GPU，以最大化模型端点的 GPU 利用率"
+  },
+  "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/": {
+   "en": "How a Blue Wave midterm might reshape the AI industry",
+   "t": "“蓝色浪潮”中期选举可能如何重塑 AI 行业"
+  },
+  "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/": {
+   "en": "After the midterms, is the AI industry in for a rough two years?",
+   "t": "中期选举之后，AI 行业是否将迎来艰难的两年？"
+  },
+  "https://techxplore.com/news/2026-11-ai-products-thought-problem-machines.html": {
+   "en": "AI learns from the products of thinking, not thought itself. That's a problem for machines—and for us",
+   "t": "AI 从思考的产物中学习，而不是从思考本身。这对机器和对我们都是问题"
+  },
+  "https://aibusiness.com/data-centers/prompt-ai-s-next-bottleneck-is-outside-data-center": {
+   "en": "Prompt: AI's next bottleneck is outside the data center",
+   "t": "Prompt：AI 的下一个瓶颈在数据中心之外"
+  },
+  "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/": {
+   "en": "Perplexity now has its own always-on AI agent",
+   "t": "Perplexity 现在拥有自己的常驻 AI 智能体"
+  },
+  "https://techxplore.com/news/2026-11-qa-american-evolving-ai-robotics.html": {
+   "en": "Q&A: How is American manufacturing evolving with AI and robotics?",
+   "t": "问答：美国制造业如何随 AI 与机器人演进？"
+  },
+  "https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/": {
+   "en": "How to Measure AI Adoption, Performance, and ROI With 12 KPIs",
+   "t": "如何用 12 个 KPI 衡量 AI 的采用、表现与投资回报"
+  },
+  "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/": {
+   "en": "Could potential AI clones of GTA VI force a quicker official port?",
+   "t": "GTA VI 可能出现的 AI 克隆版会迫使官方更快推出移植版吗？"
+  },
+  "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/": {
+   "en": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+   "t": "AI 公司真的很想买下您的工作文件和电子邮件"
+  },
+  "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/": {
+   "en": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "t": "Ramp 数据显示，在 Anthropic 临近上市之际，AI 支出陷入停滞"
+  },
+  "https://aibusiness.com/ai-policy/google-s-ai-first-search-creates-challenges": {
+   "en": "Google's AI-first Search creates challenges for schools and businesses",
+   "t": "谷歌 AI 优先的搜索给学校和企业带来挑战"
+  },
+  "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/what-caught-your-eye-ai-bust-qualcomm-mmios-rf-emitters-2026-11/": {
+   "en": "What caught your eye? AI bust, Qualcomm MMIOs, RF emitters",
+   "t": "什么吸引了您的眼球？AI 泡沫、高通 MMIO、射频发射器"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss": {
+   "en": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+   "t": "特朗普与普京达成协议后，石油交易商为何拒绝购买俄罗斯柴油？"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss": {
+   "en": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+   "t": "格什姆岛和霍尔木兹遇袭，调解人试图阻止美伊局势升级"
+  },
+  "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe": {
+   "en": "Protesters storm Microsoft AI data center construction site",
+   "t": "抗议者冲入微软 AI 数据中心建筑工地"
+  },
+  "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status": {
+   "en": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+   "t": "报道称，英伟达在中国芯片走私受到审视之际，加强对东南亚 AI GPU 的追踪"
+  },
+  "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/": {
+   "en": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
+   "t": "METR 发现 Anthropic 可能早在 7 月就越过了自己设定的 AI 加速预警阈值"
+  },
+  "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/": {
+   "en": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+   "t": "用 Ollama 和 Python 构建您的第一个多工具 AI 智能体"
+  },
+  "https://www.ciodive.com/news/ibm-confluent-debuts-streamhouse-data-architecture-agents/873943/": {
+   "en": "IBM’s Confluent debuts Streamhouse data architecture for agents",
+   "t": "IBM 旗下 Confluent 推出面向智能体的 Streamhouse 数据架构"
+  },
+  "https://www.engineering.com/honeywell-and-rws-advance-ai-powered-cooling-optimization/": {
+   "en": "Honeywell and RWS advance AI-powered cooling optimization",
+   "t": "霍尼韦尔与 RWS 推进 AI 驱动的冷却优化"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss": {
+   "en": "Rains flood thousands of displaced families’ tents in Gaza",
+   "t": "降雨淹没加沙数千流离失所家庭的帐篷"
+  },
+  "https://www.engineering.com/mouser-offers-advantech-mic-743-at-ai-inference-system/": {
+   "en": "Mouser offers Advantech MIC-743-AT AI inference system",
+   "t": "Mouser 供应研华 MIC-743-AT AI 推理系统"
+  },
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits": {
+   "en": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
+   "t": "被要求重新编号页面的失控 AI 意外删除了一位法学教授的整份教学大纲和一年的讲义"
+  },
+  "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/": {
+   "en": "Give Your Python AI Agent Persistent Memory with One JSON File",
+   "t": "用一个 JSON 文件为您的 Python AI 智能体添加持久记忆"
+  },
+  "https://www.ciodive.com/news/tech-execs-grapple-costs-data-overload/873928/": {
+   "en": "As AI costs climb, knowing when to pull back becomes critical",
+   "t": "随着 AI 成本攀升，知道何时收手变得至关重要"
+  },
+  "https://www.electronicsweekly.com/news/products/test-measurement-products/emerson-ni-pxie-instruments-for-ai-accelerated-automated-testing-2026-11/": {
+   "en": "Emerson NI PXIe instruments for AI-accelerated automated testing",
+   "t": "用于 AI 加速自动化测试的艾默生 NI PXIe 仪器"
+  },
+  "https://www.ciodive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873856/": {
+   "en": "McDonald’s aims for nationwide drive-thru AI in 2027",
+   "t": "麦当劳力争 2027 年在全国推行 AI 得来速"
+  },
+  "https://www.fastcompany.com/91634134/beware-this-captcha-scam-designed-to-steal-your-data": {
+   "en": "Beware this CAPTCHA scam designed to steal your data",
+   "t": "当心这种旨在窃取您数据的 CAPTCHA 骗局"
+  },
+  "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/": {
+   "en": "Crusoe sells troubled Wyoming data center project to Google",
+   "t": "Crusoe 将陷入困境的怀俄明州数据中心项目出售给谷歌"
+  },
+  "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled": {
+   "en": "Home Office sued after stripping almost 1,500 EU citizens of right to live in UK",
+   "t": "内政部因剥夺近 1500 名欧盟公民在英居留权被起诉"
+  },
+  "https://www.scmp.com/business/china-business/article/3373588/chinas-ev-safety-push-gives-foreign-brands-tesla-gm-opening-comeback": {
+   "en": "China’s EV safety push gives foreign brands from Tesla to GM an opening for a comeback",
+   "t": "中国推动电动车安全，给从特斯拉到通用的外国品牌带来卷土重来的机会"
+  },
+  "https://techxplore.com/news/2026-11-energy-spur-faster-renewables-growth.html": {
+   "en": "Energy security concerns spur faster renewables growth across a widening constellation of countries",
+   "t": "能源安全担忧正在越来越多的国家推动可再生能源更快增长"
+  },
+  "https://www.hrdive.com/news/ai-rebounding-could-cost-companies/873462/": {
+   "en": "‘AI rebounding’ could cost companies",
+   "t": "“AI 反弹”可能让企业付出代价"
+  },
+  "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections": {
+   "en": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+   "t": "霍尔木兹海峡可能作为卡塔尔伊朗核查计划的一部分重新开放"
+  },
+  "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats": {
+   "en": "Firms are racing to protect themselves from AI cyber threats",
+   "t": "企业竞相保护自己免受 AI 网络威胁"
+  },
+  "https://www.al-monitor.com/originals/2026/11/cop31-comes-turkey-satellites-reveal-landfill-methane-problem": {
+   "en": "As COP31 comes to Turkey, satellites reveal a landfill methane problem",
+   "t": "COP31 来到土耳其之际，卫星揭示垃圾填埋场的甲烷问题"
+  },
+  "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/": {
+   "en": "The Download: Texas’s fragile AI boom and energy policy shifts",
+   "t": "The Download：得州脆弱的 AI 热潮与能源政策转变"
+  },
+  "https://www.energy-storage.news/bess-industry-buzz-blue-wave-in-the-midterms-rte-disagreements-cybersecurity-incident-in-chile/": {
+   "en": "BESS Industry Buzz: Blue Wave in the midterms, RTE disagreements, cybersecurity incident in Chile",
+   "t": "BESS 行业动态：中期选举蓝色浪潮、RTE 分歧、智利网络安全事件"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/05/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot/?utm_source=rss&utm_medium=rss&utm_campaign=when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot": {
+   "en": "When an Algorithm Reads Your Proxy and AI Is on the Ballot",
+   "t": "当算法读取您的委托书，而 AI 出现在选票上"
+  },
+  "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu": {
+   "en": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+   "t": "美国中期选举结果或助以色列联盟团结起来推翻内塔尼亚胡"
+  },
+  "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending": {
+   "en": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
+   "t": "以 Kimi 为首的中国 AI 模型主导开源企业支出"
+  },
+  "https://www.al-monitor.com/originals/2026/11/iran-says-forces-stronger-beginning-war": {
+   "en": "Iran says forces 'stronger' than at beginning of war",
+   "t": "伊朗称其力量“比战争开始时更强”"
+  },
+  "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/": {
+   "en": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+   "t": "对话 Intuit 首席执行官萨桑·古达尔齐：会计与 AI"
+  },
+  "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/": {
+   "en": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+   "t": "行业专家讨论中国阻止软银收购 ABB 机器人业务"
+  },
+  "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation": {
+   "en": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
+   "t": "卡塔尔称其在美伊之间的斡旋仍在防止局势升级"
+  },
+  "https://www.cartoonbrew.com/newsletter/pixars-executive-shakeup-wildwood-gains-ground-chomet-ai-questions-269148.html": {
+   "en": "Pixar’s Executive Shakeup; ‘Wildwood’ Gains Ground; Chomet AI Questions",
+   "t": "皮克斯高管调整；《Wildwood》势头渐强；肖梅 AI 质疑"
+  },
+  "https://aibusiness.com/data-centers/enterprises-face-tougher-ai-regulatory-landscape": {
+   "en": "Enterprises face tougher AI regulatory landscape after midterms",
+   "t": "中期选举后，企业面临更严格的 AI 监管环境"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/07/proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-national-association-of-manufacturers/?utm_source=rss&utm_medium=rss&utm_campaign=proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-national-association-of-manufacturers": {
+   "en": "Proposed SEC Rule on Rescinding Shareholder Proposal Rule 14a-8: A Comment from the National Association of Manufacturers",
+   "t": "SEC 拟废除股东提案规则 14a-8：美国全国制造商协会的意见"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/07/sec-sets-2027-exam-priorities-with-focus-on-conflicts-complex-products-and-technology/?utm_source=rss&utm_medium=rss&utm_campaign=sec-sets-2027-exam-priorities-with-focus-on-conflicts-complex-products-and-technology": {
+   "en": "SEC Sets 2027 Exam Priorities with Focus on Conflicts, Complex Products, and Technology",
+   "t": "SEC 公布 2027 年检查重点：利益冲突、复杂产品与技术"
+  },
+  "https://www.cybersecuritydive.com/news/congress-cybersecurity-democrats-agenda-cisa-ai/873883/": {
+   "en": "What to expect from Democrats’ cybersecurity agenda in Congress",
+   "t": "民主党在国会的网络安全议程值得期待什么"
+  },
+  "https://latent.space/p/ainews-anthropic-ipo-whither-now/": {
+   "en": "[AINews] Anthropic IPO: Whither Now?",
+   "t": "[AINews] Anthropic 上市：接下来会怎样？"
+  },
+  "https://www.dailysabah.com/business/tech/turkcell-to-showcase-green-technology-investments-at-cop31": {
+   "en": "Turkcell to showcase green technology investments at COP31",
+   "t": "土耳其电信将在 COP31 展示绿色技术投资"
+  },
+  "https://www.cybersecuritydive.com/news/french-probe-cyberattack-blood-supply/873871/": {
+   "en": "French authorities probe cyberattack targeting nation’s blood supply",
+   "t": "法国当局调查针对全国血液供应的网络攻击"
+  },
+  "https://www.utilitydive.com/news/historic-election-night-wont-change-growth-focus-at-duke-energy-executi/873965/": {
+   "en": "Duke Energy to stay course on data center-fueled growth plan after ‘historic’ election",
+   "t": "在“历史性”选举后，杜克能源将继续推进由数据中心驱动的增长计划"
+  },
+  "https://www.al-monitor.com/originals/2026/11/us-offers-20-mn-reward-info-irans-nuclear-program-centcom": {
+   "en": "US offers $20 mn reward for info on 'Iran's nuclear program': CENTCOM",
+   "t": "美国悬赏 2000 万美元征集“伊朗核计划”信息：美国中央司令部"
+  },
+  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+   "en": "Measuring how AI agents handle everyday wet-lab science",
+   "t": "衡量 AI 智能体如何处理日常湿实验室科学"
+  },
+  "https://www.cartoonbrew.com/artificial-intelligence/sylvain-chomet-dior-ad-ai-use-269124.html": {
+   "en": "On The Use Of AI In Sylvain Chomet’s Dior Ad: A Correction And An Apology",
+   "t": "关于西尔万·肖梅迪奥广告中使用 AI：更正与道歉"
+  },
+  "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/": {
+   "en": "Flo Milli Wins Dismissal of Copyright Lawsuit Over ‘Never Lose Me’ Beat Sample",
+   "t": "Flo Milli 赢得“Never Lose Me”节拍采样版权诉讼的驳回"
+  },
+  "https://www.hollywoodreporter.com/movies/movie-news/poff-standing-with-ukraine-tallinn-2026-films-events-war-1236741671/": {
+   "en": "PÖFF Stands With Ukraine: A Look at Films Featured at Tallinn Made Despite, and Because of, the War",
+   "t": "PÖFF 声援乌克兰：看在战争中以及因战争而拍摄的塔林参展影片"
+  },
+  "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/": {
+   "en": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
+   "t": "谷歌发布 Gemini Omni 1.2 Flash：15 秒 AI 视频，每秒 0.07 美元"
+  },
+  "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/": {
+   "en": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+   "t": "谷歌：学校可以保留搜索并跳过 Gemini，但 AI 搜索没有商量余地"
+  },
+  "https://www.servethehome.com/supermicro-super-ai-station-review-the-ai-server-that-doubles-as-a-workstation/": {
+   "en": "Supermicro Super AI Station Review: The AI Server That Doubles as a Workstation",
+   "t": "Supermicro Super AI Station 评测：兼作工作站的 AI 服务器"
+  },
+  "https://www.musicbusinessworldwide.com/rotor-videos-opens-artist-unlimited-to-any-artist-from-9-99-a-month-with-unlimited-release-visuals-and-a-library-of-17m-non-ai-generated-clips/": {
+   "en": "Rotor Videos opens Artist Unlimited to any artist from $9.99 a month, with unlimited release visuals and a library of 17M+, non-AI-generated clips",
+   "t": "Rotor Videos 向所有艺术家开放 Artist Unlimited，每月 9.99 美元起，含无限发行视觉素材和 1700 多万条非 AI 生成片段库"
+  },
+  "https://www.al-monitor.com/originals/2026/11/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says": {
+   "en": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
+   "t": "塔斯尼姆通讯社称，两枚导弹击中伊朗格什姆岛"
+  },
+  "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/": {
+   "en": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+   "t": "Vera 兼得两全：最高吞吐量与最快智能体"
+  },
+  "https://www.energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess/": {
+   "en": "Ford Energy partners with DESRI to deploy US BESS",
+   "t": "福特能源与 DESRI 合作在美国部署 BESS"
+  },
+  "https://www.energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity/": {
+   "en": "India approves Viability Gap Funding to support 92GWh of BESS and pumped hydro energy storage capacity",
+   "t": "印度批准可行性缺口资金，支持 92 吉瓦时 BESS 与抽水蓄能容量"
+  },
+  "https://www.ciodive.com/news/ai-security-governance-spending-dnsfilter/873782/": {
+   "en": "Companies spend more on cybersecurity but still struggle with AI oversight",
+   "t": "企业在网络安全上花费更多，但在 AI 监督上仍然吃力"
+  },
+  "https://www.just-food.com/news/bernard-matthews-plant-closure-backtracks/": {
+   "en": "Bernard Matthews backtracks on UK plant closure plan but jobs still at risk",
+   "t": "伯纳德·马修斯撤回英国工厂关闭计划，但就业岗位仍有风险"
+  },
+  "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/": {
+   "en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "t": "据报道，OpenAI 以 1.25 万亿美元估值再融资 110 亿美元"
+  },
+  "https://www.ciodive.com/news/midterms-democrats-data-centers-AI/873807/": {
+   "en": "What does a midterm power shift mean for AI policy?",
+   "t": "中期选举后的权力转移对 AI 政策意味着什么？"
+  },
+  "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears": {
+   "en": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
+   "t": "价值 1140 万美元的六托盘英伟达 GPU 在加州货运盗窃中被盗"
+  },
+  "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management": {
+   "en": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
+   "t": "据报道，英伟达想将 130 多栋旧电信建筑改造成小型数据中心"
+  },
+  "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": {
+   "en": "Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution",
+   "t": "民主党不应浪费发起外交政策革命的机会"
+  },
+  "https://www.al-monitor.com/originals/2026/11/us-treasury-sanctions-canadian-money-services-firms-over-iran-related": {
+   "en": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+   "t": "美国财政部因与伊朗相关的交易制裁加拿大货币服务公司"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/": {
+   "en": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+   "t": "得克萨斯曾是 AI 数据中心建设的新中心。这可能已经结束。"
+  },
+  "https://www.eenewseurope.com/en/openai-samsung-talks-ai-memory-supply/": {
+   "en": "OpenAI-Samsung talks amid tightening AI memory supply",
+   "t": "在 AI 内存供应趋紧之际，OpenAI 与三星洽谈"
+  },
+  "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/": {
+   "en": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "t": "Into the Omniverse：开发者如何借助前沿 AI 智能体把想法变成仿真"
+  },
+  "https://openai.com/index/australian-universities-ai-native-graduates": {
+   "en": "Australian universities are creating AI-native graduates",
+   "t": "澳大利亚大学正在培养 AI 原生毕业生"
+  },
+  "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam": {
+   "en": "Protesters break into Microsoft data center site in Amsterdam",
+   "t": "抗议者闯入阿姆斯特丹微软数据中心工地"
+  },
+  "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really/": {
+   "en": "To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).",
+   "t": "要结束俄罗斯在乌克兰的战争，欧洲需要接纳基辅。特朗普可以帮忙（真的）。"
+  },
+  "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/": {
+   "en": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "t": "开放权重的巫师：Chris Alexiuk 用开放模型让 AI 变简单"
+  },
+  "https://blogs.nvidia.com/blog/memory-full-stack-codesign/": {
+   "en": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "t": "每个字节更高性能：全栈协同设计如何解决 AI 的内存难题"
+  },
+  "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties": {
+   "en": "Israel's Arab-led parties in spotlight after inconclusive election",
+   "t": "以色列阿拉伯政党在悬而未决的选举后成为焦点"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/": {
+   "en": "The Download: blended meat, restored sight, and the agentic web",
+   "t": "The Download：混合肉、重见光明与智能体网络"
+  },
+  "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/": {
+   "en": "Securing the agentic enterprise with data lineage",
+   "t": "用数据血缘保护智能体企业"
+  },
+  "https://www.al-monitor.com/originals/2026/11/iran-turns-putin-war-us-election-reshape-strategic-calculations": {
+   "en": "Iran turns to Putin as war, US election reshape strategic calculations",
+   "t": "伊朗转向普京，战争与美国大选重塑战略盘算"
+  },
+  "https://thediplomat.com/2026/11/the-taipei-mayor-election-is-not-about-china/": {
+   "en": "The Taipei Mayor Election Is Not About China",
+   "t": "台北市长选举无关中国"
+  },
+  "https://stratechery.com/2026/ai-on-the-ballot/": {
+   "en": "AI on the Ballot",
+   "t": "选票上的 AI"
+  },
+  "https://thediplomat.com/2026/11/can-europe-regulate-chinas-e-commerce-giants-without-closing-its-market/": {
+   "en": "Can Europe Regulate China’s E-Commerce Giants Without Closing Its Market?",
+   "t": "欧洲能否在不关闭市场的前提下监管中国电商巨头？"
+  },
+  "https://www.energy-storage.news/energyaustralia-takes-delivery-of-final-units-for-250mwh-hallett-battery-storage-system/": {
+   "en": "EnergyAustralia takes delivery of final units for 250MWh Hallett battery storage system",
+   "t": "EnergyAustralia 收到 250 兆瓦时 Hallett 电池储能系统的最后几台设备"
+  },
+  "https://www.feedstrategy.com/animal-health-veterinary/mycotoxins/article/15834635/mycotoxin-testing-evolution-from-compliance-to-strategy": {
+   "en": "How the feed industry is rethinking mycotoxin risk",
+   "t": "饲料行业如何重新思考霉菌毒素风险"
+  },
+  "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/": {
+   "en": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+   "t": "诉讼：男子向妻子介绍 ChatGPT，她用它策划了谋杀他"
+  },
+  "https://gcaptain.com/u-s-targets-cubas-oil-tanker-fleet-in-new-sanctions-crackdown/": {
+   "en": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+   "t": "美国在新一轮制裁中瞄准古巴油轮船队"
+  },
+  "https://gcaptain.com/eu-lawmakers-push-back-against-approval-of-indian-ship-recycling-yards/": {
+   "en": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards",
+   "t": "欧盟议员反对批准印度拆船厂"
+  },
+  "https://www.manufacturingdive.com/news/bls-manufacturing-employment-situation-october-jolts-september-2026/873897/": {
+   "en": "Manufacturing industry added 19K jobs in October",
+   "t": "制造业 10 月新增 1.9 万个工作岗位"
+  },
+  "https://variety.com/2026/film/markets-festivals/chang-chen-emerging-taiwanese-actors-taiwan-creative-content-fest-1236941891/": {
+   "en": "Chang Chen Urges Emerging Taiwanese Actors to ‘Be Like Water’ at Taiwan Creative Content Fest Golden Horse Showcase",
+   "t": "张震在台湾创意内容大会金马展映上敦促新生代台湾演员“如水一般”"
+  },
+  "https://www.scmp.com/economy/china-economy/article/3373565/former-evergrande-economist-faces-wechat-gag-order-after-buy-dip-call": {
+   "en": "Former Evergrande economist faces WeChat gag order after ‘buy the dip’ call",
+   "t": "前恒大经济学家在“逢低买入”呼吁后被微信禁言"
+  },
+  "https://www.eenewseurope.com/en/analog-devices-completes-alif-semiconductor-acquisition-to-boost-edge-ai/": {
+   "en": "Analog Devices completes Alif Semiconductor acquisition to boost edge AI",
+   "t": "亚德诺半导体完成对 Alif Semiconductor 的收购，以强化边缘 AI"
+  },
+  "https://gcaptain.com/china-adopts-law-on-antarctic-activities-and-environmental-protection/": {
+   "en": "China Adopts Law on Antarctic Activities and Environmental Protection",
+   "t": "中国通过南极活动与环境保护法"
+  },
+  "https://www.eenewseurope.com/en/bosch-sensortec-ceo-stefan-finkbeiner-on-sensors-ai-and-innovation/": {
+   "en": "Bosch Sensortec CEO Stefan Finkbeiner on Sensors, AI and Innovation",
+   "t": "博世传感器技术首席执行官斯特凡·芬克拜纳谈传感器、AI 与创新"
+  },
+  "https://www.rapporteur.com/news/peace-agreement-in-ukraine-will-require-eu-kallas/": {
+   "en": "Europe rebuffs US push for new ‘security architecture’ in Russia deal",
+   "t": "欧洲拒绝美国在对俄协议中推动新的“安全架构”"
+  },
+  "https://thediplomat.com/2026/11/how-chinas-naval-air-reach-is-offsetting-the-malacca-dilemma/": {
+   "en": "How China’s Naval-Air Reach Is Offsetting the Malacca Dilemma",
+   "t": "中国的海空力量如何抵消马六甲困境"
+  },
+  "https://thediplomat.com/2026/11/does-china-have-a-plan-for-dealing-with-a-democratic-congress/": {
+   "en": "Does China Have a Plan for Dealing With a Democratic Congress?",
+   "t": "中国有应对民主党国会的计划吗？"
+  },
+  "https://www.manufacturingdive.com/news/zipline-drone-delivery-plans-manufacturing-expansion-uber-walmart/873940/": {
+   "en": "Zipline raises $1.5B, plans US drone manufacturing expansion",
+   "t": "Zipline 融资 15 亿美元，计划扩大美国无人机制造"
+  },
+  "https://www.manufacturingdive.com/news/century-aluminum-ceo-oklahoma-project-on-track-community-concerns-q3-2026/873971/": {
+   "en": "Century Aluminum CEO says Oklahoma project ‘on track’ despite community concerns",
+   "t": "世纪铝业首席执行官称俄克拉荷马项目“按计划进行”，尽管社区有担忧"
+  },
+  "https://www.al-monitor.com/originals/2026/11/trump-weighs-iran-strikes-possible-nuclear-opening-emerges": {
+   "en": "As Trump weighs Iran strikes, possible nuclear opening emerges",
+   "t": "在特朗普权衡打击伊朗之际，可能出现核问题的突破口"
+  },
+  "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-risks-of-corporate-political-spending/": {
+   "en": "The Hidden Risks of Corporate Political Spending",
+   "t": "企业政治支出的隐藏风险"
+  },
+  "https://www.rapporteur.com/news/poland-urges-faster-eu-social-media-ban-for-kids/": {
+   "en": "Poland urges faster EU social media ban for kids",
+   "t": "波兰敦促欧盟更快出台儿童社交媒体禁令"
+  },
+  "https://www.foodsafetynews.com/2026/11/fda-increases-enforcement-of-import-rules-on-shellfish-tamarind-and-canned-foods/": {
+   "en": "FDA increases enforcement of import rules on shellfish, tamarind and canned foods",
+   "t": "FDA 加强对贝类、罗望子和罐头食品进口规则的执法"
+  },
+  "https://www.foodsafetynews.com/2026/11/polish-man-faces-court-for-food-contamination-threat/": {
+   "en": "Polish man faces court for food contamination threat",
+   "t": "一名波兰男子因威胁污染食品出庭"
+  },
+  "https://www.foodsafetynews.com/2026/11/food-safety-week-focuses-on-raw-fish-risk/": {
+   "en": "Food safety week focuses on raw fish risk",
+   "t": "食品安全周聚焦生鱼风险"
+  }
+ }
+}

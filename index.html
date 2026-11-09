@@ -1,359 +1,359 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" dir="ltr" data-title-key="meta.title">
 <head>
-
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>GiNOVA | Enterprise generative AI. Board-level reporting.</title>
-<meta name="description" content="Scoped work for source-traceable reports, comparative scenarios and human-reviewed workflows built around organizational knowledge.">
-
-
-<link rel="stylesheet" href="/assets/fonts/fonts.css">
-<style>
-:root{
-  --ivory:#F3F0E8; --ink:#171817; --green:#17342C; --grey:#78756F;
-  --stone:#D8D2C7; --bronze:#9A7A47;
-  --serif:'Newsreader', Georgia, serif;
-  --sans:'Inter', -apple-system, sans-serif;
-  --maxw:1240px;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-@media (prefers-reduced-motion: reduce){ html{scroll-behavior:auto} *,*::before,*::after{animation:none!important;transition:none!important} }
-body{background:var(--ivory);color:var(--ink);font-family:var(--sans);font-size:16px;line-height:1.65;-webkit-font-smoothing:antialiased}
-.wrap{max-width:var(--maxw);margin:0 auto;padding:0 6vw}
-a{color:inherit;text-decoration:none}
-::selection{background:var(--green);color:var(--ivory)}
-.eyebrow{font-family:var(--sans);font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:var(--bronze);font-weight:600;display:flex;align-items:center;gap:14px}
-.eyebrow::before{content:"";width:28px;height:1px;background:var(--bronze)}
-h1,h2,h3{font-family:var(--serif);font-weight:300;letter-spacing:-.01em}
-h2{font-size:clamp(30px,4vw,46px);line-height:1.12;margin:18px 0 14px}
-.lead{color:var(--grey);max-width:62ch;font-size:17px}
-button{font-family:var(--sans);cursor:pointer}
-:focus-visible{outline:2px solid var(--bronze);outline-offset:3px}
-section{padding:104px 0}
-@media(max-width:760px){section{padding:64px 0}}
-
-/* header */
-header{position:sticky;top:0;z-index:50;background:rgba(243,240,232,.92);backdrop-filter:blur(10px);border-bottom:1px solid var(--stone)}
-.nav{display:flex;align-items:center;justify-content:space-between;height:76px}
-.brand{display:flex;align-items:center;gap:14px}
-.brand img{height:44px;width:auto}
-.brand .bname{font-family:var(--serif);font-size:23px;font-weight:500;letter-spacing:.02em}
-.brand .bdesc{font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:var(--grey);display:block;margin-top:1px}
-.navlinks{display:flex;gap:30px;align-items:center}
-.navlinks a{font-size:13.5px;font-weight:450;color:var(--ink);letter-spacing:.01em;padding:4px 0;border-bottom:1px solid transparent;transition:border-color .2s}
-.navlinks a:hover{border-color:var(--bronze)}
-.langs{display:flex;gap:2px;border:1px solid var(--stone);border-radius:2px;overflow:hidden;margin-left:8px}
-.langs button{font-size:11px;letter-spacing:.08em;padding:6px 9px;background:transparent;border:none;color:var(--grey)}
-.langs button[aria-pressed="true"]{background:var(--green);color:var(--ivory)}
-.cta{background:var(--green);color:var(--ivory);border:none;padding:12px 22px;font-size:13.5px;font-weight:500;letter-spacing:.02em;border-radius:2px;transition:background .2s}
-.cta:hover{background:#0f241e}
-.cta.ghost{background:transparent;color:var(--ink);border:1px solid var(--ink)}
-.cta.ghost:hover{background:var(--ink);color:var(--ivory)}
-@media(max-width:1080px){.navlinks a{display:none}.navlinks .langs button{display:block}}
-
-/* hero */
-.hero{padding:110px 0 120px}
-.hero .wrap{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,5fr);gap:6vw;align-items:center}
-.hero h1{font-size:clamp(44px,6vw,78px);line-height:1.04;font-weight:250}
-.hero h1 em{font-style:italic;font-weight:300;color:var(--green)}
-.hero .lead{margin:26px 0 38px}
-.heroctas{display:flex;gap:14px;flex-wrap:wrap}
-.field-wrap{position:relative}
-.field-wrap svg{width:100%;height:auto;display:block}
-.fcap{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--grey);margin-top:16px;text-align:right}
-@media(max-width:900px){.hero .wrap{grid-template-columns:1fr}.field-wrap{max-width:440px}}
-
-/* situations */
-.situ{border-top:1px solid var(--stone)}
-.chips{display:flex;flex-wrap:wrap;gap:10px;margin:34px 0 0}
-.chip{border:1px solid var(--stone);background:transparent;color:var(--ink);padding:11px 18px;font-size:13.5px;border-radius:2px;transition:all .2s}
-.chip:hover{border-color:var(--green)}
-.chip[aria-pressed="true"]{background:var(--green);color:var(--ivory);border-color:var(--green)}
-.situ-panel{margin-top:44px;border:1px solid var(--stone);background:#fbf9f4;padding:44px 46px;display:none;grid-template-columns:repeat(2,1fr);gap:36px 56px;border-radius:2px}
-.situ-panel.open{display:grid}
-.sp-item .k{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--bronze);font-weight:600;margin-bottom:8px}
-.sp-item .v{font-family:var(--serif);font-size:19px;line-height:1.4;font-weight:400}
-.sp-foot{grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--stone);padding-top:26px;gap:20px;flex-wrap:wrap}
-.sp-sku{font-size:13px;color:var(--grey)}
-.sp-sku strong{color:var(--ink);font-weight:600}
-@media(max-width:760px){.situ-panel{grid-template-columns:1fr;padding:30px}}
-
-/* decision path */
-.path-sec{background:var(--green);color:var(--ivory)}
-.path-sec .eyebrow{color:var(--stone)}
-.path-sec .eyebrow::before{background:var(--bronze)}
-.path-sec .lead{color:#b9c3bd}
-.path-track{margin:70px 0 0;position:relative}
-.path-line{position:absolute;top:9px;left:0;right:0;height:1px;background:rgba(243,240,232,.25)}
-.path-line-fill{position:absolute;top:9px;left:0;height:1px;background:var(--bronze);width:0;transition:width .5s ease}
-.path-nodes{display:flex;justify-content:space-between;position:relative}
-.pnode{background:none;border:none;display:flex;flex-direction:column;align-items:center;gap:14px;color:var(--stone);flex:1}
-.pnode .dot{width:19px;height:19px;border-radius:50%;border:1px solid rgba(243,240,232,.5);background:var(--green);transition:all .25s;position:relative}
-.pnode[aria-pressed="true"] .dot{background:var(--bronze);border-color:var(--bronze);box-shadow:0 0 0 6px rgba(154,122,71,.18)}
-.pnode .plabel{font-size:12px;letter-spacing:.06em;text-align:center}
-.pnode[aria-pressed="true"] .plabel{color:var(--ivory)}
-.path-detail{margin-top:56px;min-height:130px;max-width:720px}
-.path-detail .pd-title{font-family:var(--serif);font-size:30px;font-weight:300;margin-bottom:12px}
-.path-detail .pd-title span{color:var(--bronze);font-size:15px;font-family:var(--sans);letter-spacing:.15em;vertical-align:middle;margin-right:16px}
-.path-detail p{color:#c6cec9;max-width:60ch}
-@media(max-width:860px){
- .path-nodes{flex-direction:column;align-items:flex-start;gap:4px}
- .path-line,.path-line-fill{display:none}
- .pnode{flex-direction:row;padding:8px 0}
- .pnode .plabel{text-align:left}
-}
-
-/* products */
-.prods{display:grid;grid-template-columns:repeat(2,1fr);gap:1px;background:var(--stone);border:1px solid var(--stone);margin-top:54px}
-.prod{background:var(--ivory);padding:46px 44px;display:flex;flex-direction:column;gap:14px;transition:background .25s}
-.prod:hover{background:#fbf9f4}
-.prod .sku{font-size:11px;letter-spacing:.2em;color:var(--bronze);font-weight:600}
-.prod h3{font-size:27px;font-weight:350;line-height:1.2}
-.prod p{color:var(--grey);font-size:15px;flex:1}
-.prod a{font-size:13px;font-weight:500;letter-spacing:.04em;border-bottom:1px solid var(--bronze);width:max-content;padding-bottom:2px}
-@media(max-width:760px){.prods{grid-template-columns:1fr}}
-
-/* evidence + compare */
-.split{display:grid;grid-template-columns:5fr 7fr;gap:6vw;align-items:start}
-@media(max-width:860px){.split{grid-template-columns:1fr}}
-.evlist{display:grid;gap:0;margin-top:10px}
-.evrow{display:grid;grid-template-columns:44px 1fr;gap:18px;padding:20px 0;border-bottom:1px solid var(--stone);align-items:baseline}
-.evrow .n{font-family:var(--serif);font-style:italic;color:var(--bronze);font-size:19px}
-.evrow .t{font-weight:500;font-size:15px}
-.evrow .d{color:var(--grey);font-size:14px;margin-top:3px}
-
-.cmp{background:#EDE9DF;border-top:1px solid var(--stone);border-bottom:1px solid var(--stone)}
-.cmp-grid{display:grid;grid-template-columns:1fr 1fr;gap:1px;background:var(--stone);border:1px solid var(--stone);margin-top:54px}
-.cmp-col{background:var(--ivory);padding:44px}
-.cmp-col.g{background:var(--green);color:var(--ivory)}
-.cmp-col h3{font-size:22px;font-weight:400;margin-bottom:22px}
-.cmp-col ul{list-style:none}
-.cmp-col li{padding:11px 0;border-bottom:1px solid var(--stone);font-size:14.5px;color:var(--grey)}
-.cmp-col.g li{border-color:rgba(243,240,232,.15);color:#c6cec9}
-.cmp-col li:last-child{border:none}
-@media(max-width:760px){.cmp-grid{grid-template-columns:1fr}}
-
-/* founder */
-.founder .split{align-items:center}
-.fcard{border:1px solid var(--stone);padding:44px;background:#fbf9f4;border-radius:2px}
-.fcard .fname{font-family:var(--serif);font-size:30px;font-weight:350}
-.fcard .frole{color:var(--bronze);font-size:12px;letter-spacing:.18em;text-transform:uppercase;font-weight:600;margin:6px 0 22px}
-.fcard .fline{font-size:14px;color:var(--grey);padding:9px 0;border-top:1px solid var(--stone)}
-.fcard .fline strong{color:var(--ink);font-weight:500}
-
-/* intake */
-.start{background:var(--ivory)}
-.intake{margin-top:50px;border:1px solid var(--stone);background:#fbf9f4;border-radius:2px;overflow:hidden}
-.intake-head{display:flex;justify-content:space-between;align-items:center;padding:22px 40px;border-bottom:1px solid var(--stone);flex-wrap:wrap;gap:10px}
-.steps{display:flex;gap:26px}
-.step{font-size:12px;letter-spacing:.1em;color:var(--grey);display:flex;gap:9px;align-items:center}
-.step .sn{width:22px;height:22px;border:1px solid var(--stone);border-radius:50%;display:grid;place-items:center;font-size:11px}
-.step.on{color:var(--ink)}
-.step.on .sn{background:var(--green);color:var(--ivory);border-color:var(--green)}
-.intake-body{padding:40px}
-.fgrid{display:grid;grid-template-columns:1fr 1fr;gap:22px 26px}
-.fitem{display:flex;flex-direction:column;gap:7px}
-.fitem.full{grid-column:1/-1}
-.fitem label{font-size:12px;letter-spacing:.08em;font-weight:500;color:var(--ink)}
-.fitem input,.fitem select,.fitem textarea{font-family:var(--sans);font-size:14.5px;padding:12px 14px;border:1px solid var(--stone);background:var(--ivory);border-radius:2px;color:var(--ink)}
-.fitem textarea{min-height:96px;resize:vertical}
-.fitem input:focus,.fitem select:focus,.fitem textarea:focus{outline:none;border-color:var(--green)}
-.fnote{grid-column:1/-1;font-size:12.5px;color:var(--grey);border-left:2px solid var(--bronze);padding-left:14px}
-.intake-foot{display:flex;justify-content:space-between;align-items:center;padding:24px 40px;border-top:1px solid var(--stone);gap:12px;flex-wrap:wrap}
-.snap{padding:56px 46px;text-align:left;display:none}
-.snap.open{display:block}
-.snap .ref{font-size:11px;letter-spacing:.2em;color:var(--bronze);font-weight:600;text-transform:uppercase}
-.snap h3{font-family:var(--serif);font-size:32px;font-weight:300;margin:14px 0 8px}
-.snap p{color:var(--grey);max-width:60ch}
-.snapgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--stone);border:1px solid var(--stone);margin:34px 0}
-.snapcell{background:var(--ivory);padding:20px}
-.snapcell .k{font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--grey);margin-bottom:6px}
-.snapcell .v{font-family:var(--serif);font-size:18px}
-@media(max-width:760px){.fgrid{grid-template-columns:1fr}.snapgrid{grid-template-columns:1fr}.intake-body,.intake-head,.intake-foot{padding-left:22px;padding-right:22px}}
-
-/* footer */
-footer{background:var(--green);color:var(--ivory);padding:78px 0 44px}
-.fgridft{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:48px}
-footer .brand img{height:56px;opacity:.95}
-footer .motto{font-family:var(--serif);font-style:italic;font-size:16px;color:#b9c3bd;margin-top:18px}
-footer h4{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--bronze);margin-bottom:16px;font-weight:600}
-footer ul{list-style:none}
-footer li{margin:9px 0}
-footer li a{font-size:13.5px;color:#c6cec9;transition:color .2s}
-footer li a:hover{color:var(--ivory)}
-.fbottom{border-top:1px solid rgba(243,240,232,.15);margin-top:60px;padding-top:24px;display:flex;justify-content:space-between;font-size:12px;color:#8fa098;flex-wrap:wrap;gap:10px}
-@media(max-width:860px){.fgridft{grid-template-columns:1fr 1fr}}
-
-/* reveal */
-.rv{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
-.rv.in{opacity:1;transform:none}
-
-/* October evolution: retains July identity and decision content */
-:root{--maxw:1440px;--grey:#66635D}
-section{scroll-margin-top:92px}.eyebrow{font-size:12px}.brand .bdesc{font-size:11px;letter-spacing:.12em}.brand img{height:48px}.navlinks{gap:22px}.navlinks a{font-size:14px}.langs button{font-size:12px;min-width:38px;min-height:36px}.menu-toggle{display:none}.skip{position:absolute;left:18px;top:-80px;background:var(--green);color:var(--ivory);padding:12px;z-index:90}.skip:focus{top:12px}.corporate-hero{padding:50px 0 0}.hero-top{display:flex;justify-content:space-between;gap:24px;align-items:center}.review-label{font-size:12px;color:var(--grey)}.corporate-intro{display:grid;grid-template-columns:1.1fr 1fr;align-items:end;gap:8vw;margin:52px 0 64px}.corporate-intro h1{font-size:clamp(50px,5.4vw,83px);font-weight:300;line-height:1.02}.corporate-intro h1 em{color:var(--green)}.corporate-intro .lead{font-size:18px;max-width:47ch}.text-link{display:inline-block;margin-top:25px;border-bottom:1px solid var(--bronze);padding-bottom:4px;font-size:14px}.text-link:after{content:' ↗';margin-left:16px}.branch-label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:var(--grey);margin-bottom:18px}.branches{display:grid;grid-template-columns:1fr 1fr;gap:18px}.branch{position:relative;padding:38px 40px 28px;display:flex;flex-direction:column;overflow:hidden;min-height:490px;border:1px solid var(--green);transition:transform .25s}.branch:hover{transform:translateY(-4px)}.branch-number{font-size:13px;letter-spacing:.1em;color:var(--bronze)}.branch h2{font-size:clamp(35px,3.4vw,49px);position:relative;z-index:1;margin:22px 0 28px;line-height:1.06}.branch h2 em{font-weight:300}.branch-illustration{position:absolute;right:-15px;top:12px;width:50%;height:225px;opacity:.58;pointer-events:none}.branch-illustration svg{height:100%;width:100%}.branch-statement{position:relative;max-width:32ch;font-family:var(--serif);font-size:24px;line-height:1.28;margin-top:22px}.branch-body{font-size:14px;line-height:1.6;max-width:50ch;color:var(--grey);margin:14px 0 28px}.branch-link{display:flex;justify-content:space-between;align-items:center;border-top:1px solid var(--stone);padding-top:20px;font-size:14px;margin-top:auto}.branch-link>span:last-child{font-size:24px}.branch-labs{background:var(--green);color:var(--ivory)}.branch-labs .branch-body{color:#C8D1CC}.branch-labs .branch-number{color:#C4A976}.branch-labs .branch-link{border-color:#61736B}.branch-labs .branch-illustration{color:#C4A976;opacity:.8}.engineering{padding:78px 0 84px}.eng-intro{display:grid;grid-template-columns:1.2fr 1fr;align-items:center;gap:8vw}.eng-intro h2{font-size:38px}.engineering-grid{display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:32px;margin-top:42px;border-top:1px solid var(--stone);padding-top:26px}.engineering-grid article{padding-right:20px}.engineering-grid h3{font-size:25px;line-height:1.15;margin:12px 0}.engineering-grid p{font-size:15px;color:var(--grey)}.item-index{font-size:12px;color:var(--bronze)}.labs-detail{background:#EAE5DA;border-top:1px solid var(--stone);border-bottom:1px solid var(--stone)}.labs-intro{display:grid;grid-template-columns:1fr 1fr;align-items:center;gap:8vw}.labs-intro h2{font-size:46px}.labs-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:30px;margin-top:42px}.labs-grid article{border-top:1px solid #BDB5A6;padding-top:25px}.labs-grid h3{font-size:26px;line-height:1.2;margin:12px 0}.labs-grid p:not(.status){font-size:15px;color:var(--grey)}.status{font-size:12px;color:#6E5937;letter-spacing:.06em}.lab-mark{height:120px;display:flex;align-items:center;justify-content:center;margin-bottom:25px;position:relative;overflow:hidden;background:#F0ECE3}.mark-rd span{border:1px solid var(--bronze);border-radius:100%;width:80px;height:80px;margin:-12px}.mark-rd span:nth-child(2){width:104px;height:104px;border-color:var(--green)}.mark-sound{gap:5px}.mark-sound i{display:block;width:2px;height:calc(18px + (var(--i) * 7px));max-height:84px;background:var(--green);transform:scaleY(.75)}.mark-sound i:nth-child(3n){height:42px;background:var(--bronze)}.mark-sound i:nth-child(2n){height:64px}.mark-vision span{width:88px;height:66px;border:1px solid var(--green);position:absolute;transform:translateX(-30px) rotate(-8deg)}.mark-vision span:nth-child(2){transform:translateX(0) rotate(0);border-color:var(--bronze);background:#F0ECE3}.mark-vision span:nth-child(3){transform:translateX(30px) rotate(8deg)}.decision-intro{padding:92px 0}.decision-intro h1{font-size:62px}.decision-intro .field-wrap{max-width:390px}.contact-wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:8vw;align-items:center}.contact-card{padding:35px;border:1px solid var(--stone);background:#fbf9f4}.contact-card strong{font-family:var(--serif);font-size:30px;font-weight:400;display:block;margin:15px 0}.contact-note{font-size:14px;color:var(--grey)}.draft-info{margin-top:38px;border-top:1px solid #4A4A46;padding-top:20px;font-size:14px;color:#C9C7BF}.draft-info p{max-width:65ch;margin-top:15px}.rv{opacity:1!important;transform:none!important}.prod p{font-size:16px}.fcard .frole,.sp-item .k,.prod .sku,.evrow .d,.pnode .plabel{font-size:14px}.fcap{font-size:12px}.fcard .fname{font-size:32px}.fcard .fline{font-size:15px}.nav .cta{display:inline-block}.fbottom span{font-size:12px}
-@media(max-width:1100px){.navlinks{gap:16px}.brand .bdesc{max-width:170px;letter-spacing:.02em}.navlinks a{display:none}.navlinks .langs button{display:block}.menu-toggle{display:block;background:none;border:1px solid var(--stone);padding:9px 13px;font-size:14px;margin-left:auto;margin-right:16px}.nav.menu-open .navlinks{position:absolute;top:76px;left:0;right:0;background:var(--ivory);padding:24px 6vw;display:flex;flex-wrap:wrap;border-bottom:1px solid var(--stone);box-shadow:0 12px 15px #1718170a}.nav.menu-open .navlinks a{display:block}.nav.menu-open .navlinks .langs{margin-left:auto}.branch{padding:30px}.branch-illustration{opacity:.3;right:-40px}.eng-intro h2{font-size:34px}}
-@media(max-width:760px){.nav{height:76px}.brand{gap:8px}.brand img{height:40px}.brand .bname{font-size:21px}.brand .bdesc{font-size:10px;max-width:138px}.navlinks .cta{display:none}.navlinks .langs{display:none}.nav.menu-open .navlinks .langs{display:flex}.menu-toggle{margin-right:0;font-size:13px}.corporate-hero{padding-top:30px}.hero-top{display:block}.hero-top .eyebrow{font-size:11px;letter-spacing:.09em}.review-label{display:block;margin-top:10px;font-size:12px}.corporate-intro{grid-template-columns:1fr;margin:35px 0 40px;gap:24px}.corporate-intro h1{font-size:53px}.corporate-intro .lead{font-size:17px}.branch-label{font-size:11px;letter-spacing:.07em}.branches{grid-template-columns:1fr;gap:14px}.branch{min-height:415px;padding:28px}.branch h2{font-size:40px;margin-top:17px}.branch-illustration{width:47%;right:0;top:10px;height:190px}.branch-statement{font-size:23px;max-width:25ch;margin-top:15px}.branch-body{font-size:15px}.eng-intro,.labs-intro,.contact-wrap{grid-template-columns:1fr;gap:20px}.engineering{padding:56px 0}.engineering-grid,.labs-grid{grid-template-columns:1fr;gap:26px}.engineering-grid{margin-top:28px}.engineering-grid article{padding:0 0 24px;border-bottom:1px solid var(--stone)}.engineering-grid h3{font-size:27px}.engineering-grid p,.labs-grid p:not(.status){font-size:16px}.labs-intro h2{font-size:40px}.labs-grid{margin-top:28px}.lab-mark{height:150px}.decision-intro{padding:64px 0}.decision-intro h1{font-size:48px}.decision-intro .field-wrap{display:none}.contact-card{padding:25px}.contact-card strong{font-size:27px}.path-detail .pd-title{font-size:26px}.cmp-col{padding:26px}.fcard{padding:28px}.hero .lead{margin:22px 0}.brand .bdesc{line-height:1.25}.eyebrow{letter-spacing:.13em}}
-@media(prefers-reduced-motion:reduce){.branch:hover{transform:none}}
-</style>
-
-<style>.service-illustration{height:140px;display:flex;align-items:center;margin:0 0 12px;overflow:hidden}.service-illustration svg{display:block;width:100%;height:140px}.prod-illustration{height:120px;margin:-8px -5px 8px;opacity:.85}.prod-illustration svg{width:100%;height:120px;display:block}.sl-panel-art{height:110px;margin:-12px 0 18px;opacity:.85}.sl-panel-art svg{display:block;width:100%;height:110px}.service-illustration svg,.prod-illustration svg{transition:transform .5s ease}.engineering-grid article:hover .service-illustration svg,.prod:hover .prod-illustration svg{transform:translateY(-3px)}@media(max-width:760px){.service-illustration{height:155px;max-width:400px}.service-illustration svg{height:155px}.prod-illustration{height:110px}.prod-illustration svg{height:110px}}@media(prefers-reduced-motion:reduce){.service-illustration svg,.prod-illustration svg{transition:none!important;transform:none!important}}</style><style>/* Footer intrinsic-width correction, verified against reported 500px overflow. */
-.fgridft{grid-template-columns:minmax(0,2fr) repeat(3,minmax(0,1fr))}.fgridft>*{min-width:0;overflow-wrap:anywhere}.fgridft img{display:block;width:92px;max-width:100%;height:auto}.fbottom>*{min-width:0;max-width:100%;overflow-wrap:anywhere}.origin-note{font-size:14px;line-height:1.65;color:var(--grey);max-width:55ch;margin-top:20px}@media(max-width:860px){.fgridft{grid-template-columns:repeat(2,minmax(0,1fr));gap:36px}}@media(max-width:520px){.fgridft{gap:28px 20px}.fgridft>div:first-child,.fgridft>div:last-child{grid-column:1/-1}.fgridft img{width:80px}.fbottom{margin-top:36px}.origin-note{font-size:14px}}
-</style><style>
-/* GiNOVA visual review: editorial structure, sculptural focus, useful interactions */
-:root{--maxw:1480px;--ink:#16201C;--green:#153D31;--bronze:#967A4D;--grey:#626860;--stone:#D6D8CE}
-body{letter-spacing:-.01em}.wrap{padding-left:6vw;padding-right:6vw}header{background:rgba(243,240,232,.96);backdrop-filter:blur(16px)}.nav{height:88px}.brand img{height:47px}.brand .bname{font-size:26px;letter-spacing:-.03em}.brand .bdesc{font-size:12px;letter-spacing:.12em}.navlinks{gap:24px}.navlinks a{font-size:13px}.langs{border-radius:100px;padding:2px}.langs button{border-radius:100px;min-width:32px;min-height:29px}.cta{padding:14px 22px;font-size:14px;line-height:1.3;border-radius:0;font-weight:500}.cta.ghost{border-color:#A7B0A5}.eyebrow{font-size:12px;letter-spacing:.16em;line-height:1.5}.eyebrow:before{width:18px}.review-label{font-size:12px;letter-spacing:.04em;white-space:nowrap}.corporate-hero{padding:27px 0 0}.hero-top{margin-bottom:14px}.corporate-intro{position:relative;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:2vw;align-items:center;margin:0 0 46px;min-height:530px}.hero-copy{padding:30px 0;position:relative;z-index:1}.corporate-intro h1{font-size:clamp(48px,5.2vw,78px);line-height:.99;letter-spacing:-.035em;max-width:10ch;font-weight:300}.corporate-intro h1 em{font-weight:300;white-space:normal}.corporate-intro .lead{font-size:16px;line-height:1.75;max-width:44ch;margin-top:27px}.hero-copy .text-link{margin-top:26px;font-size:13px}.signature-figure{min-width:0;margin:0 -4vw 0 -3vw;position:relative}.signature-figure img{width:100%;height:510px;object-fit:cover;object-position:58% center;display:block;mix-blend-mode:multiply}.signature-figure figcaption{font-size:12px;text-transform:uppercase;letter-spacing:.1em;color:#78796C;text-align:right;padding-right:3vw;margin-top:-5px}.branch-label{font-size:12px;letter-spacing:.12em;margin-bottom:17px;display:flex;align-items:center;gap:24px}.branch-label:after{content:'';flex:1;height:1px;background:var(--stone)}.branches{gap:22px}.branch{min-height:310px;border:none;padding:29px 32px 24px;transition:background .25s,transform .25s;isolation:isolate}.branch-decision{background:#E4E8DD}.branch-labs{background:#163D32}.branch:before{content:'';position:absolute;inset:0;border:1px solid #153D310d;pointer-events:none}.branch h2{font-size:37px;line-height:.98;margin:20px 0 18px;letter-spacing:-.03em}.branch h2 br{display:none}.branch h2 em{display:block;margin-top:4px}.branch-number{font-size:12px}.branch-illustration{width:165px;height:150px;top:16px;right:8px;opacity:.5}.branch-statement{font-family:var(--sans);font-size:15px;line-height:1.6;max-width:40ch;margin:9px 0 0}.branch-body{font-size:13px;line-height:1.65;max-width:56ch;margin:12px 0 24px}.branch-link{font-size:12px;padding-top:15px;letter-spacing:.02em}.branch-decision .branch-link{border-color:#BFCBBB}.branch-labs .branch-link{border-color:#71857A}.branch:hover{transform:translateY(-3px)}.engineering{padding:94px 0}.eng-intro{grid-template-columns:1.15fr 1fr;gap:8vw}.eng-intro h2{font-size:43px;line-height:1.07;letter-spacing:-.025em}.eng-intro .lead{font-size:16px;line-height:1.75}.engineering-grid{gap:34px;margin-top:45px;border-top:0;padding:0}.engineering-grid article{border-top:1px solid #B8C4B5;padding-top:15px;padding-right:0}.service-illustration{height:155px;margin:0 0 18px;background:#ECEFE5}.service-illustration svg{height:125px}.engineering-grid h3{font-size:28px;letter-spacing:-.02em}.engineering-grid p{font-size:14px;line-height:1.75}.item-index{font-size:12px}.labs-detail{background:#E7E9DE;border:0;padding:85px 0}.labs-intro h2{font-size:49px;line-height:1.04;letter-spacing:-.025em}.labs-intro .lead{font-size:16px;line-height:1.75}.labs-grid{gap:30px;margin-top:46px}.labs-grid article{border:0;padding:0}.lab-mark{height:180px;background:#F3F3EA;margin-bottom:26px}.labs-grid h3{font-size:28px}.labs-grid p:not(.status){font-size:14px;line-height:1.75}.status{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#766239}.labs-grid .text-link{font-size:12px;margin-top:20px}.lab-boundary{border-top:1px solid #C3CBBE;padding-top:20px;margin-top:36px;font-size:12px;line-height:1.7;color:#656D61;max-width:90ch}.founder{padding:96px 0}.founder h2{font-size:49px;letter-spacing:-.025em}.founder .lead{font-size:16px;line-height:1.8}.fcard{padding:37px;background:transparent;border-color:#BDC8B7}.fcard .fname{font-size:34px}.fcard .frole{font-size:12px}.fcard .fline{font-size:13px}.origin-label{font-size:12px;letter-spacing:.14em;text-transform:uppercase;margin-top:34px;color:#876F48}.origin-note{font-size:14px;margin-top:10px;max-width:55ch;line-height:1.8}.mn{padding:62px 0;background:#172B23}.mn h2{font-size:34px;line-height:1.13}.mn .msig .mword{font-size:23px}.contact-wrap h2{font-size:49px;letter-spacing:-.025em}.contact-wrap .lead{font-size:16px;line-height:1.75}.contact-card{padding:36px;background:#E8ECE0;border:0}.contact-card strong{font-size:30px}.contact-note{font-size:12px;line-height:1.8}.start{padding:85px 0}.text-link{font-size:13px}.fgridft{gap:42px}.fgridft img{width:90px}.fgridft h4{font-size:12px}.fgridft a,.fgridft li{font-size:12px}.fbottom{gap:18px;margin-top:38px}.fbottom span{font-size:12px;line-height:1.7;max-width:55ch}footer{padding:60px 0 34px}.draft-info{font-size:12px}.v-flow{background:#132E25;color:#EDF0E5;padding:85px 0 72px;margin-top:82px;overflow:hidden}.v-flow .eyebrow{color:#B7A074}.v-flow-head{display:grid;grid-template-columns:1.15fr 1fr;gap:8vw;align-items:center}.v-flow h2{font-size:49px;letter-spacing:-.025em;line-height:1.06}.v-flow .lead{font-size:16px;color:#BBC8BA;line-height:1.75}.v-flow-tabs{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));margin-top:44px;gap:0;border-bottom:1px solid #506B57}.v-flow-tabs button{color:#A6B7A5;background:none;border:0;border-bottom:2px solid transparent;text-align:left;padding:18px 16px 20px 0;font-size:13px;line-height:1.5;transition:color .2s,border-color .2s}.v-flow-tabs button>small{display:block;color:#BDAC84;letter-spacing:.14em;font-size:12px;margin-bottom:8px}.v-flow-tabs button[aria-selected=true]{color:#FFFDF3;border-bottom-color:#CAB488}.v-flow-content{display:grid;grid-template-columns:1fr 1fr;gap:7vw;align-items:center;margin-top:35px;min-height:220px}.v-flow-drawing{position:relative;height:195px;display:flex;align-items:center;justify-content:center;gap:0}.v-flow-line{position:absolute;left:9%;right:9%;top:50%;height:1px;background:#5C715C}.v-flow-drawing span{width:16px;height:16px;border:1px solid #8FA384;border-radius:50%;background:#132E25;position:relative;margin:0 4%;transition:background .25s,box-shadow .25s}.v-flow-drawing span.active{background:#D1BB86;border-color:#D1BB86;box-shadow:0 0 0 12px #D1BB8615}.v-flow-copy{display:grid;grid-template-columns:1fr 1fr;gap:25px}.v-flow-copy h3{font-size:23px;margin-bottom:10px}.v-flow-copy p{font-size:12px;line-height:1.8;color:#BBC8BA}.v-flow .text-link{color:#E6E9DC;border-color:#9A8456;font-size:12px;margin-top:22px}.decision-intro{padding:60px 0 72px;background:linear-gradient(180deg,#F3F0E8,#EBEEE3)}.decision-intro .wrap{grid-template-columns:1.1fr 1fr;gap:3vw}.decision-intro h1{font-size:clamp(49px,5.6vw,80px);line-height:1.01;letter-spacing:-.04em}.decision-intro .lead{font-size:16px;line-height:1.75;max-width:44ch}.decision-intro .field-wrap{max-width:none;margin:0 -35px}.decision-intro .field-wrap img{width:100%;height:450px;object-fit:contain;display:block}.fcap{font-size:12px;letter-spacing:.1em;line-height:1.6}.situ{padding:78px 0}.situ h2{font-size:45px}.situ .lead{font-size:16px}.chips{gap:8px;margin-top:27px}.chip{font-size:12px;padding:10px 15px;border-radius:100px}.situ-panel{margin-top:30px;border:none;border-left:2px solid #9B855B;background:#E8EDE0;padding:34px;gap:30px 50px}.sp-item .k{font-size:12px;letter-spacing:.13em}.sp-item .v{font-size:21px}.sp-foot{border-color:#B6C4AD;padding-top:20px}.sp-sku{font-size:12px}.path-sec{padding:85px 0;background:#132E25}.path-sec h2{font-size:48px}.path-sec .lead{font-size:16px}.path-track{margin-top:48px}.pnode .plabel{font-size:12px}.path-detail{margin-top:36px}.path-detail p{font-size:14px;line-height:1.8}.prod{padding:32px;border-top:1px solid #B8C4B3}.prods{gap:22px;background:transparent;border:0;margin-top:36px}.prod h3{font-size:28px}.prod p{font-size:14px;line-height:1.8}.prod .sku{font-size:12px;letter-spacing:.17em}.prod a{font-size:12px}.prod-illustration{background:#E9EEE0;margin:0 0 16px;height:150px}.prod-illustration svg{height:135px}.evrow .t{font-size:14px}.evrow .d{font-size:13px}.cmp{background:#E9EDDF}.cmp-grid{border:0;gap:24px;margin-top:30px}.cmp-col{padding:32px}.cmp-col h3{font-size:27px}.cmp-col li{font-size:13px;line-height:1.8}.sl-hero{background:#132E25;padding-top:28px}.sl-hero-grid{grid-template-columns:1.08fr 1fr;gap:2vw;margin-top:30px;min-height:480px}.sl-word{font-size:13px;letter-spacing:.15em;margin-bottom:28px}.sl-hero h1{font-size:clamp(48px,5.6vw,79px);line-height:1.02;letter-spacing:-.035em}.sl-hero .lead{font-size:16px;line-height:1.8;margin:25px 0 30px}.sl-art{margin:0 -6vw 0 -4vw}.sl-art img{display:block;width:100%;height:440px;object-fit:contain}.sl-art figcaption{font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin:0}.sl-disciplines{margin-top:15px;padding-top:22px;font-size:12px;letter-spacing:.2em}.sl-section-head h2{font-size:47px}.sl-section-head .lead{font-size:16px;line-height:1.75}.sl-tabs button{font-size:14px;padding:25px 10px 25px 0}.sl-panel{border:0;border-left:2px solid #9A7A47;background:#E8ECE0;padding:30px 40px}.sl-panel-art{height:120px;max-width:360px;margin:0 0 20px}.sl-panel h3{font-size:38px}.sl-panel li{font-size:13px}.sl-panel>p:not(.sl-panel-index){font-size:14px;line-height:1.8}.sl-process{background:#E7EBDF;border:0}.sl-process-grid{gap:30px}.sl-process-grid p{font-size:13px;line-height:1.8}.sl-process-grid h3{font-size:28px}.sl-bridge{background:#F3F0E8}.sl-bridge .wrap{max-width:1150px}.sl-enquiry h2{font-size:48px}.sl-footer-word{font-size:30px}a,button{-webkit-tap-highlight-color:#9A7A4730}button:focus-visible,a:focus-visible{outline:2px solid #A48957;outline-offset:5px}
-@media(max-width:1100px){.nav.menu-open .navlinks{top:88px}.navlinks .cta{display:none}.corporate-intro h1{font-size:61px}.corporate-intro{min-height:450px;gap:1vw}.signature-figure img{height:420px}.branch{padding:28px;min-height:330px}.branch h2{font-size:33px}.branch-illustration{width:135px;right:0;opacity:.38}.branch-body{font-size:13px}.v-flow-copy{grid-template-columns:1fr;gap:18px}.v-flow-content{grid-template-columns:.7fr 1fr}.decision-intro .field-wrap img{height:390px}.sl-hero h1{font-size:60px}.sl-art img{height:390px}.sl-hero-grid{min-height:420px}}
-@media(max-width:760px){.wrap{padding-left:6vw;padding-right:6vw}.nav{height:78px}.nav.menu-open .navlinks{top:78px}.brand img{height:39px}.brand .bname{font-size:23px}.brand .bdesc{font-size:12px}.menu-toggle{font-size:12px}.hero-top{margin-bottom:0}.corporate-hero{padding-top:22px}.hero-top .eyebrow{font-size:12px;max-width:35ch}.review-label{font-size:12px}.corporate-intro{grid-template-columns:1fr;gap:0;margin-bottom:30px;min-height:0}.hero-copy{padding:28px 0 0}.corporate-intro h1{font-size:55px;line-height:1.02;max-width:12ch}.corporate-intro .lead{font-size:16px;line-height:1.75;margin-top:22px;max-width:50ch}.signature-figure{margin:-10px -6vw 0 0}.signature-figure img{height:300px;object-fit:contain;object-position:center}.signature-figure figcaption{font-size:12px;padding-right:6vw;margin-top:-2px}.branch-label{font-size:12px;letter-spacing:.09em;line-height:1.7}.branches{grid-template-columns:1fr;gap:14px}.branch{min-height:290px;padding:26px}.branch h2{font-size:35px;margin-top:18px}.branch-statement{font-size:14px}.branch-body{font-size:13px;max-width:48ch}.branch-illustration{width:155px;height:150px;top:8px;right:5px}.v-flow{margin-top:55px;padding:56px 0}.v-flow-head{grid-template-columns:1fr;gap:15px}.v-flow h2{font-size:39px}.v-flow .lead{font-size:15px}.v-flow-tabs{grid-template-columns:1fr 1fr;margin-top:28px;border:0;gap:0 15px}.v-flow-tabs button{border-top:1px solid #506B57;border-bottom:2px solid transparent;padding:15px 4px 15px 0;font-size:12px}.v-flow-content{grid-template-columns:1fr;gap:15px;margin-top:5px}.v-flow-drawing{height:110px}.v-flow-copy{grid-template-columns:1fr 1fr;gap:22px}.v-flow-copy h3{font-size:22px}.v-flow-copy p{font-size:12px}.engineering{padding:58px 0}.eng-intro,.labs-intro{grid-template-columns:1fr;gap:15px}.eng-intro h2{font-size:36px}.eng-intro .lead{font-size:15px}.engineering-grid{grid-template-columns:1fr;gap:28px;margin-top:30px}.engineering-grid article{border-bottom:0;padding-bottom:0}.service-illustration{max-width:none;height:160px}.engineering-grid p{font-size:15px}.labs-detail{padding:58px 0}.labs-intro h2{font-size:40px}.labs-grid{grid-template-columns:1fr;gap:37px;margin-top:30px}.lab-mark{height:170px;margin-bottom:20px}.labs-grid p:not(.status){font-size:15px}.status{font-size:12px}.lab-boundary{font-size:12px}.founder{padding:60px 0}.founder h2{font-size:41px}.founder .lead{font-size:15px}.fcard{padding:29px}.mn{padding:50px 0}.mn .msig{display:none}.mn h2{font-size:31px}.start,.sl-enquiry{padding:60px 0}.contact-wrap h2,.sl-enquiry h2{font-size:40px}.contact-wrap .lead{font-size:15px}.contact-card{padding:25px}.contact-card strong{font-size:26px;overflow-wrap:anywhere}.fgridft{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px 20px}.fgridft>div:first-child,.fgridft>div:last-child{grid-column:1/-1}.fgridft img{width:80px}.decision-intro{padding:38px 0 55px}.decision-intro .wrap{grid-template-columns:1fr;gap:0}.decision-intro h1{font-size:55px}.decision-intro .field-wrap{display:block;max-width:none;margin:0}.decision-intro .field-wrap img{height:295px}.decision-intro .lead{font-size:15px}.fcap{font-size:12px;text-align:center}.situ{padding:57px 0}.situ h2{font-size:38px}.situ .lead{font-size:15px}.chips{gap:7px}.chip{font-size:12px;padding:9px 12px}.situ-panel{padding:25px;gap:25px}.sp-item .v{font-size:20px}.path-sec{padding:57px 0}.path-sec h2{font-size:39px}.pnode .plabel{font-size:12px}.prods{grid-template-columns:1fr;gap:20px}.prod{padding:25px 0}.prod h3{font-size:29px}.prod p{font-size:15px}.prod-illustration{height:150px}.cmp-grid{grid-template-columns:1fr;gap:15px}.sl-hero-grid{grid-template-columns:1fr;min-height:0;margin-top:30px}.sl-hero h1{font-size:55px}.sl-hero .lead{font-size:15px}.sl-art{margin:0 -6vw}.sl-art img{height:300px}.sl-art figcaption{font-size:12px}.sl-disciplines{font-size:12px;margin-top:30px}.sl-section-head h2{font-size:39px}.sl-section-head .lead{font-size:15px}.sl-panel{padding:27px;border-left-width:2px}.sl-panel h3{font-size:34px}.sl-panel li{font-size:14px}.sl-process-grid p{font-size:15px}.sl-process-grid h3{font-size:29px}.sl-process h2{font-size:39px}.sl-bridge h2{font-size:34px}.sl-enquiry .contact-card strong{font-size:25px}}
-@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}.branch:hover{transform:none}}
-
-.corporate-intro h1{max-width:none}.corporate-intro .lead,.engineering-grid p,.labs-grid p:not(.status),.branch-statement,.prod p,.sl-panel>p:not(.sl-panel-index),.sl-process-grid p{font-size:16px}.branch-body,.v-flow-copy p,.contact-note,.fcard .fline,.sl-panel li,.cmp-col li,.evrow .d{font-size:14px}.brand .bdesc{font-size:10px}.review-label{font-size:12px}.branch{min-height:340px}.v-flow-copy h3{font-size:25px}.v-flow-copy p{line-height:1.8}@media(max-width:760px){.corporate-intro h1,.sl-hero h1,.decision-intro h1{font-size:51px}.branch{min-height:340px}.v-flow-copy{grid-template-columns:1fr}.branch-body,.contact-note,.fcard .fline,.sl-panel li,.cmp-col li{font-size:15px}.v-flow-copy p{font-size:15px}}</style><style>
-/* Service depth: readable measures and explicit deliverables. */
-.depth-section{padding:90px 0;border-top:1px solid var(--line,#d9d5cb)}
-.depth-intro{max-width:760px;margin-bottom:36px}.depth-intro h2{font:400 clamp(32px,4vw,52px)/1.08 var(--gn-font-serif);letter-spacing:-.035em}.depth-intro p{font-size:18px;line-height:1.65;margin-top:20px}
-.depth-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:32px}.depth-grid article{border-top:2px solid #9a7a47;padding-top:22px}.depth-grid h3{font:400 28px/1.12 var(--gn-font-serif);margin:0 0 16px}.depth-grid p,.depth-next{font-size:16px;line-height:1.7}.depth-next{margin-top:32px;max-width:850px}.engineering-grid p,.labs-grid p{line-height:1.65}.eng-more{margin-top:30px;display:inline-block}
-.navlinks{gap:19px}.navlinks>a{font-size:13px}.eng-page{padding-top:85px}.eng-hero{padding:55px 0 72px}.eng-hero-grid{display:grid;grid-template-columns:1.25fr .75fr;gap:64px;align-items:center}.eng-hero h1{font:400 clamp(44px,5.4vw,78px)/1.02 var(--gn-font-serif);letter-spacing:-.04em;max-width:870px}.eng-hero .lead{max-width:760px;margin:24px 0 28px;font-size:20px;line-height:1.6}.eng-art{padding:30px;background:#e9e5da;border-radius:4px}.eng-art svg{width:100%;height:auto}.eng-art p{font-size:13px;line-height:1.5;margin-top:20px}.eng-situations{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px;padding-top:40px}.eng-situations p{font-size:16px;line-height:1.6;border-top:1px solid #c7c2b5;padding-top:18px}.eng-services{background:#f0ede5}.scope-row{border-top:1px solid #cdc8bc;padding:0}.scope-row:last-child{border-bottom:1px solid #cdc8bc}.scope-row summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:52px 1fr 26px;gap:15px;align-items:center;padding:26px 0}.scope-row summary::-webkit-details-marker{display:none}.scope-row summary:after{content:'+';font-size:26px;color:#9a7a47}.scope-row[open] summary:after{content:'−'}.scope-row summary span{font-size:13px;color:#806839}.scope-row h3{font:400 30px/1.12 var(--gn-font-serif);margin:0}.scope-body{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;padding:0 0 32px 67px}.scope-body h4{font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px}.scope-body p{font-size:16px;line-height:1.7}.eng-method{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:26px}.eng-method h3{font:400 26px/1.14 var(--gn-font-serif)}.eng-method p{font-size:16px;line-height:1.7}.eng-boundary{background:#17342c;color:#f4f0e7}.eng-boundary .eyebrow{color:#d6be90}.eng-boundary p{max-width:920px;font-size:18px;line-height:1.7}.eng-crosslinks{display:flex;flex-wrap:wrap;gap:26px;margin-top:28px}.eng-crosslinks a{color:inherit}.eng-enquiry{padding-bottom:100px}.depth-section a:focus-visible,summary:focus-visible{outline:2px solid #9a7a47;outline-offset:6px}
-@media(max-width:1050px){.navlinks{gap:12px}.navlinks>a{font-size:12px}.eng-hero-grid{gap:30px}.eng-method,.eng-situations{grid-template-columns:repeat(2,minmax(0,1fr))}}
-@media(max-width:760px){.depth-section{padding:60px 0}.depth-grid,.eng-hero-grid,.scope-body{grid-template-columns:1fr}.eng-hero{padding:35px 0 50px}.eng-art{max-width:500px}.eng-page{padding-top:78px}.scope-body{padding-left:0;gap:22px}.eng-method,.eng-situations{grid-template-columns:1fr 1fr}.navlinks>a{font-size:16px}.eng-hero .lead{font-size:18px}.scope-row h3{font-size:26px}}
-@media(max-width:460px){.eng-method,.eng-situations{grid-template-columns:1fr}.scope-row summary{grid-template-columns:30px 1fr 20px;gap:8px}}
-@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
-</style><style>
-/* A measured 0.65em heading gap, independent of locale or wrapping. */
-#decision-systems .eyebrow{margin-bottom:0;line-height:1.6}#decision-systems h1{margin-top:.65em!important}
-.decision-scenes{margin:0 0 54px;border:1px solid #d4d6cb;background:#f1eee5;overflow:hidden;border-radius:4px}.decision-scene{margin:0;position:relative}.decision-scene[hidden]{display:none!important}.decision-scene img{display:block;width:100%;height:auto;aspect-ratio:16/9;object-fit:cover;object-position:center 46%}.decision-scene figcaption{display:grid;grid-template-columns:42px minmax(0,1fr) minmax(0,1fr);align-items:start;gap:22px;padding:27px 30px}.decision-scene h3{font:400 30px/1.12 var(--gn-font-serif);letter-spacing:-.025em;margin:0}.decision-scene p{font:400 16px/1.6 var(--gn-font-sans);margin:0;color:#526158}.decision-scene .eyebrow{padding-top:5px}.scene-controls{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:14px 24px;border-top:1px solid #d4d6cb}.scene-controls p{font:400 12px/1.5 var(--gn-font-sans);color:#647065;margin:0}.scene-buttons{display:flex;align-items:center;gap:14px}.scene-buttons button{width:42px;height:42px;border-radius:50%;border:1px solid #8b9c8d;color:#17342c;background:transparent;font-size:23px;cursor:pointer}.scene-buttons button:hover{background:#e0e6d9}.scene-buttons button:focus-visible{outline:2px solid #9a7a47;outline-offset:4px}#scene-status{font:500 12px var(--gn-font-sans);min-width:36px;text-align:center}@media(max-width:760px){.decision-scenes{margin-bottom:36px}.decision-scene figcaption{grid-template-columns:28px 1fr;padding:22px;gap:12px}.decision-scene figcaption p{grid-column:2}.decision-scene h3{font-size:27px}.scene-controls{padding:12px 16px;gap:12px}.scene-controls p{max-width:170px;font-size:11px}.decision-scene img{aspect-ratio:4/3}.scene-buttons{gap:8px}}@media(prefers-reduced-motion:reduce){.decision-scenes *{transition:none!important;animation:none!important}}
-</style><style>.work-link{background:none;border:0;border-top:1px solid #c2ccbd;color:#17342c;cursor:pointer;padding:17px 0 0;margin-top:auto;font:500 14px/1.4 var(--gn-font-sans);text-align:left;width:100%}.work-link:hover{text-decoration:underline}.work-link:focus-visible{outline:2px solid #9a7a47;outline-offset:5px}.work-reading{margin:38px 0 12px;border:1px solid #aabbab;background:#f6f3ec;padding:clamp(22px,4vw,52px);scroll-margin-top:110px}.work-reading[hidden]{display:none!important}.work-reading-head{display:flex;gap:26px;align-items:flex-start;justify-content:space-between;border-bottom:1px solid #d1d7ca;padding-bottom:26px;margin-bottom:28px}.work-reading h2{font:400 clamp(30px,4vw,48px)/1.12 var(--gn-font-serif);letter-spacing:-.03em;margin:0}.work-reading-head button{flex:none;background:transparent;border:1px solid #9cae9b;border-radius:25px;padding:10px 16px;cursor:pointer;color:#17342c}.work-reading #work-detail-scope{font-size:19px;line-height:1.65;max-width:900px;margin-bottom:30px}.work-reading h3{font:400 29px/1.2 var(--gn-font-serif);margin:28px 0 15px}.work-reading p,.work-reading li{font-size:16px;line-height:1.7}.work-reading ul{padding-left:22px}.work-reading .dossier-meta{font-size:13px;color:#596d5c;line-height:1.65;padding:16px 0;border-block:1px solid #d1d7ca}.work-reading .dossier-extract{padding:24px;background:#fffdf7;border-left:3px solid #9a7a47;margin:24px 0}.work-reading .table-scroll{overflow-x:auto;margin:24px 0}.work-reading table{width:100%;border-collapse:collapse;min-width:570px;font-size:14px}.work-reading th,.work-reading td{padding:13px;border:1px solid #c6d0c1;text-align:left;vertical-align:top}.work-reading th{background:#e6ebdf}.work-reading .dossier-cover{max-width:420px;width:100%;height:auto;display:block;margin:24px 0;border:1px solid #c6d0c1}.work-reading .reading-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:30px}@media(max-width:700px){.work-reading-head{display:block}.work-reading-head button{margin-top:20px}.work-reading .reading-grid{grid-template-columns:1fr;gap:12px}}@media(prefers-reduced-motion:reduce){.work-reading{scroll-behavior:auto}}
-</style>
-<style>.actual-media{padding:72px 0;background:#111921;color:#fff}.actual-media .media-heading{display:flex;justify-content:space-between;gap:40px;margin-bottom:30px}.actual-media h2{font:600 clamp(36px,5vw,65px)/1.05 var(--gn-font-sans);letter-spacing:-.04em;margin:10px 0}.actual-media .media-heading>p{max-width:430px;color:#d0d9dd}.record-grid{display:grid;grid-template-columns:1fr 1fr;gap:30px}.record-card{margin:0;min-width:0}.record-card img{width:100%;aspect-ratio:1.45;object-fit:cover;display:block}.record-card figcaption{padding:22px 0}.record-card h3{font:600 27px/1.2 var(--gn-font-sans);margin:8px 0}.record-card audio{width:100%;display:block;margin:18px 0}.record-card .media-meta{font-size:13px;color:#c0d0d3}.actual-media a{color:inherit;text-underline-offset:4px}.actual-media .media-fallback{font-size:13px}.media-error{color:#ffbd95;font-size:14px}.actual-video{background:#edf0e9;color:#12262a}.actual-video video{display:block;width:100%;max-height:680px;background:#071525}.actual-video .media-heading>p{color:#385251}.actual-video .media-caption{font-size:13px;color:#496361;margin-top:16px}@media(max-width:720px){.actual-media{padding:45px 0}.record-grid{grid-template-columns:1fr;gap:32px}.actual-media .media-heading{display:block}.actual-media h2{font-size:42px}}</style><style>.skip{position:absolute;left:16px;top:-120px;z-index:10000;background:#fff;color:#13292e;padding:12px 20px}.skip:focus{top:12px}:root{--muted:#526368;--bronze:#77542e}html{scroll-padding-top:100px}button:focus-visible,a:focus-visible,summary:focus-visible{outline:3px solid #2c60e5;outline-offset:4px}</style><link rel="stylesheet" href="/assets/atelier.css"><link rel="stylesheet" href="/assets/decision-entry.css"><link rel="stylesheet" href="/assets/welcome.css"><link rel="stylesheet" href="/assets/i18n.css"><link rel="stylesheet" href="/consultancy/decision-systems.css">
-<link rel="stylesheet" href="/assets/language-switcher.css"><style>
-/* Current branch: both color and underline, also in the mobile menu. */
-header .navlinks a[aria-current="page"]{color:#6f3faa!important;text-decoration:underline!important;text-decoration-thickness:2px;text-underline-offset:6px;font-weight:600}
-</style><link rel="stylesheet" href="/assets/header-contact.css"><link rel="stylesheet" href="/assets/brand-lockup.css"><link rel="stylesheet" href="/assets/section-elevator.css">
-<link rel="stylesheet" href="/assets/branch-header-geometry.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>GiNOVA Decision Systems | Decisions you can examine</title>
+<script>/* Opening: decided before first paint so there is no flash. Not for reduced motion, a deep link or a scrolled page. */
+(function(){try{var d=document.documentElement;if(!matchMedia('(prefers-reduced-motion: reduce)').matches&&!document.hidden&&(!location.hash||location.hash==='#intro')&&!(window.scrollY>20)&&!/[?&]still=1/.test(location.search))d.classList.add('intro-play')}catch(e){}})();</script>
+<meta name="description" content="Enterprise generative AI and board-level reporting. One decision question, a fixed fee and one Investment Decision File, with every claim traced to a source and reviewed by a named person.">
 <link rel="canonical" href="https://consultancy.ginova.net/">
-<link rel="stylesheet" href="/consultancy/consultancy.css">
-<link rel="stylesheet" href="/assets/corporate-review.css"><link rel="stylesheet" href="/assets/uniform-typography.css"><style>html[data-locale-pending] body{visibility:hidden}</style><script>(()=>{const l=new URLSearchParams(location.search).get('lang');if(l&&/^(es|de|it|ar|ru|tr|zh|az|fr)(-|$)/i.test(l)){document.documentElement.setAttribute('data-locale-pending','');window.addEventListener('error',()=>document.documentElement.removeAttribute('data-locale-pending'),{once:true});setTimeout(()=>document.documentElement.removeAttribute('data-locale-pending'),3000)}})();</script><style>.ds-back .text-link{display:inline-flex;align-items:center;gap:16px}.ds-back .text-link::after{content:none}.ds-back .text-link svg{flex:none}</style>
-<link rel="icon" type="image/svg+xml" href="/assets/brand-20261012/favicon.svg"><link rel="stylesheet" href="/assets/brand-20261012/identity.css"><script src="/assets/strategy-20261012/copy.js"></script><link rel="stylesheet" href="/assets/strategy-20261012/strategy.css"><meta name="theme-color" content="#0B1F3B"><meta property="og:type" content="website"><meta property="og:site_name" content="GiNOVA"><meta property="og:title" content="GiNOVA | Enterprise generative AI. Board-level reporting."><meta property="og:description" content="Scoped work for source-traceable reports, comparative scenarios and human-reviewed workflows built around organizational knowledge."><meta property="og:url" content="https://consultancy.ginova.net/"><meta property="og:image" content="https://engineering.ginova.net/assets/media-trademark-20261012/share.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://engineering.ginova.net/assets/media-trademark-20261012/share.png"><meta name="robots" content="index,follow"><script src="/assets/owner-redesign-20261012/copy.js"></script><link rel="stylesheet" href="/assets/owner-redesign-20261012/owner.css"><link rel="stylesheet" href="/assets/trademark-20261012/trademark.css?v=20261018-medialab-tm"><link rel="stylesheet" href="/consultancy/g0-discipline.css"><link rel="stylesheet" href="/consultancy/intake-review.css"></head><body data-gn-site="consultancy" class="consultancy-page"><a class="skip" href="#top" data-t="skip">Skip to content</a>
-<header class="ginova-branch-header">
-  <div class="wrap nav">
-    <a class="brand ginova-brand-lockup" href="https://ginova.org/" aria-label="GiNOVA — home" data-route="https://ginova.org/">
-      <span class="ginova-crest-frame"><img src="/assets/brand-20261012/crest.png" alt="GiNOVA"></span>
-      <span><span class="ginova-wordmark-frame"><img class="ginova-wordmark" src="/assets/brand-20261012/primary.png" width="140" height="29" alt="" aria-hidden="true"></span><span class="bdesc" data-t="brand.desc">Consultancy</span></span>
+<link rel="alternate" hreflang="en" href="https://consultancy.ginova.net/">
+<link rel="alternate" hreflang="it" href="https://consultancy.ginova.net/it/">
+<link rel="alternate" hreflang="de" href="https://consultancy.ginova.net/de/">
+<link rel="alternate" hreflang="es" href="https://consultancy.ginova.net/es/">
+<link rel="alternate" hreflang="tr" href="https://consultancy.ginova.net/tr/">
+<link rel="alternate" hreflang="az" href="https://consultancy.ginova.net/az/">
+<link rel="alternate" hreflang="ar" href="https://consultancy.ginova.net/ar/">
+<link rel="alternate" hreflang="zh-Hans" href="https://consultancy.ginova.net/zh/">
+<link rel="alternate" hreflang="x-default" href="https://consultancy.ginova.net/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="GiNOVA">
+<meta property="og:locale" content="en_US">
+<meta property="og:title" content="GiNOVA Decision Systems | Decisions you can examine">
+<meta property="og:description" content="Enterprise generative AI and board-level reporting. One decision question, a fixed fee and one Investment Decision File, with every claim traced to a source and reviewed by a named person.">
+<meta property="og:url" content="https://consultancy.ginova.net/">
+<meta property="og:image" content="https://consultancy.ginova.net/chrome/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "Organization", "@id": "https://ginova.org/#org", "name": "GiNOVA", "url": "https://ginova.org/", "logo": "https://consultancy.ginova.net/chrome/crest.png", "email": "satis@ginova.org"}, {"@type": "WebSite", "@id": "https://consultancy.ginova.net/#site", "url": "https://consultancy.ginova.net/", "name": "GiNOVA Decision Systems", "inLanguage": ["en", "it", "de", "es", "tr", "az", "ar", "zh-Hans"], "publisher": {"@id": "https://ginova.org/#org"}}, {"@type": "WebPage", "url": "https://consultancy.ginova.net/", "name": "GiNOVA Decision Systems | Decisions you can examine", "description": "Enterprise generative AI and board-level reporting. One decision question, a fixed fee and one Investment Decision File, with every claim traced to a source and reviewed by a named person.", "inLanguage": "en", "isPartOf": {"@id": "https://consultancy.ginova.net/#site"}}, {"@type": "Service", "name": "GiNOVA Decision Systems", "description": "Enterprise generative AI and board-level reporting. One decision question, a fixed fee and one Investment Decision File, with every claim traced to a source and reviewed by a named person.", "url": "https://consultancy.ginova.net/", "provider": {"@id": "https://ginova.org/#org"}, "hasOfferCatalog": {"@type": "OfferCatalog", "name": "Three scoped deliverables", "itemListElement": [{"@type": "Offer", "itemOffered": {"@type": "Service", "name": "GenAI Use-case Priorities", "description": "Where generative AI is worth trying first, and where it is not. Business problems, value hypotheses, data and access requirements, and pilot acceptance criteria."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Board Decision Dossier", "description": "What the board is being asked to decide, on what evidence. Source-traceable information, assumptions, options, scenarios, risks and open points."}}, {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Human-reviewed Workflow Prototype", "description": "Whether a workflow can run with AI and still be checked. Authorized data, control points, test records and handover notes."}}]}}]}</script>
+<link rel="icon" type="image/svg+xml" href="chrome/favicon.svg">
+<link rel="stylesheet" href="fonts/fonts.css">
+<link rel="stylesheet" href="chrome/chrome.css">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="site.css">
+</head>
+<body>
+<a class="gn-skip" href="#main" data-c="skip">Skip to content</a>
+<header class="gn-header" id="gnHeader" style="--gn-accent:#1945de">
+  <div class="gn-nav" id="gnNav">
+    <a class="gn-brand" href="https://ginova.org/" data-route="https://ginova.org/" data-ca="home" aria-label="GiNOVA home">
+      <span class="gn-crest"><img src="chrome/crest.png" width="62" height="56" alt=""><img class="lt" src="chrome/crest-light.png" width="62" height="56" alt=""></span>
+      <span class="gn-word"><span class="gn-wm"><img class="gn-wordmark" src="chrome/primary.png" width="140" height="32" alt="GiNOVA"><img class="gn-wordmark lt" src="chrome/primary-light.png" width="140" height="32" alt=""></span><span class="gn-motto" data-c="motto.decision">“Engineering better decisions.”</span></span>
     </a>
-    <button class="menu-toggle" aria-expanded="false" aria-controls="primaryNav" data-t="new.menu">Menu</button>
-<nav class="navlinks" id="primaryNav" aria-label="Primary">
-<a href="/g0/" data-route="https://consultancy.ginova.net/g0/">G-0</a>
-<a href="https://engineering.ginova.net/" data-route="https://engineering.ginova.net/" data-t="nav.engineering">Engineering</a><a href="https://consultancy.ginova.net/" data-route="https://consultancy.ginova.net/" data-t="nav.consultancy" aria-current="page">Consultancy</a><a href="https://medialab.ginova.net/" data-route="https://medialab.ginova.net/" data-t="nav.medialab">MediaLab™</a><div class="language-switcher" data-language-theme="decision"><select id="language-select" class="language-native" aria-label="Language"><option value="es" lang="es" dir="ltr">Español</option><option value="en" lang="en" dir="ltr" selected>English</option><option value="de" lang="de" dir="ltr">Deutsch</option><option value="it" lang="it" dir="ltr">Italiano</option><option value="ar" lang="ar" dir="rtl">العربية</option><option value="ru" lang="ru" dir="ltr">Русский</option><option value="tr" lang="tr" dir="ltr">Türkçe</option><option value="zh" lang="zh-Hans" dir="ltr">简体中文</option><option value="az" lang="az" dir="ltr">Azerbaycani</option><option value="fr" lang="fr" dir="ltr">Français</option></select></div>
-    <button type="button" class="header-contact-icon" onclick="goStart()" data-header-contact aria-label="Contact" title="Contact"><svg viewbox="0 0 16 16" aria-hidden="true" focusable="false"><circle cx="8" cy="4" r="1.6"></circle><circle cx="4.5" cy="11" r="1.6"></circle><circle cx="11.5" cy="11" r="1.6"></circle></svg><span class="header-contact-tooltip" aria-hidden="true">Contact</span></button>
-    <a data-strategy="common.about" href="https://ginova.org/#gn-company-overview">About</a><a data-strategy="common.contact" href="#start">Contact</a></nav>
+    <span class="gn-gap" aria-hidden="true"><span class="gn-sec"><i class="n"></i><i class="rule"></i><b class="t"></b></span></span>
+    <div class="gn-links" id="gnLinks">
+      <a class="gn-co" id="gnCompany" href="https://ginova.org/company/" data-route="https://ginova.org/company/" data-c="company">Company</a>
+      <a class="gn-contact" id="gnContact" href="#start" data-ca="nav.contact" aria-label="Contact"><span class="gn-contact-label" data-c="nav.contact">Contact</span></a>
+      <button class="gn-menu" id="gnMenuBtn" type="button" aria-expanded="false" aria-controls="gnOverlay"><span class="lbl" data-c="menu">Menu</span><span class="bars" aria-hidden="true"><i></i><i></i></span></button>
+      <div class="language-switcher" data-language-theme="portal"><select id="language-select" class="language-native" aria-label="Language"><option data-group="1" value="en" lang="en" dir="ltr" selected>English</option><option data-group="1" value="it" lang="it" dir="ltr">Italiano</option><option data-group="1" value="de" lang="de" dir="ltr">Deutsch</option><option data-group="1" value="es" lang="es" dir="ltr">Español</option><option data-group="2" value="tr" lang="tr" dir="ltr">Türkçe</option><option data-group="2" value="az" lang="az" dir="ltr">Azerbaycani</option><option data-group="3" value="ar" lang="ar" dir="rtl">العربية</option><option data-group="3" value="zh" lang="zh-Hans" dir="ltr">简体中文</option></select></div>
+    </div>
   </div>
+  <span class="gn-prog" aria-hidden="true"><i></i></span>
 </header>
+<div class="gn-ov" id="gnOverlay" role="dialog" aria-modal="true" data-ca="menu" aria-label="Menu" data-site="decision" data-cur="decision">
+  <div class="gn-ovbg" aria-hidden="true"><i class="l" data-s="engineering" style="background-color:#07131b;background-image:url(chrome/pop-engineering.svg);background-position:center 64%"></i><i class="l" data-s="decision" style="background-color:#050934;background-image:url(chrome/pop-decision.svg);background-position:center 34%"></i><i class="l" data-s="medialab" style="background-color:#1a0b2e;background-image:url(chrome/pop-medialab.svg);background-position:center 42%"></i><i class="l" data-s="academy" style="background-color:#240d18;background-image:url(chrome/pop-academy.svg);background-position:right 20%"></i><i class="l" data-s="ventures" style="background-color:#04211f;background-image:url(chrome/pop-ventures.svg);background-position:right 14%"></i><i class="wash"></i></div>
+  <div class="gn-ovin">
+    <nav class="gn-ovsites" data-ca="sites" aria-label="GiNOVA.NET sites">
+      <p class="gn-ph" data-c="sites.h">GiNOVA.NET</p>
+      <ol>
+        <li><a class="gn-row" href="https://engineering.ginova.net/" data-route="https://engineering.ginova.net/" data-s="engineering"><span class="ix">01</span><span class="nm" data-c="nav.engineering">Engineering</span><svg class="go" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="d" data-c="d.engineering">Production systems, feasibility, and product and process development, including food.</span></a></li>
+        <li class="is-cur"><div class="gn-row" aria-current="page"><span class="ix">02</span><span class="nm" data-c="nav.decision">Decision Systems</span><em class="here" data-c="here">You are here</em><span class="d" data-c="d.decision">Consulting, data and AI: one decision question, a fixed fee, one Investment Decision File.</span></div></li>
+        <li><a class="gn-row" href="https://medialab.ginova.net/" data-route="https://medialab.ginova.net/" data-s="medialab"><span class="ix">03</span><span class="nm" dir="ltr" data-c="nav.medialab">MediaLab™</span><svg class="go" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="d" data-c="d.medialab">Web, film, sound and brand communication, made to commission.</span></a></li>
+        <li><a class="gn-row" href="https://academy.ginova.net/" data-route="https://academy.ginova.net/" data-s="academy"><span class="ix">04</span><span class="nm" data-c="nav.academy">Academy</span><svg class="go" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="d" data-c="d.academy">The Academy Council: senior experts, research and teaching.</span></a></li>
+        <li><a class="gn-row" href="https://ventures.ginova.net/" data-route="https://ventures.ginova.net/" data-s="ventures"><span class="ix">05</span><span class="nm" data-c="nav.ventures">Ventures</span><svg class="go" viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 17 17 7M8 7h9v9"/></svg><span class="d" data-c="d.ventures">Brands and partnerships that grow out of this work.</span></a></li>
+      </ol>
+    </nav>
+    <nav class="gn-ovpage" data-ca="pagenav" aria-label="pagenav">
+      <p class="gn-ph" data-c="menu.page">On this page</p>
+      <ol>
+        <li><a class="gn-pl" href="#intro" data-c="rail.promise">Promise</a></li>
+        <li><a class="gn-pl" href="#desk" data-c="rail.desk">The desk</a></li>
+        <li><a class="gn-pl" href="#prices" data-c="rail.prices">Prices</a></li>
+        <li><a class="gn-pl" href="#work" data-c="rail.work">Work</a></li>
+        <li><a class="gn-pl" href="#method" data-c="rail.method">Method</a></li>
+        <li><a class="gn-pl" href="#start" data-c="rail.start">Start</a></li>
+      </ol>
+      <a class="gn-all" href="https://ginova.org/#gn-company-overview" data-route="https://ginova.org/#gn-company-overview" data-c="nav.about">About</a>
+    </nav>
+    <div class="gn-ovfoot" id="gnOvFoot"></div>
+  </div>
+</div>
 
 
-<main id="top"><section class="hero decision-intro decision-entry" id="consultancy">
-  <div class="wrap ds-back"><a class="text-link" href="https://ginova.org/" data-route="https://ginova.org/"><span data-t="new.back">Back to GiNOVA</span><svg aria-hidden="true" width="16" height="16" viewBox="0 0 20 20" fill="none"><path d="M4 16 16 4M5 4h11v11" stroke="currentColor" stroke-width="1.5"/></svg></a></div>
-  <div class="wrap">
-    <div>
-      <p class="eyebrow" data-t="hero.tag">02 / GiNOVA Consultancy</p>
-      <h1 data-strategy="consultancy.hero" class="gn-strategy-hero-title">Enterprise generative AI. Board-level reporting.</h1>
-      <p data-strategy="consultancy.lead" class="lead gn-strategy-hero-lead">Scoped work for source-traceable reports, comparative scenarios and human-reviewed workflows built around organizational knowledge.</p>
-      <div class="heroctas">
-        <a data-strategy="consultancy.cta" href="#start" class="cta">Discuss Decisions</a>
-        <button class="cta ghost" onclick="document.getElementById('method').scrollIntoView()" data-t="hero.method">See the approach</button>
-      </div>
+<div class="field" aria-hidden="true"><span>02</span><b data-c="long.decision">Consultancy &amp;
+Decision Systems</b></div>
+
+
+<main id="main">
+
+<!-- 1. Promise: the headline, with the dossier resting on the blue card -->
+<section id="intro" class="screen s-intro" data-nav="rail.promise" aria-labelledby="h-intro">
+  <div class="curtains" aria-hidden="true">
+    <div class="cur p1 c-eng"><span>01</span><b data-c="nav.engineering">Engineering</b></div>
+    <div class="cur p2 home"><span>02</span><b data-c="long.decision">Consultancy &amp;
+Decision Systems</b></div>
+    <div class="cur p3 c-med"><span>03</span><b data-c="nav.medialab" dir="ltr">MediaLab™</b></div>
+  </div>
+  <div class="hero-art" aria-hidden="true"><img src="img/hero/night-walk-1600.webp" srcset="img/hero/night-walk-1600.webp 1600w, img/hero/night-walk-3200.webp 3200w" sizes="100vw" alt="" width="3200" height="2552" fetchpriority="high" decoding="async"></div>
+  <div class="wrap intro-grid">
+    <div class="intro-copy">
+      <p class="kicker" data-t="intro.kicker">Decision Systems &amp; Consultancy</p>
+      <h1 id="h-intro" data-t="intro.h1">Decisions you can examine before you make them.</h1>
+      <p class="lede" data-t="intro.lede">Enterprise generative AI and board-level reporting. Every claim traces to a source, every assumption is written down, and a named person reviews the result.</p>
+      <p class="actions">
+        <a class="btn btn-solid" href="#start" data-t="intro.cta1">Start with one question</a>
+        <a class="btn btn-line" href="#desk" data-t="intro.cta2">See today’s desk</a>
+      </p>
+      <button class="filmchip" id="filmOpen" type="button" aria-haspopup="dialog">
+        <span class="thumb" aria-hidden="true"></span>
+        <svg class="pl" viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.5-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5Z"/></svg>
+        <span class="ft" data-t="film.open">Watch the film, 10 s</span>
+      </button>
     </div>
-    <div class="hero-media"><figure class="welcome-film" data-welcome-base="/assets/media-trademark-20261012/welcome/" data-playback="autoplay-loop"><div class="welcome-screen"><video playsinline="playsinline" preload="metadata" width="1280" height="720" poster="/assets/media-trademark-20261012/welcome/decision.jpg" data-aria="welcome.aria" aria-label="GiNOVA Consultancy welcome animation" autoplay="autoplay" loop="loop" muted="muted"></video></div><div class="welcome-controls"><button type="button" data-welcome-play>Play with sound</button><button type="button" data-welcome-pause>Pause</button><button type="button" data-welcome-sound aria-pressed="false">Mute</button></div><figcaption class="welcome-status" aria-live="polite">GiNOVA · 10 s</figcaption></figure></div>
+
+    <figure class="sheet" data-taria="sheet.label" aria-label="Illustrative page from a board decision dossier">
+      <div class="sheet-head">
+        <span data-t="sheet.head">Board Decision Dossier</span>
+        <span data-t="sheet.badge">Illustrative</span>
+      </div>
+      <dl>
+        <div><dt data-t="sheet.q">Question</dt><dd data-t="sheet.q.v">Should the board approve a pilot that uses generative AI to review supplier contracts?</dd></div>
+        <div><dt data-t="sheet.s">Sources</dt><dd data-t="sheet.s.v">Contract archive, procurement policy, two interviews. Each cited by page and date.</dd></div>
+        <div><dt data-t="sheet.a">Assumptions</dt><dd data-t="sheet.a.v">Contracts are in one language. Legal keeps final sign-off. Both written down, both open to challenge.</dd></div>
+        <div><dt data-t="sheet.o">Options</dt><dd data-th="sheet.o.v"><b>A</b> Pilot on one category. <b>B</b> Pilot on all. <b>C</b> Wait one quarter.</dd></div>
+        <div><dt data-t="sheet.p">Open points</dt><dd data-t="sheet.p.v">Who owns the exception list? Which data may leave the building?</dd></div>
+      </dl>
+      <figcaption data-t="sheet.cap">Illustrative structure, not a completed client dossier.</figcaption>
+    </figure>
   </div>
 </section>
 
-<section id="welcome-chapter" hidden><div class="wrap welcome-chapter-wrap"><p class="eyebrow" data-t="hero.tag">02 / GiNOVA Consultancy</p><h2 data-t="branch.name">GiNOVA Consultancy</h2><div class="welcome-mobile-host"></div></div></section><section id="services" class="consultancy-services"><div class="wrap"><p class="eyebrow" data-t="services.tag">Consultancy / Service areas</p><h2 data-t="services.title">Expertise around the question.</h2><p class="lead" data-t="services.body">Select an area. Each engagement has its own scope, inputs and deliverables.</p><div class="consultancy-tab-layout"><div id="service-tabs" class="consultancy-tabs" role="tablist" data-aria="services.tag"></div><label class="compact-picker"><span data-t="nav.services">Services</span><select id="service-select"></select></label><article class="consultancy-panel" id="service-panel" role="tabpanel" tabindex="0"><span class="service-index" aria-hidden="true">01 / 03</span><h3 id="service-name" data-t="services.0.name" data-dynamic-heading="services">GenAI Use-case Priorities</h3><div class="gn-service-problem"><h4 data-strategy="common.problem">The decision to resolve</h4><p id="service-body"></p></div><div class="service-output"><h4 data-t="services.output">Possible deliverable</h4><p id="service-output"></p></div><p id="service-responsibility" class="gn-service-responsibility"></p><details class="gn-offer-terms" id="scope"><summary data-owner="responsibilityLabel">Responsibility</summary><div class="wrap consultancy-text"><p class="eyebrow" data-t="boundary.tag">Scope / Evidence / Responsibility</p><h2 data-t="boundary.title">Clear limits. Agreed responsibilities.</h2><p class="lead" data-t="boundary.body">Each engagement is scoped around project needs and available expertise. Exploratory work and prototypes are identified separately from validated, production-ready systems.</p><p class="scope-note" data-t="boundary.note">Agree the question, deliverable, review criteria, timing and authorized data use before work starts.</p><p class="scope-note regulatory-note" data-t="services.scope">No statutory audit, tax, legal or regulated investment advice is implied. Professional authorization is checked where required.</p></div></details></article></div></div></section><section class="ds-workflow-slice" aria-label="Decision workflow" id="method"><div class="wrap"><div class="ds-intelligence" id="ds-intelligence" data-stage="0" role="region" data-aria="motion.region" aria-label="Interactive decision workflow"><div class="motion-intro"><p class="motion-kicker" data-t="method.tag">Across every service / Purposeful AI</p><h2 data-t-html="method.title">Tools support the work.<br>People own the judgment.</h2><p class="motion-disclaimer" data-t="method.body">We use AI where it has a clear purpose and state the scope, expertise required and what has been tested.</p></div><div class="motion-demo"><svg class="intelligence-drawing" viewbox="0 0 600 250" aria-hidden="true" focusable="false"><defs><lineargradient id="intelligence-spectrum"><stop stop-color="#9a7a47"></stop><stop offset=".5" stop-color="#718975"></stop><stop offset="1" stop-color="#9a7a47"></stop></lineargradient><pattern id="intelligence-grid" width="25" height="25" patternunits="userSpaceOnUse"><path d="M25 0H0V25" fill="none" stroke="#a3a796" stroke-opacity=".10"></path></pattern></defs><rect width="600" height="250" fill="url(#intelligence-grid)"></rect><g class="sketch-rails" fill="none" stroke="#819185" stroke-width="1"><path d="M8 90H28L55 130 M8 130H55 M8 170H28L55 130 M55 130C100 130 115 90 165 90S240 130 290 130S375 90 425 90S490 130 540 130H585"></path><path d="M165 90V32H290V130 M165 90V210H290V130" stroke-dasharray="4 6"></path><path class="option-branches" d="M425 90Q468 35 540 130 M425 90Q468 190 540 130"></path><path d="M42 58V46H85 M277 200V214H319 M515 54H556V68" stroke-opacity=".5"></path></g><path class="intelligence-flow" d="M8 130H55C100 130 115 90 165 90S240 130 290 130S375 90 425 90S490 130 540 130H585" fill="none" stroke="url(#intelligence-spectrum)" stroke-width="3"></path><path class="decision-commit-line" opacity="0" d="M425 90C480 90 490 130 540 130H585" fill="none" stroke="#9a7a47" stroke-width="3"></path><g class="decision-station is-active" data-station="0" transform="translate(55 130)"><circle class="station-halo" r="27" fill="none" stroke="#819185" stroke-opacity="0.35" stroke-width="1"></circle><circle r="18" fill="#f3f0e8" stroke="#819185" stroke-width="1.5"></circle><path fill="none" stroke="#173e32" stroke-width="1.5" d="M-7 0H7M0-7V7"></path></g><g class="decision-station" data-station="1" transform="translate(165 90)"><circle class="station-halo" r="27" fill="none" stroke="#819185" stroke-opacity="0.35" stroke-width="1"></circle><circle r="18" fill="#f3f0e8" stroke="#819185" stroke-width="1.5"></circle><path fill="none" stroke="#173e32" stroke-width="1.5" d="M-7-7H7V7H-7ZM-4-2H4M-4 3H4"></path></g><g class="decision-station" data-station="2" transform="translate(290 130)"><circle class="station-halo" r="27" fill="none" stroke="#819185" stroke-opacity="0.35" stroke-width="1"></circle><circle r="18" fill="#f3f0e8" stroke="#819185" stroke-width="1.5"></circle><path fill="none" stroke="#173e32" stroke-width="1.5" d="M-6-6L6 6M6-6L-6 6"></path></g><g class="decision-station" data-station="3" transform="translate(425 90)"><circle class="station-halo" r="27" fill="none" stroke="#819185" stroke-opacity="0.35" stroke-width="1"></circle><circle r="18" fill="#f3f0e8" stroke="#819185" stroke-width="1.5"></circle><path fill="none" stroke="#173e32" stroke-width="1.5" d="M-7 0H0M0 0L7-7M0 0L7 7"></path></g><g class="decision-station" data-station="4" transform="translate(540 130)"><circle class="station-halo" r="27" fill="none" stroke="#819185" stroke-opacity="0.35" stroke-width="1"></circle><circle r="18" fill="#f3f0e8" stroke="#819185" stroke-width="1.5"></circle><path fill="none" stroke="#173e32" stroke-width="1.5" d="M-7 0L-1 6L8-6"></path></g><g class="drawing-index" fill="#7f8378" font-size="12" font-family="Inter,Arial,sans-serif"><text x="48" y="178">01</text><text x="158" y="138">02</text><text x="283" y="178">03</text><text x="418" y="138">04</text><text x="533" y="178">05</text></g></svg><div class="motion-stages" role="group" data-aria="motion.region" aria-label="Interactive decision workflow"><button type="button" data-motion-stage="0" aria-pressed="true" data-t="map.signal">Signal</button><button type="button" data-motion-stage="1" aria-pressed="false" data-t="map.context">Context</button><button type="button" data-motion-stage="2" aria-pressed="false" data-t="map.challenge">Challenge</button><button type="button" data-motion-stage="3" aria-pressed="false" data-t="map.options">Options</button><button type="button" data-motion-stage="4" aria-pressed="false" data-t="map.decision">Decision</button></div><div class="motion-detail" id="motion-detail"><span class="motion-detail-index" aria-hidden="true">01 / 05</span><h3 id="motion-detail-title" data-t="motion.input" data-dynamic-heading="motion">A signal needs context</h3><p id="motion-detail-body">Start with what changed, who is affected and the decision that must be made. A signal is a question to investigate, not a conclusion.</p></div><div class="motion-controls"><p data-t="motion.keys">Select a stage. Use arrow keys, Home or End.</p></div></div></div></div></section>
-
-<section id="workflow-chapter" hidden><div class="wrap"><p class="eyebrow" data-t="motion.label">APPLIED AI / HUMAN CONTROL</p><h2 data-t="motion.title">Watch a question become a decision.</h2><div class="workflow-mobile-host"></div></div></section><section id="g0-discipline" class="g0-discipline" aria-labelledby="g0-discipline-title">
-  <div class="wrap g0-discipline-wrap">
-    <div class="g0-discipline-heading">
-      <div class="g0-discipline-mark" aria-hidden="true">G<span>–</span>0<i></i></div>
+<!-- 2. The Desk -->
+<section id="desk" class="screen s-desk" data-nav="rail.desk" aria-labelledby="h-desk">
+  <div class="desk" id="deskRoot">
+    <header class="desk-top">
       <div>
-        <p class="g0-kicker" data-discipline="kicker">G-0 / The GiNOVA discipline</p>
-        <h2 id="g0-discipline-title" data-discipline="title">First, the right problem. Then, the right decision.</h2>
-        <p class="g0-discipline-lead" data-discipline="lead">Before generative intelligence enters the work, we frame the problem together and make the decision context open to examination.</p>
+        <p class="kicker" data-t="desk.kicker">The desk</p>
+        <h2 id="h-desk" data-t="desk.h2">What moved in the last seven days, read and ranked by four agents.</h2>
+      </div>
+      <div class="desk-status">
+        <span class="live" id="deskLive"><i></i><b id="deskState">&hellip;</b></span>
+        <span id="deskMeta">&nbsp;</span>
+        <button class="getnews" id="deskGet" type="button" aria-haspopup="dialog" data-t="sub.cta">Get focused news</button>
+        <button class="pause" id="deskPause" type="button" aria-pressed="false" data-t="btn.pause">Pause motion</button>
+      </div>
+    </header>
+
+    <div class="desk-main">
+      <section class="agents" data-taria="desk.agents.label" aria-label="The four agents">
+        <h3 data-t="desk.agents">Agents on shift</h3>
+        <ul id="agents">
+          <li data-a="scout"><b data-t="agent.scout">Scout</b><span class="do" data-t="agent.scout.do">Fetches the desk feed</span><em class="now" data-now>&mdash;</em><strong data-n>0</strong></li>
+          <li data-a="reader"><b data-t="agent.reader">Reader</b><span class="do" data-t="agent.reader.do">Takes headline and link, never the article</span><em class="now" data-now>&mdash;</em><strong data-n>0</strong></li>
+          <li data-a="sorter"><b data-t="agent.sorter">Sorter</b><span class="do" data-t="agent.sorter.do">Gives each item one topic</span><em class="now" data-now>&mdash;</em><strong data-n>0</strong></li>
+          <li data-a="editor"><b data-t="agent.editor">Editor</b><span class="do" data-t="agent.editor.do">Scores by field, topic and age</span><em class="now" data-now>&mdash;</em><strong data-n>0</strong></li>
+        </ul>
+        <h3 class="log-h" data-t="desk.activity">Activity</h3>
+        <ol class="log" id="deskLog" data-taria="desk.log.label" aria-label="Agent activity, newest first"></ol>
+      </section>
+
+      <section class="radar-wrap" data-taria="desk.radar.label" aria-label="Radar of headlines by topic and age">
+        <div class="filters-row">
+        <div class="filters" role="group" data-taria="desk.filter.label" aria-label="Filter by field" id="deskFilters">
+          <button type="button" data-lane="all" aria-pressed="true"><span data-t="lane.all">All fields</span></button>
+          <button type="button" data-lane="decision" aria-pressed="false"><i style="--c:var(--l-decision)"></i><span data-t="lane.decision">Decision systems</span></button>
+          <button type="button" data-lane="ai" aria-pressed="false"><i style="--c:var(--l-ai)"></i><span data-t="lane.ai">AI industry</span></button>
+          <button type="button" data-lane="world" aria-pressed="false"><i style="--c:var(--l-world)"></i><span data-t="lane.world">Geopolitics &amp; geoeconomics</span></button>
+          <button type="button" data-lane="engineering" aria-pressed="false"><i style="--c:var(--l-engineering)"></i><span data-t="lane.engineering">Engineering</span></button>
+          <button type="button" data-lane="food" aria-pressed="false"><i style="--c:var(--l-food)"></i><span data-t="lane.food">Food</span></button>
+          <button type="button" data-lane="media" aria-pressed="false"><i style="--c:var(--l-media)"></i><span data-t="lane.media">Media</span></button>
+        </div>
+        <button type="button" class="allbtn" id="deskAll" aria-pressed="false" hidden></button>
+        </div>
+        <div class="radar" id="radar">
+          <div class="plot" id="plot"></div>
+          <div class="tip" id="tip" role="status" hidden></div>
+        </div>
+      </section>
+
+      <section class="rank" data-taria="desk.rank.label" aria-label="Top headlines, ranked">
+        <h3 data-t="desk.ranked">Ranked now</h3>
+        <ol id="rank"></ol>
+      </section>
+    </div>
+
+    <div class="srcline" id="deskSrcLine" data-taria="desk.src" aria-label="Sources we read" hidden>
+      <span class="srcline-h" data-t="desk.src">Sources we read</span>
+      <div class="srcline-run"><div class="srcline-track" id="deskSrc"></div></div>
+    </div>
+
+    <p class="desk-note" data-t="desk.note">Headlines and links only; each opens at its publisher. Topics and scores come from fixed rules, not a language model. The four agents are small scripts today.</p>
+    <noscript><p class="desk-note">The desk needs JavaScript. Without it, open the sources directly: Food Dive, MIT Technology Review, Engineering.com, Variety.</p></noscript>
+  </div>
+
+  <dialog class="subdlg" id="subDlg" aria-labelledby="subH">
+    <form class="sub-in" id="subForm" method="dialog" novalidate>
+      <button class="dlg-x" id="subClose" type="button" data-ca="close" aria-label="Close"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+      <h3 id="subH" data-t="sub.h">Focused market news, where you work</h3>
+      <p class="sub-lede" data-t="sub.lede">Tell us what to watch and where you want it. We reply in writing to confirm what we can send you now.</p>
+      <fieldset><legend data-t="sub.what">What to follow</legend>
+        <div class="sub-grid">
+          <label class="sub-opt"><input type="checkbox" name="f" value="decision"><span data-t="lane.decision">Decision systems</span></label>
+          <label class="sub-opt"><input type="checkbox" name="f" value="ai"><span data-t="lane.ai">AI industry</span></label>
+          <label class="sub-opt"><input type="checkbox" name="f" value="world"><span data-t="lane.world">Geopolitics &amp; geoeconomics</span></label>
+          <label class="sub-opt"><input type="checkbox" name="f" value="engineering"><span data-t="lane.engineering">Engineering</span></label>
+          <label class="sub-opt"><input type="checkbox" name="f" value="food"><span data-t="lane.food">Food</span></label>
+          <label class="sub-opt"><input type="checkbox" name="f" value="media"><span data-t="lane.media">Media</span></label>
+        </div>
+      </fieldset>
+      <fieldset><legend data-t="sub.where">Where to receive it</legend>
+        <div class="sub-grid">
+          <label class="sub-opt" aria-disabled="true"><input type="checkbox" checked disabled><span data-t="sub.ch.page">On this page</span><em class="sub-chip live" data-t="sub.chip.live">Live now</em></label>
+          <label class="sub-opt"><input type="checkbox" name="c" value="email" checked><span data-t="sub.ch.email">Email</span><em class="sub-chip" data-t="sub.chip.req">On request</em></label>
+          <label class="sub-opt"><input type="checkbox" name="c" value="whatsapp"><span data-t="sub.ch.wa">WhatsApp</span><em class="sub-chip plan" data-t="sub.chip.plan">Planned</em></label>
+          <label class="sub-opt"><input type="checkbox" name="c" value="desktop"><span data-t="sub.ch.desk">Desktop alerts</span><em class="sub-chip plan" data-t="sub.chip.plan">Planned</em></label>
+        </div>
+      </fieldset>
+      <label class="sub-nl" for="subNote" data-t="sub.note">Anything specific to watch? Products, countries, competitors.</label>
+      <textarea id="subNote" rows="3" maxlength="600"></textarea>
+      <p class="actions"><button class="btn btn-solid" id="subGo" type="submit" data-t="sub.go">Prepare my request</button>
+        <span class="fine" data-t="start.fine">Opens an email draft to satis@ginova.org. Nothing is sent from this page.</span></p>
+    </form>
+  </dialog>
+</section>
+
+
+
+<!-- Price watch: Ankara diesel, traced, followed, forecast -->
+<section id="prices" class="screen s-prices" data-nav="rail.prices" aria-labelledby="h-prices">
+  <div class="wrap pw">
+    <div class="pw-head">
+      <p class="kicker" data-p="kicker">Price watch</p>
+      <h2 id="h-prices" data-p="h2">We trace it. We follow it. We forecast it.</h2>
+      <p class="lede" data-p="lede">The pump price is built from tax, the dollar and the world market. Move the five inputs and see where the price lands.</p>
+    </div>
+    <div class="pw-pick"><label for="pwSel" data-p="pick">Commodity</label><select id="pwSel"></select><button type="button" class="getnews" id="pwReport" data-p="report">Get a focused report</button></div>
+    <div id="pwPending" class="pw-pending" hidden><h3 id="pwPName"></h3><p id="pwPWhat"></p><p id="pwPSrc" class="pw-note"></p></div>
+    <div class="pw-grid" id="pwGrid">
+      <figure class="pw-chart"><svg id="pwSvg" viewBox="0 0 720 420" role="img" data-paria="chart" aria-label="Ankara diesel price, observed and forecast"></svg>
+        <figcaption id="pwLegend" class="pw-leg"></figcaption></figure>
+      <div class="pw-panel">
+        <div class="pw-out" aria-live="polite"><span class="pw-k" data-p="out">Estimated Ankara pump price</span><b id="pwVal">—</b><span id="pwCmp" class="pw-cmp"></span></div>
+        <div id="pwSliders" class="pw-sl"></div>
+        <p class="pw-btns"><button type="button" class="allbtn" id="pwNow" data-p="reset">Today, nothing moves</button><button type="button" class="allbtn" id="pwStress" data-p="stress">Stress case</button></p>
       </div>
     </div>
-    <div class="g0-discipline-panels">
-      <article class="g0-discipline-panel">
-        <p class="g0-panel-label"><span aria-hidden="true">01</span><span lang="en" data-discipline="directiveLabel">Mission Directive</span></p>
-        <h3 data-discipline="directiveTitle">Which decision, for what purpose?</h3>
-        <p data-discipline="directiveBody">Agree the purpose, boundaries, success criteria and authority that give an inquiry its direction.</p>
+    <p class="pw-track" id="pwTrack"></p>
+    <p class="pw-note" data-p="note">A scenario calculator, not advice. The grey band is the GiNOVA G-0 model of 24 September 2026 and does not change when you move the sliders. Pump price = ((world diesel + margin + risk premium) per litre × USD/TRY + ÖTV) × 1.20 KDV.</p>
+  </div>
+</section>
+
+
+<!-- 3. Work -->
+<section id="work" class="screen s-work" data-nav="rail.work" aria-labelledby="h-work">
+  <div class="wrap">
+    <p class="kicker" data-t="work.kicker">Three scoped deliverables</p>
+    <h2 id="h-work" data-t="work.h2">One question. One deliverable. One person who signs.</h2>
+    <div class="offers">
+      <article>
+        <h3 data-t="work.1.t">GenAI Use-case Priorities</h3>
+        <dl>
+          <div><dt data-t="work.dt1">Decision to resolve</dt><dd data-t="work.1.d">Where generative AI is worth trying first, and where it is not. Business problems, value hypotheses, data and access requirements, and pilot acceptance criteria.</dd></div>
+          <div><dt data-t="work.dt2">Deliverable</dt><dd data-t="work.1.o">A use-case prioritization dossier.</dd></div>
+          <div><dt data-t="work.dt3">Responsibility</dt><dd data-t="work.1.r">Requires human review and authorized approval.</dd></div>
+        </dl>
       </article>
-      <div class="g0-panel-connection" aria-hidden="true"><span></span><svg viewBox="0 0 32 32" fill="none"><path d="M4 16h24M19 7l9 9-9 9" stroke="currentColor" stroke-width="1.5"/></svg><span></span></div>
-      <article class="g0-discipline-panel g0-dossier-panel">
-        <p class="g0-panel-label"><span aria-hidden="true">02</span><span lang="en" data-discipline="dossierLabel">Context Precision Dossier</span></p>
-        <h3 data-discipline="dossierTitle">A context that can be examined.</h3>
-        <p data-discipline="dossierBody">Bring observations, relevant sources, constraints and unanswered questions into a shared, traceable frame.</p>
+      <article>
+        <h3 data-t="work.2.t">Board Decision Dossier</h3>
+        <dl>
+          <div><dt data-t="work.dt1">Decision to resolve</dt><dd data-t="work.2.d">What the board is being asked to decide, on what evidence. Source-traceable information, assumptions, options, scenarios, risks and open points.</dd></div>
+          <div><dt data-t="work.dt2">Deliverable</dt><dd data-t="work.2.o">A board decision dossier.</dd></div>
+          <div><dt data-t="work.dt3">Responsibility</dt><dd data-t="work.2.r">Decision authority stays with organizational leadership.</dd></div>
+        </dl>
       </article>
-    </div>
-    <p class="g0-structure-note" data-discipline="illustrationNote">Illustrative structure of the discipline; not a completed client dossier.</p>
-    <div class="g0-discipline-bottom">
-      <div class="g0-value"><h3 data-discipline="valueTitle">You do not need to know the root cause.</h3><p data-discipline="valueBody">Describe what you observe. GiNOVA designs the inquiry, asks the next questions and proposes a scope for the work.</p></div>
-      <div class="g0-discipline-actions">
-        <a class="g0-discipline-primary" href="#start"><span data-discipline="startCta">Let us frame your problem together</span><span aria-hidden="true">↗</span></a>
-        <a class="g0-discipline-detail" href="https://consultancy.ginova.net/g0/?lang=en" data-route="https://consultancy.ginova.net/g0/"><span data-discipline="detailCta">Explore the G-0 discipline</span><span aria-hidden="true">→</span></a>
-      </div>
+      <article>
+        <h3 data-t="work.3.t">Human-reviewed Workflow Prototype</h3>
+        <dl>
+          <div><dt data-t="work.dt1">Decision to resolve</dt><dd data-t="work.3.d">Whether a workflow can run with AI and still be checked. Authorized data, control points, test records and handover notes.</dd></div>
+          <div><dt data-t="work.dt2">Deliverable</dt><dd data-t="work.3.o">A single workflow prototype document.</dd></div>
+          <div><dt data-t="work.dt3">Responsibility</dt><dd data-t="work.3.r">Implementation, integration and operational acceptance need a separate scope.</dd></div>
+        </dl>
+      </article>
     </div>
   </div>
 </section>
-<section id="start" class="g0-intake" aria-labelledby="intake-title">
-  <div class="wrap g0-intake-layout">
-    <div class="g0-intake-intro">
-      <p class="eyebrow" data-intake="tag">A first conversation / G-0</p>
-      <h2 id="intake-title" data-intake="title">Let’s frame your problem together.</h2>
-      <p class="lead" data-intake="intro">Start with what you see. GiNOVA will help frame the inquiry, identify the questions to explore and agree the next step.</p>
-      <div class="g0-intake-role"><span aria-hidden="true">G / 0</span><h3 data-intake="roleTitle">You bring the situation. We structure the inquiry.</h3><p data-intake="roleBody">You do not need a diagnosis, a finished brief or an AI solution. Uncertainty is a useful starting point.</p></div>
-      <p class="g0-intake-privacy" data-intake="privacy">Use a non-confidential outline. Omit names, personal data, credentials and confidential records. Describe available evidence without uploading it.</p>
+
+<!-- 4. Method -->
+<section id="method" class="screen s-method" data-nav="rail.method" aria-labelledby="h-method">
+  <div class="wrap">
+    <p class="kicker" data-t="method.kicker">Across every deliverable</p>
+    <h2 id="h-method" data-t="method.h2">From a signal to a decision, in five steps.</h2>
+    <div class="steps" id="steps" role="tablist" data-taria="method.label" aria-label="Decision steps">
+      <button role="tab" aria-selected="true"  aria-controls="stepPanel" id="t0" data-i="0"><span>1</span><bdi data-t="step.0.n">Signal</bdi></button>
+      <button role="tab" aria-selected="false" aria-controls="stepPanel" id="t1" data-i="1" tabindex="-1"><span>2</span><bdi data-t="step.1.n">Context</bdi></button>
+      <button role="tab" aria-selected="false" aria-controls="stepPanel" id="t2" data-i="2" tabindex="-1"><span>3</span><bdi data-t="step.2.n">Challenge</bdi></button>
+      <button role="tab" aria-selected="false" aria-controls="stepPanel" id="t3" data-i="3" tabindex="-1"><span>4</span><bdi data-t="step.3.n">Options</bdi></button>
+      <button role="tab" aria-selected="false" aria-controls="stepPanel" id="t4" data-i="4" tabindex="-1"><span>5</span><bdi data-t="step.4.n">Decision</bdi></button>
     </div>
-    <form id="consultancy-enquiry" class="g0-intake-card" novalidate>
-      <fieldset id="intake-controls" class="g0-intake-fields" disabled>
-      <div class="g0-intake-progress"><p id="intake-progress-text" aria-live="polite" aria-atomic="true">1 / 5</p><progress id="intake-progress" value="1" max="5" aria-label="Progress"></progress></div>
-      <ol class="g0-intake-steps" aria-label="Conversation steps"><li data-intake-step-name="0" aria-current="step">Situation</li><li data-intake-step-name="1">Context</li><li data-intake-step-name="2">Outcome</li><li data-intake-step-name="3">Evidence</li><li data-intake-step-name="4">Review</li></ol>
-      <div class="g0-intake-step" data-intake-step="0">
-        <h3 id="intake-heading-0" tabindex="-1"><label for="intake-answer-0" data-intake-prompt="0">What problem or event are you facing at the moment?</label></h3>
-        <p id="intake-hint-0" class="g0-intake-hint" data-intake-hint="0">What changed or made you pause? An observation is enough.</p>
-        <textarea id="intake-answer-0" name="situation" rows="4" maxlength="400" aria-describedby="intake-hint-0 intake-error"></textarea>
-        <label class="g0-intake-unknown"><input type="checkbox" data-intake-unknown="0"><span data-intake="unknown">I don’t know yet</span></label>
+    <div class="track" aria-hidden="true"><i id="trackFill"></i></div>
+    <div class="step-panel" id="stepPanel" role="tabpanel" aria-labelledby="t0" tabindex="0">
+      <h3 id="stepTitle"></h3>
+      <p id="stepBody"></p>
+    </div>
+    <p class="hint" data-t="method.hint">Select a step, or use the arrow keys.</p>
+  </div>
+</section>
+
+<!-- 6. Start: the first offer, what happens next, and the request -->
+<section id="start" class="screen s-start" data-nav="rail.start" aria-labelledby="h-start">
+  <div class="wrap start-grid">
+    <div>
+      <p class="kicker" data-t="start.kicker">The first step</p>
+      <h2 id="h-start" data-t="start.h2">One decision question. A fixed fee. One Investment Decision File.</h2>
+      <p class="lede" data-t="start.lede">You bring the question and the inputs we agree on. You get one file you can examine: sources, options, open points. The fee is fixed and written down before any work starts.</p>
+      <ol class="next" data-taria="next.label" aria-label="What happens next">
+        <li><b aria-hidden="true">1</b><span data-t="next.1">You send a short, non-confidential outline.</span></li>
+        <li><b aria-hidden="true">2</b><span data-t="next.2">We reply in writing: scope, inputs, fixed fee.</span></li>
+        <li><b aria-hidden="true">3</b><span data-t="next.3">Work starts only after you agree to that scope.</span></li>
+      </ol>
+    </div>
+    <form id="startForm" class="form" novalidate>
+      <label for="f1" data-t="start.l1">What changed, or made you pause?</label>
+      <textarea id="f1" rows="3" maxlength="900" data-tph="start.p1" placeholder="An observation is enough."></textarea>
+      <label for="f2" data-t="start.l2">What would show that you decided better?</label>
+      <textarea id="f2" rows="2" maxlength="600" data-tph="start.p2" placeholder="A target can stay open."></textarea>
+      <div class="two">
+        <div><label for="f3" data-t="start.l3">Timing or key constraint</label><input id="f3" type="text" maxlength="200"></div>
+        <div><label for="f4" data-t="start.l4">When can we talk?</label><input id="f4" type="text" maxlength="200" data-tph="start.p4" placeholder="e.g. Tuesday or Thursday afternoon"></div>
       </div>
-      <div class="g0-intake-step" data-intake-step="1" hidden>
-        <h3 id="intake-heading-1" tabindex="-1"><label for="intake-answer-1" data-intake-prompt="1">In which process, roles or business outcome does this show up?</label></h3>
-        <p id="intake-hint-1" class="g0-intake-hint" data-intake-hint="1">Describe the setting and affected roles without naming people.</p>
-        <textarea id="intake-answer-1" name="context" rows="4" maxlength="400" aria-describedby="intake-hint-1 intake-error"></textarea>
-        <label class="g0-intake-unknown"><input type="checkbox" data-intake-unknown="1"><span data-intake="unknown">I don’t know yet</span></label>
-      </div>
-      <div class="g0-intake-step" data-intake-step="2" hidden>
-        <h3 id="intake-heading-2" tabindex="-1"><label for="intake-answer-2" data-intake-prompt="2">What outcome would show that you had made a better decision?</label></h3>
-        <p id="intake-hint-2" class="g0-intake-hint" data-intake-hint="2">Tell us what you would want to be different. A target can remain open.</p>
-        <textarea id="intake-answer-2" name="outcome" rows="4" maxlength="400" aria-describedby="intake-hint-2 intake-error"></textarea>
-        <label class="g0-intake-unknown"><input type="checkbox" data-intake-unknown="2"><span data-intake="unknown">I don’t know yet</span></label>
-      </div>
-      <div class="g0-intake-step" data-intake-step="3" hidden>
-        <h3 id="intake-heading-3" tabindex="-1"><label for="intake-answer-3" data-intake-prompt="3">What observations, records or constraints could help us understand the question?</label></h3>
-        <p id="intake-hint-3" class="g0-intake-hint" data-intake-hint="3">Mention evidence types, timing or limits. Do not paste the records themselves.</p>
-        <textarea id="intake-answer-3" name="evidence" rows="4" maxlength="400" aria-describedby="intake-hint-3 intake-error"></textarea>
-        <label class="g0-intake-unknown"><input type="checkbox" data-intake-unknown="3"><span data-intake="unknown">I don’t know yet</span></label>
-      </div>
-      <div class="g0-intake-step" data-intake-step="4" hidden>
-        <h3 id="intake-heading-4" tabindex="-1"><label for="intake-summary" data-intake="summaryTitle">Your first-meeting outline.</label></h3>
-        <p class="g0-intake-hint" id="intake-summary-help" data-intake="summaryHelp">Review and edit this outline before opening your email app. It is a starting point for a conversation, not a diagnosis or an agreed scope.</p>
-        <textarea id="intake-summary" name="summary" rows="10" maxlength="2500" aria-describedby="intake-summary-help intake-summary-count intake-error"></textarea>
-        <div class="g0-intake-summary-tools"><button type="button" id="intake-rebuild" data-intake="rebuild">Rebuild from my answers</button><span id="intake-summary-count">0 / 2500</span></div>
-        <p id="intake-summary-preserved" class="g0-intake-hint" data-intake="preserved" hidden>Your edits have been kept. Check that the outline includes any answers you changed.</p>
-      </div>
-      <p id="intake-error" class="g0-intake-error" role="alert" hidden></p>
-      <div class="g0-intake-actions"><button type="button" id="intake-back" class="g0-intake-secondary" data-intake="back" hidden>Back</button><button type="submit" id="intake-next" class="g0-intake-primary" data-intake="next">Continue</button><a id="intake-open-email" class="g0-intake-primary" data-intake="openEmail" hidden>Open an email draft</a></div>
-      <p class="g0-intake-delivery" data-intake="emailNote">Opens a draft to satis@ginova.org in your email app. This page sends nothing and stores nothing. You decide whether to send it.</p>
-      </fieldset>
-      <p id="intake-fallback" class="g0-intake-delivery">If the guided outline is unavailable, you can prepare a non-confidential draft in your email app: <a href="mailto:satis@ginova.org">satis@ginova.org</a>. This page does not send or save a submission.</p>
+      <p class="privacy" data-t="limits.3.d">No statutory audit, tax, legal or regulated investment advice is implied. Where authorization is required, we check it.</p>
+      <p class="privacy" data-t="start.privacy">Use a non-confidential outline. Leave out names, personal data, credentials and confidential records.</p>
+      <p class="actions">
+        <button class="btn btn-solid" id="startBtn" type="submit" data-t="start.btn">Request a call</button>
+        <span class="fine" data-t="start.fine">Opens an email draft to satis@ginova.org. Nothing is sent from this page.</span>
+      </p>
     </form>
   </div>
-</section></main><footer><div class="wrap consultancy-footer"><a href="https://ginova.org/" data-route="https://ginova.org/" class="footer-brand"><img src="/assets/brand-20261012/crest.png" width="48" height="48" alt="GiNOVA"><img src="/assets/brand-20261012/primary.png" width="140" height="29" alt="GiNOVA"></a><nav><a href="https://engineering.ginova.net/" data-route="https://engineering.ginova.net/" data-t="nav.engineering">Engineering</a><a href="https://consultancy.ginova.net/" data-route="https://consultancy.ginova.net/" data-t="nav.consultancy">Consultancy</a><a href="https://medialab.ginova.net/" data-route="https://medialab.ginova.net/" data-t="nav.medialab">MediaLab™</a></nav><p data-t="footer.note">Formal work begins with an agreed written scope.</p></div></footer><script src="/assets/i18n-data.js"></script><script src="/assets/i18n-core.js"></script><script src="/consultancy/consultancy-data.js"></script><script src="/assets/owner-redesign-20261012/consultancy-offers.js"></script><script src="/consultancy/consultancy.js"></script><script src="/consultancy/decision-presentation.js"></script><script src="/consultancy/decision-motion.js"></script><script src="/consultancy/decision-welcome.js"></script><script src="/assets/language-switcher.js"></script><script src="/assets/header-contact.js"></script><script src="/assets/section-elevator.js"></script>
-<script src="/assets/corporate-copy.js"></script><script src="/assets/corporate-review.js"></script><script>document.documentElement.removeAttribute("data-locale-pending");</script><script src="/assets/brand-20261012/identity.js"></script><script src="/assets/strategy-20261012/strategy.js"></script><script src="/assets/owner-redesign-20261012/owner.js"></script><script src="/assets/trademark-20261012/trademark.js?v=20261018-medialab-tm"></script><script src="/consultancy/g0-discipline-copy.js"></script><script src="/consultancy/g0-discipline.js"></script><script src="/consultancy/intake-copy.js"></script><script src="/consultancy/intake-review.js"></script></body>
+</section>
 
+</main>
+
+<footer id="gn-contact" class="gn-world"><svg class="gw-limb" aria-hidden="true" viewBox="0 0 1440 60" preserveAspectRatio="none"><defs><linearGradient id="gwl" x1="0" x2="1"><stop stop-color="#2FA7A7" stop-opacity=".25"/><stop offset=".5" stop-color="#7FF3EE"/><stop offset=".72" stop-color="#FFE4A0"/><stop offset=".86" stop-color="#2FA7A7"/><stop offset="1" stop-color="#2FA7A7" stop-opacity=".25"/></linearGradient></defs><path d="M0 60V44Q720 -28 1440 44V60Z" fill="#050B14"/><path d="M0 44Q720 -28 1440 44" fill="none" stroke="url(#gwl)" stroke-width="2" vector-effect="non-scaling-stroke"/><defs><radialGradient id="gwb"><stop offset="0" stop-color="#fff"/><stop offset=".3" stop-color="#fff6d6"/><stop offset=".55" stop-color="#7FF3EE" stop-opacity=".55"/><stop offset="1" stop-color="#7FF3EE" stop-opacity="0"/></radialGradient></defs><ellipse class="gw-boom" cx="720" cy="8" rx="0" ry="0" fill="none" stroke="#BFFBF7" stroke-width="2" vector-effect="non-scaling-stroke" opacity="0"><animate attributeName="rx" dur="16s" repeatCount="indefinite" values="0;0;0;640;640" keyTimes="0;.745;.75;.84;1"/><animate attributeName="ry" dur="16s" repeatCount="indefinite" values="0;0;0;22;22" keyTimes="0;.745;.75;.84;1"/><animate attributeName="opacity" dur="16s" repeatCount="indefinite" values="0;0;.95;0;0" keyTimes="0;.745;.755;.84;1"/></ellipse><circle class="gw-orb" r="15" cx="0" cy="0" fill="url(#gwb)"><animateMotion dur="16s" repeatCount="indefinite" calcMode="spline" path="M0 44Q720 -28 1440 44" keyPoints="0;.5;1;.5;0" keyTimes="0;.25;.5;.75;1" keySplines=".1 .6 .4 1;.6 0 .9 .4;.6 0 .9 .4;.1 .6 .4 1"/><animate attributeName="r" dur="16s" repeatCount="indefinite" calcMode="spline" values="1.5;15;1.5;15;1.5" keyTimes="0;.25;.5;.75;1" keySplines=".1 .6 .4 1;.6 0 .9 .4;.6 0 .9 .4;.1 .6 .4 1"/></circle></svg><i class="gw-star" aria-hidden="true"><b></b></i><div class="gw-in"><div class="gw-brand"><img src="chrome/wordmark-reversed.png" width="150" alt="GiNOVA"><p data-c="motto">Before the future arrives, you are ready.</p></div><nav aria-label="Fields" data-ca="fields"><h2 data-c="fields">Fields</h2><a href="https://engineering.ginova.net/" data-route="https://engineering.ginova.net/" data-c="nav.engineering">Engineering</a><a href="https://consultancy.ginova.net/" data-route="https://consultancy.ginova.net/" data-c="nav.decision">Decision Systems</a><a href="https://medialab.ginova.net/" data-route="https://medialab.ginova.net/" dir="ltr">MediaLab™</a></nav><nav class="gw-co" aria-label="Company" data-ca="company"><h2 data-c="company">Company</h2><a data-route="https://ginova.org/company/" href="https://ginova.org/company/" data-c="overview">Overview</a><a data-route="https://ginova.org/company/constitution/" href="https://ginova.org/company/constitution/" data-c="constitution">Constitution</a><a data-route="https://ginova.org/company/commitments/" href="https://ginova.org/company/commitments/" data-c="commitments">Commitments</a><a data-route="https://ginova.org/company/how-we-decide/" href="https://ginova.org/company/how-we-decide/" data-c="decide">How we decide</a><a data-route="https://ginova.org/company/research/" href="https://ginova.org/company/research/" data-c="research">Research</a><a data-route="https://ginova.org/company/people/" href="https://ginova.org/company/people/" data-c="people">People</a></nav><div class="gw-tiles"><a class="gw-tile gw-aca" data-route="https://ginova.org/company/academy/" href="https://ginova.org/company/academy/"><svg class="gw-art" aria-hidden="true" viewBox="-235 104 660 184" preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="fm" x1="0" x2="1"><stop stop-color="#1c0912"/><stop offset=".38" stop-color="#8c4452"/><stop offset=".5" stop-color="#f3d3d9"/><stop offset=".6" stop-color="#6b2f3c"/><stop offset="1" stop-color="#170710"/></linearGradient><linearGradient id="fr" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ffe6ea"/><stop offset=".5" stop-color="#b9737d"/><stop offset="1" stop-color="#4a1c28"/></linearGradient></defs><g transform="translate(44 -36)"><path d="M96 880L176 214H346L352 880Z" fill="url(#fm)" opacity=".9"/><path d="M372 880L402 300H520L560 880Z" fill="url(#fm)" opacity=".42"/><path d="M128 880L204 214M170 880L236 214M212 880L268 214M254 880L300 214M296 880L330 214" stroke="#ffe3e8" stroke-opacity=".3" fill="none"/><path d="M150 214H372V178H150Z" fill="url(#fr)" opacity=".86"/><path d="M128 178H396V160H128Z" fill="#f3d3d9" opacity=".7"/><path d="M178 196c-34 0-52-20-46-44 5-20 34-25 44-8 8 14-6 30-18 24" fill="none" stroke="#fff0f2" stroke-width="5" stroke-opacity=".82"/><path d="M344 196c34 0 52-20 46-44-5-20-34-25-44-8-8 14 6 30 18 24" fill="none" stroke="#fff0f2" stroke-width="5" stroke-opacity=".82"/></g><path d="M-40 500C110 90 440 -30 680 90" fill="none" stroke="#f2c3cc" stroke-opacity=".34"/><path d="M-40 560C130 130 470 20 680 150" fill="none" stroke="#f2c3cc" stroke-opacity=".18"/><g fill="#f3d3d9" fill-opacity=".5"><path d="M86 268c-4-30 12-54 34-66 6 28-8 52-34 66z"/><path d="M146 170c0-28 18-50 42-58 2 28-16 48-42 58z"/><path d="M226 104c6-26 28-42 52-44-4 26-26 42-52 44z"/><path d="M320 66c12-22 36-32 60-28-10 24-34 34-60 28z"/><path d="M428 54c16-18 42-22 62-12-14 20-40 26-62 12z"/></g><circle cx="305" cy="92" r="5" fill="#fff4f6"/></svg><span><strong lang="en" dir="ltr">GiNOVA Academy</strong><small data-c="academy">The Academy Council: senior experts, research and teaching.</small></span></a><a class="gw-tile gw-ven" data-route="https://ginova.org/company/ventures/" href="https://ginova.org/company/ventures/"><svg class="gw-art" aria-hidden="true" viewBox="-280 504 770 214" preserveAspectRatio="xMaxYMid slice" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="ft" x1="0" x2="1"><stop stop-color="#02403f"/><stop offset=".5" stop-color="#00b4be"/><stop offset="1" stop-color="#7ff3ee"/></linearGradient><linearGradient id="fy" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#ffc04d"/><stop offset=".45" stop-color="#00b4be" stop-opacity=".6"/><stop offset="1" stop-color="#02403f" stop-opacity="0"/></linearGradient></defs><g transform="translate(122 -44)"><path d="M176 610L640 -30V120Z" fill="url(#fy)" opacity=".62"/><path d="M176 610L640 170V330Z" fill="url(#fy)" opacity=".34"/><path d="M176 610L420 -40H520Z" fill="url(#fy)" opacity=".42"/><path d="M176 610L640 40M176 610L640 250M176 610L470 -40M176 610L640 430" stroke="#b9fff7" stroke-opacity=".26" fill="none"/></g><path d="M-40 742C96 676 214 792 334 744S540 650 640 700V880H-40Z" fill="url(#ft)" opacity=".5"/><path d="M-40 780C110 712 230 830 350 780S550 690 640 736" fill="none" stroke="#7ff3ee" stroke-width="10" stroke-opacity=".78"/><path d="M-40 812C110 748 230 860 350 812S550 724 640 770" fill="none" stroke="#7ff3ee" stroke-opacity=".3"/><g transform="translate(122 -44)"><path d="M176 548C182 592 190 600 238 610C190 620 182 628 176 672C170 628 162 620 114 610C162 600 170 592 176 548Z" fill="#ffc53d"/><circle cx="176" cy="610" r="5" fill="#fff4cf"/></g></svg><span><strong lang="en" dir="ltr">GiNOVA Ventures</strong><small data-c="ventures">Brands and partnerships that grow out of this work.</small></span></a></div></div><div class="gw-base"><span data-c="legal">GiNOVA Mühendislik ve İleri Teknolojiler A.Ş.</span><a href="mailto:satis@ginova.org" dir="ltr" data-c="sales">Sales enquiries</a><button type="button" class="gw-snd" aria-pressed="false" data-ca="music" aria-label="Music"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4Z"/><path class="gw-snd-on" d="M16 9a4 4 0 0 1 0 6M18.5 6.5a8 8 0 0 1 0 11"/><path class="gw-snd-off" d="m16 9 5 6m0-6-5 6"/></svg></button></div></footer>
+
+<dialog class="filmdlg" id="filmDlg" data-taria="film.aria" aria-label="GiNOVA Decision Systems welcome animation">
+  <div class="dlg-in">
+    <video id="filmVideo" controls playsinline preload="none" poster="media/decision.jpg" width="960" height="540"><source src="media/decision.mp4" type="video/mp4"></video>
+    <button class="dlg-x" id="filmClose" type="button" data-taria="film.close" aria-label="Close the film"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg></button>
+  </div>
+</dialog>
+
+<script>window.GN_AUDIO_BASE='chrome/audio/';window.GN_NEWS_BASE='data/';window.GN_BOOKING_URL='';   /* a calendar link (Google appointment schedule, Cal.com, Calendly) turns the button into a real booking */</script>
+<script>window.GN_LANG="en";</script>
+<script src="i18n-page.js"></script>
+<script src="common-i18n.js"></script>
+<script src="chrome/chrome.js"></script>
+<script src="desk.js"></script>
+<script src="price.js"></script>
+<script src="page.js"></script>
+</body>
 </html>
-
