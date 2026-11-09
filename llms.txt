@@ -1,0 +1,38 @@
+# GiNOVA Decision Systems
+
+> Enterprise generative AI and board-level reporting. One decision question, a fixed fee and one Investment Decision File, with every claim traced to a source and reviewed by a named person.
+
+## First step
+
+One decision question. A fixed fee. One Investment Decision File.
+
+## Deliverables
+
+- **GenAI Use-case Priorities**: Where generative AI is worth trying first, and where it is not. Business problems, value hypotheses, data and access requirements, and pilot acceptance criteria.
+- **Board Decision Dossier**: What the board is being asked to decide, on what evidence. Source-traceable information, assumptions, options, scenarios, risks and open points.
+- **Human-reviewed Workflow Prototype**: Whether a workflow can run with AI and still be checked. Authorized data, control points, test records and handover notes.
+
+## Limits
+
+No statutory audit, tax, legal or regulated investment advice is implied. Where authorization is required, we check it.
+
+## Pages
+
+- [en](https://consultancy.ginova.net/)
+- [it](https://consultancy.ginova.net/it/)
+- [de](https://consultancy.ginova.net/de/)
+- [es](https://consultancy.ginova.net/es/)
+- [tr](https://consultancy.ginova.net/tr/)
+- [az](https://consultancy.ginova.net/az/)
+- [ar](https://consultancy.ginova.net/ar/)
+- [zh](https://consultancy.ginova.net/zh/)
+
+## GiNOVA sites
+
+- [Engineering](https://engineering.ginova.net/): Production systems, feasibility, and product and process development, including food.
+- [Decision Systems](https://consultancy.ginova.net/): Consulting, data and AI: one decision question, a fixed fee, one Investment Decision File.
+- [MediaLab™](https://medialab.ginova.net/): Web, film, sound and brand communication, made to commission.
+
+## Contact
+
+satis@ginova.org

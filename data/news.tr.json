@@ -1,0 +1,605 @@
+{
+ "note": "Machine translations of the publishers’ English headlines. Applied only while the English headline is unchanged.",
+ "items": {
+  "https://www.just-food.com/news/bernard-matthews-plant-closure-backtracks/": {
+   "en": "Bernard Matthews backtracks on UK plant closure plan but jobs still at risk",
+   "t": "Bernard Matthews İngiltere’deki tesis kapatma planından geri adım attı, ancak işler hâlâ risk altında"
+  },
+  "https://www.manufacturingdive.com/news/bls-manufacturing-employment-situation-october-jolts-september-2026/873897/": {
+   "en": "Manufacturing industry added 19K jobs in October",
+   "t": "İmalat sektörü Ekim ayında 19 bin kişi istihdam ekledi"
+  },
+  "https://www.manufacturingdive.com/news/zipline-drone-delivery-plans-manufacturing-expansion-uber-walmart/873940/": {
+   "en": "Zipline raises $1.5B, plans US drone manufacturing expansion",
+   "t": "Zipline 1,5 milyar dolar topladı, ABD’de dron üretimini genişletmeyi planlıyor"
+  },
+  "https://www.manufacturingdive.com/news/century-aluminum-ceo-oklahoma-project-on-track-community-concerns-q3-2026/873971/": {
+   "en": "Century Aluminum CEO says Oklahoma project ‘on track’ despite community concerns",
+   "t": "Century Aluminum CEO’su, topluluk kaygılarına rağmen Oklahoma projesinin ‘yolunda’ olduğunu söylüyor"
+  },
+  "https://www.engineering.com/honeywell-and-rws-advance-ai-powered-cooling-optimization/": {
+   "en": "Honeywell and RWS advance AI-powered cooling optimization",
+   "t": "Honeywell ve RWS, yapay zekâ destekli soğutma optimizasyonunu ilerletiyor"
+  },
+  "https://www.engineering.com/mouser-offers-advantech-mic-743-at-ai-inference-system/": {
+   "en": "Mouser offers Advantech MIC-743-AT AI inference system",
+   "t": "Mouser, Advantech MIC-743-AT yapay zekâ çıkarım sistemini sunuyor"
+  },
+  "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/": {
+   "en": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+   "t": "The Download: Bir insansı robot evi temizliyor, Samsung yapay zekâ patlaması için üretiyor"
+  },
+  "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/": {
+   "en": "The Download: Texas’s fragile AI boom and energy policy shifts",
+   "t": "The Download: Teksas’ın kırılgan yapay zekâ patlaması ve enerji politikasındaki değişimler"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/": {
+   "en": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+   "t": "Teksas, yapay zekâ veri merkezi yatırımlarının yeni merkez üssüydü. Bu artık sona ermiş olabilir."
+  },
+  "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-risks-of-corporate-political-spending/": {
+   "en": "The Hidden Risks of Corporate Political Spending",
+   "t": "Kurumsal Siyasi Harcamaların Gizli Riskleri"
+  },
+  "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/": {
+   "en": "The Download: blended meat, restored sight, and the agentic web",
+   "t": "The Download: karma et, geri kazanılan görme ve ajan tabanlı web"
+  },
+  "https://www.musicbusinessworldwide.com/rotor-videos-opens-artist-unlimited-to-any-artist-from-9-99-a-month-with-unlimited-release-visuals-and-a-library-of-17m-non-ai-generated-clips/": {
+   "en": "Rotor Videos opens Artist Unlimited to any artist from $9.99 a month, with unlimited release visuals and a library of 17M+, non-AI-generated clips",
+   "t": "Rotor Videos, Artist Unlimited’ı ayda 9,99 dolardan her sanatçıya açıyor: sınırsız yayın görseli ve yapay zekâ ürünü olmayan 17 milyondan fazla klip kütüphanesi"
+  },
+  "https://www.feedstrategy.com/animal-health-veterinary/mycotoxins/article/15834635/mycotoxin-testing-evolution-from-compliance-to-strategy": {
+   "en": "How the feed industry is rethinking mycotoxin risk",
+   "t": "Yem sektörü mikotoksin riskini yeniden nasıl düşünüyor"
+  },
+  "https://www.foodsafetynews.com/2026/11/fda-increases-enforcement-of-import-rules-on-shellfish-tamarind-and-canned-foods/": {
+   "en": "FDA increases enforcement of import rules on shellfish, tamarind and canned foods",
+   "t": "FDA, deniz ürünleri, demirhindi ve konserve gıdalarda ithalat kurallarının denetimini artırıyor"
+  },
+  "https://www.foodsafetynews.com/2026/11/polish-man-faces-court-for-food-contamination-threat/": {
+   "en": "Polish man faces court for food contamination threat",
+   "t": "Polonyalı bir adam gıda kirletme tehdidiyle mahkemede"
+  },
+  "https://www.foodsafetynews.com/2026/11/food-safety-week-focuses-on-raw-fish-risk/": {
+   "en": "Food safety week focuses on raw fish risk",
+   "t": "Gıda güvenliği haftası çiğ balık riskine odaklanıyor"
+  },
+  "https://interestingengineering.com/energy/explainer-how-sand-batteries-turn-surplus-renewable-electricity-into-stored-heat": {
+   "en": "Explainer: How sand batteries turn surplus renewable electricity into stored heat",
+   "t": "Açıklayıcı: Kum bataryaları fazla yenilenebilir elektriği nasıl depolanmış ısıya dönüştürüyor"
+  },
+  "https://interestingengineering.com/energy/battery-technologies-that-could-transform-electric-vehicles": {
+   "en": "7 Battery technologies that could transform electric vehicles and grid storage",
+   "t": "Elektrikli araçları ve şebeke depolamasını dönüştürebilecek 7 batarya teknolojisi"
+  },
+  "https://interestingengineering.com/energy/1200-miles-chinese-firms-new-ev-battery": {
+   "en": "1,200-mile EV range: Chinese firm’s new lithium air EV battery offers 5x energy density",
+   "t": "1.200 millik elektrikli araç menzili: Çinli şirketin yeni lityum-hava bataryası 5 kat enerji yoğunluğu sunuyor"
+  },
+  "https://interestingengineering.com/energy/semiconductor-technologies-behind-faster-computing": {
+   "en": "10 semiconductor technologies behind faster computing and efficient power",
+   "t": "Daha hızlı hesaplama ve verimli güç için 10 yarı iletken teknolojisi"
+  },
+  "https://techxplore.com/news/2026-11-energy-spur-faster-renewables-growth.html": {
+   "en": "Energy security concerns spur faster renewables growth across a widening constellation of countries",
+   "t": "Enerji güvenliği kaygıları, giderek genişleyen ülke grubunda yenilenebilir enerjinin büyümesini hızlandırıyor"
+  },
+  "https://techxplore.com/news/2026-11-techniques-hidden-ai-backdoors-major.html": {
+   "en": "Three new techniques target hidden AI backdoors without major performance losses",
+   "t": "Üç yeni teknik, büyük performans kaybı olmadan gizli yapay zekâ arka kapılarını hedefliyor"
+  },
+  "https://techxplore.com/news/2026-11-ai-products-thought-problem-machines.html": {
+   "en": "AI learns from the products of thinking, not thought itself. That's a problem for machines—and for us",
+   "t": "Yapay zekâ düşüncenin kendisinden değil, düşüncenin ürünlerinden öğreniyor. Bu makineler için de bizim için de bir sorun"
+  },
+  "https://techxplore.com/news/2026-11-qa-american-evolving-ai-robotics.html": {
+   "en": "Q&A: How is American manufacturing evolving with AI and robotics?",
+   "t": "Soru-Cevap: Amerikan imalatı yapay zekâ ve robotlarla nasıl evriliyor?"
+  },
+  "https://www.eenewseurope.com/en/openai-samsung-talks-ai-memory-supply/": {
+   "en": "OpenAI-Samsung talks amid tightening AI memory supply",
+   "t": "OpenAI ve Samsung arasında, sıkılaşan yapay zekâ bellek arzı ortasında görüşmeler"
+  },
+  "https://www.eenewseurope.com/en/analog-devices-completes-alif-semiconductor-acquisition-to-boost-edge-ai/": {
+   "en": "Analog Devices completes Alif Semiconductor acquisition to boost edge AI",
+   "t": "Analog Devices, uç yapay zekâyı güçlendirmek için Alif Semiconductor satın almasını tamamladı"
+  },
+  "https://www.eenewseurope.com/en/bosch-sensortec-ceo-stefan-finkbeiner-on-sensors-ai-and-innovation/": {
+   "en": "Bosch Sensortec CEO Stefan Finkbeiner on Sensors, AI and Innovation",
+   "t": "Bosch Sensortec CEO’su Stefan Finkbeiner sensörleri, yapay zekâyı ve yeniliği anlatıyor"
+  },
+  "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/": {
+   "en": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
+   "t": "Bakım verenlere yönelik uygulamalar biraz yapay zekâ alıyor, ama bu yeterli olmayabilir"
+  },
+  "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/": {
+   "en": "Crusoe sells troubled Wyoming data center project to Google",
+   "t": "Crusoe, sorunlu Wyoming veri merkezi projesini Google’a sattı"
+  },
+  "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy": {
+   "en": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "t": "Çin’in Jensen Huang’ı casuslukla izlemek için bir yapay zekâ yöneticisini işe aldığı bildirildi"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity": {
+   "en": "AI is the new dating dealbreaker",
+   "t": "Yapay zekâ, flörtte yeni vazgeçme nedeni"
+  },
+  "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy": {
+   "en": "All the latest updates on AI data centers",
+   "t": "Yapay zekâ veri merkezleriyle ilgili tüm son gelişmeler"
+  },
+  "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces": {
+   "en": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
+   "t": "Meta’nın Muse yapay zekâsı, o an ihtiyacınız olan uygulama sürümü için özel ‘alanlar’ oluşturabiliyor"
+  },
+  "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/": {
+   "en": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
+   "t": "Yüzlerce Artex yapay zekâ hackleme aracı internete açık halde bulundu"
+  },
+  "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/": {
+   "en": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
+   "t": "Meta, Muse ajanınızla iş birliği yapmanın yeni yolu Spaces’i tanıttı"
+  },
+  "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/": {
+   "en": "Free Chinese AI Models Are Getting Scary Good at Hacking",
+   "t": "Ücretsiz Çin yapay zekâ modelleri hacklemede korkutucu derecede iyileşiyor"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/": {
+   "en": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
+   "t": "SageMaker Inference artık model uç noktaları için GPU kullanımını en üst düzeye çıkarmak üzere Çoklu Örnek GPU’yu destekliyor"
+  },
+  "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/": {
+   "en": "How a Blue Wave midterm might reshape the AI industry",
+   "t": "Mavi dalga bir ara seçim yapay zekâ sektörünü nasıl yeniden şekillendirebilir"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/": {
+   "en": "Taxonomy of agentic primitives in Amazon Quick",
+   "t": "Amazon Quick’te ajan temellerinin sınıflandırması"
+  },
+  "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/": {
+   "en": "After the midterms, is the AI industry in for a rough two years?",
+   "t": "Ara seçimlerden sonra yapay zekâ sektörünü zorlu iki yıl mı bekliyor?"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/": {
+   "en": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
+   "t": "Amazon ECS Fargate üzerinde yapay zekâ ajanı veri gölü erişimi için sunucusuz MCP sunucusu"
+  },
+  "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/": {
+   "en": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
+   "t": "Okta Cross App Access ve Amazon Bedrock AgentCore ile yapay zekâ ajanı erişimini yönetin – Bölüm 2"
+  },
+  "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/": {
+   "en": "Could potential AI clones of GTA VI force a quicker official port?",
+   "t": "GTA VI’nın olası yapay zekâ klonları resmî sürümün daha hızlı gelmesini zorlayabilir mi?"
+  },
+  "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/": {
+   "en": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
+   "t": "Yapay Zekâ Şirketleri İş Dosyalarınızı ve E-postalarınızı Satın Almak İçin Çok Istekli"
+  },
+  "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/": {
+   "en": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
+   "t": "Ramp verileri, Anthropic halka arzına yaklaşırken yapay zekâ harcamalarının durakladığını gösteriyor"
+  },
+  "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam": {
+   "en": "Protesters break into Microsoft data center site in Amsterdam",
+   "t": "Göstericiler Amsterdam’daki Microsoft veri merkezi alanına girdi"
+  },
+  "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/": {
+   "en": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
+   "t": "Videoda Sharp Tech: ABD veri merkezleri için oy kullanıyor, Büyük Teknoloji için sonuçlar, Google’ın yapay zekâya yanıtı"
+  },
+  "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science": {
+   "en": "Measuring how AI agents handle everyday wet-lab science",
+   "t": "Yapay zekâ ajanlarının gündelik laboratuvar bilimini nasıl yönettiğini ölçmek"
+  },
+  "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/": {
+   "en": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+   "t": "Google: Okullar Gemini’yi atlayıp aramayı koruyabilir, ama yapay zekâ araması pazarlık konusu değil"
+  },
+  "https://openai.com/index/australian-universities-ai-native-graduates": {
+   "en": "Australian universities are creating AI-native graduates",
+   "t": "Avustralya üniversiteleri yapay zekâ-yerlisi mezunlar yetiştiriyor"
+  },
+  "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats": {
+   "en": "Firms are racing to protect themselves from AI cyber threats",
+   "t": "Şirketler kendilerini yapay zekâ siber tehditlerinden korumak için yarışıyor"
+  },
+  "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/": {
+   "en": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
+   "t": "Intuit CEO’su Sasan Goodarzi ile Muhasebe ve Yapay Zekâ Üzerine Bir Röportaj"
+  },
+  "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/": {
+   "en": "Securing the agentic enterprise with data lineage",
+   "t": "Veri soy ağacıyla ajan tabanlı işletmeyi güvence altına almak"
+  },
+  "https://stratechery.com/2026/ai-on-the-ballot/": {
+   "en": "AI on the Ballot",
+   "t": "Sandıkta Yapay Zekâ"
+  },
+  "https://www.hollywoodreporter.com/movies/movie-news/poff-standing-with-ukraine-tallinn-2026-films-events-war-1236741671/": {
+   "en": "PÖFF Stands With Ukraine: A Look at Films Featured at Tallinn Made Despite, and Because of, the War",
+   "t": "PÖFF Ukrayna’nın Yanında: Tallinn’de Savaşa Rağmen ve Savaş Yüzünden Yapılan Filmlere Bakış"
+  },
+  "https://variety.com/2026/film/markets-festivals/ai-filmmaking-platform-core-studio-launches-24-agents-tccf-1236941957/": {
+   "en": "AI Filmmaking Platform Core Studio Launches at Taiwan Creative Content Fest With 24 Specialized Agents",
+   "t": "Yapay Zekâ Film Yapım Platformu Core Studio, Taiwan Creative Content Fest’te 24 Uzman Ajanla Başladı"
+  },
+  "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/": {
+   "en": "‘Triplets of Belleville’ Director Sylvain Chomet Fires Back at AI Accusations Over Dior Film Featuring Robert Pattinson’s Voice: ‘Everything Was Drawn by Hand’ (EXCLUSIVE)",
+   "t": "‘Belleville’in Üçüzleri’ Yönetmeni Sylvain Chomet, Robert Pattinson’ın Sesini Taşıyan Dior Filmindeki Yapay Zekâ İddialarına Karşılık Verdi: ‘Her Şey Elle Çizildi’ (ÖZEL)"
+  },
+  "https://variety.com/2026/film/markets-festivals/chang-chen-emerging-taiwanese-actors-taiwan-creative-content-fest-1236941891/": {
+   "en": "Chang Chen Urges Emerging Taiwanese Actors to ‘Be Like Water’ at Taiwan Creative Content Fest Golden Horse Showcase",
+   "t": "Chang Chen, Gelişmekte Olan Taiwanlı Oyunculara Taiwan Creative Content Fest Golden Horse Showcase’de ‘Su Gibi Olun’ Çağrısı Yaptı"
+  },
+  "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/": {
+   "en": "Flo Milli Wins Dismissal of Copyright Lawsuit Over ‘Never Lose Me’ Beat Sample",
+   "t": "Flo Milli, ‘Never Lose Me’ Beat Örneği Telif Hakkı Davasının Reddini Kazandı"
+  },
+  "https://fortune.com/2026/11/07/korn-ferry-survey-ai-transformation-leaders-middle-managers/": {
+   "en": "‘Shock absorbers’: Korn Ferry says managers are carrying AI change that executives aren’t ready to lead",
+   "t": "‘Amortisörler’: Korn Ferry, yöneticilerin henüz liderlik etmeye hazır olmadığı yapay zekâ değişimini yöneticilerin taşıdığını söylüyor"
+  },
+  "https://www.fastcompany.com/91636817/5-ways-to-use-ai-to-actually-make-your-life-easier": {
+   "en": "5 tips for getting the most out of AI",
+   "t": "Yapay zekâdan en iyi şekilde yararlanmak için 5 ipucu"
+  },
+  "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/": {
+   "en": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
+   "t": "Bazı Çin yapay zekâ modellerindeki devlet propagandası, ince ayarla sökülebilecek ‘ince bir katman’"
+  },
+  "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/": {
+   "en": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
+   "t": "Dokuz yapay zekâ ajanı, ABD ulusal laboratuvarlarının açık sorularında otonom araştırma yaptı ve hiçbiri uzmanların çıtasını geçemedi"
+  },
+  "https://fortune.com/2026/11/07/harwood-north-dakota-data-center-ballot-measure-midterm-elections-2026/": {
+   "en": "‘Like being hit between the eyes with a sledgehammer’: Meet the one town in America that defied election trends and voted in favor of data centers",
+   "t": "‘Gözlerinin ortasına balyozla vurulmuş gibi’: Seçim eğilimlerine meydan okuyup veri merkezlerine ‘evet’ diyen Amerika’daki tek kasaba"
+  },
+  "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/": {
+   "en": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
+   "t": "Google’ın yapay zekâsı, sıradan bir akıllı saatten manşetsiz yüksek tansiyonu tespit ediyor"
+  },
+  "https://fortune.com/2026/11/06/midterm-elections-ai-data-center-build-out-social-license/": {
+   "en": "The midterms didn’t stop the AI buildout. They simply repriced it—and OpenAI is already promising to pay up",
+   "t": "Ara seçimler yapay zekâ yatırımını durdurmadı. Sadece yeniden fiyatladı ve OpenAI şimdiden ödeme sözü veriyor"
+  },
+  "https://www.fastcompany.com/91637493/godaddys-ceo-wont-read-ai-generated-work": {
+   "en": "GoDaddy’s CEO won’t read AI-generated work",
+   "t": "GoDaddy CEO’su yapay zekâ üretimi işleri okumayacak"
+  },
+  "https://www.ciodive.com/news/tech-workforce-AI-jobs-october/874043/": {
+   "en": "Tech employment rebounded in October, bolstered by AI jobs",
+   "t": "Teknoloji istihdamı Ekim’de yapay zekâ işleriyle desteklenerek toparlandı"
+  },
+  "https://www.ciodive.com/news/insurers-race-capture-value-agentic-ai/874047/": {
+   "en": "Insurers race to capture value from agentic AI",
+   "t": "Sigortacılar, ajan tabanlı yapay zekâdan değer yakalamak için yarışıyor"
+  },
+  "https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html?utm_source=rss&utm_medium=rss&utm_campaign=untethered-ai-agents-in-delaware": {
+   "en": "Untethered AI agents in Delaware?",
+   "t": "Delaware’de bağlı olmayan yapay zekâ ajanları mı?"
+  },
+  "https://www.fastcompany.com/91637532/rip-cybertruck-the-perfect-symbol-of-every-elon-musk-failure": {
+   "en": "RIP Cybertruck: The perfect symbol for all of Elon Musk’s mistakes",
+   "t": "Cybertruck’a elveda: Elon Musk’ın tüm hatalarının mükemmel sembolü"
+  },
+  "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/": {
+   "en": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
+   "t": "OpenAI 11 milyar dolarlık yatırım turu aldı, ama daha fazla sermaye için diş hekimlerine gitmesi gerekiyor"
+  },
+  "https://www.cybersecuritydive.com/news/ai-agents-normal-baseline-security-governance/873998/": {
+   "en": "Companies struggle to know what normal looks like for AI agents",
+   "t": "Şirketler, yapay zekâ ajanları için ‘normal’in ne olduğunu bilmekte zorlanıyor"
+  },
+  "https://interestingengineering.com/innovation/us-researchers-map-domains-under-1-nm-for-denser-memory": {
+   "en": "US scientists find domains under 1 nm² that could help shrink chip memory",
+   "t": "ABD’li bilim insanları, çip belleğini küçültmeye yardımcı olabilecek 1 nm²’nin altında alanlar buldu"
+  },
+  "https://interestingengineering.com/innovation/diamond-foundry-grows-200mm-diamond-chips": {
+   "en": "World’s first 200 mm single-crystal diamond grown in US, can boost next-gen chips",
+   "t": "Dünyanın ilk 200 mm tek kristal elması ABD’de büyütüldü, yeni nesil çipleri güçlendirebilir"
+  },
+  "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/": {
+   "en": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
+   "t": "Ripple-65B Önizleme, tamamen Apache 2.0 lisanslı açık bir ABD modeli olarak güçlü ajan tabanlı kodlama sonuçları veriyor"
+  },
+  "https://aibusiness.com/data-centers/prompt-ai-s-next-bottleneck-is-outside-data-center": {
+   "en": "Prompt: AI's next bottleneck is outside the data center",
+   "t": "Prompt: Yapay zekânın bir sonraki darboğazı veri merkezinin dışında"
+  },
+  "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/": {
+   "en": "Perplexity now has its own always-on AI agent",
+   "t": "Perplexity artık kendi sürekli açık yapay zekâ ajanına sahip"
+  },
+  "https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/": {
+   "en": "How to Measure AI Adoption, Performance, and ROI With 12 KPIs",
+   "t": "Yapay zekâ benimsemesini, performansını ve getirisini 12 KPI ile ölçme"
+  },
+  "https://aibusiness.com/ai-policy/google-s-ai-first-search-creates-challenges": {
+   "en": "Google's AI-first Search creates challenges for schools and businesses",
+   "t": "Google’ın yapay zekâ öncelikli Araması okullar ve işletmeler için zorluklar yaratıyor"
+  },
+  "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/what-caught-your-eye-ai-bust-qualcomm-mmios-rf-emitters-2026-11/": {
+   "en": "What caught your eye? AI bust, Qualcomm MMIOs, RF emitters",
+   "t": "Dikkatinizi ne çekti? Yapay zekâ balonu, Qualcomm MMIO’ları, RF yayıcıları"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss": {
+   "en": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
+   "t": "Petrol tüccarları, Trump-Putin anlaşmasından sonra neden Rus dizelini almayı reddediyor?"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss": {
+   "en": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+   "t": "Keşm Adası ve Hürmüz vuruldu, arabulucular ABD-İran gerginliğini önlemeye çalışıyor"
+  },
+  "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe": {
+   "en": "Protesters storm Microsoft AI data center construction site",
+   "t": "Göstericiler, Microsoft’un yapay zekâ veri merkezi inşaat sahasına baskın yaptı"
+  },
+  "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status": {
+   "en": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
+   "t": "Nvidia, Çin çipi kaçakçılığı mercek altındayken Güneydoğu Asya’daki yapay zekâ GPU’larının takibini sıkılaştırıyor, rapora göre"
+  },
+  "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/": {
+   "en": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
+   "t": "METR, Anthropic’in yapay zekâ ivmelenmesi uyarı eşiğini Temmuz’da aşmış olabileceğini buldu"
+  },
+  "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/": {
+   "en": "Build Your First Multi-Tool AI Agent with Ollama and Python",
+   "t": "Ollama ve Python ile İlk Çok Araçlı Yapay Zekâ Ajanınızı Oluşturun"
+  },
+  "https://www.ciodive.com/news/ibm-confluent-debuts-streamhouse-data-architecture-agents/873943/": {
+   "en": "IBM’s Confluent debuts Streamhouse data architecture for agents",
+   "t": "IBM’in Confluent’i, ajanlar için Streamhouse veri mimarisini tanıttı"
+  },
+  "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss": {
+   "en": "Rains flood thousands of displaced families’ tents in Gaza",
+   "t": "Gazze’de yağmurlar, yerinden edilmiş binlerce ailenin çadırını bastı"
+  },
+  "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits": {
+   "en": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
+   "t": "Sayfaları yeniden numaralandırma görevi verilen başıboş yapay zekâ, bir hukuk profesörünün tüm ders programını ve bir yıllık ders notlarını yanlışlıkla sildi"
+  },
+  "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/": {
+   "en": "Give Your Python AI Agent Persistent Memory with One JSON File",
+   "t": "Python Yapay Zekâ Ajanınıza Tek Bir JSON Dosyasıyla Kalıcı Bellek Verin"
+  },
+  "https://www.ciodive.com/news/tech-execs-grapple-costs-data-overload/873928/": {
+   "en": "As AI costs climb, knowing when to pull back becomes critical",
+   "t": "Yapay zekâ maliyetleri artarken ne zaman geri çekileceğini bilmek kritik hale geliyor"
+  },
+  "https://www.electronicsweekly.com/news/products/test-measurement-products/emerson-ni-pxie-instruments-for-ai-accelerated-automated-testing-2026-11/": {
+   "en": "Emerson NI PXIe instruments for AI-accelerated automated testing",
+   "t": "Emerson NI PXIe cihazları, yapay zekâ hızlandırmalı otomatik test için"
+  },
+  "https://www.ciodive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873856/": {
+   "en": "McDonald’s aims for nationwide drive-thru AI in 2027",
+   "t": "McDonald’s, 2027’de ülke çapında yapay zekâlı arabalı servis hedefliyor"
+  },
+  "https://www.fastcompany.com/91634134/beware-this-captcha-scam-designed-to-steal-your-data": {
+   "en": "Beware this CAPTCHA scam designed to steal your data",
+   "t": "Verilerinizi çalmak için tasarlanmış bu CAPTCHA dolandırıcılığına dikkat"
+  },
+  "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled": {
+   "en": "Home Office sued after stripping almost 1,500 EU citizens of right to live in UK",
+   "t": "İçişleri Bakanlığı, 1.500’e yakın AB vatandaşının Birleşik Krallık’ta yaşama hakkını elinden aldıktan sonra dava edildi"
+  },
+  "https://www.scmp.com/business/china-business/article/3373588/chinas-ev-safety-push-gives-foreign-brands-tesla-gm-opening-comeback": {
+   "en": "China’s EV safety push gives foreign brands from Tesla to GM an opening for a comeback",
+   "t": "Çin’in elektrikli araç güvenliği atılımı, Tesla’dan GM’e yabancı markalara geri dönüş fırsatı veriyor"
+  },
+  "https://www.hrdive.com/news/ai-rebounding-could-cost-companies/873462/": {
+   "en": "‘AI rebounding’ could cost companies",
+   "t": "‘Yapay zekâ toparlanması’ şirketlere pahalıya mal olabilir"
+  },
+  "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections": {
+   "en": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
+   "t": "Hürmüz Boğazı, İran’ın nükleer denetimlerine ilişkin Katar planının parçası olarak yeniden açılabilir"
+  },
+  "https://www.al-monitor.com/originals/2026/11/cop31-comes-turkey-satellites-reveal-landfill-methane-problem": {
+   "en": "As COP31 comes to Turkey, satellites reveal a landfill methane problem",
+   "t": "COP31 Türkiye’ye gelirken, uydular bir çöplük metan sorununu ortaya çıkarıyor"
+  },
+  "https://www.energy-storage.news/bess-industry-buzz-blue-wave-in-the-midterms-rte-disagreements-cybersecurity-incident-in-chile/": {
+   "en": "BESS Industry Buzz: Blue Wave in the midterms, RTE disagreements, cybersecurity incident in Chile",
+   "t": "BESS Sektör Gündemi: Ara seçimlerde mavi dalga, RTE anlaşmazlıkları, Şili’de siber güvenlik olayı"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/05/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot/?utm_source=rss&utm_medium=rss&utm_campaign=when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot": {
+   "en": "When an Algorithm Reads Your Proxy and AI Is on the Ballot",
+   "t": "Bir Algoritma Vekâletnamenizi Okuduğunda ve Yapay Zekâ Sandıktayken"
+  },
+  "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu": {
+   "en": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
+   "t": "ABD ara seçim sonuçları, İsrail koalisyonunu Netanyahu’yu devirmek için birleştirmeye yardımcı olabilir"
+  },
+  "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending": {
+   "en": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
+   "t": "Kimi öncülüğündeki Çin yapay zekâ modelleri, açık kaynaklı kurumsal harcamalara hâkim"
+  },
+  "https://www.al-monitor.com/originals/2026/11/iran-says-forces-stronger-beginning-war": {
+   "en": "Iran says forces 'stronger' than at beginning of war",
+   "t": "İran, güçlerinin savaşın başındakinden ‘daha güçlü’ olduğunu söylüyor"
+  },
+  "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/": {
+   "en": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
+   "t": "Sektör uzmanları, Çin’in SoftBank’ın ABB Robotics’i satın almasını engellemesini tartışıyor"
+  },
+  "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation": {
+   "en": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
+   "t": "Katar, ABD ile İran arasındaki arabuluculuk çabalarının gerginliği önlemeye devam ettiğini söyledi"
+  },
+  "https://www.cartoonbrew.com/newsletter/pixars-executive-shakeup-wildwood-gains-ground-chomet-ai-questions-269148.html": {
+   "en": "Pixar’s Executive Shakeup; ‘Wildwood’ Gains Ground; Chomet AI Questions",
+   "t": "Pixar’da yönetici değişikliği; ‘Wildwood’ ivme kazanıyor; Chomet yapay zekâ soruları"
+  },
+  "https://aibusiness.com/data-centers/enterprises-face-tougher-ai-regulatory-landscape": {
+   "en": "Enterprises face tougher AI regulatory landscape after midterms",
+   "t": "Ara seçimlerden sonra şirketleri daha sert bir yapay zekâ düzenleme ortamı bekliyor"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/07/proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-national-association-of-manufacturers/?utm_source=rss&utm_medium=rss&utm_campaign=proposed-sec-rule-on-rescinding-shareholder-proposal-rule-14a-8-a-comment-from-the-national-association-of-manufacturers": {
+   "en": "Proposed SEC Rule on Rescinding Shareholder Proposal Rule 14a-8: A Comment from the National Association of Manufacturers",
+   "t": "Pay Sahibi Önerisi Kuralı 14a-8’in Kaldırılmasına İlişkin SEC Önerisi: Ulusal İmalatçılar Birliği’nden Bir Yorum"
+  },
+  "https://corpgov.law.harvard.edu/2026/11/07/sec-sets-2027-exam-priorities-with-focus-on-conflicts-complex-products-and-technology/?utm_source=rss&utm_medium=rss&utm_campaign=sec-sets-2027-exam-priorities-with-focus-on-conflicts-complex-products-and-technology": {
+   "en": "SEC Sets 2027 Exam Priorities with Focus on Conflicts, Complex Products, and Technology",
+   "t": "SEC, 2027 Denetim Önceliklerini Çıkar Çatışmaları, Karmaşık Ürünler ve Teknolojiye Odaklayarak Belirledi"
+  },
+  "https://www.cybersecuritydive.com/news/congress-cybersecurity-democrats-agenda-cisa-ai/873883/": {
+   "en": "What to expect from Democrats’ cybersecurity agenda in Congress",
+   "t": "Demokratların Kongre’deki siber güvenlik gündeminden ne beklenmeli"
+  },
+  "https://latent.space/p/ainews-anthropic-ipo-whither-now/": {
+   "en": "[AINews] Anthropic IPO: Whither Now?",
+   "t": "[AINews] Anthropic Halka Arzı: Şimdi Ne Olacak?"
+  },
+  "https://www.dailysabah.com/business/tech/turkcell-to-showcase-green-technology-investments-at-cop31": {
+   "en": "Turkcell to showcase green technology investments at COP31",
+   "t": "Turkcell, COP31’de yeşil teknoloji yatırımlarını sergileyecek"
+  },
+  "https://www.cybersecuritydive.com/news/french-probe-cyberattack-blood-supply/873871/": {
+   "en": "French authorities probe cyberattack targeting nation’s blood supply",
+   "t": "Fransız yetkililer, ulusal kan temini hedef alan siber saldırıyı soruşturuyor"
+  },
+  "https://www.utilitydive.com/news/historic-election-night-wont-change-growth-focus-at-duke-energy-executi/873965/": {
+   "en": "Duke Energy to stay course on data center-fueled growth plan after ‘historic’ election",
+   "t": "Duke Energy, ‘tarihi’ seçimin ardından veri merkezi destekli büyüme planında kararlı"
+  },
+  "https://www.al-monitor.com/originals/2026/11/us-offers-20-mn-reward-info-irans-nuclear-program-centcom": {
+   "en": "US offers $20 mn reward for info on 'Iran's nuclear program': CENTCOM",
+   "t": "ABD, CENTCOM aracılığıyla ‘İran’ın nükleer programı’ hakkında bilgi verene 20 milyon dolar ödül önerdi"
+  },
+  "https://www.cartoonbrew.com/artificial-intelligence/sylvain-chomet-dior-ad-ai-use-269124.html": {
+   "en": "On The Use Of AI In Sylvain Chomet’s Dior Ad: A Correction And An Apology",
+   "t": "Sylvain Chomet’nin Dior Reklamında Yapay Zekâ Kullanımı Üzerine: Bir Düzeltme ve Özür"
+  },
+  "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/": {
+   "en": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
+   "t": "Google, Gemini Omni 1.2 Flash’ı yayımladı: Saniyesi 0,07 dolara 15 saniyelik yapay zekâ videosu"
+  },
+  "https://www.servethehome.com/supermicro-super-ai-station-review-the-ai-server-that-doubles-as-a-workstation/": {
+   "en": "Supermicro Super AI Station Review: The AI Server That Doubles as a Workstation",
+   "t": "Supermicro Super AI Station İncelemesi: İş İstasyonu Olarak da Kullanılan Yapay Zekâ Sunucusu"
+  },
+  "https://www.al-monitor.com/originals/2026/11/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says": {
+   "en": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
+   "t": "Tasnim haber ajansı: İki füze İran’ın Keşm Adası’nı vurdu"
+  },
+  "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/": {
+   "en": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
+   "t": "Vera İki Dünyanın En İyisini Sunuyor: En Yüksek Verim ve En Hızlı Ajanlar"
+  },
+  "https://www.energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess/": {
+   "en": "Ford Energy partners with DESRI to deploy US BESS",
+   "t": "Ford Energy, ABD’de BESS kurmak için DESRI ile ortaklık kurdu"
+  },
+  "https://www.energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity/": {
+   "en": "India approves Viability Gap Funding to support 92GWh of BESS and pumped hydro energy storage capacity",
+   "t": "Hindistan, 92 GWh BESS ve pompaj depolamalı hidroelektrik kapasitesini desteklemek için Açık Finansman Desteği’ni onayladı"
+  },
+  "https://www.ciodive.com/news/ai-security-governance-spending-dnsfilter/873782/": {
+   "en": "Companies spend more on cybersecurity but still struggle with AI oversight",
+   "t": "Şirketler siber güvenliğe daha çok harcıyor ama yapay zekâ gözetiminde hâlâ zorlanıyor"
+  },
+  "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/": {
+   "en": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
+   "t": "OpenAI’ın 1,25 trilyon dolar değerlemeyle 11 milyar dolar daha topladığı bildirildi"
+  },
+  "https://www.ciodive.com/news/midterms-democrats-data-centers-AI/873807/": {
+   "en": "What does a midterm power shift mean for AI policy?",
+   "t": "Ara seçimlerdeki güç değişimi yapay zekâ politikası için ne anlama geliyor?"
+  },
+  "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears": {
+   "en": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
+   "t": "Kaliforniya’daki kargo soygununda 11,4 milyon dolar değerinde altı palet Nvidia GPU çalındı"
+  },
+  "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management": {
+   "en": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
+   "t": "Nvidia’nın 130’dan fazla eski telekom binasını küçük veri merkezlerine dönüştürmek istediği öne sürüldü"
+  },
+  "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms": {
+   "en": "Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution",
+   "t": "Demokratlar Dış Politika Devrimi Başlatma Şansını Harcamamalı"
+  },
+  "https://www.al-monitor.com/originals/2026/11/us-treasury-sanctions-canadian-money-services-firms-over-iran-related": {
+   "en": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
+   "t": "ABD Hazinesi, İran bağlantılı işlemler nedeniyle Kanadalı para hizmetleri şirketlerine yaptırım uyguladı"
+  },
+  "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/": {
+   "en": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
+   "t": "Omniverse’e Giriş: Geliştiriciler Öncü Yapay Zekâ Ajanlarıyla Fikirleri Nasıl Simülasyona Dönüştürüyor"
+  },
+  "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really/": {
+   "en": "To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).",
+   "t": "Rusya’nın Ukrayna savaşını sonlandırmak için Avrupa’nın Kiev’i içeri alması gerekiyor. Trump yardımcı olabilir (gerçekten)"
+  },
+  "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/": {
+   "en": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
+   "t": "Açık Ağırlıkların Sihirbazı: Chris Alexiuk Açık Modellerle Yapay Zekâyı Kolaylaştırıyor"
+  },
+  "https://blogs.nvidia.com/blog/memory-full-stack-codesign/": {
+   "en": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
+   "t": "Her Bayttan Daha Fazla Performans: Tam Yığın Ortak Tasarım Yapay Zekânın Bellek Sorununu Nasıl Çözüyor"
+  },
+  "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties": {
+   "en": "Israel's Arab-led parties in spotlight after inconclusive election",
+   "t": "İsrail’in Arap öncülüğündeki partileri, belirsiz seçimin ardından ilgi odağında"
+  },
+  "https://www.al-monitor.com/originals/2026/11/iran-turns-putin-war-us-election-reshape-strategic-calculations": {
+   "en": "Iran turns to Putin as war, US election reshape strategic calculations",
+   "t": "İran, savaş ve ABD seçimi stratejik hesapları yeniden şekillendirirken Putin’e yöneliyor"
+  },
+  "https://thediplomat.com/2026/11/the-taipei-mayor-election-is-not-about-china/": {
+   "en": "The Taipei Mayor Election Is Not About China",
+   "t": "Taipei Belediye Başkanlığı Seçimi Çin’le İlgili Değil"
+  },
+  "https://thediplomat.com/2026/11/can-europe-regulate-chinas-e-commerce-giants-without-closing-its-market/": {
+   "en": "Can Europe Regulate China’s E-Commerce Giants Without Closing Its Market?",
+   "t": "Avrupa, Çin’in e-ticaret devlerini pazarını kapatmadan düzenleyebilir mi?"
+  },
+  "https://www.energy-storage.news/energyaustralia-takes-delivery-of-final-units-for-250mwh-hallett-battery-storage-system/": {
+   "en": "EnergyAustralia takes delivery of final units for 250MWh Hallett battery storage system",
+   "t": "EnergyAustralia, 250 MWh’lik Hallett batarya depolama sisteminin son ünitelerini teslim aldı"
+  },
+  "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/": {
+   "en": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
+   "t": "Dava: Adam eşini ChatGPT ile tanıştırdı. Kadın onu cinayetini planlamak için kullandı."
+  },
+  "https://gcaptain.com/u-s-targets-cubas-oil-tanker-fleet-in-new-sanctions-crackdown/": {
+   "en": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+   "t": "ABD, Küba’nın petrol tankeri filosunu yeni yaptırım operasyonunun hedefine koydu"
+  },
+  "https://gcaptain.com/eu-lawmakers-push-back-against-approval-of-indian-ship-recycling-yards/": {
+   "en": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards",
+   "t": "AB milletvekilleri, Hint gemi söküm tesislerinin onayına karşı çıkıyor"
+  },
+  "https://www.scmp.com/economy/china-economy/article/3373565/former-evergrande-economist-faces-wechat-gag-order-after-buy-dip-call": {
+   "en": "Former Evergrande economist faces WeChat gag order after ‘buy the dip’ call",
+   "t": "Eski Evergrande ekonomisti, ‘düşüşte al’ çağrısından sonra WeChat’te susturma emriyle karşı karşıya"
+  },
+  "https://gcaptain.com/china-adopts-law-on-antarctic-activities-and-environmental-protection/": {
+   "en": "China Adopts Law on Antarctic Activities and Environmental Protection",
+   "t": "Çin, Antarktika Faaliyetleri ve Çevre Koruma Yasasını kabul etti"
+  },
+  "https://www.rapporteur.com/news/peace-agreement-in-ukraine-will-require-eu-kallas/": {
+   "en": "Europe rebuffs US push for new ‘security architecture’ in Russia deal",
+   "t": "Avrupa, Rusya anlaşmasında ABD’nin yeni ‘güvenlik mimarisi’ baskısına karşı çıkıyor"
+  },
+  "https://thediplomat.com/2026/11/how-chinas-naval-air-reach-is-offsetting-the-malacca-dilemma/": {
+   "en": "How China’s Naval-Air Reach Is Offsetting the Malacca Dilemma",
+   "t": "Çin’in Deniz-Hava Erişimi Malakka İkilemini Nasıl Dengeliyor"
+  },
+  "https://thediplomat.com/2026/11/does-china-have-a-plan-for-dealing-with-a-democratic-congress/": {
+   "en": "Does China Have a Plan for Dealing With a Democratic Congress?",
+   "t": "Çin’in Demokrat Bir Kongre ile Başa Çıkma Planı Var mı?"
+  },
+  "https://www.al-monitor.com/originals/2026/11/trump-weighs-iran-strikes-possible-nuclear-opening-emerges": {
+   "en": "As Trump weighs Iran strikes, possible nuclear opening emerges",
+   "t": "Trump İran saldırılarını tartışırken olası bir nükleer açılım ortaya çıkıyor"
+  },
+  "https://www.rapporteur.com/news/poland-urges-faster-eu-social-media-ban-for-kids/": {
+   "en": "Poland urges faster EU social media ban for kids",
+   "t": "Polonya, çocuklar için sosyal medya yasağının AB’de daha hızlı çıkarılmasını istiyor"
+  }
+ }
+}
