@@ -49,10 +49,7 @@ KEYS={
 GENERAL={'decision':{'MIT Technology Review','The Register','The Economist Business','Wired AI','TechCrunch AI','Ars Technica AI','The Verge AI','OpenAI News','Google AI Blog','MIT News AI'},
          'engineering':{'New Atlas','TechXplore Engineering','Phys.org Technology','Interesting Engineering'},
          'media':{'Hollywood Reporter','Variety','Deadline','NME','Consequence','Billboard','Stereogum','Pitchfork News','Rolling Stone Music','Guardian Music','IndieWire'}}
-# 2026-11-12: paywalled / premium publishers dropped before the automatic job goes live (their terms restrict reuse of headlines).
-# The remaining publishers' terms are still to be reviewed one by one.
-DROP={'The Economist Business','Economist Finance','Economist International','Stratechery','Foreign Affairs','SemiAnalysis'}
-FEEDS={k:[f for f in v if f[0] not in DROP] for k,v in FEEDS.items()}
+# 2026-11-12 (Kunter Bey): keep all publishers; headline + link sends readers to them. Remove one only if it asks.
 PER_SOURCE=8      # most headlines one source may give a field; CAP overrides it for noisy feeds
 CAP={'OpenAI News':5,'Hugging Face Blog':5,'Google AI Blog':3,'AWS Machine Learning':5,'Ars Technica AI':5,'The Verge AI':5,'TechCrunch AI':7,'Wired AI':5,'The Economist Business':5,'MIT News AI':4,'Stratechery':4,'MIT Technology Review':6,'The Register':5,
      'New Atlas':8,'TechXplore Engineering':7,'Phys.org Technology':6,'Interesting Engineering':6,'Variety':5,'Deadline':5,'Stereogum':5,'Pitchfork News':6,'Guardian Music':5,'NME':5,'Rolling Stone Music':5,'Consequence':5,'Billboard':5,'Music Ally':5,'Hollywood Reporter':5,'IndieWire':5,'Animation Magazine':5,'Creative Bloq':5,'Creative Review':5,'Music Business Worldwide':6,'CDM':5}
