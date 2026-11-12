@@ -1,819 +1,1137 @@
 {
  "food": [
   {
-   "t": "Pumpkin patch attraction reopens amid E. coli outbreak",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/pumpkin-patcher-attraction-reopens-amid-e-coli-outbreak/",
-   "d": "2026-11-07T03:41:16+00:00"
-  },
-  {
-   "t": "USDA issues warning about Betterballen beef and chicken products because of undeclared allergens",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/usda-issues-warning-about-betterballen-beef-and-chicken-products-because-of-undeclared-allergens/",
-   "d": "2026-11-07T02:36:12+00:00"
-  },
-  {
-   "t": "State organizations urge USDA to authorize dairy HPAI vaccine",
+   "t": "USDA proposes SNAP eligibility reform",
    "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/dairy/state-organizations-urge-usda-to-authorize-dairy-hpai-vaccine",
-   "d": "2026-11-06T21:08:03+00:00"
+   "u": "https://www.feedstuffs.com/policy/usda-proposes-snap-eligibility-reform",
+   "d": "2026-11-11T21:57:25+00:00"
   },
   {
-   "t": "Do corn exports belong back in the spotlight?",
+   "t": "Prevention must become essential infrastructure",
+   "s": "Feedstuffs",
+   "u": "https://www.feedstuffs.com/agribusiness-news/prevention-must-become-essential-infrastructure",
+   "d": "2026-11-11T20:56:21+00:00"
+  },
+  {
+   "t": "Oregon reports first case of HPAI in dairy herd",
+   "s": "Feedstuffs",
+   "u": "https://www.feedstuffs.com/dairy/oregon-reports-first-case-of-hpai-in-dairy-herd",
+   "d": "2026-11-11T20:49:22+00:00"
+  },
+  {
+   "t": "3 things to watch after WASDE",
    "s": "Feedstuffs",
    "u": "https://www.feedstuffs.com/grain-market-news/afternoon-market-recap",
-   "d": "2026-11-06T20:45:00+00:00"
+   "d": "2026-11-11T20:45:00+00:00"
   },
   {
-   "t": "IgG levels tracked in calves fed colostrum replacer",
-   "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/dairy/igg-levels-tracked-in-calves-fed-colostrum-replacer",
-   "d": "2026-11-06T17:11:11+00:00"
-  },
-  {
-   "t": "The Friday Checkout: The Kroger-Albertsons fight still has a long way to go",
-   "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/the-friday-checkout-albertsons-kroger-trial-store-divestitures/873861/",
-   "d": "2026-11-06T11:59:00-05:00"
-  },
-  {
-   "t": "Glowing biosensor tracks cell division in chickens",
-   "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/poultry/glowing-biosensor-tracks-cell-division-in-chickens",
-   "d": "2026-11-06T16:34:47+00:00"
-  },
-  {
-   "t": "Slideshow: Holiday items leading foodservice innovation",
-   "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31319-slideshow-holiday-items-leading-foodservice-innovation",
-   "d": "2026-11-06T11:21:36-05:00"
-  },
-  {
-   "t": "Albertsons ordered to pay $900M in Washington state opioid case",
-   "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/albertsons-washington-state-opioid-case-grocery/873958/",
-   "d": "2026-11-06T11:00:00-05:00"
-  },
-  {
-   "t": "Lidl US spruces up private label offerings for holiday season",
-   "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/lidl-us-private-label-limited-time-launch-holiday/873895/",
-   "d": "2026-11-06T10:59:52-05:00"
-  },
-  {
-   "t": "PCA, Supremex announced cuts in October",
-   "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/october-2026-packaging-layoff-announcements-pca-supremex/873606/",
-   "d": "2026-11-06T10:00:00-05:00"
-  },
-  {
-   "t": "Hershey’s CEO highlights softness in c-store sales",
-   "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/hersheys-ceo-highlights-softness-in-c-store-sales/873926/",
-   "d": "2026-11-06T09:47:00-05:00"
-  },
-  {
-   "t": "OHG Brands appoints Dunkin’ vet as COO",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/ohg-brands-hires-stephen-england-chief-operating-officer/873973/",
-   "d": "2026-11-06T09:47:00-05:00"
-  },
-  {
-   "t": "Leftovers: General Mills dunks into Dunkin’ inspired cereal | Knorr takes pasta and rice dishes on the go",
-   "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/dunkin-general-mills-cereal-vita-coco-kids-knorr-cups/873984/",
-   "d": "2026-11-06T09:46:00-05:00"
-  },
-  {
-   "t": "Circularity closes $7M seed round to scale jet fuel made from dairy biogas",
-   "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/agribusiness-news/circularity-closes-7m-seed-round-to-scale-jet-fuel-made-from-dairy-biogas",
-   "d": "2026-11-06T14:11:31+00:00"
-  },
-  {
-   "t": "Chile’s Agrosuper eyes deal for Blumar salmon assets",
-   "s": "Just Food",
-   "u": "https://www.just-food.com/news/chiles-agrosuper-eyes-deal-for-blumar-salmon-assets/",
-   "d": "2026-11-06T14:01:19+00:00"
-  },
-  {
-   "t": "Izzio artisan bakery shifts to shared leadership structure",
-   "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31318-izzio-artisan-bakery-shifts-to-shared-leadership-structure",
-   "d": "2026-11-06T09:00:27-05:00"
-  },
-  {
-   "t": "Flowers elects two independent directors to board",
-   "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31317-flowers-elects-two-independent-directors-to-board",
-   "d": "2026-11-06T09:00:27-05:00"
-  },
-  {
-   "t": "Packaging innovations: Tetra Pak squares up food cartons, Hormel slims down bacon portions",
-   "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/packaging-innovations-tetra-pak-reva-carton-hormel-bacon-portion-american-packaging-cube/873352/",
-   "d": "2026-11-06T09:00:00-05:00"
-  },
-  {
-   "t": "Bernard Matthews backtracks on UK plant closure plan but jobs still at risk",
-   "s": "Just Food",
-   "u": "https://www.just-food.com/news/bernard-matthews-plant-closure-backtracks/",
-   "d": "2026-11-06T13:51:32+00:00"
-  },
-  {
-   "t": "How Wendy’s CEO plans to revive beleaguered burger chain",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/wendys-daves-way-turnaround-strategy/873907/",
-   "d": "2026-11-06T08:23:00-05:00"
-  },
-  {
-   "t": "McDonald’s US CMO steps down as sales decline",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/mcdonalds-us-cmo-steps-down-as-sales-decline/873934/",
-   "d": "2026-11-06T07:50:00-05:00"
-  },
-  {
-   "t": "Raisio chairman resigns as Finnish group cuts outlook",
-   "s": "Just Food",
-   "u": "https://www.just-food.com/news/raisio-chairman-resigns-as-finnish-group-cuts-outlook/",
-   "d": "2026-11-06T12:33:02+00:00"
-  },
-  {
-   "t": "‘Competitive advantages’ lift ADM earnings",
-   "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31316-competitive-advantages-lift-adm-earnings",
-   "d": "2026-11-06T07:17:38-05:00"
-  },
-  {
-   "t": "Ghost Energy becomes Keurig Dr Pepper’s fourth $1 billion brand",
-   "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31315-ghost-energy-becomes-keurig-dr-peppers-fourth-1-billion-brand",
-   "d": "2026-11-06T07:17:38-05:00"
-  },
-  {
-   "t": "Pilgrim’s Europe sells UK lamb plant, earmarks another for closure",
-   "s": "Just Food",
-   "u": "https://www.just-food.com/news/pilgrims-europe-sells-uk-lamb-plant-earmarks-another-for-closure/",
-   "d": "2026-11-06T12:13:03+00:00"
-  },
-  {
-   "t": "General Mills ‘mulling future of Häagen-Dazs’",
-   "s": "Just Food",
-   "u": "https://www.just-food.com/news/general-mills-haagen-dazs-options/",
-   "d": "2026-11-06T09:44:38+00:00"
-  },
-  {
-   "t": "How the feed industry is rethinking mycotoxin risk",
+   "t": "The path to a PRRS-free world: Managing and overcoming virus challenges",
    "s": "Feed Strategy",
-   "u": "https://www.feedstrategy.com/animal-health-veterinary/mycotoxins/article/15834635/mycotoxin-testing-evolution-from-compliance-to-strategy",
-   "d": "2026-11-06T02:00:00-06:00"
+   "u": "https://www.feedstrategy.com/animal-health-veterinary/livestock-poultry-diseases/pig-health-disease/article/16425325/the-path-to-a-prrsfree-world-managing-and-overcoming-virus-challenges",
+   "d": "2026-11-11T14:07:56-06:00"
   },
   {
-   "t": "Publisher's Platform: Shipping romaine across the country isn’t the problem. Good. Now let’s talk about what is.",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/publishers-platform-shipping-romaine-across-the-country-isnt-the-problem-good-now-lets-talk-about-what-is/",
-   "d": "2026-11-06T05:05:00+00:00"
-  },
-  {
-   "t": "Mushrooms suspected in woman’s death",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/mushrooms-suspected-in-womans-death/",
-   "d": "2026-11-06T05:03:00+00:00"
-  },
-  {
-   "t": "FDA increases enforcement of import rules on shellfish, tamarind and canned foods",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/fda-increases-enforcement-of-import-rules-on-shellfish-tamarind-and-canned-foods/",
-   "d": "2026-11-06T05:02:00+00:00"
-  },
-  {
-   "t": "Polish man faces court for food contamination threat",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/polish-man-faces-court-for-food-contamination-threat/",
-   "d": "2026-11-06T05:01:00+00:00"
-  },
-  {
-   "t": "Food safety week focuses on raw fish risk",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/food-safety-week-focuses-on-raw-fish-risk/",
-   "d": "2026-11-06T05:00:00+00:00"
-  },
-  {
-   "t": "Beef exports gain ground, pork exports lose steam in September",
-   "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/market-news/beef-exports-gain-ground-pork-exports-lose-steam-in-september",
-   "d": "2026-11-05T22:06:55+00:00"
-  },
-  {
-   "t": "Farm bill animal health programs get major updates",
-   "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/nutrition-and-health/farm-bill-animal-health-programs-get-major-updates",
-   "d": "2026-11-05T21:48:13+00:00"
-  },
-  {
-   "t": "Shoppers should be able to find deals on Thanksgiving turkey",
-   "s": "Feedstuffs",
-   "u": "https://www.feedstuffs.com/agribusiness-news/shoppers-should-be-able-to-find-deals-on-thanksgiving-turkey",
-   "d": "2026-11-05T19:13:13+00:00"
-  },
-  {
-   "t": "How to deliver clean labels in the age of ultraprocessed foods",
-   "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/consumer-confusion-clean-label-ultraprocess-food-reformulation/873910/",
-   "d": "2026-11-05T13:54:00-05:00"
-  },
-  {
-   "t": "AgriFood Signals: Cargill & Klim team up, Starbucks ditches Impossible, farmland manager Red Reef scores $263m",
-   "s": "AgFunder News",
-   "u": "https://agfundernews.com/agrifood-signals-cargill-klim-team-up-starbucks-ditches-impossible-farmland-manager-red-reef-scores-263m",
-   "d": "2026-11-05T18:30:00+00:00"
-  },
-  {
-   "t": "Denny’s operator files for Chapter 11",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/eym-dennys-chapter-11-bankruptcy/873903/",
-   "d": "2026-11-05T13:18:32-05:00"
-  },
-  {
-   "t": "Amcor investing in private label, still shopping beverage business",
-   "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/amcor-q3-2026-packaging-earnings/873838/",
-   "d": "2026-11-05T12:00:00-05:00"
-  },
-  {
-   "t": "ADM sees growth in precision fermentation",
+   "t": "Pandan rises as a standout in global flavor trends",
    "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31314-adm-sees-growth-in-precision-fermentation",
-   "d": "2026-11-05T11:32:30-05:00"
+   "u": "https://www.foodbusinessnews.net/articles/31335-pandan-rises-as-a-standout-in-global-flavor-trends",
+   "d": "2026-11-11T12:00:00-05:00"
   },
   {
-   "t": "Aisles Abroad: How a UK grocer is looking to its past to help tackle today’s affordability crisis",
-   "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/iceland-foods-preservica-united-kingdom-grocery-food-affordability/873734/",
-   "d": "2026-11-05T11:26:00-05:00"
-  },
-  {
-   "t": "Rhode Island needs assessment explores recovering $35M in lost commodities",
+   "t": "PET recycling rate fell in 2025, but rPET content in bottles increased",
    "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/rhode-island-needs-assessment-epr-deposit-return/873840/",
-   "d": "2026-11-05T11:00:00-05:00"
+   "u": "https://www.packagingdive.com/news/napcor-pet-recycling-rate-2025-drop-recycled-content-bottle-thermoforms/874370/",
+   "d": "2026-11-11T11:59:00-05:00"
   },
   {
-   "t": "Florida grocery chain Fresco Supermarkets opens 7th in-store liquor shop",
+   "t": "GAO report: USDA offers little transparency on reorganization plan",
+   "s": "Feedstuffs",
+   "u": "https://www.feedstuffs.com/policy/gao-report-usda-offers-little-transparency-on-reorganization-plan",
+   "d": "2026-11-11T16:51:34+00:00"
+  },
+  {
+   "t": "Bojangles bets breakfast, boneless chicken will spur national growth",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/bojangles-national-expansion-breakfast-daypart/874348/",
+   "d": "2026-11-11T11:19:30-05:00"
+  },
+  {
+   "t": "Grocery Outlet’s comps return to the green",
    "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/florida-grocery-chain-fresco-supermarkets-opens-7th-liquor-shop/873817/",
-   "d": "2026-11-05T10:24:00-05:00"
+   "u": "https://www.grocerydive.com/news/grocery-outlet-third-quarter-2026-earnings/874330/",
+   "d": "2026-11-11T11:14:00-05:00"
   },
   {
-   "t": "Sazerac buys Oregon craft brewery to expand national spirits production",
+   "t": "GoTo Foods hires TGI Fridays vet as Deli Brands president",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/goto-foods-hires-brandon-coleman-president-mcalisters-deli/874259/",
+   "d": "2026-11-11T11:08:00-05:00"
+  },
+  {
+   "t": "Iran denies it was behind cyberattacks on French supermarkets",
+   "s": "AgFunder News",
+   "u": "https://agfundernews.com/iran-denies-it-was-behind-cyberattacks-on-french-supermarkets",
+   "d": "2026-11-11T16:04:48+00:00"
+  },
+  {
+   "t": "McCormick and Unilever’s $45B food merger hits antitrust snag in UK",
    "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/sazerac-acquires-full-sail-brewing-craft-brewery/873860/",
-   "d": "2026-11-05T10:14:00-05:00"
+   "u": "https://www.fooddive.com/news/mccormick-unilever-antitrust-review-merger-UK/874361/",
+   "d": "2026-11-11T11:00:00-05:00"
   },
   {
-   "t": "Papa Johns mobilizes for a quality war",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/papa-johns-unbox-better-marketing-consistency-discount-investments/873816/",
-   "d": "2026-11-05T10:05:00-05:00"
+   "t": "Q3 wrap: Fiber, paper and carton announcements",
+   "s": "Packaging Dive",
+   "u": "https://www.packagingdive.com/news/fiber-packaging-performance-announcements-cascades-greif-sappi/873972/",
+   "d": "2026-11-11T11:00:00-05:00"
   },
   {
-   "t": "McDonald’s aims for nationwide drive-thru AI in 2027",
+   "t": "Albertsons names new CFO",
+   "s": "Grocery Dive",
+   "u": "https://www.grocerydive.com/news/albertsons-cfo-andrew-murray-grocery-supermarkets/874342/",
+   "d": "2026-11-11T10:59:00-05:00"
+  },
+  {
+   "t": "DoorDash-Instacart combination shines a spotlight on e-commerce pricing",
+   "s": "Grocery Dive",
+   "u": "https://www.grocerydive.com/news/doordash-instacart-merger-pricing-grocery-ecommerce/874318/",
+   "d": "2026-11-11T10:30:00-05:00"
+  },
+  {
+   "t": "How Applebee’s menu innovation pipeline is boosting traffic and spend",
    "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873788/",
-   "d": "2026-11-05T10:03:00-05:00"
+   "u": "https://www.restaurantdive.com/news/dine-brands-applebees-ihop-menu-innovation-strategy/874031/",
+   "d": "2026-11-11T10:26:18-05:00"
   },
   {
    "t": "The problem with ‘GLP-1 friendly’ food labels",
+   "s": "Grocery Dive",
+   "u": "https://www.grocerydive.com/news/glp1s-labels-food-health-innovation-protein-fiber/874369/",
+   "d": "2026-11-11T10:11:00-05:00"
+  },
+  {
+   "t": "Just Ice Tea ups the caffeine with cold brew teas",
    "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/glp1s-labels-food-health-innovation-protein-fiber/873857/",
-   "d": "2026-11-05T09:53:45-05:00"
+   "u": "https://www.fooddive.com/news/just-ice-tea-caffeine-energy-drink-alternative/874372/",
+   "d": "2026-11-11T10:00:00-05:00"
   },
   {
-   "t": "Grocery e-commerce and in-store sales head in opposite directions",
-   "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/food-beverage-sales-ecommerce-physical-stores-grocery-supermarkets/873471/",
-   "d": "2026-11-05T09:42:00-05:00"
-  },
-  {
-   "t": "A cybersecurity checklist for the animal protein industry",
-   "s": "AgFunder News",
-   "u": "https://agfundernews.com/a-cybersecurity-checklist-for-the-animal-protein-industry",
-   "d": "2026-11-05T14:27:22+00:00"
-  },
-  {
-   "t": "The impact of El Niño on cocoa: an update",
-   "s": "Just Food",
-   "u": "https://www.just-food.com/analyst-comment/the-impact-of-el-nino-on-cocoa-an-update/",
-   "d": "2026-11-05T14:12:40+00:00"
-  },
-  {
-   "t": "Wayne-Sanderson Farms unveils 2026 corporate responsibility report",
+   "t": "Slideshow: The Hershey Co. doubles down on innovation",
    "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31313-wayne-sanderson-farms-unveils-2026-corporate-responsibility-report",
-   "d": "2026-11-05T09:00:30-05:00"
+   "u": "https://www.foodbusinessnews.net/articles/31338-the-hershey-co-doubles-down-on-innovation",
+   "d": "2026-11-11T10:00:00-05:00"
   },
   {
-   "t": "Scoular, Grupo Trimex broadens regenerative ag project",
+   "t": "Quality Steak, Inc. adds frozen meat slices",
    "s": "Food Business News",
-   "u": "https://www.foodbusinessnews.net/articles/31312-scoular-grupo-trimex-broadens-regenerative-ag-project",
-   "d": "2026-11-05T09:00:30-05:00"
+   "u": "https://www.foodbusinessnews.net/articles/31337-quality-steak-inc-adds-frozen-meat-slices",
+   "d": "2026-11-11T10:00:00-05:00"
   },
   {
-   "t": "Mondelez in trademark gripe with another UK vegan brand",
+   "t": "Just Ice Tea crafts cold brew tea",
+   "s": "Food Business News",
+   "u": "https://www.foodbusinessnews.net/articles/31336-just-ice-tea-crafts-cold-brew-tea",
+   "d": "2026-11-11T10:00:00-05:00"
+  },
+  {
+   "t": "Craveworthy Brands to buy Papa Gino’s",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/craveworthy-brands-acquires-new-england-authentic-eats/874279/",
+   "d": "2026-11-11T09:37:00-05:00"
+  },
+  {
+   "t": "New study reveals impact of alpha-gal on farmers, ranchers",
+   "s": "Feedstuffs",
+   "u": "https://www.feedstuffs.com/nutrition-and-health/new-study-reveals-impact-of-alpha-gal-on-farmers-ranchers",
+   "d": "2026-11-11T14:16:04+00:00"
+  },
+  {
+   "t": "Unilever/McCormick merger: UK regulator seeks remedies to allay competition fears",
    "s": "Just Food",
-   "u": "https://www.just-food.com/news/mondelez-in-trademark-gripe-with-another-uk-vegan-brand/",
-   "d": "2026-11-05T13:54:17+00:00"
+   "u": "https://www.just-food.com/news/unilever-mccormick-merger-uk-regulator-seeks-remedies-to-allay-competition-fears/",
+   "d": "2026-11-11T14:03:48+00:00"
   },
   {
-   "t": "Kraft Heinz on “solid foundation” for volume recovery but headwinds persist",
+   "t": "EU pushes ahead with plan to ban caged hen egg farming",
    "s": "Just Food",
-   "u": "https://www.just-food.com/news/kraft-heinz-on-solid-foundation-for-volume-recovery-but-headwinds-persist/",
-   "d": "2026-11-05T13:16:57+00:00"
+   "u": "https://www.just-food.com/news/eu-pushes-ahead-with-plan-to-ban-caged-hen-egg-farming/",
+   "d": "2026-11-11T13:45:28+00:00"
   },
   {
-   "t": "Inside Iowa’s advantage for ag, food and bioscience innovation",
-   "s": "AgFunder News",
-   "u": "https://agfundernews.com/inside-iowas-advantage-for-ag-food-and-bioscience-innovation",
-   "d": "2026-11-05T13:11:36+00:00"
+   "t": "Sambazon buys Pitaya Foods to grow fruit range",
+   "s": "Just Food",
+   "u": "https://www.just-food.com/news/sambazon-buys-pitaya-foods/",
+   "d": "2026-11-11T13:43:35+00:00"
   },
   {
-   "t": "Better Meat Co targets large-scale production in India in Q2, 2027 amid brutal mycoprotein shakeout",
-   "s": "AgFunder News",
-   "u": "https://agfundernews.com/better-meat-co-targets-large-scale-production-in-india-in-q2-2027-amid-brutal-mycoprotein-shakeout",
-   "d": "2026-11-05T12:41:08+00:00"
+   "t": "Ex-Camposol CEO joins fellow fruit group Unifrutti",
+   "s": "Just Food",
+   "u": "https://www.just-food.com/news/fruit-group-unifrutti-ceo/",
+   "d": "2026-11-11T13:22:02+00:00"
   },
   {
-   "t": "Celsius creates new business structure to accelerate energy drink growth",
-   "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/celsius-energy-drinks-executive/873754/",
-   "d": "2026-11-05T06:05:00-05:00"
+   "t": "General Mills restructures",
+   "s": "Food Business News",
+   "u": "https://www.foodbusinessnews.net/articles/31333-with-new-ceo-taking-reins-general-mills-changes-operating-structure",
+   "d": "2026-11-11T08:00:15-05:00"
   },
   {
-   "t": "FDA closes investigation into romaine outbreak, still without naming brand or producer; other investigations updated",
+   "t": "Core Home moving into food, acquires snack maker",
+   "s": "Food Business News",
+   "u": "https://www.foodbusinessnews.net/articles/31334-core-home-moving-into-food-acquires-snack-maker",
+   "d": "2026-11-11T08:00:00-05:00"
+  },
+  {
+   "t": "Cereals, soft drinks hit hardest by UK nutrient rule change – study",
+   "s": "Just Food",
+   "u": "https://www.just-food.com/news/uk-nutrient-profiling-model-study/",
+   "d": "2026-11-11T09:26:04+00:00"
+  },
+  {
+   "t": "Researchers find little if any progress toward reducing foodborne illness",
    "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/fda-closes-investigation-into-romaine-outbreak-without-naming-brand-or-producer-other-investigations-updated/",
-   "d": "2026-11-05T05:06:00+00:00"
+   "u": "https://www.foodsafetynews.com/2026/11/researchers-find-little-if-any-progress-toward-reducing-foodborne-illness/",
+   "d": "2026-11-11T05:08:00+00:00"
   },
   {
-   "t": "Weis Markets remains on a financial roller coaster",
-   "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/weis-markets-third-quarter-earnings/873810/",
-   "d": "2026-11-04T16:26:04-05:00"
+   "t": "How the next Congress can fix our broken food system",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/how-the-next-congress-can-fix-our-broken-food-system/",
+   "d": "2026-11-11T05:06:00+00:00"
   },
   {
-   "t": "Cava Q3 comps growth moderates",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/cava-q3-2026-comps-growth-moderates-price-mix-traffic/873779/",
-   "d": "2026-11-04T16:12:00-05:00"
+   "t": "One in six Australians illegally drinking raw cow’s milk",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/one-in-six-australians-illegally-drinking-raw-cows-milk/",
+   "d": "2026-11-11T05:04:00+00:00"
   },
   {
-   "t": "Guest article: The ag biologicals market is at a crossroads. Here are four possible futures to explore",
+   "t": "UK Salmonella outbreak captures public’s attention",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/uk-salmonella-outbreak-captures-publics-attention/",
+   "d": "2026-11-11T05:03:00+00:00"
+  },
+  {
+   "t": "One death reported in relation to pumpkin patch outbreak in California",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/one-death-reported-in-relation-to-pumpkin-patch-outbreak-in-california/",
+   "d": "2026-11-11T04:53:42+00:00"
+  },
+  {
+   "t": "Baby goat found to be cause of E. coli outbreak",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/baby-goat-found-to-be-cause-of-e-coli-outbreak/",
+   "d": "2026-11-11T04:23:37+00:00"
+  },
+  {
+   "t": "Smarter Cattle Vaccination Timing",
+   "s": "Feedstuffs",
+   "u": "https://www.feedstuffs.com/beef/smarter-cattle-vaccination-timing",
+   "d": "2026-11-10T21:45:45+00:00"
+  },
+  {
+   "t": "Practical lessons for public-private partnerships in agrifood",
    "s": "AgFunder News",
-   "u": "https://agfundernews.com/guest-article-the-ag-biologicals-market-is-at-a-crossroads-here-are-four-possible-futures-to-explore",
-   "d": "2026-11-04T20:13:22+00:00"
+   "u": "https://agfundernews.com/practical-lessons-for-public-private-partnerships-in-agrifood",
+   "d": "2026-11-10T21:06:43+00:00"
   },
   {
-   "t": "DOJ subpoenas Smurfit Westrock, IP, PCA, Cascades over containerboard pricing",
-   "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/doj-subpoenas-smurfit-westrock-over-containerboard-pricing/873727/",
-   "d": "2026-11-04T12:39:00-05:00"
-  },
-  {
-   "t": "DS Smith details ‘transformation’ prior to spinning off from IP",
-   "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/dssmith-optimization-international-paper-company-split/873550/",
-   "d": "2026-11-04T12:29:00-05:00"
-  },
-  {
-   "t": "CalRecycle lowers plastic tonnage baseline for SB 54 source reduction",
-   "s": "Packaging Dive",
-   "u": "https://www.packagingdive.com/news/california-updated-source-reduction-plastic-baseline/873631/",
-   "d": "2026-11-04T11:28:00-05:00"
-  },
-  {
-   "t": "Ahold Delhaize braces for impact of cybersecurity incident",
-   "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/ahold-delhaize-united-states-third-quarter-earnings/873745/",
-   "d": "2026-11-04T11:20:50-05:00"
-  },
-  {
-   "t": "Kraft Heinz to sell North American coffee business to private equity firm",
+   "t": "Ferrara to shutter Chicago plant, lay off more than 150 workers",
    "s": "Food Dive",
-   "u": "https://www.fooddive.com/news/kraft-heinz-sell-coffee-maxwellhouse-private-equit/873720/",
-   "d": "2026-11-04T11:00:00-05:00"
+   "u": "https://www.fooddive.com/news/ferrara-closing-chicago-plant-jobs-snacking/874294/",
+   "d": "2026-11-10T15:54:00-05:00"
   },
   {
-   "t": "Bayer and IdeeLab partner to develop biofungicides for Brazilian farmers",
-   "s": "AgFunder News",
-   "u": "https://agfundernews.com/bayer-and-ideelab-partner-to-develop-biofungicides-for-brazilian-farmers",
-   "d": "2026-11-04T15:16:22+00:00"
+   "t": "Boozman working toward comprehensive farm bill by year-end",
+   "s": "Feedstuffs",
+   "u": "https://www.feedstuffs.com/policy/boozman-working-toward-comprehensive-farm-bill-by-year-end",
+   "d": "2026-11-10T19:43:21+00:00"
   },
   {
-   "t": "Which restaurant brands are winning in franchising?",
-   "s": "Restaurant Dive",
-   "u": "https://www.restaurantdive.com/news/franchising-growth-declines-fdd-data/833285/",
-   "d": "2026-11-04T10:15:00-05:00"
+   "t": "Hain Celestial flags “going concern” risk unless debt agreement secured",
+   "s": "Just Food",
+   "u": "https://www.just-food.com/news/hain-celestial-flags-going-concern-risk-unless-debt-agreement-secured/",
+   "d": "2026-11-10T17:40:27+00:00"
   },
   {
-   "t": "Kroger taps RFID, computer vision data to boost inventory management",
+   "t": "Folding carton maker MM Packaging being sold to private equity",
+   "s": "Packaging Dive",
+   "u": "https://www.packagingdive.com/news/mm-packaging-kps-private-equity-acquisition/874240/",
+   "d": "2026-11-10T11:59:52-05:00"
+  },
+  {
+   "t": "Unpacking the DOJ’s investigation of containerboard producers",
+   "s": "Packaging Dive",
+   "u": "https://www.packagingdive.com/news/doj-investigation-containerboard-producers-pricing-criminal-civil-lawsuit-parallel/874227/",
+   "d": "2026-11-10T11:48:00-05:00"
+  },
+  {
+   "t": "Lidl US prepares to debut 9th store of 2026",
    "s": "Grocery Dive",
-   "u": "https://www.grocerydive.com/news/kroger-rfid-computer-vision-data-inventory-management/873639/",
-   "d": "2026-11-04T10:07:00-05:00"
+   "u": "https://www.grocerydive.com/news/lidl-us-store-growth-grocery/874203/",
+   "d": "2026-11-10T11:12:00-05:00"
+  },
+  {
+   "t": "Bezos Earth Fund joins Yield Lab Institute’s Global Cattle Innovation program as ‘catalytic funder’",
+   "s": "AgFunder News",
+   "u": "https://agfundernews.com/bezos-earth-fund-joins-yield-lab-institutes-global-cattle-innovation-program-as-catalytic-funder",
+   "d": "2026-11-10T16:01:28+00:00"
+  },
+  {
+   "t": "Mars to invest $1.4B in US manufacturing, operations in 2027",
+   "s": "Food Dive",
+   "u": "https://www.fooddive.com/news/mars-invest-us-manufacturing-operations-snacking-kellanova-acquisition/874254/",
+   "d": "2026-11-10T11:00:00-05:00"
+  },
+  {
+   "t": "US government aims to prevent cyberattacks on refrigeration systems",
+   "s": "Grocery Dive",
+   "u": "https://www.grocerydive.com/news/cisa-cybersecurity-grocery-refrigeration-attacks/874208/",
+   "d": "2026-11-10T10:57:25-05:00"
+  },
+  {
+   "t": "General Mills streamlines business structure amid CEO change",
+   "s": "Food Dive",
+   "u": "https://www.fooddive.com/news/general-mills-restructures-new-ceo-cereal-snacking/874236/",
+   "d": "2026-11-10T10:47:00-05:00"
+  },
+  {
+   "t": "Monster Beverage nearing global tipping point",
+   "s": "Food Business News",
+   "u": "https://www.foodbusinessnews.net/articles/31332-monster-beverage-nearing-global-tipping-point",
+   "d": "2026-11-10T10:39:09-05:00"
+  },
+  {
+   "t": "What the Democratic midterm landslide means for franchising",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/nra-ifa-rfdc-midterm-election-political-fallout-restaurant-franchising/874213/",
+   "d": "2026-11-10T10:34:00-05:00"
+  },
+  {
+   "t": "Stellar Snacks debuts olive oil-baked pretzel braids",
+   "s": "Food Business News",
+   "u": "https://www.foodbusinessnews.net/articles/31331-stellar-snacks-debuts-olive-oil-baked-pretzel-braids",
+   "d": "2026-11-10T10:28:22-05:00"
+  },
+  {
+   "t": "Stoli returns to US following bankruptcy",
+   "s": "Food Dive",
+   "u": "https://www.fooddive.com/news/stoli-vodka-relaunch-us-bankruptcy/874241/",
+   "d": "2026-11-10T09:48:00-05:00"
+  },
+  {
+   "t": "TGI Fridays to re-enter Las Vegas market",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/tgi-fridays-franchising-deal-las-vegas-lvp-food-services-concepts/874168/",
+   "d": "2026-11-10T09:31:00-05:00"
+  },
+  {
+   "t": "France vows all “means of response” to alleged Iran retail hacks",
+   "s": "Just Food",
+   "u": "https://www.just-food.com/news/france-vows-all-means-of-response-to-alleged-iran-retail-hacks/",
+   "d": "2026-11-10T12:52:05+00:00"
+  },
+  {
+   "t": "PepsiCo ‘to cut 1,000 jobs in North America’",
+   "s": "Just Food",
+   "u": "https://www.just-food.com/news/pepsico-to-cut-1000-jobs-in-north-america/",
+   "d": "2026-11-10T12:50:38+00:00"
+  },
+  {
+   "t": "CDC declares end to outbreak traced to sprouts; FDA still refuses to name seed supplier",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/cdc-declares-end-to-outbreak-traced-to-sprouts-fda-still-refuses-to-name-seed-supplier/",
+   "d": "2026-11-10T05:05:00+00:00"
+  },
+  {
+   "t": "FDA moves to revoke permission for some chemicals used in food dyes",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/fda-moves-to-revoke-permission-for-some-chemicals-used-in-food-dyes/",
+   "d": "2026-11-10T05:04:00+00:00"
+  },
+  {
+   "t": "McDonald’s connects loyalty program with Uber",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/",
+   "d": "2026-11-09T15:54:00-05:00"
+  },
+  {
+   "t": "Guest article: A landscape-scale strategy for regenerative agriculture",
+   "s": "AgFunder News",
+   "u": "https://agfundernews.com/guest-article-a-landscape-scale-strategy-for-regenerative-agriculture",
+   "d": "2026-11-09T17:39:46+00:00"
+  },
+  {
+   "t": "Nippon Dynawave mill to restart in December as president departs",
+   "s": "Packaging Dive",
+   "u": "https://www.packagingdive.com/news/nippon-dynawave-packaging-president-retire-restart-operations-citation/874087/",
+   "d": "2026-11-09T12:22:00-05:00"
+  },
+  {
+   "t": "SB 54 plastic tonnage baseline expected to rise, CalRecycle says",
+   "s": "Packaging Dive",
+   "u": "https://www.packagingdive.com/news/sb-54-plastic-tonnage-baseline-expected-to-rise-calrecycle-says/874077/",
+   "d": "2026-11-09T12:00:00-05:00"
+  },
+  {
+   "t": "USDA greenlights WIC online ordering",
+   "s": "Grocery Dive",
+   "u": "https://www.grocerydive.com/news/usda-greenlights-wic-online-ordering/874106/",
+   "d": "2026-11-09T11:24:00-05:00"
+  },
+  {
+   "t": "Inside Dog Haus’ plan to reach 1,500 units",
+   "s": "Restaurant Dive",
+   "u": "https://www.restaurantdive.com/news/dog-haus-area-directors-400-committed-units/874096/",
+   "d": "2026-11-09T11:10:00-05:00"
+  },
+  {
+   "t": "Kroger accelerates direct sourcing efforts for better cost control, visibility",
+   "s": "Grocery Dive",
+   "u": "https://www.grocerydive.com/news/kroger-accelerates-direct-sourcing-efforts/873636/",
+   "d": "2026-11-09T11:07:00-05:00"
+  },
+  {
+   "t": "Utz names new CEO ahead of $2.9B go-private deal",
+   "s": "Food Dive",
+   "u": "https://www.fooddive.com/news/utz-ceo-merger-snacking/874104/",
+   "d": "2026-11-09T11:00:00-05:00"
+  },
+  {
+   "t": "Sonoco names new CEO",
+   "s": "Packaging Dive",
+   "u": "https://www.packagingdive.com/news/sonoco-ceo-retire-december-2026/874079/",
+   "d": "2026-11-09T10:11:00-05:00"
+  },
+  {
+   "t": "Kraft Heinz adds Nordstrom CFO, ex-Kroger finance chief to board",
+   "s": "Food Dive",
+   "u": "https://www.fooddive.com/news/kraft-heinz-adds-nordstrom-cfo-kroger-board-kellanova-investment/874100/",
+   "d": "2026-11-09T10:03:00-05:00"
+  },
+  {
+   "t": "Single-cell protein's breakthrough remains stuck in the slow lane",
+   "s": "Feed Strategy",
+   "u": "https://www.feedstrategy.com/animal-feed-additives-ingredients/article/15834251/scp-feed-technology-struggles-to-scale",
+   "d": "2026-11-09T02:00:00-06:00"
+  },
+  {
+   "t": "The food industry is absorbing shocks so well that nobody is pricing the risk",
+   "s": "AgFunder News",
+   "u": "https://agfundernews.com/the-food-industry-is-absorbing-shocks-so-well-that-nobody-is-pricing-the-risk",
+   "d": "2026-11-06T15:16:38+00:00"
   }
  ],
  "engineering": [
   {
-   "t": "US scientists find domains under 1 nm² that could help shrink chip memory",
+   "t": "China’s new military drone uses dart-like injections to treat wounded troops remotely",
    "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/innovation/us-researchers-map-domains-under-1-nm-for-denser-memory",
-   "d": "2026-11-07T12:19:15+00:00"
+   "u": "https://interestingengineering.com/military/china-drone-medicine-darts-injections",
+   "d": "2026-11-12T00:44:38+00:00"
   },
   {
-   "t": "World’s first 200 mm single-crystal diamond grown in US, can boost next-gen chips",
+   "t": "Florida’s power grid set for a 300 MW clean energy boost from four new solar sites",
    "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/innovation/diamond-foundry-grows-200mm-diamond-chips",
-   "d": "2026-11-07T12:02:59+00:00"
+   "u": "https://interestingengineering.com/energy/300-mw-clean-energy-florida-power-grid",
+   "d": "2026-11-11T21:55:03+00:00"
   },
   {
-   "t": "Explainer: How sand batteries turn surplus renewable electricity into stored heat",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/energy/explainer-how-sand-batteries-turn-surplus-renewable-electricity-into-stored-heat",
-   "d": "2026-11-07T11:33:01+00:00"
+   "t": "Big Growth in US Industrial Automation",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/big-growth-in-us-industrial-automation/",
+   "d": "2026-11-11T21:52:36+00:00"
   },
   {
-   "t": "7 Battery technologies that could transform electric vehicles and grid storage",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/energy/battery-technologies-that-could-transform-electric-vehicles",
-   "d": "2026-11-07T11:32:28+00:00"
+   "t": "Ultrasound and AI turn off-the-shelf smartwatch into full-body tracker without cameras",
+   "s": "Phys.org Technology",
+   "u": "https://techxplore.com/news/2026-11-ultrasound-ai-shelf-smartwatch-full.html",
+   "d": "2026-11-11T16:20:04-05:00"
   },
   {
-   "t": "1,200-mile EV range: Chinese firm’s new lithium air EV battery offers 5x energy density",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/energy/1200-miles-chinese-firms-new-ev-battery",
-   "d": "2026-11-07T10:37:25+00:00"
+   "t": "Most top mobile games in Japan still don't fully reveal loot box odds, despite decade-old industry rules",
+   "s": "Phys.org Technology",
+   "u": "https://techxplore.com/news/2026-11-mobile-games-japan-dont-fully.html",
+   "d": "2026-11-11T16:00:23-05:00"
   },
   {
-   "t": "10 semiconductor technologies behind faster computing and efficient power",
+   "t": "Google’s Gemini Decisions API processes 1,000 decisions in 150–250 milliseconds",
    "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/energy/semiconductor-technologies-behind-faster-computing",
-   "d": "2026-11-07T10:31:55+00:00"
+   "u": "https://interestingengineering.com/ai-robotics/google-gemini-decisions-api-fast-ai-agents",
+   "d": "2026-11-11T20:51:40+00:00"
   },
   {
-   "t": "Measuring for success: Construction app makes estimates faster, easier",
+   "t": "Organic semiconductor sheet enables light-driven water splitting without external voltage",
+   "s": "Phys.org Technology",
+   "u": "https://techxplore.com/news/2026-11-semiconductor-sheet-enables-driven-external.html",
+   "d": "2026-11-11T15:40:06-05:00"
+  },
+  {
+   "t": "Tiny bubbles could raise green hydrogen energy use by more than 50%, study shows",
+   "s": "Interesting Engineering",
+   "u": "https://interestingengineering.com/energy/tiny-bubbles-green-hydrogen-energy",
+   "d": "2026-11-11T20:28:27+00:00"
+  },
+  {
+   "t": "3D-printed robotic frog swims using six artificial muscles powered by light",
    "s": "TechXplore Engineering",
-   "u": "https://techxplore.com/news/2026-11-success-app-faster-easier.html",
-   "d": "2026-11-06T20:20:02-05:00"
+   "u": "https://techxplore.com/news/2026-11-3d-robotic-frog-artificial-muscles.html",
+   "d": "2026-11-11T15:20:08-05:00"
   },
   {
-   "t": "Energy security concerns spur faster renewables growth across a widening constellation of countries",
+   "t": "Laser recycling method cuts energy use by 84%, recovers valuable solar metals",
+   "s": "Interesting Engineering",
+   "u": "https://interestingengineering.com/energy/laser-technology-solar-panel-recycling",
+   "d": "2026-11-11T20:05:06+00:00"
+  },
+  {
+   "t": "Engineers challenge 90-year limitation in digital audio sensing",
    "s": "Phys.org Technology",
-   "u": "https://techxplore.com/news/2026-11-energy-spur-faster-renewables-growth.html",
-   "d": "2026-11-06T18:40:01-05:00"
+   "u": "https://techxplore.com/news/2026-11-year-limitation-digital-audio.html",
+   "d": "2026-11-11T15:00:02-05:00"
   },
   {
-   "t": "How Point One turned GPS accuracy into a robotics platform",
-   "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/how-point-one-turned-gps-accuracy-into-robotics-platform/",
-   "d": "2026-11-06T21:47:35+00:00"
+   "t": "China launches world’s first 176-ton electric mining truck with 2,400-kWh battery",
+   "s": "Interesting Engineering",
+   "u": "https://interestingengineering.com/transportation/china-176-ton-electric-mining-truck",
+   "d": "2026-11-11T19:36:52+00:00"
   },
   {
-   "t": "Boston Dynamics built Stretch Gen 2 for reliable, consistent performance",
-   "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/boston-dynamics-built-stretch-gen-2-for-reliable-consistent-performance/",
-   "d": "2026-11-06T21:34:44+00:00"
+   "t": "Clones and spies (AI is in a weird place right now)",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/clones-and-spies-ai-is-in-a-weird-place-right-now/",
+   "d": "2026-11-11T18:41:37+00:00"
   },
   {
-   "t": "Industry experts discuss China blocking SoftBank acquisition of ABB Robotics",
-   "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/industry-experts-discuss-china-blocking-softbank-acquisition-abb-robotics/",
-   "d": "2026-11-06T20:41:17+00:00"
-  },
-  {
-   "t": "Three new techniques target hidden AI backdoors without major performance losses",
-   "s": "Phys.org Technology",
-   "u": "https://techxplore.com/news/2026-11-techniques-hidden-ai-backdoors-major.html",
-   "d": "2026-11-06T14:00:06-05:00"
-  },
-  {
-   "t": "Duke Energy to stay course on data center-fueled growth plan after ‘historic’ election",
-   "s": "Utility Dive",
-   "u": "https://www.utilitydive.com/news/historic-election-night-wont-change-growth-focus-at-duke-energy-executi/873965/",
-   "d": "2026-11-06T13:00:00-05:00"
-  },
-  {
-   "t": "Nonflammable gel membrane could help batteries run twice as long on a single charge",
-   "s": "Phys.org Technology",
-   "u": "https://techxplore.com/news/2026-11-nonflammable-gel-membrane-batteries.html",
-   "d": "2026-11-06T12:25:42-05:00"
-  },
-  {
-   "t": "Avnet Silica expands Teltonika Networks distribution in EMEA",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/avnet-silica-teltonika-networks-distribution-emea/",
-   "d": "2026-11-06T17:09:40+00:00"
-  },
-  {
-   "t": "AI learns from the products of thinking, not thought itself. That's a problem for machines—and for us",
-   "s": "Phys.org Technology",
-   "u": "https://techxplore.com/news/2026-11-ai-products-thought-problem-machines.html",
-   "d": "2026-11-06T12:00:11-05:00"
-  },
-  {
-   "t": "Manufacturing industry added 19K jobs in October",
+   "t": "Manufacturing advocates make case for tariffs following midterm results",
    "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/bls-manufacturing-employment-situation-october-jolts-september-2026/873897/",
-   "d": "2026-11-06T12:00:00-05:00"
+   "u": "https://www.manufacturingdive.com/news/manufacturing-advocates-make-case-tariffs-following-mid-term-results/874379/",
+   "d": "2026-11-11T12:02:00-05:00"
   },
   {
-   "t": "Q&A: How is American manufacturing evolving with AI and robotics?",
+   "t": "New framework examines one-sided human-AI relationships and potential risks for consumers",
    "s": "Phys.org Technology",
-   "u": "https://techxplore.com/news/2026-11-qa-american-evolving-ai-robotics.html",
-   "d": "2026-11-06T11:40:05-05:00"
+   "u": "https://techxplore.com/news/2026-11-framework-sided-human-ai-relationships.html",
+   "d": "2026-11-11T12:00:07-05:00"
   },
   {
-   "t": "Zipline raises $1.5B, plans US drone manufacturing expansion",
-   "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/zipline-drone-delivery-plans-manufacturing-expansion-uber-walmart/873940/",
-   "d": "2026-11-06T11:10:00-05:00"
-  },
-  {
-   "t": "Century Aluminum CEO says Oklahoma project ‘on track’ despite community concerns",
-   "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/century-aluminum-ceo-oklahoma-project-on-track-community-concerns-q3-2026/873971/",
-   "d": "2026-11-06T11:00:00-05:00"
-  },
-  {
-   "t": "How Do You Land on a Moon With Almost No Gravity?",
-   "s": "IEEE Spectrum",
-   "u": "https://spectrum.ieee.org/mmx-mission-to-phobos",
-   "d": "2026-11-06T15:00:02+00:00"
-  },
-  {
-   "t": "Pfizer to build $650M manufacturing technology center in Connecticut",
-   "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/pfizer-650m-manufacturing-technology-center-connecticut/873918/",
-   "d": "2026-11-06T10:00:00-05:00"
-  },
-  {
-   "t": "Lear to open automated factory as ‘blueprint’ for global network",
-   "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/lear-automated-factory-blueprint-global-network/873986/",
-   "d": "2026-11-06T09:43:00-05:00"
-  },
-  {
-   "t": "What caught your eye? AI bust, Qualcomm MMIOs, RF emitters",
-   "s": "Electronics Weekly",
-   "u": "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/what-caught-your-eye-ai-bust-qualcomm-mmios-rf-emitters-2026-11/",
-   "d": "2026-11-06T14:33:14+00:00"
-  },
-  {
-   "t": "Ford Energy partners with DESRI to deploy US BESS",
-   "s": "Energy Storage News",
-   "u": "https://www.energy-storage.news/ford-energy-partners-with-desri-to-deploy-us-bess/",
-   "d": "2026-11-06T14:06:23+00:00"
-  },
-  {
-   "t": "BESS Industry Buzz: Blue Wave in the midterms, RTE disagreements, cybersecurity incident in Chile",
-   "s": "Energy Storage News",
-   "u": "https://www.energy-storage.news/bess-industry-buzz-blue-wave-in-the-midterms-rte-disagreements-cybersecurity-incident-in-chile/",
-   "d": "2026-11-06T14:05:57+00:00"
-  },
-  {
-   "t": "India approves Viability Gap Funding to support 92GWh of BESS and pumped hydro energy storage capacity",
-   "s": "Energy Storage News",
-   "u": "https://www.energy-storage.news/india-approves-viability-gap-funding-to-support-92gwh-of-bess-and-pumped-hydro-energy-storage-capacity/",
-   "d": "2026-11-06T14:02:00+00:00"
-  },
-  {
-   "t": "Farsoon introduces FS722M metal PBF platform",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/farsoon-introduces-fs722m-metal-pbf-platform/",
-   "d": "2026-11-06T14:01:59+00:00"
-  },
-  {
-   "t": "Engineers adapt laser physics trick to deliver heat on demand",
+   "t": "PRISM helps robots move better by learning how forces and motion interact",
    "s": "Phys.org Technology",
-   "u": "https://techxplore.com/news/2026-11-laser-physics-demand.html",
-   "d": "2026-11-06T08:40:05-05:00"
+   "u": "https://techxplore.com/news/2026-11-prism-robots-motion-interact.html",
+   "d": "2026-11-11T12:00:01-05:00"
   },
   {
-   "t": "Honeywell and RWS advance AI-powered cooling optimization",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/honeywell-and-rws-advance-ai-powered-cooling-optimization/",
-   "d": "2026-11-06T12:32:48+00:00"
-  },
-  {
-   "t": "Mouser offers Advantech MIC-743-AT AI inference system",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/mouser-offers-advantech-mic-743-at-ai-inference-system/",
-   "d": "2026-11-06T12:14:27+00:00"
-  },
-  {
-   "t": "Siemens expands rail partnerships across Asia-Pacific",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/siemens-expands-rail-partnerships-across-asia-pacific/",
-   "d": "2026-11-06T12:04:31+00:00"
-  },
-  {
-   "t": "Siemens automates component model extraction for NVH",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/siemens-automates-component-model-extraction-for-nvh/",
-   "d": "2026-11-06T11:55:04+00:00"
-  },
-  {
-   "t": "AMD joins IBM and ORNL to advance quantum computing",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/amd-joins-ibm-and-ornl-to-advance-quantum-computing/",
-   "d": "2026-11-06T11:52:55+00:00"
-  },
-  {
-   "t": "Trimble adds cloud drone processing to WorksManager",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/trimble-adds-cloud-drone-processing-to-worksmanager/",
-   "d": "2026-11-06T11:37:25+00:00"
-  },
-  {
-   "t": "HP WXP named a Strong Performer in Forrester Wave 2026",
-   "s": "Engineering.com",
-   "u": "https://www.engineering.com/hp-wxp-named-a-strong-performer-in-forrester-wave-2026/",
-   "d": "2026-11-06T11:07:54+00:00"
-  },
-  {
-   "t": "Target fabrication achieves new precision through additive manufacturing",
+   "t": "AI toolbox accelerates bioreactor simulations by up to 10,000 times",
    "s": "TechXplore Engineering",
-   "u": "https://techxplore.com/news/2026-11-fabrication-precision-additive.html",
-   "d": "2026-11-06T06:04:47-05:00"
+   "u": "https://techxplore.com/news/2026-11-ai-toolbox-bioreactor-simulations.html",
+   "d": "2026-11-11T11:40:26-05:00"
   },
   {
-   "t": "Emerson NI PXIe instruments for AI-accelerated automated testing",
-   "s": "Electronics Weekly",
-   "u": "https://www.electronicsweekly.com/news/products/test-measurement-products/emerson-ni-pxie-instruments-for-ai-accelerated-automated-testing-2026-11/",
-   "d": "2026-11-06T11:03:56+00:00"
-  },
-  {
-   "t": "Most Read – ASML exec pay, Toyota robotaxis, In-car computing",
-   "s": "Electronics Weekly",
-   "u": "https://www.electronicsweekly.com/blogs/electro-ramblings/latest-news/most-read-asml-exec-pay-toyota-robotaxis-in-car-computing-2026-11/",
-   "d": "2026-11-06T10:05:40+00:00"
-  },
-  {
-   "t": "Astrolab Plans Lunar Power and Communications Network for 2028",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/astrolab-plans-lunar-power-and-communications-network-for-2028/",
-   "d": "2026-11-06T09:00:00+00:00"
-  },
-  {
-   "t": "EnergyAustralia takes delivery of final units for 250MWh Hallett battery storage system",
-   "s": "Energy Storage News",
-   "u": "https://www.energy-storage.news/energyaustralia-takes-delivery-of-final-units-for-250mwh-hallett-battery-storage-system/",
-   "d": "2026-11-06T08:44:46+00:00"
-  },
-  {
-   "t": "How did Agility Robotics perform on its first day on the stock market?",
-   "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/how-did-agility-robotics-perform-on-its-first-day-on-the-stock-market/",
-   "d": "2026-11-05T22:48:14+00:00"
-  },
-  {
-   "t": "IEEE Program Schools Preuniversity Educators On Tech Topics",
-   "s": "IEEE Spectrum",
-   "u": "https://spectrum.ieee.org/ieee-preuniversity",
-   "d": "2026-11-05T19:00:02+00:00"
-  },
-  {
-   "t": "Over 6,000 manufacturing layoffs announced in October",
-   "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/3m-intel-lear-buitoni-layoffs-closures-warn-act-notices-october-2026/873819/",
-   "d": "2026-11-05T12:30:22-05:00"
-  },
-  {
-   "t": "OpenAI-Samsung talks amid tightening AI memory supply",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/openai-samsung-talks-ai-memory-supply/",
-   "d": "2026-11-05T17:05:12+00:00"
-  },
-  {
-   "t": "How Ambi Robotics helps its customers prepare for peak season",
-   "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/how-ambi-robotics-helps-customers-prepare-peak-season/",
-   "d": "2026-11-05T16:50:23+00:00"
-  },
-  {
-   "t": "US Steel’s profit doubled over previous quarter as market prices surge",
-   "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/us-steel-nippon-profits-doubled-q2-2026-market-prices-surge/873854/",
-   "d": "2026-11-05T11:30:00-05:00"
-  },
-  {
-   "t": "Chinese regulators block SoftBank’s $5.4B acquisition of ABB Robotics",
-   "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/chinese-regulators-block-softbanks-5-4b-acquisition-of-abb-robotics/",
-   "d": "2026-11-05T16:25:46+00:00"
-  },
-  {
-   "t": "3D-printed chain mail and more: New method combines thick inks and patterned light for faster, finer structures",
+   "t": "Inspired by networks found in nature, engineers design stronger, more resilient 'metamaterials'",
    "s": "TechXplore Engineering",
-   "u": "https://techxplore.com/news/2026-11-3d-chain-mail-method-combines.html",
-   "d": "2026-11-05T11:20:07-05:00"
+   "u": "https://techxplore.com/news/2026-11-networks-nature-stronger-resilient-metamaterials.html",
+   "d": "2026-11-11T11:00:11-05:00"
   },
   {
-   "t": "Marvell agrees to buy Lumentum in $115B stock deal",
+   "t": "Mars to invest $1.4B in US manufacturing, operations in 2027",
    "s": "Manufacturing Dive",
-   "u": "https://www.manufacturingdive.com/news/marvell-lumentum-115b-stock-deal-ai-data-centers/873783/",
-   "d": "2026-11-05T11:09:00-05:00"
+   "u": "https://www.manufacturingdive.com/news/mars-invest-us-manufacturing-operations-snacking-kellanova-acquisition/874403/",
+   "d": "2026-11-11T11:00:00-05:00"
   },
   {
-   "t": "Use Your Year-End Review to Reach for a Promotion",
-   "s": "IEEE Spectrum",
-   "u": "https://spectrum.ieee.org/how-to-get-a-promotion",
-   "d": "2026-11-05T16:08:03+00:00"
+   "t": "Trimble adds AI-assisted scheduling to Connect platform",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/trimble-adds-ai-assisted-scheduling-to-connect-platform/",
+   "d": "2026-11-11T14:40:38+00:00"
   },
   {
-   "t": "Agility Robotics begins trading on Nasdaq",
+   "t": "Calibrant Energy secures US$145 million for solar and BESS across US power markets including PJM hyperscaler project",
+   "s": "Energy Storage News",
+   "u": "https://www.energy-storage.news/calibrant-energy-secures-us145-million-for-solar-and-bess-across-us-power-markets-including-pjm-hyperscaler-project/",
+   "d": "2026-11-11T14:21:46+00:00"
+  },
+  {
+   "t": "Siemens adds agentic AI to HyperLynx verification workflows",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/siemens-adds-agentic-ai-to-hyperlynx-verification-workflows/",
+   "d": "2026-11-11T14:11:42+00:00"
+  },
+  {
+   "t": "Cadence launches OrCAD Xplore design platform",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/cadence-launches-orcad-xplore-design-platform/",
+   "d": "2026-11-11T14:01:10+00:00"
+  },
+  {
+   "t": "Serve Robotics opens robot delivery network for others to build on",
    "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/agility-robotics-begins-trading-on-nasdaq/",
-   "d": "2026-11-05T14:46:29+00:00"
+   "u": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
+   "d": "2026-11-11T13:43:29+00:00"
   },
   {
-   "t": "Exelon, Invenergy complaints at FERC seek capacity market changes",
-   "s": "Utility Dive",
-   "u": "https://www.utilitydive.com/news/exelon-invenergy-ferc-complaint-pjm-miso-capacity-market-/873845/",
-   "d": "2026-11-05T09:27:13-05:00"
+   "t": "Emerson adds liquids management to DeltaV FB3000 RTU",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/emerson-adds-liquids-management-to-deltav-fb3000-rtu/",
+   "d": "2026-11-11T13:42:45+00:00"
   },
   {
-   "t": "Why a Mathematician Is Chasing Eclipses With Algorithms and Cameras",
+   "t": "Buffett And The AI Boom",
+   "s": "Electronics Weekly",
+   "u": "https://www.electronicsweekly.com/blogs/mannerisms/markets/buffett-and-the-ai-boom-2026-11/",
+   "d": "2026-11-11T13:13:09+00:00"
+  },
+  {
+   "t": "Memories.ai builds standardized egocentric video pipeline",
+   "s": "The Robot Report",
+   "u": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
+   "d": "2026-11-11T13:00:34+00:00"
+  },
+  {
+   "t": "Can AI agents program industrial robots without training data? Berkeley says yes",
+   "s": "The Robot Report",
+   "u": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+   "d": "2026-11-11T12:55:16+00:00"
+  },
+  {
+   "t": "Semi-solid state batteries for BESS: potential and challenges",
+   "s": "Energy Storage News",
+   "u": "https://www.energy-storage.news/semi-solid-state-batteries-for-bess-potential-and-challenges/",
+   "d": "2026-11-11T12:22:59+00:00"
+  },
+  {
+   "t": "RelyEZ debuts on HKEX Main Board, becoming latest Chinese energy storage player to list in Hong Kong",
+   "s": "Energy Storage News",
+   "u": "https://www.energy-storage.news/relyez-debuts-on-hkex-main-board-becoming-latest-chinese-energy-storage-player-to-list-in-hong-kong/",
+   "d": "2026-11-11T11:33:07+00:00"
+  },
+  {
+   "t": "The Dynamo-Electric Principle: 160 Years of Powering Industry",
    "s": "IEEE Spectrum",
-   "u": "https://spectrum.ieee.org/2026-solar-eclipse",
-   "d": "2026-11-05T14:00:02+00:00"
+   "u": "https://spectrum.ieee.org/innomotics-electric-motors-drive-systems",
+   "d": "2026-11-11T11:00:02+00:00"
   },
   {
-   "t": "Robot moth grows new sensor using its own blood",
+   "t": "Honeywell unveils intelligent fire and life safety solutions",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/honeywell-unveils-intelligent-fire-and-life-safety-solutions/",
+   "d": "2026-11-11T10:57:05+00:00"
+  },
+  {
+   "t": "Aectual partners with Caracol to scale circular architecture",
+   "s": "Engineering.com",
+   "u": "https://www.engineering.com/aectual-partners-with-caracol-to-scale-circular-architecture/",
+   "d": "2026-11-11T10:51:21+00:00"
+  },
+  {
+   "t": "Inspired by elephant trunks, shape-shifting robots bend, grab and team up",
+   "s": "TechXplore Engineering",
+   "u": "https://techxplore.com/news/2026-11-elephant-trunks-shifting-robots-team.html",
+   "d": "2026-11-11T05:00:25-05:00"
+  },
+  {
+   "t": "MIT FLEX robot learning infers preferences from commands",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/mit-flex-robot-learning-infers-preferences/",
+   "d": "2026-11-11T09:09:37+00:00"
+  },
+  {
+   "t": "SpaceX Taps Qualcomm for Starlink Mobile’s Nationwide 5G Network",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/starlink-5g-network-qualcomm/",
+   "d": "2026-11-11T09:00:26+00:00"
+  },
+  {
+   "t": "ju:niz Energy enlists Envision for 442MWh grid-forming BESS in Germany",
+   "s": "Energy Storage News",
+   "u": "https://www.energy-storage.news/juniz-energy-enlists-envision-for-442mwh-grid-forming-bess-in-germany/",
+   "d": "2026-11-11T08:57:08+00:00"
+  },
+  {
+   "t": "Western Australia backs Australian Vanadium’s relocatable flow battery electrolyte facility",
+   "s": "Energy Storage News",
+   "u": "https://www.energy-storage.news/western-australia-backs-australian-vanadiums-relocatable-flow-battery-electrolyte-facility/",
+   "d": "2026-11-11T08:51:29+00:00"
+  },
+  {
+   "t": "1,300-mile cargo drone aims to obsolete the helicopter",
    "s": "New Atlas",
-   "u": "https://newatlas.com/robotics/tartu-iit-robot-moth-artificial-blood-uv-sensor/",
-   "d": "2026-11-05T11:47:41+00:00"
+   "u": "https://newatlas.com/aircraft/skyways-skyreach-autonomous-hybrid-vtol-cargo-drone/",
+   "d": "2026-11-11T08:23:19+00:00"
   },
   {
-   "t": "US distributed energy storage updates from Base Power and Sunrun",
-   "s": "Energy Storage News",
-   "u": "https://www.energy-storage.news/us-distributed-energy-storage-updates-from-base-power-and-sunrun/",
-   "d": "2026-11-05T11:27:50+00:00"
+   "t": "Speech Processing Pioneer Bishnu Saroop Atal Dies at 93",
+   "s": "IEEE Spectrum",
+   "u": "https://spectrum.ieee.org/speech-processing-pioneer-in-memoriam",
+   "d": "2026-11-10T19:00:02+00:00"
   },
   {
-   "t": "TDK introduces compact 60 W DC-DC converter for space-limited applications",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/tdk-introduces-compact-60-w-dc-dc-converter-for-space-limited-applications/",
-   "d": "2026-11-05T10:24:38+00:00"
-  },
-  {
-   "t": "Analog Devices completes Alif Semiconductor acquisition to boost edge AI",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/analog-devices-completes-alif-semiconductor-acquisition-to-boost-edge-ai/",
-   "d": "2026-11-05T09:37:58+00:00"
-  },
-  {
-   "t": "EU launches €525 million chip design platform to boost startups",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/eu-launches-e525-million-chip-design-platform-to-boost-startups/",
-   "d": "2026-11-05T09:28:04+00:00"
-  },
-  {
-   "t": "Bosch Sensortec CEO Stefan Finkbeiner on Sensors, AI and Innovation",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/bosch-sensortec-ceo-stefan-finkbeiner-on-sensors-ai-and-innovation/",
-   "d": "2026-11-05T09:00:27+00:00"
-  },
-  {
-   "t": "Hopping, flying robot gets an all-terrain upgrade",
-   "s": "New Atlas",
-   "u": "https://newatlas.com/robotics/hopcopter-hopping-robot-flexible-foot-pad/",
-   "d": "2026-11-04T22:28:48+00:00"
-  },
-  {
-   "t": "'Sticker-like' transfer printing could help scale up production of solid-state batteries",
-   "s": "TechXplore Engineering",
-   "u": "https://techxplore.com/news/2026-11-sticker-scale-production-solid-state.html",
-   "d": "2026-11-04T16:20:14-05:00"
-  },
-  {
-   "t": "Digital cold strain engineering opens a new route to the programmable control of materials",
-   "s": "TechXplore Engineering",
-   "u": "https://techxplore.com/news/2026-11-digital-cold-strain-route-programmable.html",
-   "d": "2026-11-04T16:20:11-05:00"
-  },
-  {
-   "t": "French data tax passes narrow parliamentary vote",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/french-data-tax-parliamentary-vote/",
-   "d": "2026-11-04T16:54:22+00:00"
-  },
-  {
-   "t": "Robotics Startup Radar 2026",
+   "t": "Dynamic Creatures partners with Sixth Wall Studio to bring Hasbro characters to life with robots",
    "s": "The Robot Report",
-   "u": "https://www.therobotreport.com/robotics-startup-radar-2026/",
-   "d": "2026-11-04T16:08:46+00:00"
+   "u": "https://www.therobotreport.com/dynamic-creatures-partners-sixth-wall-studio-bring-hasbro-characters-life-with-robots/",
+   "d": "2026-11-10T18:31:17+00:00"
+  },
+  {
+   "t": "Green hydrogen production has a bubble problem—new model reveals threshold for steep energy losses",
+   "s": "TechXplore Engineering",
+   "u": "https://techxplore.com/news/2026-11-green-hydrogen-production-problem-reveals.html",
+   "d": "2026-11-10T12:40:04-05:00"
+  },
+  {
+   "t": "The AI boom could shift diesel generators from backup to everyday use",
+   "s": "Utility Dive",
+   "u": "https://www.utilitydive.com/news/ai-boom-could-shift-diesel-generators-backup-everyday-use/873954/",
+   "d": "2026-11-10T12:24:20-05:00"
+  },
+  {
+   "t": "Softbank and ABB reenter talks after China blocked acquisition",
+   "s": "Manufacturing Dive",
+   "u": "https://www.manufacturingdive.com/news/softbank-abb-reenter-talks-after-china-blocked-robotics-acquisition-5b-deal/874244/",
+   "d": "2026-11-10T12:06:00-05:00"
+  },
+  {
+   "t": "GE Vernova to spend $34.5M expanding Louisiana transformer manufacturing capacity",
+   "s": "Utility Dive",
+   "u": "https://www.utilitydive.com/news/ge-vernova-to-spend-345m-expanding-transformer-manufacturing-capacity-in/874272/",
+   "d": "2026-11-10T12:03:44-05:00"
+  },
+  {
+   "t": "Why predictive maintenance matters more as factories add robots",
+   "s": "The Robot Report",
+   "u": "https://www.therobotreport.com/why-predictive-maintenance-matters-more-as-factories-add-robots/",
+   "d": "2026-11-10T16:13:40+00:00"
+  },
+  {
+   "t": "Community engagement is key to on-site battery storage, experts say",
+   "s": "Utility Dive",
+   "u": "https://www.utilitydive.com/news/community-engagement-is-key-to-on-site-battery-energy-storage-experts-say/874194/",
+   "d": "2026-11-10T11:05:42-05:00"
+  },
+  {
+   "t": "Honda to invest $3B in new Ohio hybrid vehicle plant",
+   "s": "Manufacturing Dive",
+   "u": "https://www.manufacturingdive.com/news/honda-3b-ohio-hybrid-vehicle-plant/874210/",
+   "d": "2026-11-10T09:51:07-05:00"
+  },
+  {
+   "t": "Intel and Altera expand collaboration to simplify sensor integration for physical AI",
+   "s": "The Robot Report",
+   "u": "https://www.therobotreport.com/intel-altera-expand-collaboration-simplify-sensor-integration-physical-ai/",
+   "d": "2026-11-10T14:47:10+00:00"
+  },
+  {
+   "t": "Firefly Aerospace, AST SpaceMobile sign $1.3B rocket-engine supply deal",
+   "s": "Manufacturing Dive",
+   "u": "https://www.manufacturingdive.com/news/firefly-aerospace-ast-spacemobile-rocket-engines-supplier/874142/",
+   "d": "2026-11-10T09:47:00-05:00"
+  },
+  {
+   "t": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+   "s": "The Robot Report",
+   "u": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+   "d": "2026-11-10T13:06:58+00:00"
+  },
+  {
+   "t": "Catch Electronics Shock and Drop Failures Before Hardware Is Built",
+   "s": "IEEE Spectrum",
+   "u": "https://content.knowledgehub.wiley.com/shifting-reliability-left-guided-virtual-validation-for-electronics-shock-and-drop-testing/",
+   "d": "2026-11-10T11:00:02+00:00"
+  },
+  {
+   "t": "Analog in memory compute for low power AI inference",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/analog-in-memory-compute-for-low-power-ai-inference/",
+   "d": "2026-11-10T10:20:18+00:00"
+  },
+  {
+   "t": "TSMC 3D DRAM report linked to Nvidia draws response",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/tsmc-3d-dram-nvidia-report-response/",
+   "d": "2026-11-10T08:59:00+00:00"
+  },
+  {
+   "t": "NVIDIA NVLink Fusion brings Korean AI chips to rack-scale systems",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/nvidia-nvlink-fusion-brings-korean-ai-chips-to-rack-scale-systems/",
+   "d": "2026-11-10T08:47:14+00:00"
+  },
+  {
+   "t": "A robot just built a structure in space for the first time",
+   "s": "New Atlas",
+   "u": "https://newatlas.com/technology/robot-built-structure-space-first-time/",
+   "d": "2026-11-10T03:50:40+00:00"
+  },
+  {
+   "t": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+   "s": "The Robot Report",
+   "u": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+   "d": "2026-11-09T21:52:05+00:00"
+  },
+  {
+   "t": "Fabric molds could bring material-saving concrete beams within reach",
+   "s": "TechXplore Engineering",
+   "u": "https://techxplore.com/news/2026-11-fabric-molds-material-concrete.html",
+   "d": "2026-11-09T13:00:01-05:00"
+  },
+  {
+   "t": "Toyota, University of Chicago form R&D partnership",
+   "s": "Manufacturing Dive",
+   "u": "https://www.manufacturingdive.com/news/toyota-uchicago-research-development-quantum-technologies/873633/",
+   "d": "2026-11-09T12:37:47-05:00"
+  },
+  {
+   "t": "Manufacturing bills to watch for the rest of the 119th Congress",
+   "s": "Manufacturing Dive",
+   "u": "https://www.manufacturingdive.com/news/manufacturing-bills-watch-119th-congress-2026-ndaa-baaja-robotics/874102/",
+   "d": "2026-11-09T12:37:00-05:00"
+  },
+  {
+   "t": "A single AI model simulates the behavior of many substances, from sliding sand to folding proteins",
+   "s": "TechXplore Engineering",
+   "u": "https://techxplore.com/news/2026-11-ai-simulates-behavior-substances-sand.html",
+   "d": "2026-11-09T12:20:01-05:00"
+  },
+  {
+   "t": "AI Agents Are Testing the Limits of Zero-Trust Security",
+   "s": "IEEE Spectrum",
+   "u": "https://spectrum.ieee.org/zero-trust-agentic-ai-architecture",
+   "d": "2026-11-09T16:25:06+00:00"
+  },
+  {
+   "t": "Expectations vs. reality: the disconnect between manufacturing investment and capacity",
+   "s": "Manufacturing Dive",
+   "u": "https://www.manufacturingdive.com/spons/expectations-vs-reality-the-disconnect-between-manufacturing-investment-a/873275/",
+   "d": "2026-11-09T05:00:00-05:00"
+  },
+  {
+   "t": "SoftBank and Sceye Plan Stratospheric Network Across Japan",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/softbank-and-sceye-plan-stratospheric-network-across-japan/",
+   "d": "2026-11-09T09:00:59+00:00"
+  },
+  {
+   "t": "Nvidia board investigation follows reported spying on Huang",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/",
+   "d": "2026-11-09T08:54:42+00:00"
   }
  ],
  "decision": [
+  {
+   "t": "Jensen Huang may be out at Nvidia: The rise and fall of a key figure in the AI boom",
+   "s": "Fast Company",
+   "u": "https://www.fastcompany.com/91640747/jensen-huang-may-be-out-at-nvidia-the-rise-and-fall-of-one-of-the-key-figures-in-the-ai-boom",
+   "d": "2026-11-12T00:27:18+00:00"
+  },
+  {
+   "t": "OpenAI Codex on Amazon Bedrock",
+   "s": "AWS Machine Learning",
+   "u": "https://aws.amazon.com/blogs/machine-learning/openai-codex-on-amazon-bedrock/",
+   "d": "2026-11-11T23:35:47+00:00"
+  },
+  {
+   "t": "Semantic diffing of formal policies with anti-unification",
+   "s": "AWS Machine Learning",
+   "u": "https://aws.amazon.com/blogs/machine-learning/semantic-diffing-of-formal-policies-with-anti-unification/",
+   "d": "2026-11-11T23:33:03+00:00"
+  },
+  {
+   "t": "Detecting and recovering from silent data corruption on Amazon SageMaker HyperPod",
+   "s": "AWS Machine Learning",
+   "u": "https://aws.amazon.com/blogs/machine-learning/detecting-and-recovering-from-silent-data-corruption-on-amazon-sagemaker-hyperpod/",
+   "d": "2026-11-11T23:30:03+00:00"
+  },
+  {
+   "t": "Introducing the Web Search API on Amazon Bedrock AgentCore",
+   "s": "AWS Machine Learning",
+   "u": "https://aws.amazon.com/blogs/machine-learning/introducing-the-web-search-api-on-amazon-bedrock-agentcore/",
+   "d": "2026-11-11T23:13:16+00:00"
+  },
+  {
+   "t": "Can anyone really stop the AI data center boom? What could happen next now that voters have spoken",
+   "s": "Fast Company",
+   "u": "https://www.fastcompany.com/91640482/ai-data-center-boom-can-anyone-stop-it-what-happens-next",
+   "d": "2026-11-11T22:30:00+00:00"
+  },
+  {
+   "t": "ICYMI: What landed for AI builders in October 2026",
+   "s": "AWS Machine Learning",
+   "u": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
+   "d": "2026-11-11T22:26:40+00:00"
+  },
+  {
+   "t": "A day after Anthropic’s office push, Databricks jumps in with AI agents that never sleep",
+   "s": "Fortune",
+   "u": "https://fortune.com/2026/11/11/databricks/",
+   "d": "2026-11-11T22:07:04+00:00"
+  },
+  {
+   "t": "United Airlines just made a big change to flight bookings. Here’s why Delta and American aren’t following suit",
+   "s": "Fast Company",
+   "u": "https://www.fastcompany.com/91640548/united-airlines-just-made-a-big-change-to-flight-bookings-heres-why-delta-and-american-arent-following",
+   "d": "2026-11-11T22:05:47+00:00"
+  },
+  {
+   "t": "Microsoft CEO Satya Nadella: Workers in AI-heavy jobs are having an identity crisis",
+   "s": "Fast Company",
+   "u": "https://www.fastcompany.com/91640556/microsoft-ceo-satya-nadella-workers-in-ai-heavy-jobs-are-having-an-identity-crisis",
+   "d": "2026-11-11T21:30:00+00:00"
+  },
+  {
+   "t": "AI will drive a 1.7M job boost, with big changes ahead for IT",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/Ai-jobs-boost-changes-IT/874452/",
+   "d": "2026-11-11T16:13:14-05:00"
+  },
+  {
+   "t": "L&D leaders expect bigger budgets when their strategy is directly tied to business priorities",
+   "s": "HR Dive",
+   "u": "https://www.hrdive.com/news/learning-leaders-expect-bigger-budgets-business-priority/874405/",
+   "d": "2026-11-11T15:52:00-05:00"
+  },
+  {
+   "t": "Trump signals openness to AI guardrails after ‘blue tsunami’",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/trump-signals-openness-ai-guardrails-blue-tsunami/874437/",
+   "d": "2026-11-11T15:01:00-05:00"
+  },
+  {
+   "t": "J. Crew debuts new AI shopping tool that’s designed to think like a stylist",
+   "s": "Fortune",
+   "u": "https://fortune.com/2026/11/11/jcrew-anthropic-ai-style-advisor/",
+   "d": "2026-11-11T17:43:27+00:00"
+  },
+  {
+   "t": "Nvidia board’s idolatry of Jensen Huang could open the door to shareholder lawsuits in Delaware Chancery Court",
+   "s": "Fortune",
+   "u": "https://fortune.com/2026/11/11/nvidia-board-jensen-huang-caremark-shareholder-lawsuits-delaware/",
+   "d": "2026-11-11T17:20:38+00:00"
+  },
+  {
+   "t": "N-able issues hotfix after researcher dumps PoCs in disclosure spat",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/news/n-able-hotfix-researcher-pocs-zero-days/874388/",
+   "d": "2026-11-11T11:02:52-05:00"
+  },
+  {
+   "t": "CISA sets operational priorities for partnerships, risk assessments and systemic action",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/news/cisa-priorities-memo-risks-partnerships/874381/",
+   "d": "2026-11-11T10:28:39-05:00"
+  },
+  {
+   "t": "Atomic targets capital raise to fuel agentic AI work",
+   "s": "Banking Dive",
+   "u": "https://www.bankingdive.com/news/atomic-fintech-capital-raise-agentic-ai-work/874357/",
+   "d": "2026-11-11T08:17:26-05:00"
+  },
+  {
+   "t": "The Download: preserving minds and weighing open AI risks",
+   "s": "MIT Technology Review",
+   "u": "https://www.technologyreview.com/2026/11/11/1148424/the-download-preserving-minds-open-ai-risks/",
+   "d": "2026-11-11T13:10:00+00:00"
+  },
+  {
+   "t": "Lipp v. Mixedbread AI Addresses How a Company Can End an Advancement Obligation",
+   "s": "Harvard Law Forum on Corporate Governance",
+   "u": "https://corpgov.law.harvard.edu/2026/11/11/lipp-v-mixedbread-ai-addresses-how-a-company-can-end-an-advancement-obligation/?utm_source=rss&utm_medium=rss&utm_campaign=lipp-v-mixedbread-ai-addresses-how-a-company-can-end-an-advancement-obligation",
+   "d": "2026-11-11T12:30:01+00:00"
+  },
+  {
+   "t": "Three People Arrested for AI-Enhanced Impersonation Fraud",
+   "s": "Schneier on Security",
+   "u": "https://www.schneier.com/blog/archives/2026/11/three-people-arrested-for-ai-enhanced-impersonation-fraud.html",
+   "d": "2026-11-11T12:06:21+00:00"
+  },
+  {
+   "t": "Northern Trust leans on Microsoft FDEs to boost agentic buildout",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/northern-trust-leans-microsoft-fde-agentic-buildout/874317/",
+   "d": "2026-11-11T07:00:00-05:00"
+  },
+  {
+   "t": "Northern Trust leans on Microsoft engineers to boost agentic buildout",
+   "s": "Banking Dive",
+   "u": "https://www.bankingdive.com/news/northern-trust-leans-microsoft-fde-agentic-buildout/874362/",
+   "d": "2026-11-11T07:00:00-05:00"
+  },
+  {
+   "t": "AI leadership training tools are most effective when paired with managerial support",
+   "s": "HR Dive",
+   "u": "https://www.hrdive.com/news/ai-leadership-training-tools-effective-when-paired-with-managerial-support/874284/",
+   "d": "2026-11-10T15:55:00-05:00"
+  },
+  {
+   "t": "Despite rising ROI on AI, infrastructure woes persist",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/rising-ROI-AI-infrastructure-woes/874312/",
+   "d": "2026-11-10T15:41:06-05:00"
+  },
+  {
+   "t": "Trump picks Palantir cybersecurity executive to lead CISA",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/trump-cisa-director-nominee-michael-losapio/874306/",
+   "d": "2026-11-10T15:33:00-05:00"
+  },
+  {
+   "t": "14-year-old creates tool for AI agents to band together like a team",
+   "s": "The Register",
+   "u": "https://www.theregister.com/ai-and-ml/2026/11/10/14-year-old-creates-tool-for-ai-agents-to-band-together-like-a-team/5308841",
+   "d": "2026-11-10T19:31:53+01:00"
+  },
+  {
+   "t": "Coexisting With AI at Work and Beyond",
+   "s": "Wharton Knowledge",
+   "u": "https://knowledge.wharton.upenn.edu/podcast/ripple-effect/coexisting-with-ai-at-work-and-beyond/",
+   "d": "2026-11-10T17:59:27+00:00"
+  },
+  {
+   "t": "The AI Regulation Fight Is About Speed. It Should Be About Measurement",
+   "s": "Wharton Knowledge",
+   "u": "https://knowledge.wharton.upenn.edu/article/the-ai-regulation-fight-is-about-speed-it-should-be-about-measurement/",
+   "d": "2026-11-10T17:34:40+00:00"
+  },
+  {
+   "t": "8 questions for the Wells Fargo wealth unit’s AI chief",
+   "s": "Banking Dive",
+   "u": "https://www.bankingdive.com/news/8-questions-for-the-wells-fargo-wealth-units-ai-chief/874275/",
+   "d": "2026-11-10T12:21:20-05:00"
+  },
+  {
+   "t": "France attributes grocery hacks to Iran-backed threat actors",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/news/france-attributes-grocery-hacks-to-iran-backed-threat-actors/874252/",
+   "d": "2026-11-10T10:33:42-05:00"
+  },
+  {
+   "t": "The Download: Pelosi’s successor targets AI and data centers face power woes",
+   "s": "MIT Technology Review",
+   "u": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
+   "d": "2026-11-10T13:10:00+00:00"
+  },
+  {
+   "t": "Microsoft, IBM team up on AI agent platform",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/microsoft-ibm-team-up-ai-agent-platform/874152/",
+   "d": "2026-11-10T08:00:00-05:00"
+  },
+  {
+   "t": "2026 Annual Corporate Directors Survey: Governing What’s Next",
+   "s": "Harvard Law Forum on Corporate Governance",
+   "u": "https://corpgov.law.harvard.edu/2026/11/10/2026-annual-corporate-directors-survey-governing-whats-next/?utm_source=rss&utm_medium=rss&utm_campaign=2026-annual-corporate-directors-survey-governing-whats-next",
+   "d": "2026-11-10T12:32:16+00:00"
+  },
+  {
+   "t": "Treasury Proposes Outbound Investment Regulations Under the COINS Act",
+   "s": "Harvard Law Forum on Corporate Governance",
+   "u": "https://corpgov.law.harvard.edu/2026/11/10/treasury-proposes-outbound-investment-regulations-under-the-coins-act/?utm_source=rss&utm_medium=rss&utm_campaign=treasury-proposes-outbound-investment-regulations-under-the-coins-act",
+   "d": "2026-11-10T12:30:17+00:00"
+  },
+  {
+   "t": "Checking the AI audit of Saez and Zucman’s research.",
+   "s": "Marginal Revolution",
+   "u": "https://marginalrevolution.com/marginalrevolution/2026/11/checking-the-ai-audit-of-saez-and-zucmans-research.html?utm_source=rss&utm_medium=rss&utm_campaign=checking-the-ai-audit-of-saez-and-zucmans-research",
+   "d": "2026-11-10T11:32:14+00:00"
+  },
+  {
+   "t": "Truth or consequences: What your AI strategy is standing on",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/spons/truth-or-consequences-what-your-ai-strategy-is-standing-on/873999/",
+   "d": "2026-11-10T05:00:00-05:00"
+  },
+  {
+   "t": "Hyatt taps in new chief digital and information officer",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/Hyatt-new-chief-digital-information-officer/874187/",
+   "d": "2026-11-09T16:08:10-05:00"
+  },
+  {
+   "t": "Will Retail Investors Benefit From Accessing Private Markets?",
+   "s": "Wharton Knowledge",
+   "u": "https://knowledge.wharton.upenn.edu/article/will-retail-investors-benefit-from-accessing-private-markets/",
+   "d": "2026-11-09T20:36:20+00:00"
+  },
+  {
+   "t": "Why AI Needs a Separation of Powers",
+   "s": "Wharton Knowledge",
+   "u": "https://knowledge.wharton.upenn.edu/article/why-ai-needs-a-separation-of-powers/",
+   "d": "2026-11-09T20:16:42+00:00"
+  },
+  {
+   "t": "The backlash about data centers might really just be about electricity",
+   "s": "MIT Technology Review",
+   "u": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
+   "d": "2026-11-09T19:35:33+00:00"
+  },
+  {
+   "t": "What it costs to hire a top-tier FDE",
+   "s": "CIO Dive",
+   "u": "https://www.ciodive.com/news/forward-deployed-engineer-executive-level-compensation/874157/",
+   "d": "2026-11-09T14:31:00-05:00"
+  },
+  {
+   "t": "Nancy Pelosi’s replacement is ready to regulate AI",
+   "s": "MIT Technology Review",
+   "u": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
+   "d": "2026-11-09T17:05:43+00:00"
+  },
+  {
+   "t": "Financially motivated threat cluster uses AI-enabled tools against banking sector",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/news/financially-motivated-threat-ai-tools-banking-artex/874116/",
+   "d": "2026-11-09T10:50:58-05:00"
+  },
+  {
+   "t": "Cybersecurity education in the AI era: What’s new, what’s different",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/news/cybersecurity-training-workforce-education-ai/874118/",
+   "d": "2026-11-09T10:46:26-05:00"
+  },
+  {
+   "t": "The Download: empty AI climate claims, and an Nvidia investigation",
+   "s": "MIT Technology Review",
+   "u": "https://www.technologyreview.com/2026/11/09/1148176/the-download-empty-ai-climate-claims-and-an-nvidia-investigation/",
+   "d": "2026-11-09T13:15:00+00:00"
+  },
+  {
+   "t": "Innovating with AI in the special chemicals industry",
+   "s": "MIT Technology Review",
+   "u": "https://www.technologyreview.com/2026/11/09/1147654/innovating-with-ai-in-the-special-chemicals-industry/",
+   "d": "2026-11-09T13:00:00+00:00"
+  },
+  {
+   "t": "Shareholder Engagement: State of Play — Key Takeaways From Recent Panel",
+   "s": "Harvard Law Forum on Corporate Governance",
+   "u": "https://corpgov.law.harvard.edu/2026/11/09/shareholder-engagement-state-of-play-key-takeaways-from-recent-panel/?utm_source=rss&utm_medium=rss&utm_campaign=shareholder-engagement-state-of-play-key-takeaways-from-recent-panel",
+   "d": "2026-11-09T12:32:46+00:00"
+  },
+  {
+   "t": "AI Security",
+   "s": "Schneier on Security",
+   "u": "https://www.schneier.com/blog/archives/2026/11/ai-security.html",
+   "d": "2026-11-09T12:06:34+00:00"
+  },
+  {
+   "t": "Do More With Sustainability Data",
+   "s": "MIT Sloan Management Review",
+   "u": "https://sloanreview.mit.edu/article/do-more-with-sustainability-data/",
+   "d": "2026-11-09T12:00:41+00:00"
+  },
+  {
+   "t": "Improving incident response with AI agents",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/spons/improving-incident-response-with-ai-agents/872988/",
+   "d": "2026-11-09T05:00:00-05:00"
+  },
+  {
+   "t": "5 critical steps organizations should take to secure AI",
+   "s": "Cybersecurity Dive",
+   "u": "https://www.cybersecuritydive.com/spons/5-critical-steps-organizations-should-take-to-secure-ai/873682/",
+   "d": "2026-11-09T05:00:00-05:00"
+  },
+  {
+   "t": "Does Company Culture Deserve a Seat at the Deal Table?",
+   "s": "Harvard Law Forum on Corporate Governance",
+   "u": "https://corpgov.law.harvard.edu/2026/11/08/does-company-culture-deserve-a-seat-at-the-deal-table/?utm_source=rss&utm_medium=rss&utm_campaign=does-company-culture-deserve-a-seat-at-the-deal-table",
+   "d": "2026-11-08T12:30:10+00:00"
+  },
   {
    "t": "Proposed SEC Rule on Rescinding Shareholder Proposal Rule 14a-8: A Comment from the National Association of Manufacturers",
    "s": "Harvard Law Forum on Corporate Governance",
@@ -827,106 +1145,10 @@
    "d": "2026-11-07T12:30:27+00:00"
   },
   {
-   "t": "‘Shock absorbers’: Korn Ferry says managers are carrying AI change that executives aren’t ready to lead",
-   "s": "Fortune",
-   "u": "https://fortune.com/2026/11/07/korn-ferry-survey-ai-transformation-leaders-middle-managers/",
-   "d": "2026-11-07T11:30:00+00:00"
-  },
-  {
-   "t": "5 tips for getting the most out of AI",
-   "s": "Fast Company",
-   "u": "https://www.fastcompany.com/91636817/5-ways-to-use-ai-to-actually-make-your-life-easier",
-   "d": "2026-11-07T11:00:00+00:00"
-  },
-  {
-   "t": "‘Like being hit between the eyes with a sledgehammer’: Meet the one town in America that defied election trends and voted in favor of data centers",
-   "s": "Fortune",
-   "u": "https://fortune.com/2026/11/07/harwood-north-dakota-data-center-ballot-measure-midterm-elections-2026/",
-   "d": "2026-11-07T10:19:00+00:00"
-  },
-  {
-   "t": "Beware this CAPTCHA scam designed to steal your data",
-   "s": "Fast Company",
-   "u": "https://www.fastcompany.com/91634134/beware-this-captcha-scam-designed-to-steal-your-data",
-   "d": "2026-11-07T10:00:00+00:00"
-  },
-  {
-   "t": "RIP Cybertruck: The perfect symbol for all of Elon Musk’s mistakes",
-   "s": "Fast Company",
-   "u": "https://www.fastcompany.com/91637532/rip-cybertruck-the-perfect-symbol-of-every-elon-musk-failure",
-   "d": "2026-11-06T22:00:00+00:00"
-  },
-  {
-   "t": "The midterms didn’t stop the AI buildout. They simply repriced it—and OpenAI is already promising to pay up",
-   "s": "Fortune",
-   "u": "https://fortune.com/2026/11/06/midterm-elections-ai-data-center-build-out-social-license/",
-   "d": "2026-11-06T21:46:57+00:00"
-  },
-  {
-   "t": "GoDaddy’s CEO won’t read AI-generated work",
-   "s": "Fast Company",
-   "u": "https://www.fastcompany.com/91637493/godaddys-ceo-wont-read-ai-generated-work",
-   "d": "2026-11-06T21:00:00+00:00"
-  },
-  {
-   "t": "Tech employment rebounded in October, bolstered by AI jobs",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/tech-workforce-AI-jobs-october/874043/",
-   "d": "2026-11-06T15:52:00-05:00"
-  },
-  {
-   "t": "Insurers race to capture value from agentic AI",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/insurers-race-capture-value-agentic-ai/874047/",
-   "d": "2026-11-06T15:37:19-05:00"
-  },
-  {
-   "t": "2026.45: Falling Leaves (and Stocks)",
-   "s": "Stratechery",
-   "u": "https://stratechery.com/2026/falling-leaves-and-stocks/",
-   "d": "2026-11-06T18:14:42+00:00"
-  },
-  {
-   "t": "SageMaker Inference now supports Multi-Instance GPU to maximize GPU utilization for model endpoints",
-   "s": "AWS Machine Learning",
-   "u": "https://aws.amazon.com/blogs/machine-learning/sagemaker-inference-now-supports-multi-instance-gpu-to-maximize-gpu-utilization-for-model-endpoints/",
-   "d": "2026-11-06T18:01:00+00:00"
-  },
-  {
-   "t": "Taxonomy of agentic primitives in Amazon Quick",
-   "s": "AWS Machine Learning",
-   "u": "https://aws.amazon.com/blogs/machine-learning/taxonomy-of-agentic-primitives-in-amazon-quick/",
-   "d": "2026-11-06T17:34:45+00:00"
-  },
-  {
    "t": "The Hidden Consequences of Losing",
    "s": "Wharton Knowledge",
    "u": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-consequences-of-losing/",
    "d": "2026-11-06T17:15:19+00:00"
-  },
-  {
-   "t": "Serverless MCP server for AI agent data lake access on Amazon ECS Fargate",
-   "s": "AWS Machine Learning",
-   "u": "https://aws.amazon.com/blogs/machine-learning/serverless-mcp-server-for-ai-agent-data-lake-access-on-amazon-ecs-fargate/",
-   "d": "2026-11-06T17:13:13+00:00"
-  },
-  {
-   "t": "Govern AI agent access with Okta Cross App Access and Amazon Bedrock AgentCore – Part 2",
-   "s": "AWS Machine Learning",
-   "u": "https://aws.amazon.com/blogs/machine-learning/govern-ai-agent-access-with-okta-cross-app-access-and-amazon-bedrock-agentcore-part-2/",
-   "d": "2026-11-06T17:09:23+00:00"
-  },
-  {
-   "t": "Untethered AI agents in Delaware?",
-   "s": "Marginal Revolution",
-   "u": "https://marginalrevolution.com/marginalrevolution/2026/11/untethered-ai-agents-in-delaware.html?utm_source=rss&utm_medium=rss&utm_campaign=untethered-ai-agents-in-delaware",
-   "d": "2026-11-06T17:00:22+00:00"
-  },
-  {
-   "t": "How Greenlight Financial built an autonomous SOC solution on Amazon Bedrock AgentCore",
-   "s": "AWS Machine Learning",
-   "u": "https://aws.amazon.com/blogs/machine-learning/how-greenlight-financial-built-an-autonomous-soc-solution-on-amazon-bedrock-agentcore/",
-   "d": "2026-11-06T16:55:05+00:00"
   },
   {
    "t": "Pinpointing Location of Videos from Background Airplane Sounds",
@@ -935,106 +1157,10 @@
    "d": "2026-11-06T16:28:27+00:00"
   },
   {
-   "t": "Hackers enlist Artex to scan GitHub repositories for exposed secrets",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/hackers-artex-github-repositories-exposed-secrets/874007/",
-   "d": "2026-11-06T10:57:21-05:00"
-  },
-  {
-   "t": "Companies struggle to know what normal looks like for AI agents",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/ai-agents-normal-baseline-security-governance/873998/",
-   "d": "2026-11-06T10:36:32-05:00"
-  },
-  {
-   "t": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
-   "s": "MIT Technology Review",
-   "u": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
-   "d": "2026-11-06T13:10:00+00:00"
-  },
-  {
    "t": "Early Lessons from the New Accelerated Offering Periods for Tender Offers",
    "s": "Harvard Law Forum on Corporate Governance",
    "u": "https://corpgov.law.harvard.edu/2026/11/06/early-lessons-from-the-new-accelerated-offering-periods-for-tender-offers/?utm_source=rss&utm_medium=rss&utm_campaign=early-lessons-from-the-new-accelerated-offering-periods-for-tender-offers",
    "d": "2026-11-06T12:32:37+00:00"
-  },
-  {
-   "t": "Weekly Roundup: October 30-November 5, 2026",
-   "s": "Harvard Law Forum on Corporate Governance",
-   "u": "https://corpgov.law.harvard.edu/2026/11/06/weekly-roundup-october-30-november-5-2026/?utm_source=rss&utm_medium=rss&utm_campaign=weekly-roundup-october-30-november-5-2026",
-   "d": "2026-11-06T12:30:57+00:00"
-  },
-  {
-   "t": "Sharp Tech on Video: The U.S. Votes on Data Centers, Implications for Big Tech, Google’s Response to AI",
-   "s": "Stratechery",
-   "u": "https://stratechery.com/2026/sharp-tech-on-video-the-u-s-votes-on-data-centers-implications-for-big-tech-googles-response-to-ai/",
-   "d": "2026-11-06T11:00:00+00:00"
-  },
-  {
-   "t": "IBM’s Confluent debuts Streamhouse data architecture for agents",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/ibm-confluent-debuts-streamhouse-data-architecture-agents/873943/",
-   "d": "2026-11-05T16:33:51-05:00"
-  },
-  {
-   "t": "As AI costs climb, knowing when to pull back becomes critical",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/tech-execs-grapple-costs-data-overload/873928/",
-   "d": "2026-11-05T15:39:35-05:00"
-  },
-  {
-   "t": "McDonald’s aims for nationwide drive-thru AI in 2027",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/mcdonalds-expands-drive-thru-voice-archy-tests/873856/",
-   "d": "2026-11-05T14:25:00-05:00"
-  },
-  {
-   "t": "What to expect from Democrats’ cybersecurity agenda in Congress",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/congress-cybersecurity-democrats-agenda-cisa-ai/873883/",
-   "d": "2026-11-05T11:44:35-05:00"
-  },
-  {
-   "t": "French authorities probe cyberattack targeting nation’s blood supply",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/french-probe-cyberattack-blood-supply/873871/",
-   "d": "2026-11-05T10:52:25-05:00"
-  },
-  {
-   "t": "‘AI rebounding’ could cost companies",
-   "s": "HR Dive",
-   "u": "https://www.hrdive.com/news/ai-rebounding-could-cost-companies/873462/",
-   "d": "2026-11-05T10:25:00-05:00"
-  },
-  {
-   "t": "Firms are racing to protect themselves from AI cyber threats",
-   "s": "The Economist Business",
-   "u": "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats",
-   "d": "2026-11-05T13:58:17+00:00"
-  },
-  {
-   "t": "The Download: Texas’s fragile AI boom and energy policy shifts",
-   "s": "MIT Technology Review",
-   "u": "https://www.technologyreview.com/2026/11/05/1144908/the-download-texas-fragile-ai-boom-us-energy-policy/",
-   "d": "2026-11-05T13:10:00+00:00"
-  },
-  {
-   "t": "When an Algorithm Reads Your Proxy and AI Is on the Ballot",
-   "s": "Harvard Law Forum on Corporate Governance",
-   "u": "https://corpgov.law.harvard.edu/2026/11/05/when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot/?utm_source=rss&utm_medium=rss&utm_campaign=when-an-algorithm-reads-your-proxy-and-ai-is-on-the-ballot",
-   "d": "2026-11-05T12:32:53+00:00"
-  },
-  {
-   "t": "SEC Proposes Significant Changes to Custody Rules and Introduces Framework for Custody of Crypto Assets",
-   "s": "Harvard Law Forum on Corporate Governance",
-   "u": "https://corpgov.law.harvard.edu/2026/11/05/sec-proposes-significant-changes-to-custody-rules-and-introduces-framework-for-custody-of-crypto-assets/?utm_source=rss&utm_medium=rss&utm_campaign=sec-proposes-significant-changes-to-custody-rules-and-introduces-framework-for-custody-of-crypto-assets",
-   "d": "2026-11-05T12:30:55+00:00"
-  },
-  {
-   "t": "An Interview With Intuit CEO Sasan Goodarzi About Accounting and AI",
-   "s": "Stratechery",
-   "u": "https://stratechery.com/2026/an-interview-with-intuit-ceo-sasan-goodarzi-about-accounting-and-ai/",
-   "d": "2026-11-05T11:00:00+00:00"
   },
   {
    "t": "Jon McNeill: How Elon Musk Makes Decisions",
@@ -1047,1221 +1173,1065 @@
    "s": "Wharton Knowledge",
    "u": "https://knowledge.wharton.upenn.edu/podcast/marketing-matters/building-a-modern-western-lifestyle-brand/",
    "d": "2026-11-05T06:14:04+00:00"
-  },
-  {
-   "t": "Finance firms lean into multiagent systems, model routing",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/finance-firms-lean-multiagent-systems-model-routing/873809/",
-   "d": "2026-11-05T01:00:00-05:00"
-  },
-  {
-   "t": "Companies spend more on cybersecurity but still struggle with AI oversight",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/ai-security-governance-spending-dnsfilter/873782/",
-   "d": "2026-11-04T17:04:00-05:00"
-  },
-  {
-   "t": "What does a midterm power shift mean for AI policy?",
-   "s": "CIO Dive",
-   "u": "https://www.ciodive.com/news/midterms-democrats-data-centers-AI/873807/",
-   "d": "2026-11-04T16:23:34-05:00"
-  },
-  {
-   "t": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
-   "s": "MIT Technology Review",
-   "u": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
-   "d": "2026-11-04T18:50:55+00:00"
-  },
-  {
-   "t": "The Limits of Prediction in Sports and Elections",
-   "s": "Wharton Knowledge",
-   "u": "https://knowledge.wharton.upenn.edu/podcast/moneyball/the-limits-of-prediction-in-sports-and-elections/",
-   "d": "2026-11-04T18:21:33+00:00"
-  },
-  {
-   "t": "The Hidden Risks of Corporate Political Spending",
-   "s": "Wharton Knowledge",
-   "u": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-risks-of-corporate-political-spending/",
-   "d": "2026-11-04T18:18:06+00:00"
-  },
-  {
-   "t": "OppFi withdraws regulatory applications to buy bank",
-   "s": "Banking Dive",
-   "u": "https://www.bankingdive.com/news/oppfi-withdraw-applications-occ-fed-fdic-bnc-bank-schwartz-warren-van-hollen/873757/",
-   "d": "2026-11-04T12:17:47-05:00"
-  },
-  {
-   "t": "Attacker abuses Microsoft Entra ID to target downstream MSP clients",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/attacker-microsoft-entra-id-downstream-msp/873744/",
-   "d": "2026-11-04T11:20:17-05:00"
-  },
-  {
-   "t": "Bartleby newsletter: The case for scientific methods of decision-making",
-   "s": "The Economist Business",
-   "u": "https://www.economist.com/business/2026/11/04/bartleby-newsletter-the-case-for-scientific-methods-of-decision-making",
-   "d": "2026-11-04T14:30:27+00:00"
-  },
-  {
-   "t": "The Download: blended meat, restored sight, and the agentic web",
-   "s": "MIT Technology Review",
-   "u": "https://www.technologyreview.com/2026/11/04/1148001/the-download-blended-meat-sight-restoring-implant-agentic-web/",
-   "d": "2026-11-04T13:10:00+00:00"
-  },
-  {
-   "t": "Securing the agentic enterprise with data lineage",
-   "s": "MIT Technology Review",
-   "u": "https://www.technologyreview.com/2026/11/04/1147596/securing-the-agentic-enterprise-with-data-lineage/",
-   "d": "2026-11-04T13:00:00+00:00"
-  },
-  {
-   "t": "Remarks by Commissioner Uyeda on Corporate Penalties and Individual Accountability",
-   "s": "Harvard Law Forum on Corporate Governance",
-   "u": "https://corpgov.law.harvard.edu/2026/11/04/remarks-by-commissioner-uyeda-on-corporate-penalties-and-individual-accountability/?utm_source=rss&utm_medium=rss&utm_campaign=remarks-by-commissioner-uyeda-on-corporate-penalties-and-individual-accountability",
-   "d": "2026-11-04T12:32:21+00:00"
-  },
-  {
-   "t": "Untamed Unicorns: Why Startup Finance is Broken and How to Fix It",
-   "s": "Harvard Law Forum on Corporate Governance",
-   "u": "https://corpgov.law.harvard.edu/2026/11/04/untamed-unicorns-why-startup-finance-is-broken-and-how-to-fix-it/?utm_source=rss&utm_medium=rss&utm_campaign=untamed-unicorns-why-startup-finance-is-broken-and-how-to-fix-it",
-   "d": "2026-11-04T12:31:48+00:00"
-  },
-  {
-   "t": "When Cultures Collide in Crisis",
-   "s": "MIT Sloan Management Review",
-   "u": "https://sloanreview.mit.edu/article/when-cultures-collide-in-crisis/",
-   "d": "2026-11-04T12:00:49+00:00"
-  },
-  {
-   "t": "AI on the Ballot",
-   "s": "Stratechery",
-   "u": "https://stratechery.com/2026/ai-on-the-ballot/",
-   "d": "2026-11-04T11:00:00+00:00"
-  },
-  {
-   "t": "When AI Makes Unacceptable Decisions Feel Normal",
-   "s": "Wharton Knowledge",
-   "u": "https://knowledge.wharton.upenn.edu/article/when-ai-makes-unacceptable-decisions-feel-normal/",
-   "d": "2026-11-03T16:04:55+00:00"
-  },
-  {
-   "t": "European authorities probe ongoing attacks targeting grocery refrigerators",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/european-authorities-probe-attacks-grocery-refrigerators/873598/",
-   "d": "2026-11-03T10:59:57-05:00"
-  },
-  {
-   "t": "AI threats create urgent need to renew cybersecurity information-sharing law, businesses tell Congress",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/cisa-2015-reauthorization-congress-ndaa-letter-businesses/873591/",
-   "d": "2026-11-03T10:24:26-05:00"
-  },
-  {
-   "t": "How the ‘Big Three’ Index Fund Managers Really Influence Corporate America",
-   "s": "Wharton Knowledge",
-   "u": "https://knowledge.wharton.upenn.edu/article/how-the-big-three-index-fund-managers-really-influence-corporate-america/",
-   "d": "2026-11-03T15:22:35+00:00"
-  },
-  {
-   "t": "The Download: controlling AI agents and “Super Intelligence” loyalty tests",
-   "s": "MIT Technology Review",
-   "u": "https://www.technologyreview.com/2026/11/03/1147940/the-download-controlling-ai-agents-trump-super-intelligence/",
-   "d": "2026-11-03T13:10:00+00:00"
-  },
-  {
-   "t": "AIs Hacking the Law",
-   "s": "Schneier on Security",
-   "u": "https://www.schneier.com/blog/archives/2026/11/ais-hacking-the-law.html",
-   "d": "2026-11-03T12:01:01+00:00"
-  },
-  {
-   "t": "The Good Apology",
-   "s": "Wharton Knowledge",
-   "u": "https://knowledge.wharton.upenn.edu/article/the-good-apology/",
-   "d": "2026-11-02T15:12:11+00:00"
-  },
-  {
-   "t": "Agentic pen-testing tool employed in multiple espionage campaigns around the globe",
-   "s": "Cybersecurity Dive",
-   "u": "https://www.cybersecuritydive.com/news/agentic-pen-testing-tool-espionage-campaigns/873427/",
-   "d": "2026-11-02T09:13:27-05:00"
-  },
-  {
-   "t": "AI Vulnerability Finding",
-   "s": "Schneier on Security",
-   "u": "https://www.schneier.com/blog/archives/2026/11/ai-vulnerability-finding-2.html",
-   "d": "2026-11-02T12:02:47+00:00"
-  },
-  {
-   "t": "The AI Governance Paradox",
-   "s": "MIT Sloan Management Review",
-   "u": "https://sloanreview.mit.edu/article/the-ai-governance-paradox/",
-   "d": "2026-11-02T12:00:13+00:00"
-  },
-  {
-   "t": "India floats AI plan under which ‘The model travels to the data, rather than the data travelling to the model’",
-   "s": "The Register",
-   "u": "https://www.theregister.com/public-sector/2026/11/02/india-floats-ai-plan-under-which-the-model-travels-to-the-data-rather-than-the-data-travelling-to-the-model/5306872",
-   "d": "2026-11-02T05:39:50+01:00"
   }
  ],
  "media": [
   {
-   "t": "How A Mistake In Warner Bros. Contracts Helped Eleven Film & Jack Thorne Land ‘Lord Of The Flies’ TV Rights — Thessaloniki",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/joel-wilson-eleven-films-jack-thorne-lord-of-the-flies-1237216218/",
-   "d": "2026-11-07T11:40:44+00:00"
+   "t": "Acclaimed French Adult Animated Comedy ‘Jim Queen’ Is Getting A U.S. Theatrical Release After Magnolia Pickup",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/distribution/jim-queen-us-theatrical-release-magnolia-pictures-269369.html",
+   "d": "2026-11-12T00:56:45+00:00"
   },
   {
-   "t": "PÖFF Stands With Ukraine: A Look at Films Featured at Tallinn Made Despite, and Because of, the War",
-   "s": "Hollywood Reporter",
-   "u": "https://www.hollywoodreporter.com/movies/movie-news/poff-standing-with-ukraine-tallinn-2026-films-events-war-1236741671/",
-   "d": "2026-11-07T11:00:00+00:00"
-  },
-  {
-   "t": "Apple sit down, Sony just won the wired headphone trend",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/news/apple-sit-down-sony-just-won-the-wired-headphone-trend",
-   "d": "2026-11-07T11:00:00+00:00"
-  },
-  {
-   "t": "Wacom’s iPad alternative just got cheaper, and the case is thrown in",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/deals/wacoms-ipad-alternative-just-got-cheaper-and-the-case-is-thrown-in",
-   "d": "2026-11-07T10:00:00+00:00"
-  },
-  {
-   "t": "‘3 Body Problem’ Director Derek Tsang Boards DEA True-Crime Series ‘Group 41’ From Zhang Yimou’s ‘Shadow’ Producer Jonah Greenberg (EXCLUSIVE)",
-   "s": "Variety",
-   "u": "https://variety.com/2026/tv/asia/3-body-problem-director-derek-tsang-dea-true-crime-series-group-41-1236941978/",
-   "d": "2026-11-07T09:50:17+00:00"
-  },
-  {
-   "t": "Let's stop obsessing over the new MacBook Pro's touchscreen – it isn't even the best new feature",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/news/lets-stop-obsessing-over-the-new-macbook-pros-touchscreen-it-isnt-even-the-best-new-feature",
-   "d": "2026-11-07T09:11:16+00:00"
-  },
-  {
-   "t": "The volleyball World Cup logo looks... wrong",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/news/the-volleyball-world-cup-logo-looks-wrong",
-   "d": "2026-11-07T09:01:18+00:00"
-  },
-  {
-   "t": "2026 is the year of the majestic movie title card",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/features/2026-is-the-year-of-the-majestic-movie-title-card",
-   "d": "2026-11-07T09:00:00+00:00"
-  },
-  {
-   "t": "AI Filmmaking Platform Core Studio Launches at Taiwan Creative Content Fest With 24 Specialized Agents",
-   "s": "Variety",
-   "u": "https://variety.com/2026/film/markets-festivals/ai-filmmaking-platform-core-studio-launches-24-agents-tccf-1236941957/",
-   "d": "2026-11-07T08:19:35+00:00"
-  },
-  {
-   "t": "‘Triplets of Belleville’ Director Sylvain Chomet Fires Back at AI Accusations Over Dior Film Featuring Robert Pattinson’s Voice: ‘Everything Was Drawn by Hand’ (EXCLUSIVE)",
-   "s": "Variety",
-   "u": "https://variety.com/2026/film/global/sylvain-chomet-denies-ai-accusations-dior-robert-pattinson-1236941945/",
-   "d": "2026-11-07T08:12:53+00:00"
-  },
-  {
-   "t": "Stephen Chow Told Japan to Stop Aping Kung Fu, Says Boss of Film Fund Behind Kore-eda Hirokazu’s ‘Look Back’",
-   "s": "Variety",
-   "u": "https://variety.com/2026/film/markets-festivals/stephen-chow-japan-stop-aping-kung-fu-k2-pictures-1236941939/",
-   "d": "2026-11-07T04:41:35+00:00"
-  },
-  {
-   "t": "Chang Chen Urges Emerging Taiwanese Actors to ‘Be Like Water’ at Taiwan Creative Content Fest Golden Horse Showcase",
-   "s": "Variety",
-   "u": "https://variety.com/2026/film/markets-festivals/chang-chen-emerging-taiwanese-actors-taiwan-creative-content-fest-1236941891/",
-   "d": "2026-11-07T03:00:25+00:00"
-  },
-  {
-   "t": "Netflix’s Radford Studio Acquisition Moving Ahead Despite Streamer’s Sunset Blvd Landlord Throwing Shade On Deal",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/netflix-radford-studio-purchase-latest-1237216149/",
-   "d": "2026-11-07T02:41:12+00:00"
-  },
-  {
-   "t": "Deadline’s Sound & Screen Film Underway To Start The Awards-Season Drumbeat",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/2026-sound-and-screen-film-lineup-schedule-1237211717/",
-   "d": "2026-11-07T02:30:00+00:00"
-  },
-  {
-   "t": "‘The Remarried Empress’ Sets Disney+ Record As Most Viewed Local Original Launch Ever",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/the-remarried-empress-disney-record-1237216159/",
-   "d": "2026-11-07T02:19:10+00:00"
-  },
-  {
-   "t": "Flo Milli Wins Dismissal of Copyright Lawsuit Over ‘Never Lose Me’ Beat Sample",
+   "t": "Ebro & Peter Rosenberg Aren’t Buying Ye’s ‘Comeback’ Narrative After Antisemitism: ‘It’s All Marketing’",
    "s": "Billboard",
-   "u": "https://www.billboard.com/pro/flo-milli-wins-never-lose-me-copyright-lawsuit-dismissal/",
-   "d": "2026-11-07T01:55:41+00:00"
+   "u": "https://www.billboard.com/music/rb-hip-hop/ebro-peter-rosenberg-kanye-west-touring-success-debate-1236379601/",
+   "d": "2026-11-12T00:56:03+00:00"
   },
   {
-   "t": "‘The Remarried Empress’ Sets Disney+ and Hulu Record With Biggest Local Original Launch Ever",
-   "s": "Hollywood Reporter",
-   "u": "https://www.hollywoodreporter.com/tv/tv-news/the-remarried-empress-disney-hulu-biggest-local-original-launch-1236749905/",
-   "d": "2026-11-07T01:23:33+00:00"
+   "t": "2027 Oscars Short Film Contenders: ‘18 Months’ Directors Paulo Garcia And Natália Gouvea",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/awards/18-months-directors-paulo-garcia-natalia-gouvea-269280.html",
+   "d": "2026-11-12T00:32:17+00:00"
   },
   {
-   "t": "‘The Cat in the Hat’ Reviews Round-Up: Latest Dr. Seuss Pic Aims for $20M Weekend",
-   "s": "Animation Magazine",
-   "u": "https://www.animationmagazine.net/2026/11/the-cat-in-the-hat-reviews-round-up-latest-dr-seuss-pic-aims-for-20m-weekend/",
-   "d": "2026-11-06T23:34:51+00:00"
-  },
-  {
-   "t": "In Canada: Faouzia to Accept the Breakthrough Award at Billboard Canada Women in Music 2026",
+   "t": "Jorge Juarez Accepts the VENU Disruptor Award | Billboard Live Music Summit 2026",
    "s": "Billboard",
-   "u": "https://www.billboard.com/pro/faouzia-award-billboard-canada-women-in-music-news/",
-   "d": "2026-11-06T23:00:51+00:00"
+   "u": "https://www.billboard.com/video/jorge-juarez-accepts-the-venu-disruptor-award/",
+   "d": "2026-11-12T00:31:18+00:00"
   },
   {
-   "t": "New ‘Steps’ Lyric Video Stars Jennie’s Animated Alter Ego",
+   "t": "Russell Brand’s Instagram Account Removed By Meta After Rape Conviction",
+   "s": "Variety",
+   "u": "https://variety.com/2026/film/news/russell-brand-instagram-removed-meta-rape-conviction-1236945732/",
+   "d": "2026-11-12T00:23:22+00:00"
+  },
+  {
+   "t": "Gang Dong-won, Kim Go-eun to Star in Netflix’s ‘The Twilight Between Us’ From ‘When Life Gives You Tangerines’ Director, ‘Queen of Tears’ Writer",
+   "s": "Variety",
+   "u": "https://variety.com/2026/tv/news/gang-dong-won-kim-go-eun-netflix-twilight-between-us-1236945029/",
+   "d": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "t": "Gang Dong-won & Kim Go-eun To Lead Netflix Korea Romance-Action Period Drama ‘The Twilight Between Us’ From Kim Won-suk",
+   "s": "Deadline",
+   "u": "https://deadline.com/2026/11/netflix-korea-twilight-between-us-gang-dong-won-kim-go-eun-1237220213/",
+   "d": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "t": "A Rom-Com Connoisseur Goes Into Business With the True Story of a Sex Toy Saleswoman",
+   "s": "Hollywood Reporter",
+   "u": "https://www.hollywoodreporter.com/movies/movie-features/andy-tennant-jessica-alba-the-fun-lady-linda-brewer-film-1236743435/",
+   "d": "2026-11-12T00:00:00+00:00"
+  },
+  {
+   "t": "Elvis Presley Enterprises is putting Tennessee’s ELVIS Act to the test in its voice-imitation lawsuit against Suno",
+   "s": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/elvis-presley-enterprises-is-putting-tennessees-elvis-act-to-the-test-in-its-voice-imitation-lawsuit-against-suno/",
+   "d": "2026-11-11T23:53:10+00:00"
+  },
+  {
+   "t": "Summer Walker Countersued by LVRN for Commissions and Royalties: ‘Stubbornly Litigious’",
+   "s": "Billboard",
+   "u": "https://www.billboard.com/pro/summer-walker-lawsuit-countersued-lvrn-commissions/",
+   "d": "2026-11-11T23:40:25+00:00"
+  },
+  {
+   "t": "Hinterland Music Festival Reveals 2027 Lineup Led by Phoebe Bridgers, Slayyter, and Billy Strings",
+   "s": "Consequence",
+   "u": "https://consequence.net/2026/11/hinterland-2027-lineup-phoebe-bridgers-slayyter-billy-strings/",
+   "d": "2026-11-11T23:10:18+00:00"
+  },
+  {
+   "t": "Slayyyter, Phoebe Bridgers, Billy Strings to Headline Iowa’s 2027 Hinterland Festival",
+   "s": "Billboard",
+   "u": "https://www.billboard.com/music/concerts/2027-hinterland-fest-slayyyter-phoebe-bridgers-billy-strings-lineup-1236379427/",
+   "d": "2026-11-11T22:56:43+00:00"
+  },
+  {
+   "t": "New ‘CoComelon: The Movie’ Trailer Explores an Imaginative New World",
    "s": "Animation Magazine",
-   "u": "https://www.animationmagazine.net/2026/11/new-steps-lyric-video-stars-jennies-animated-alter-ego/",
-   "d": "2026-11-06T22:14:52+00:00"
+   "u": "https://www.animationmagazine.net/2026/11/new-cocomelon-the-movie-trailer-explores-an-imaginative-new-world/",
+   "d": "2026-11-11T22:37:54+00:00"
   },
   {
-   "t": "Letterboxd’s Sale to the New York Times: 9 Pros, Cons, and Big Questions from the $330 Million Deal",
+   "t": "Summer Walker’s Label LVRN Fires Back With Breach of Contract Counterclaim",
+   "s": "Rolling Stone Music",
+   "u": "https://www.rollingstone.com/music/music-news/summer-walker-label-lvrn-breach-of-contract-interscope-1235656161/",
+   "d": "2026-11-11T22:23:21+00:00"
+  },
+  {
+   "t": "‘Constantine’ Director Feels “More Hopeful” For Sequel Following James Gunn & Peter Safran’s DC Studios Exit",
+   "s": "Deadline",
+   "u": "https://deadline.com/2026/11/constantine-francis-lawrence-james-gunn-peter-safran-dc-studios-1237220954/",
+   "d": "2026-11-11T22:15:33+00:00"
+  },
+  {
+   "t": "‘Avengers Endgame: Encore’ Sets Disney+ Release Date With New ‘Countdown To Doomsday’ Spot",
+   "s": "Deadline",
+   "u": "https://deadline.com/2026/11/avengers-endgame-encore-disney-plus-stream-release-date-1237220911/",
+   "d": "2026-11-11T22:02:06+00:00"
+  },
+  {
+   "t": "Austin’s Moontower Comedy Festival Taking Year Off In 2027 Amid Paramount Theatre Restoration",
+   "s": "Deadline",
+   "u": "https://deadline.com/2026/11/moontower-comedy-festival-sets-2027-hiatus-1237220943/",
+   "d": "2026-11-11T22:00:32+00:00"
+  },
+  {
+   "t": "China’s Film Industry Arrives at AFM on a Domestic High",
+   "s": "Hollywood Reporter",
+   "u": "https://www.hollywoodreporter.com/movies/movie-news/china-film-industry-afm-1236747567/",
+   "d": "2026-11-11T21:59:58+00:00"
+  },
+  {
+   "t": "Netflix Poised to Buy Radford Studio Lot at Auction for Steep Discount",
+   "s": "Hollywood Reporter",
+   "u": "https://www.hollywoodreporter.com/business/business-news/netflix-radford-studio-lot-at-auction-for-steep-discount-1236753290/",
+   "d": "2026-11-11T21:32:11+00:00"
+  },
+  {
+   "t": "Cannes And Annecy Winner ‘Iron Boy’ Gets U.S. Trailer And Release Dates",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/feature-film/iron-boy-trailer-us-release-date-269365.html",
+   "d": "2026-11-11T21:05:30+00:00"
+  },
+  {
+   "t": "Jim Benton’s ‘Everybody’ Set for Animated Short Narrated by John Goodman in Foundation-Macmillan Deal",
+   "s": "Animation Magazine",
+   "u": "https://www.animationmagazine.net/2026/11/jim-bentons-everybody-set-for-animated-short-narrated-by-john-goodman-in-foundation-macmillan-deal/",
+   "d": "2026-11-11T20:55:19+00:00"
+  },
+  {
+   "t": "Sandra Wollner’s ‘Everytime’ Is a Stunning Film About Grief Like You’ve Never Seen Before",
    "s": "IndieWire",
-   "u": "https://www.indiewire.com/features/general/letterboxd-bought-new-york-times-pros-cons-questions-1235225977/",
-   "d": "2026-11-06T22:00:00+00:00"
+   "u": "https://www.indiewire.com/awards/consider-this/sandra-wollner-everytime-grief-video-games-fall-1235226504/",
+   "d": "2026-11-11T20:30:00+00:00"
   },
   {
-   "t": "2027 Oscars Short Film Contenders: ‘Daffy Season’ Directors Hamish Grieve And Todd Wilderman",
-   "s": "Cartoon Brew",
-   "u": "https://www.cartoonbrew.com/awards/daffy-season-hamish-grieve-todd-wilderman-269158.html",
-   "d": "2026-11-06T21:40:44+00:00"
+   "t": "Adobe MAX 2026 Sneaks: Project Link Up is making design playful again",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/features/adobe-max-2026-sneaks-project-link-up-is-making-design-playful-again",
+   "d": "2026-11-11T20:05:34+00:00"
   },
   {
-   "t": "Like A Photon Creative and Sola Media Announce Seven-Film Animated Feature Slate",
+   "t": "So, what are the best AI video generators, and how do they compare on price?",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/features/so-what-are-the-best-ai-video-generators-and-how-do-they-compare-on-price",
+   "d": "2026-11-11T20:00:00+00:00"
+  },
+  {
+   "t": "CyberAgent Inks Alliance with Anime Studio MAPPA",
    "s": "Animation Magazine",
-   "u": "https://www.animationmagazine.net/2026/11/like-a-photon-creative-and-sola-media-announce-seven-film-animated-feature-slate/",
-   "d": "2026-11-06T21:35:58+00:00"
+   "u": "https://www.animationmagazine.net/2026/11/cyberagent-inks-alliance-with-anime-studio-mappa/",
+   "d": "2026-11-11T19:56:27+00:00"
   },
   {
-   "t": "‘Twilight’ Animated Series Gets Two-Season Commitment from Netflix",
-   "s": "Animation Magazine",
-   "u": "https://www.animationmagazine.net/2026/11/twilight-animated-series-gets-two-season-commitment-from-netflix/",
-   "d": "2026-11-06T20:28:19+00:00"
-  },
-  {
-   "t": "You’re Invited To A Free ‘Ray Gunn’ Screening And Q&A With Brad Bird In Los Angeles",
+   "t": "‘The Hiring Bias Is Endemic’: Animation Industry’s Diversity Problem Debated At MAF",
    "s": "Cartoon Brew",
-   "u": "https://www.cartoonbrew.com/feature-film/netflix-ray-gunn-free-screening-los-angeles-269151.html",
-   "d": "2026-11-06T20:25:57+00:00"
+   "u": "https://www.cartoonbrew.com/events/animation-industry-diversity-hiring-bias-manchester-animation-festival-269351.html",
+   "d": "2026-11-11T19:53:28+00:00"
   },
   {
-   "t": "Pixar’s Executive Shakeup; ‘Wildwood’ Gains Ground; Chomet AI Questions",
-   "s": "Cartoon Brew",
-   "u": "https://www.cartoonbrew.com/newsletter/pixars-executive-shakeup-wildwood-gains-ground-chomet-ai-questions-269148.html",
-   "d": "2026-11-06T20:18:20+00:00"
-  },
-  {
-   "t": "‘To the Woods’ Director Agnès Patron Shares the Poignant Inspirations of Her Award-Winning Short",
-   "s": "Animation Magazine",
-   "u": "https://www.animationmagazine.net/2026/11/to-the-woods-director-agnes-patron-shares-the-poignant-inspirations-of-her-award-winning-short/",
-   "d": "2026-11-06T19:31:14+00:00"
-  },
-  {
-   "t": "‘Soul Patrol’ Review: The Vietnam War’s First Black Special Ops Team Shares Their Stories in An Enlightening Documentary",
+   "t": "How ‘Godzilla Minus Zero’ Dominated the Box Office: GKIDS Chief on IMAX’s Impact and the Growing Market for Foreign-Language Movies",
    "s": "IndieWire",
-   "u": "https://www.indiewire.com/criticism/movies/soul-patrol-documentary-review-sundance-1235176226/",
-   "d": "2026-11-06T19:22:00+00:00"
+   "u": "https://www.indiewire.com/features/interviews/godzilla-minus-zero-box-office-gkids-imax-1235226577/",
+   "d": "2026-11-11T19:30:00+00:00"
   },
   {
-   "t": "Bruiser Wolf & Conductor Williams Announce New Album The Dealer Wins: Hear “The Score” (Feat. Marv Won)",
+   "t": "‘Iron Boy’ Official U.S. Trailer Arrives from Sony Pictures Classics",
+   "s": "Animation Magazine",
+   "u": "https://www.animationmagazine.net/2026/11/iron-boy-official-u-s-trailer-arrives-from-sony-pictures-classics/",
+   "d": "2026-11-11T19:17:41+00:00"
+  },
+  {
+   "t": "Christopher Stracey & Marika Hackman Share The Body Soundtrack Featuring A Kylie Minogue Cover",
    "s": "Stereogum",
-   "u": "https://stereogum.com/2516807/bruiser-wolf-conductor-williams-announce-new-album-the-dealer-wins-hear-the-score-feat-marv-won/music/",
-   "d": "2026-11-06T18:31:20+00:00"
+   "u": "https://stereogum.com/2517656/christopher-stracey-marika-hackman-share-the-body-soundtrack-featuring-a-kylie-minogue-cover/music/",
+   "d": "2026-11-11T19:06:02+00:00"
   },
   {
-   "t": "‘Wildwood’ Heads Into Third Weekend Eying $38 Million Domestic Total After Strong Second Week",
-   "s": "Cartoon Brew",
-   "u": "https://www.cartoonbrew.com/box-office-report/wildwood-third-weekend-box-office-predictions-269142.html",
-   "d": "2026-11-06T18:19:49+00:00"
+   "t": "‘Jim Queen’ Sets Summer U.S. Release with Magnolia Pictures",
+   "s": "Animation Magazine",
+   "u": "https://www.animationmagazine.net/2026/11/jim-queen-sets-summer-u-s-release-with-magnolia-pictures/",
+   "d": "2026-11-11T18:58:13+00:00"
   },
   {
-   "t": "There’s a Zelda-friendly ocarina app for FM-1, and you can try it in a browser",
-   "s": "CDM",
-   "u": "https://cdm.link/theres-a-zelda-friendly-ocarina-app-for-fm-1-and-you-can-try-it-in-a-browser/",
-   "d": "2026-11-06T18:12:31+00:00"
+   "t": "‘Public markets are pricing the quarter, not the catalog.’",
+   "s": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/public-markets-are-pricing-the-quarter-not-the-catalog/",
+   "d": "2026-11-11T18:27:38+00:00"
   },
   {
-   "t": "Box Office: ‘Godzilla Minus Zero’ Roars with $6.7 Million in Previews, ‘Ramayana: Rise of a Legend’ Earns $3.5 Million",
+   "t": "Stream 2hollis’ Genre-Bending New Album Pirouette, Featuring Writing And Production From Mk.gee",
+   "s": "Stereogum",
+   "u": "https://stereogum.com/2517631/stream-2hollis-genre-bending-new-album-pirouette-featuring-writing-and-production-from-mk-gee/music/",
+   "d": "2026-11-11T18:25:13+00:00"
+  },
+  {
+   "t": "5 wild Adobe Sneaks that creatives need to know about",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/news/5-wild-adobe-sneaks-that-creatives-need-to-know-about",
+   "d": "2026-11-11T18:19:03+00:00"
+  },
+  {
+   "t": "DistroKid launches music publishing service powered by Kobalt",
+   "s": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/distrokid-launches-music-publishing-service-powered-by-kobalt/",
+   "d": "2026-11-11T18:03:10+00:00"
+  },
+  {
+   "t": "RZA invests in AYO Music Group, the music copyright administrator co-founded by Deborah Mannis-Gardner and Pär Almqvist",
+   "s": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/rza-invests-in-ayo-music-group-the-music-copyright-administrator-co-founded-by-deborah-mannis-gardner-and-par-almqvist/",
+   "d": "2026-11-11T17:50:42+00:00"
+  },
+  {
+   "t": "Attend, the First Marketplace Connecting Filmmakers Directly to Theater Owners, Finally Launches Today",
    "s": "IndieWire",
-   "u": "https://www.indiewire.com/news/box-office/box-office-godzilla-minus-zero-previews-ramayana-1235225976/",
-   "d": "2026-11-06T17:55:11+00:00"
+   "u": "https://www.indiewire.com/news/breaking-news/attend-marketplace-filmmakers-theater-owners-launch-afm-1235226617/",
+   "d": "2026-11-11T17:30:00+00:00"
   },
   {
-   "t": "Emily Feingold Hired as EVP, Communications for The Walt Disney Company",
+   "t": "DC Studios’ Latest Reboot: James Gunn and Peter Safran’s Exit Is About Cost-Cutting, Not Just Creative Issues",
    "s": "IndieWire",
-   "u": "https://www.indiewire.com/news/business/emily-feingold-hired-communications-walt-disney-company-1235225927/",
-   "d": "2026-11-06T17:30:00+00:00"
+   "u": "https://www.indiewire.com/news/analysis/dc-studios-pushed-out-james-gunn-peter-safran-cost-cutting-skydance-1235226827/",
+   "d": "2026-11-11T17:30:00+00:00"
   },
   {
-   "t": "On The Use Of AI In Sylvain Chomet’s Dior Ad: A Correction And An Apology",
-   "s": "Cartoon Brew",
-   "u": "https://www.cartoonbrew.com/artificial-intelligence/sylvain-chomet-dior-ad-ai-use-269124.html",
-   "d": "2026-11-06T17:15:50+00:00"
+   "t": "10 Years Ago, Beyoncé and the Chicks Performed at the CMA Awards. It’s Still Making Waves",
+   "s": "Rolling Stone Music",
+   "u": "https://www.rollingstone.com/music/music-features/beyonce-the-chicks-cma-awards-performance-1235654911/",
+   "d": "2026-11-11T17:29:10+00:00"
   },
   {
-   "t": "New ‘Stranger Things’ prequel series ‘Other Worlds’ coming to Netflix – watch the teaser",
+   "t": "Lawmakers bite back at ticket touting platforms as they attempt to block price cap in Washington DC",
+   "s": "Complete Music Update",
+   "u": "https://completemusicupdate.com/lawmakers-bite-back-at-ticket-touting-platforms-as-they-attempt-to-block-price-cap-in-washington-dc/",
+   "d": "2026-11-11T16:45:46+00:00"
+  },
+  {
+   "t": "The Boulies EP600 office chair gave me an existential crisis",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/reviews/the-boulies-ep600-office-chair-gave-me-an-existential-crisis",
+   "d": "2026-11-11T16:15:55+00:00"
+  },
+  {
+   "t": "Oklou Scored a New Animated Film",
+   "s": "Pitchfork News",
+   "u": "https://pitchfork.com/story/oklou-scored-a-new-animated-film/",
+   "d": "2026-11-11T16:12:22+00:00"
+  },
+  {
+   "t": "Kate Berlant and John Early to Host the 2027 Film Independent Spirit Awards",
+   "s": "IndieWire",
+   "u": "https://www.indiewire.com/news/general-news/kate-berlant-john-early-host-independent-spirit-awards-2027-1235226799/",
+   "d": "2026-11-11T16:00:00+00:00"
+  },
+  {
+   "t": "Diplo and former Downtown CEO Andrew Bergman launch independent publisher Bison Music",
+   "s": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/diplo-and-former-downtown-ceo-andrew-bergman-launch-independent-publisher-bison-music/",
+   "d": "2026-11-11T15:18:42+00:00"
+  },
+  {
+   "t": "Behind The Campaign: Bonobo",
+   "s": "Music Ally",
+   "u": "https://musically.com/2026/11/11/behind-the-campaign-bonobo-2026/",
+   "d": "2026-11-11T15:00:00+00:00"
+  },
+  {
+   "t": "Oklou Announces In Waves Soundtrack: Hear “the swirl ahead”",
+   "s": "Stereogum",
+   "u": "https://stereogum.com/2517570/oklou-in-waves-movie-soundtrack-score-the-swirl-ahead-rob/music/",
+   "d": "2026-11-11T14:28:56+00:00"
+  },
+  {
+   "t": "This coffee machine won two design awards and now has £150 off for Black Friday",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/deals/this-coffee-machine-won-two-design-awards-and-now-has-gbp150-off-for-black-friday",
+   "d": "2026-11-11T14:00:00+00:00"
+  },
+  {
+   "t": "Spotify DJ now has more voices – and the ability to shut up",
+   "s": "Music Ally",
+   "u": "https://musically.com/2026/11/11/spotify-dj-now-has-more-voices-and-the-ability-to-shut-up/",
+   "d": "2026-11-11T13:30:00+00:00"
+  },
+  {
+   "t": "Protect Ya Deck: Wu-Tang Clan’s RZA invests in AYO Music Group",
+   "s": "Music Ally",
+   "u": "https://musically.com/2026/11/11/protect-ya-deck-wu-tang-clans-rza-invests-in-ayo-music-group/",
+   "d": "2026-11-11T13:30:00+00:00"
+  },
+  {
+   "t": "Idol’s Labelcamp and startup MyPart explore AI connections",
+   "s": "Music Ally",
+   "u": "https://musically.com/2026/11/11/idols-labelcamp-and-startup-mypart-explore-ai-connections/",
+   "d": "2026-11-11T13:30:00+00:00"
+  },
+  {
+   "t": "Lisa from Blackpink’s new film is a YouTube Premium exclusive",
+   "s": "Music Ally",
+   "u": "https://musically.com/2026/11/11/lisa-from-blackpinks-new-film-is-a-youtube-premium-exclusive/",
+   "d": "2026-11-11T13:30:00+00:00"
+  },
+  {
+   "t": "TikTok’s SoundOn strikes ‘landmark’ deal to distribute Daddy Yankee’s ‘La Postal’ album, in what it calls its ‘biggest artist partnership to date’",
+   "s": "Music Business Worldwide",
+   "u": "https://www.musicbusinessworldwide.com/tiktoks-soundon-strikes-landmark-deal-to-distribute-daddy-yankees-la-postal-album-in-what-it-calls-its-biggest-artist-partnership-to-dat/",
+   "d": "2026-11-11T12:22:00+00:00"
+  },
+  {
+   "t": "Netflix does not intend to remove Russell Brand stand-up special – but will hide it from subscribers",
    "s": "NME",
-   "u": "https://www.nme.com/news/tv/new-stranger-things-prequel-series-other-worlds-announced-netflix-watch-video-teaser-3975308?utm_source=rss&utm_medium=rss&utm_campaign=new-stranger-things-prequel-series-other-worlds-announced-netflix-watch-video-teaser",
-   "d": "2026-11-06T17:02:01+00:00"
+   "u": "https://www.nme.com/news/tv/russell-brand-rebirth-netflix-streamer-removed-rape-trail-3975671",
+   "d": "2026-11-11T11:40:56+00:00"
   },
   {
-   "t": "Live Nation generated $10.1B in Q3, up 19% YoY – as international markets overtook the US in fan attendance this year",
-   "s": "Music Business Worldwide",
-   "u": "https://www.musicbusinessworldwide.com/live-nation-generated-10-1b-in-q3-up-19-yoy-as-international-markets-overtook-the-us-in-fan-attendance-this-year/",
-   "d": "2026-11-06T16:59:39+00:00"
+   "t": "Skydance Is Betting On AI To Help Dig Itself Out Of $87 Billion In Debt",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/business/skydance-ai-cost-cutting-87-billion-debt-269275.html",
+   "d": "2026-11-11T00:46:04+00:00"
   },
   {
-   "t": "Netflix Announces Stranger Things Prequel Series, Exploring Other Worlds in the 1950s",
-   "s": "Consequence",
-   "u": "https://consequence.net/2026/11/stranger-things-prequel-other-worlds-netflix/",
-   "d": "2026-11-06T16:42:08+00:00"
+   "t": "Mexican ‘Wildwood’ Distributor Orders New Dub After Backlash Over Celebrity, Influencer Voice Cast",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/voice-acting/wildwood-new-spanish-language-dub-269270.html",
+   "d": "2026-11-11T00:16:18+00:00"
   },
   {
-   "t": "Embarrassed Prime Video Uses Friday News Dump to Share Melania: The Series Trailer",
-   "s": "Consequence",
-   "u": "https://consequence.net/2026/11/prime-video-melania-the-series-trailer/",
-   "d": "2026-11-06T16:40:00+00:00"
-  },
-  {
-   "t": "From Sony’s record $3.15B quarter to Influence Media’s $600M Anthem deal… it’s MBW’s Weekly Round-Up",
-   "s": "Music Business Worldwide",
-   "u": "https://www.musicbusinessworldwide.com/from-sonys-record-3-15b-quarter-to-influence-medias-600m-anthem-deal-its-mbws-weekly-round-up/",
-   "d": "2026-11-06T16:03:48+00:00"
-  },
-  {
-   "t": "James Gray on His ‘Only Real Beef with Streaming’ and the ‘Recurring Nightmare’ That Started at Cannes in 2009",
-   "s": "IndieWire",
-   "u": "https://www.indiewire.com/features/podcast/james-gray-streaming-cannes-controversies-nightmares-1235225829/",
-   "d": "2026-11-06T15:58:02+00:00"
-  },
-  {
-   "t": "Warner Chappell boss Guy Moot, the first music publisher to receive the UK’s MITS Award, on A&R, catalog, My Chemical Romance, and the PROs",
-   "s": "Music Business Worldwide",
-   "u": "https://www.musicbusinessworldwide.com/warner-chappell-boss-guy-moot-the-first-music-publisher-to-receive-the-uks-mits-award-on-ar-catalog-my-chemical-romance-and-the-pros/",
-   "d": "2026-11-06T15:54:40+00:00"
-  },
-  {
-   "t": "With MLC data now included, what does CISAC’s annual report on song revenues still exclude and why?",
-   "s": "Complete Music Update",
-   "u": "https://completemusicupdate.com/with-mlc-data-now-included-what-does-cisacs-annual-report-on-song-revenues-still-exclude-and-why/",
-   "d": "2026-11-06T15:12:53+00:00"
-  },
-  {
-   "t": "Rotor Videos opens Artist Unlimited to any artist from $9.99 a month, with unlimited release visuals and a library of 17M+, non-AI-generated clips",
-   "s": "Music Business Worldwide",
-   "u": "https://www.musicbusinessworldwide.com/rotor-videos-opens-artist-unlimited-to-any-artist-from-9-99-a-month-with-unlimited-release-visuals-and-a-library-of-17m-non-ai-generated-clips/",
-   "d": "2026-11-06T14:56:21+00:00"
-  },
-  {
-   "t": "CMU Selects - the last week’s standout releases",
-   "s": "Complete Music Update",
-   "u": "https://completemusicupdate.com/cmu-selects-week-83-2026/",
-   "d": "2026-11-06T13:33:04+00:00"
-  },
-  {
-   "t": "Splice Create sees samples platform expand with its own DAW",
-   "s": "Music Ally",
-   "u": "https://musically.com/2026/11/06/splice-create-sees-samples-platform-expand-with-its-own-daw/",
-   "d": "2026-11-06T13:30:00+00:00"
-  },
-  {
-   "t": "Influence Media Partners completes Anthem Entertainment acquisition",
-   "s": "Music Ally",
-   "u": "https://musically.com/2026/11/06/influence-media-partners-completes-anthem-entertainment-acquisition/",
-   "d": "2026-11-06T13:30:00+00:00"
-  },
-  {
-   "t": "Musixmatch and LyricFind reveal their latest lyrical deals",
-   "s": "Music Ally",
-   "u": "https://musically.com/2026/11/06/musixmatch-and-lyricfind-reveal-their-latest-lyrical-deals/",
-   "d": "2026-11-06T13:30:00+00:00"
-  },
-  {
-   "t": "Live roundup: The Weeknd, Skiddle stake, UK Artist Touring Fund",
-   "s": "Music Ally",
-   "u": "https://musically.com/2026/11/06/live-roundup-the-weeknd-skiddle-stake-uk-artist-touring-fund/",
-   "d": "2026-11-06T13:30:00+00:00"
-  },
-  {
-   "t": "Karol G set a new TikTok record with livestreamed performance",
-   "s": "Music Ally",
-   "u": "https://musically.com/2026/11/06/karol-g-set-a-new-tiktok-record-with-livestreamed-performance/",
-   "d": "2026-11-06T13:30:00+00:00"
-  },
-  {
-   "t": "Enhanced Games owner to acquire 77% of European promoter DEAG in all-stock deal valuing it at $115M",
-   "s": "Music Business Worldwide",
-   "u": "https://www.musicbusinessworldwide.com/enhanced-games-owner-to-acquire-77-of-european-promoter-deag-in-all-stock-deal-valuing-it-at-115m/",
-   "d": "2026-11-06T13:01:09+00:00"
-  },
-  {
-   "t": "Lucy Punch and James Norton star in glitzy but funny M&S Christmas ad",
-   "s": "Creative Review",
-   "u": "https://www.creativereview.co.uk/lucy-punch-james-norton-ms-christmas-ad/",
-   "d": "2026-11-06T07:00:12+00:00"
-  },
-  {
-   "t": "PeiHsin Cho on turning introspection into illustration",
-   "s": "Creative Review",
-   "u": "https://www.creativereview.co.uk/peihsin-cho-illustration-animation/",
-   "d": "2026-11-06T03:54:24+00:00"
-  },
-  {
-   "t": "Mods for everyone: inMusic is opening up MPC, more new gear to coders",
-   "s": "CDM",
-   "u": "https://cdm.link/inmusic-opens-up-for-namm/",
-   "d": "2026-11-05T21:53:46+00:00"
-  },
-  {
-   "t": "Musixmatch and DistroKid renew lyrics distribution partnership under multi-year deal",
-   "s": "Music Business Worldwide",
-   "u": "https://www.musicbusinessworldwide.com/musixmatch-and-distrokid-renew-lyrics-distribution-partnership-under-multi-year-deal/",
-   "d": "2026-11-05T21:35:51+00:00"
-  },
-  {
-   "t": "Lex Walton Is A Facebook Marketplace Addict",
-   "s": "Stereogum",
-   "u": "https://stereogum.com/2516628/lex-walton-is-a-facebook-marketplace-addict/original-videos/",
-   "d": "2026-11-05T18:23:42+00:00"
+   "t": "Too Much AI; ‘Cat In The Hat’ Debuts; DC Executive Shakeup",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/newsletter/too-much-ai-cat-in-the-hat-debuts-dc-executive-shakeup-269264.html",
+   "d": "2026-11-10T20:10:19+00:00"
   }
  ],
  "ai": [
   {
-   "t": "State propaganda in some Chinese AI models is only \"a thin layer\" that fine-tuning can strip away",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/state-propaganda-in-some-chinese-ai-models-is-only-a-thin-layer-that-fine-tuning-can-strip-away/",
-   "d": "2026-11-07T12:32:45+00:00"
-  },
-  {
-   "t": "Nine AI agents tried autonomous research on open questions from US national labs and none passed the experts' bar",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/nine-ai-agents-tried-autonomous-research-on-open-questions-from-us-national-labs-and-none-passed-the-experts-bar/",
-   "d": "2026-11-07T11:13:42+00:00"
-  },
-  {
-   "t": "Apps for Caregivers Get a Dose of AI, but That Might Not Be Enough",
-   "s": "Wired AI",
-   "u": "https://www.wired.com/story/apps-for-caregivers-get-a-dose-of-ai-but-that-might-not-be-enough/",
-   "d": "2026-11-07T11:00:00+00:00"
-  },
-  {
-   "t": "Google's AI detects high blood pressure from a regular smartwatch without a cuff",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/googles-ai-detects-high-blood-pressure-from-a-regular-smartwatch-without-a-cuff/",
-   "d": "2026-11-07T09:54:09+00:00"
-  },
-  {
-   "t": "OpenAI lands an $11 billion funding round, but has to court dentists for more capital",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/openai-lands-an-11-billion-funding-round-but-has-to-court-dentists-for-more-capital/",
-   "d": "2026-11-07T09:45:23+00:00"
-  },
-  {
-   "t": "Buoyant Releases Kinference: An Open Source Inference Control Plane for Kubernetes and vLLM",
-   "s": "MarkTechPost",
-   "u": "https://www.marktechpost.com/2026/11/07/buoyant-kinference-open-source-inference-control-plane-kubernetes-vllm/",
-   "d": "2026-11-07T08:16:33+00:00"
-  },
-  {
-   "t": "[AINews] Anthropic IPO: Whither Now?",
-   "s": "Latent Space",
-   "u": "https://latent.space/p/ainews-anthropic-ipo-whither-now/",
-   "d": "2026-11-07T03:04:53+00:00"
-  },
-  {
-   "t": "Crusoe sells troubled Wyoming data center project to Google",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google/",
-   "d": "2026-11-07T01:40:28+00:00"
-  },
-  {
-   "t": "China reportedly recruited AI exec to spy on Jensen Huang",
+   "t": "Nvidia is reportedly preparing to fire Jensen Huang",
    "s": "The Verge AI",
-   "u": "https://www.theverge.com/tech/1029338/nvidia-ceo-jensen-huang-china-spy",
-   "d": "2026-11-06T18:00:44-05:00"
+   "u": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+   "d": "2026-11-11T19:55:40-05:00"
   },
   {
-   "t": "OpenAI reportedly raises an additional $11 billion at a $1.25 trillion valuation",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation/",
-   "d": "2026-11-06T22:53:46+00:00"
-  },
-  {
-   "t": "AI is the new dating dealbreaker",
-   "s": "The Verge AI",
-   "u": "https://www.theverge.com/ai-artificial-intelligence/1028609/ai-dating-feelings-doomers-singularity",
-   "d": "2026-11-06T16:51:59-05:00"
-  },
-  {
-   "t": "All the latest updates on AI data centers",
-   "s": "The Verge AI",
-   "u": "https://www.theverge.com/ai-artificial-intelligence/902546/data-centers-ai-energy-power-grids-controversy",
-   "d": "2026-11-06T15:03:32-05:00"
-  },
-  {
-   "t": "Meta’s Muse AI can create custom ‘spaces’ for the version of the app you need right now",
-   "s": "The Verge AI",
-   "u": "https://www.theverge.com/tech/1028871/meta-muse-ai-spaces",
-   "d": "2026-11-06T15:00:43-05:00"
-  },
-  {
-   "t": "Ripple-65B Preview delivers strong agentic coding results as a fully Apache 2.0 open US model",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/ripple-65b-preview-delivers-strong-agentic-coding-results-as-a-fully-apache-2-0-open-us-model/",
-   "d": "2026-11-06T19:47:04+00:00"
-  },
-  {
-   "t": "Hundreds of Artex AI hacking tools found publicly exposed to the web",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web/",
-   "d": "2026-11-06T18:44:38+00:00"
-  },
-  {
-   "t": "Meta introduces Spaces, a new way to collaborate with your Muse agent",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/2026/11/06/meta-introduces-spaces-a-new-way-to-collaborate-with-your-muse-agent/",
-   "d": "2026-11-06T18:44:20+00:00"
-  },
-  {
-   "t": "Free Chinese AI Models Are Getting Scary Good at Hacking",
-   "s": "Wired AI",
-   "u": "https://www.wired.com/story/free-chinese-ai-models-are-getting-scary-good-at-hacking/",
-   "d": "2026-11-06T18:43:43+00:00"
-  },
-  {
-   "t": "How a Blue Wave midterm might reshape the AI industry",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry/",
-   "d": "2026-11-06T18:00:00+00:00"
-  },
-  {
-   "t": "Zyphra ZYFA: FP8 FlashAttention for AMD MI355X, Up to 1.76x Faster",
-   "s": "MarkTechPost",
-   "u": "https://www.marktechpost.com/2026/11/06/zyphra-zyfa-fp8-flashattention-amd-mi355x/",
-   "d": "2026-11-06T17:28:04+00:00"
-  },
-  {
-   "t": "After the midterms, is the AI industry in for a rough two years?",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/video/after-the-midterms-is-the-ai-industry-in-for-a-rough-two-years/",
-   "d": "2026-11-06T17:23:52+00:00"
-  },
-  {
-   "t": "Prompt: AI's next bottleneck is outside the data center",
-   "s": "AI Business",
-   "u": "https://aibusiness.com/data-centers/prompt-ai-s-next-bottleneck-is-outside-data-center",
-   "d": "2026-11-06T16:50:28+00:00"
-  },
-  {
-   "t": "Perplexity now has its own always-on AI agent",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/perplexity-now-has-its-own-always-on-ai-agent/",
-   "d": "2026-11-06T16:47:28+00:00"
-  },
-  {
-   "t": "How to Measure AI Adoption, Performance, and ROI With 12 KPIs",
-   "s": "Towards Data Science",
-   "u": "https://towardsdatascience.com/how-to-measure-ai-adoption-performance-and-roi-with-12-kpis/",
-   "d": "2026-11-06T16:30:00+00:00"
-  },
-  {
-   "t": "Could potential AI clones of GTA VI force a quicker official port?",
-   "s": "Ars Technica AI",
-   "u": "https://arstechnica.com/gaming/2026/11/could-potential-ai-clones-of-gta-vi-force-a-quicker-official-port/",
-   "d": "2026-11-06T16:19:12+00:00"
-  },
-  {
-   "t": "How NVIDIA Open Source Tools Are Helping Researchers Build Next-Generation 6G Networks",
-   "s": "Nvidia Blog",
-   "u": "https://blogs.nvidia.com/blog/telco-open-source-tools-research-6g-networks/",
-   "d": "2026-11-06T16:00:35+00:00"
-  },
-  {
-   "t": "AI Companies Really, Really Want to Buy Your Work Files and Emails",
-   "s": "Wired AI",
-   "u": "https://www.wired.com/story/ai-companies-really-really-want-to-buy-your-work-files-and-emails/",
-   "d": "2026-11-06T16:00:00+00:00"
-  },
-  {
-   "t": "Frontier Radar #5: If AGI is so close, why is everyone leaving? The neolabs and their bets",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/frontier-radar-5-if-agi-is-so-close-why-is-everyone-leaving-the-neolabs-and-their-bets/",
-   "d": "2026-11-06T15:55:23+00:00"
-  },
-  {
-   "t": "Ramp data shows AI spending stalling just as Anthropic nears its IPO",
-   "s": "TechCrunch AI",
-   "u": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo/",
-   "d": "2026-11-06T15:54:47+00:00"
-  },
-  {
-   "t": "Controlling Biology - Fabian Theis, Helmholtz Munich",
-   "s": "Latent Space",
-   "u": "https://latent.space/p/controlling-biology-fabian-theis-helmholtz-munich/",
-   "d": "2026-11-06T15:10:53+00:00"
-  },
-  {
-   "t": "Google's AI-first Search creates challenges for schools and businesses",
-   "s": "AI Business",
-   "u": "https://aibusiness.com/ai-policy/google-s-ai-first-search-creates-challenges",
-   "d": "2026-11-06T14:55:15+00:00"
-  },
-  {
-   "t": "ToyBlocks: A controlled world for robot learning and evaluation",
-   "s": "Hugging Face Blog",
-   "u": "https://huggingface.co/blog/allenai/toyblocks",
-   "d": "2026-11-06T14:00:48+00:00"
-  },
-  {
-   "t": "Protesters storm Microsoft AI data center construction site",
-   "s": "Tom's Hardware",
-   "u": "https://www.tomshardware.com/tech-industry/data-centers/protesters-storm-microsoft-ai-data-center-construction-site-amsterdam-reportedly-first-of-85-targeted-actions-across-europe",
-   "d": "2026-11-06T13:59:09+00:00"
-  },
-  {
-   "t": "Nvidia tightens tracking of AI GPUs in Southeast Asia as Chinese chip smuggling draws scrutiny, report claims",
-   "s": "Tom's Hardware",
-   "u": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-tightens-tracking-of-ai-gpus-in-southeast-asia-as-chinese-chip-smuggling-draws-scrutiny-report-claims-cloud-providers-must-join-monitoring-program-to-qualify-for-official-partner-status",
-   "d": "2026-11-06T13:49:33+00:00"
-  },
-  {
-   "t": "METR finds Anthropic may have crossed its own AI acceleration warning threshold back in July",
-   "s": "The Decoder",
-   "u": "https://the-decoder.com/metr-finds-anthropic-may-have-crossed-its-own-ai-acceleration-warning-threshold-back-in-july/",
-   "d": "2026-11-06T13:40:07+00:00"
-  },
-  {
-   "t": "Six pallets of Nvidia GPUs worth $11.4 million stolen in California cargo heist",
-   "s": "Tom's Hardware",
-   "u": "https://www.tomshardware.com/pc-components/gpus/six-pallets-of-nvidia-gpus-worth-usd11-4-million-stolen-in-california-cargo-heist-authorities-investigate-after-truck-posing-as-a-food-transport-company-disappears",
-   "d": "2026-11-06T13:35:16+00:00"
-  },
-  {
-   "t": "Build Your First Multi-Tool AI Agent with Ollama and Python",
-   "s": "Towards Data Science",
-   "u": "https://towardsdatascience.com/build-your-first-multi-tool-ai-agent-with-ollama-and-python/",
-   "d": "2026-11-06T13:30:00+00:00"
-  },
-  {
-   "t": "Nvidia wants to repurpose over 130 old telco buildings as tiny data centers, report claims",
-   "s": "Tom's Hardware",
-   "u": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-wants-to-repurpose-over-130-old-telco-buildings-as-tiny-data-centers-report-claims-company-in-talks-with-brightspeed-after-pitching-idea-to-parent-company-apollo-global-management",
-   "d": "2026-11-06T12:45:00+00:00"
-  },
-  {
-   "t": "Rogue AI tasked with renumbering pages accidentally deletes law professor's entire syllabus, one year of lecture notes",
-   "s": "Tom's Hardware",
-   "u": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-claude-ai-tasked-with-renumbering-pages-accidentally-deletes-law-professors-entire-syllabus-one-year-of-lecture-notes-youre-right-to-be-angry-i-deleted-your-files-through-my-own-carelessness-humbled-agent-admits",
-   "d": "2026-11-06T12:12:12+00:00"
-  },
-  {
-   "t": "Protesters break into Microsoft data center site in Amsterdam",
-   "s": "The Verge AI",
-   "u": "https://www.theverge.com/news/1028549/protesters-microsoft-data-center-site-amsterdam",
-   "d": "2026-11-06T07:01:25-05:00"
-  },
-  {
-   "t": "Give Your Python AI Agent Persistent Memory with One JSON File",
-   "s": "Towards Data Science",
-   "u": "https://towardsdatascience.com/give-your-python-ai-agent-persistent-memory-with-one-json-file/",
-   "d": "2026-11-06T12:00:00+00:00"
-  },
-  {
-   "t": "[AINews] Inkling 2 Small: 17A-594B trained in 68 hours on 12T tokens, beating Muse Spark",
-   "s": "Latent Space",
-   "u": "https://latent.space/p/ainews-inkling-2-small-17a-594b-trained-in-68-hours-on-12t-tokens-beating-muse-spark/",
-   "d": "2026-11-06T10:35:21+00:00"
-  },
-  {
-   "t": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+   "t": "Gilbert + Tobin rethinks the business of law with AI",
    "s": "OpenAI News",
-   "u": "https://openai.com/index/partnering-with-hacktron",
-   "d": "2026-11-06T08:00:00+00:00"
+   "u": "https://openai.com/index/gilbert-tobin-sam-nickless",
+   "d": "2026-11-12T00:00:00+00:00"
   },
   {
-   "t": "Thinking Machines Releases Inkling 2 Small, a 594B MoE With 17B Active",
+   "t": "Nvidia’s Board reportedly preparing to oust CEO Jensen Huang as second extra-marital affair emerges",
+   "s": "Tom's Hardware",
+   "u": "https://www.tomshardware.com/pc-components/gpus/nvidias-board-reportedly-preparing-to-oust-ceo-jensen-huang-as-second-extra-marital-affair-emerges-stock-has-plunged-20-percent-since-scandals-began-huang-has-been-first-and-only-ceo-for-33-years",
+   "d": "2026-11-11T23:45:00+00:00"
+  },
+  {
+   "t": "Nvidia’s stock drops as board reportedly preps to oust CEO Jensen Huang",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+   "d": "2026-11-11T23:28:45+00:00"
+  },
+  {
+   "t": "Jensen Huang accused of having another affair — with an Nvidia exec",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+   "d": "2026-11-11T23:17:05+00:00"
+  },
+  {
+   "t": "Jensen Huang now accused of affair with Nvidia executive who reported to him, alleged cover-up attempt",
+   "s": "Tom's Hardware",
+   "u": "https://www.tomshardware.com/tech-industry/jensen-huang-now-accused-of-affair-with-nvidia-executive-who-reported-to-him-alleged-cover-up-attempt-new-indiscretion-comes-in-wake-of-admitted-affair-with-alleged-chinese-spy",
+   "d": "2026-11-11T22:31:39+00:00"
+  },
+  {
+   "t": "Gemini Decisions API",
+   "s": "Simon Willison",
+   "u": "https://simonwillison.net/2026/Nov/11/gemini-decisions-api/",
+   "d": "2026-11-11T22:03:25+00:00"
+  },
+  {
+   "t": "United won’t let your AI agent book your flight",
+   "s": "The Verge AI",
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1031623/united-unauthorized-ai-agents",
+   "d": "2026-11-11T16:54:21-05:00"
+  },
+  {
+   "t": "AMD’s Venice-X maxes out family at 5.3 GHz, returning 3D V-Cache to data center after four years",
+   "s": "Tom's Hardware",
+   "u": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-maxes-out-family-at-5-3-ghz-returning-3d-v-cache-to-data-center-after-four-years-chips-target-hpc-workloads-with-pcie-6-0-and-1-6-tb-s-memory-bandwidth",
+   "d": "2026-11-11T21:30:00+00:00"
+  },
+  {
+   "t": "Google Launches Gemini Decisions API With Gemini Decision 1 at $0.10/M Tokens",
    "s": "MarkTechPost",
-   "u": "https://www.marktechpost.com/2026/11/05/thinking-machines-inkling-2-small-release/",
-   "d": "2026-11-06T04:25:07+00:00"
+   "u": "https://www.marktechpost.com/2026/11/11/google-gemini-decisions-api-gemini-decision-1/",
+   "d": "2026-11-11T21:21:42+00:00"
   },
   {
-   "t": "Enterprises face tougher AI regulatory landscape after midterms",
+   "t": "Google DeepMind Releases AlphaGenome 2 for Cell-Type-Specific Variant Effects",
+   "s": "MarkTechPost",
+   "u": "https://www.marktechpost.com/2026/11/11/google-deepmind-alphagenome-2-cell-type-variant-effects/",
+   "d": "2026-11-11T20:51:56+00:00"
+  },
+  {
+   "t": "Why the data center you dread might never even be built",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/video/why-the-data-center-you-dread-might-never-even-be-built/",
+   "d": "2026-11-11T20:15:15+00:00"
+  },
+  {
+   "t": "Google joins the decision-model wave with Gemini Decision 1, scoring 1,000 questions in a single pass",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/google-joins-the-decision-model-wave-with-gemini-decision-1-scoring-1000-questions-in-a-single-pass/",
+   "d": "2026-11-11T20:12:46+00:00"
+  },
+  {
+   "t": "How backlash and red tape continue to slow data centers post-Blue Wave",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+   "d": "2026-11-11T20:02:14+00:00"
+  },
+  {
+   "t": "I Saw the Future of Robotics in a Virtual Duck That Chases My Cat",
+   "s": "Wired AI",
+   "u": "https://www.wired.com/story/i-trained-a-microduck-to-be-my-cats-butler/",
+   "d": "2026-11-11T19:55:54+00:00"
+  },
+  {
+   "t": "CoreWeave turns to customer prepayments, shorter contracts to fund AI growth",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
+   "d": "2026-11-11T19:54:00+00:00"
+  },
+  {
+   "t": "US corporate AI spending hits a new high in October, but growth slows to 1.65 percent",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/us-corporate-ai-spending-hits-a-new-high-in-october-but-growth-slows-to-1-65-percent/",
+   "d": "2026-11-11T19:35:11+00:00"
+  },
+  {
+   "t": "With $720M round, Britain’s Fractile gets a leg up in the race for AI chips",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
+   "d": "2026-11-11T19:34:55+00:00"
+  },
+  {
+   "t": "OpenAI’s Businesses in ChatGPT targets enterprise trust",
    "s": "AI Business",
-   "u": "https://aibusiness.com/data-centers/enterprises-face-tougher-ai-regulatory-landscape",
-   "d": "2026-11-06T03:01:36+00:00"
+   "u": "https://aibusiness.com/generative-ai/openai-s-businesses-in-chatgpt-targets-enterprise-trust",
+   "d": "2026-11-11T19:24:28+00:00"
   },
   {
-   "t": "Egyptian and Nigerian English join the Open ASR Leaderboard",
-   "s": "Hugging Face Blog",
-   "u": "https://huggingface.co/blog/open-asr-leaderboard-liva",
-   "d": "2026-11-06T00:00:00+00:00"
+   "t": "Google Deepmind's AlphaProof Code verified Signal's cryptographic core in four weeks instead of years",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/google-deepminds-alphaproof-code-verified-signals-cryptographic-core-in-four-weeks-instead-of-years/",
+   "d": "2026-11-11T18:18:25+00:00"
   },
   {
-   "t": "Measuring how AI agents handle everyday wet-lab science",
-   "s": "OpenAI News",
-   "u": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science",
-   "d": "2026-11-06T00:00:00+00:00"
-  },
-  {
-   "t": "Google Releases Gemini Omni 1.2 Flash: 15-Second AI Video at $0.07 per Second",
-   "s": "MarkTechPost",
-   "u": "https://www.marktechpost.com/2026/11/05/google-gemini-omni-1-2-flash-15-second-video/",
-   "d": "2026-11-05T22:58:21+00:00"
-  },
-  {
-   "t": "Google: Schools can keep search while skipping Gemini, but AI search is non-negotiable",
+   "t": "Taiwan’s chipmaking giant TSMC to invest $1B in Anthropic, OpenAI",
    "s": "Ars Technica AI",
-   "u": "https://arstechnica.com/ai/2026/11/google-schools-can-keep-search-while-skipping-gemini-but-ai-search-is-non-negotiable/",
-   "d": "2026-11-05T21:40:36+00:00"
+   "u": "https://arstechnica.com/ai/2026/11/taiwans-chipmaking-giant-tsmc-to-invest-1b-in-anthropic-openai/",
+   "d": "2026-11-11T18:16:40+00:00"
   },
   {
-   "t": "Lawsuit: Man introduced his wife to ChatGPT. She used it to plan his murder.",
-   "s": "Ars Technica AI",
-   "u": "https://arstechnica.com/tech-policy/2026/11/lawsuit-man-introduced-his-wife-to-chatgpt-she-used-it-to-plan-his-murder/",
-   "d": "2026-11-05T21:39:40+00:00"
-  },
-  {
-   "t": "Baidu Releases ERNIE 5.5 Flash Base: A 280B MoE Base Model With 14B Active Parameters",
-   "s": "MarkTechPost",
-   "u": "https://www.marktechpost.com/2026/11/05/baidu-ernie-5-5-flash-base-280b-moe/",
-   "d": "2026-11-05T21:33:00+00:00"
-  },
-  {
-   "t": "Supermicro Super AI Station Review: The AI Server That Doubles as a Workstation",
-   "s": "ServeTheHome",
-   "u": "https://www.servethehome.com/supermicro-super-ai-station-review-the-ai-server-that-doubles-as-a-workstation/",
-   "d": "2026-11-05T21:15:28+00:00"
-  },
-  {
-   "t": "Vera Delivers the Best of Both Worlds: Highest Throughput and Fastest Agents",
-   "s": "Nvidia Blog",
-   "u": "https://blogs.nvidia.com/blog/vera-cpu-highest-throughput-fastest-agents/",
-   "d": "2026-11-05T20:00:41+00:00"
-  },
-  {
-   "t": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
-   "s": "Hugging Face Blog",
-   "u": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation",
-   "d": "2026-11-05T19:35:16+00:00"
-  },
-  {
-   "t": "Into the Omniverse: How Developers Turn Ideas Into Simulations With Frontier AI Agents",
-   "s": "Nvidia Blog",
-   "u": "https://blogs.nvidia.com/blog/developers-simulation-frontier-ai-agents/",
-   "d": "2026-11-05T17:00:35+00:00"
-  },
-  {
-   "t": "Australian universities are creating AI-native graduates",
-   "s": "OpenAI News",
-   "u": "https://openai.com/index/australian-universities-ai-native-graduates",
-   "d": "2026-11-05T17:00:00+00:00"
-  },
-  {
-   "t": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
+   "t": "Gemini Decisions API: Fast, calibrated multimodal decisions",
    "s": "Google AI Blog",
-   "u": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-   "d": "2026-11-05T17:00:00+00:00"
+   "u": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-decisions-api/",
+   "d": "2026-11-11T18:00:00+00:00"
   },
   {
-   "t": "How to Report for 100+ Clients With One Semantic Model",
+   "t": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+   "s": "Ars Technica AI",
+   "u": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+   "d": "2026-11-11T17:37:32+00:00"
+  },
+  {
+   "t": "With IPO looming, Anthropic launches new AI models, workplace tools",
+   "s": "AI Business",
+   "u": "https://aibusiness.com/generative-ai/anthropic-launches-new-ai-models",
+   "d": "2026-11-11T17:35:25+00:00"
+  },
+  {
+   "t": "llm 0.37.2",
+   "s": "Simon Willison",
+   "u": "https://simonwillison.net/2026/Nov/11/llm/",
+   "d": "2026-11-11T17:19:52+00:00"
+  },
+  {
+   "t": "A Startup Wants to Fight AI Bioweapons With AI",
+   "s": "Wired AI",
+   "u": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
+   "d": "2026-11-11T17:00:00+00:00"
+  },
+  {
+   "t": "OpenAI and Georgia county leaders hit with Mafia-style RICO racketeering lawsuit over $30 billion AI data center",
+   "s": "Tom's Hardware",
+   "u": "https://www.tomshardware.com/tech-industry/data-centers/georgia-politicians-openai-slapped-with-racketeering-lawsuit-over-3-2-gigawatt-ai-data-centers-plaintiffs-allege-multiple-violations-were-part-of-a-coordinated-scheme-to-get-project-camellia-approved",
+   "d": "2026-11-11T16:30:00+00:00"
+  },
+  {
+   "t": "OpenAI’s quarterly revenue reportedly crosses $10B for the first time",
+   "s": "TechCrunch AI",
+   "u": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
+   "d": "2026-11-11T16:14:44+00:00"
+  },
+  {
+   "t": "Marktechpost AI Launches GPU Leaderboard and the Deploy It Chrome Extension",
+   "s": "MarkTechPost",
+   "u": "https://www.marktechpost.com/2026/11/11/marktechpost-gpu-leaderboard-chrome-extension-launch/",
+   "d": "2026-11-11T15:51:14+00:00"
+  },
+  {
+   "t": "China’s Nvidia Honeypot Isn’t Surprising. Jensen Huang Fell for It Anyway",
+   "s": "Wired AI",
+   "u": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
+   "d": "2026-11-11T15:30:00+00:00"
+  },
+  {
+   "t": "Helsing built an AI system that prepares targets for weapons systems and says every decision will carry a human name",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/",
+   "d": "2026-11-11T15:12:53+00:00"
+  },
+  {
+   "t": "Anthropic's IPO roadshow video",
+   "s": "Simon Willison",
+   "u": "https://simonwillison.net/2026/Nov/11/anthropic-ipo-roadshow/",
+   "d": "2026-11-11T15:11:59+00:00"
+  },
+  {
+   "t": "SpaceX develops its own ‘Kessel’ rack-scale system featuring 72 Nvidia Rubin GPUs for data centers in space, report claims",
+   "s": "Tom's Hardware",
+   "u": "https://www.tomshardware.com/tech-industry/artificial-intelligence/spacex-develops-its-own-kessel-rack-scale-system-featuring-72-nvidia-rubin-gpus-for-data-centers-in-space-report-claims-replaces-conventional-nvlink-cable-assemblies-with-a-massive-84-layer-printed-circuit-board",
+   "d": "2026-11-11T15:03:08+00:00"
+  },
+  {
+   "t": "AI Assistant vs. Copilot vs. Agent, and When to Use Each",
    "s": "Towards Data Science",
-   "u": "https://towardsdatascience.com/how-to-report-for-100-clients-with-one-semantic-model/",
-   "d": "2026-11-05T16:30:00+00:00"
+   "u": "https://towardsdatascience.com/ai-assistant-vs-copilot-vs-agent-and-when-to-use-each/",
+   "d": "2026-11-11T15:00:00+00:00"
   },
   {
-   "t": "The Wizard of Open Weights: Chris Alexiuk Makes AI Easy With Open Models",
-   "s": "Nvidia Blog",
-   "u": "https://blogs.nvidia.com/blog/nvidia-life-chris-alexiuk/",
-   "d": "2026-11-05T16:00:05+00:00"
+   "t": "Anthropic says AI is eroding Nvidia's CUDA lead, cutting an AMD chip switch from months to three days",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/anthropic-says-ai-is-eroding-nvidias-cuda-lead-cutting-an-amd-chip-switch-from-months-to-three-days/",
+   "d": "2026-11-11T14:25:20+00:00"
   },
   {
-   "t": "More Performance From Every Byte: How Full-Stack Codesign Solves AI’s Memory Challenge",
-   "s": "Nvidia Blog",
-   "u": "https://blogs.nvidia.com/blog/memory-full-stack-codesign/",
-   "d": "2026-11-05T16:00:00+00:00"
+   "t": "Google’s Tabletop AI experiment lets you build custom collaboration apps",
+   "s": "The Verge AI",
+   "u": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
+   "d": "2026-11-11T09:15:27-05:00"
   },
   {
-   "t": "‘Hogwarts Legacy’ Gets a Magical NVIDIA DLSS 5 Upgrade on GeForce NOW",
+   "t": "US data brokers are selling half a billion dollars in RL training environments to Chinese AI labs",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/us-data-brokers-are-selling-half-a-billion-dollars-in-rl-training-environments-to-chinese-ai-labs/",
+   "d": "2026-11-11T13:51:11+00:00"
+  },
+  {
+   "t": "DeepL wants real-time translation to finally capture sarcasm and mood shifts",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/with-its-new-voice-model-deepl-voice-now-translates-intonation-and-speaking-speed-into-other-languages-as-well/",
+   "d": "2026-11-11T13:50:30+00:00"
+  },
+  {
+   "t": "How to Use Apple's fm CLI to Run On-Device LLMs From Python",
+   "s": "Towards Data Science",
+   "u": "https://towardsdatascience.com/how-to-use-apples-fm-cli-to-run-on-device-llms-from-python/",
+   "d": "2026-11-11T13:30:00+00:00"
+  },
+  {
+   "t": "Adobe’s AI experiments let you walk around in photos and interview your characters",
+   "s": "The Verge AI",
+   "u": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+   "d": "2026-11-11T07:56:24-05:00"
+  },
+  {
+   "t": "Grok-built apps exposed patient data, plaintext passwords, and SpaceXSI's own sales pipeline",
+   "s": "The Decoder",
+   "u": "https://the-decoder.com/grok-built-apps-exposed-patient-data-plaintext-passwords-and-spacexsis-own-sales-pipeline/",
+   "d": "2026-11-11T12:53:07+00:00"
+  },
+  {
+   "t": "A Jev of All Trades: Build and Train a Jev-style Decision Model From Scratch",
+   "s": "Towards Data Science",
+   "u": "https://towardsdatascience.com/a-jev-of-all-trades-build-and-train-a-jev-style-decision-model-from-scratch/",
+   "d": "2026-11-11T12:00:00+00:00"
+  },
+  {
+   "t": "A 13-Year-Old Asked AI About Suicide on Her School Laptop. It Didn’t Get Flagged for Weeks",
+   "s": "Wired AI",
+   "u": "https://www.wired.com/story/teen-girl-asked-gemini-about-suicide-for-months-until-it-was-flagged/",
+   "d": "2026-11-11T11:00:00+00:00"
+  },
+  {
+   "t": "[AINews] Mercor $750m Series D at $20B valuation, $3B run rate",
+   "s": "Latent Space",
+   "u": "https://latent.space/p/ainews-mercor-750m-series-d-at-20b-valuation-3b-run-rate/",
+   "d": "2026-11-11T09:34:28+00:00"
+  },
+  {
+   "t": "ChatGPT Plus for veterans and servicemembers",
+   "s": "OpenAI News",
+   "u": "https://openai.com/index/chatgpt-plus-for-veterans",
+   "d": "2026-11-11T08:00:00+00:00"
+  },
+  {
+   "t": "MBZUAI’s IFM Releases PAN 2, an Open 29B World Model for Physical AI",
+   "s": "MarkTechPost",
+   "u": "https://www.marktechpost.com/2026/11/10/ifm-pan-2-open-world-model/",
+   "d": "2026-11-11T07:38:57+00:00"
+  },
+  {
+   "t": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+   "s": "Hugging Face Blog",
+   "u": "https://huggingface.co/blog/qvac/botpsy",
+   "d": "2026-11-11T05:01:16+00:00"
+  },
+  {
+   "t": "AI Engineer Code Summit: OpenAI on New Ways of Working With Codex",
+   "s": "Latent Space",
+   "u": "https://latent.space/p/codex-work/",
+   "d": "2026-11-11T04:49:48+00:00"
+  },
+  {
+   "t": "Fish Audio Releases Live 3, a Full-Duplex Voice Model That Reacts in 186 ms",
+   "s": "MarkTechPost",
+   "u": "https://www.marktechpost.com/2026/11/10/fish-audio-live-3-full-duplex-voice-model/",
+   "d": "2026-11-11T04:43:53+00:00"
+  },
+  {
+   "t": "How AI Helps Recyclers Turn Mixed Waste Into Reusable Material",
    "s": "Nvidia Blog",
-   "u": "https://blogs.nvidia.com/blog/geforce-now-thursday-hogwarts-legacy-dlss-5/",
-   "d": "2026-11-05T14:00:34+00:00"
+   "u": "https://blogs.nvidia.com/blog/ai-recycling-startups/",
+   "d": "2026-11-11T03:00:20+00:00"
+  },
+  {
+   "t": "Token Pooling-Aware Training for Multi-Vector Embedding Models",
+   "s": "Hugging Face Blog",
+   "u": "https://huggingface.co/blog/token-pooling",
+   "d": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "t": "JioStar’s chief architect on AI discovery at 500M-user scale",
+   "s": "OpenAI News",
+   "u": "https://openai.com/index/jiostar-vijay-seshadri",
+   "d": "2026-11-11T00:00:00+00:00"
+  },
+  {
+   "t": "Anthropic tiptoes into MS Office territory",
+   "s": "The Register AI",
+   "u": "https://www.theregister.com/software/2026/11/10/anthropic-tiptoes-into-ms-office-territory/5308988",
+   "d": "2026-11-11T00:45:26+01:00"
+  },
+  {
+   "t": "Meta FAIR Releases e-means: An Algorithm Beating k-means in 10x Fewer Epochs",
+   "s": "MarkTechPost",
+   "u": "https://www.marktechpost.com/2026/11/10/meta-fair-e-means-k-means-faiss/",
+   "d": "2026-11-10T23:20:19+00:00"
+  },
+  {
+   "t": "Ring cameras go mobile as Amazon debuts AI-powered security drone and robot",
+   "s": "Ars Technica AI",
+   "u": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+   "d": "2026-11-10T22:35:01+00:00"
+  },
+  {
+   "t": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+   "s": "Ars Technica AI",
+   "u": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+   "d": "2026-11-10T21:12:59+00:00"
+  },
+  {
+   "t": "What happens to mathematics when AI becomes an oracle?",
+   "s": "Ars Technica AI",
+   "u": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+   "d": "2026-11-10T20:30:01+00:00"
+  },
+  {
+   "t": "Designing for Agents — Zeno Rocha, Resend",
+   "s": "Latent Space",
+   "u": "https://latent.space/p/resend/",
+   "d": "2026-11-10T20:05:17+00:00"
+  },
+  {
+   "t": "The US is winning the AI race. Jensen Huang could have blown it",
+   "s": "The Verge AI",
+   "u": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
+   "d": "2026-11-10T14:31:58-05:00"
+  },
+  {
+   "t": "Gemini Intelligence: New features, on more devices",
+   "s": "Google AI Blog",
+   "u": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
+   "d": "2026-11-10T19:00:00+00:00"
   }
  ],
  "world": [
   {
-   "t": "Why are oil traders refusing to buy Russian diesel after Trump-Putin deal?",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/7/why-are-oil-traders-refusing-to-buy-russian-diesel-after-trump-putin-deal?traffic_source=rss",
-   "d": "2026-11-07T12:24:11+00:00"
+   "t": "Democrat Scott Colom to be first Black senator elected in Mississippi since 1874 after narrow win – US politics live",
+   "s": "Guardian World",
+   "u": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
+   "d": "2026-11-12T00:55:08+00:00"
   },
   {
-   "t": "Qeshm island and Hormuz hit, as mediators try to prevent US-Iran escalation",
+   "t": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
    "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/7/qeshm-island-and-hormuz-hit-as-mediators-try-to-prevent-us-iran-escalation?traffic_source=rss",
-   "d": "2026-11-07T12:22:18+00:00"
+   "u": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
+   "d": "2026-11-12T00:00:44+00:00"
   },
   {
-   "t": "Dozens killed as humanitarian crisis mounts in Yemen: What next for war?",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/7/dozens-killed-as-humanitarian-crisis-mounts-in-yemen-what-next-for-war?traffic_source=rss",
-   "d": "2026-11-07T11:59:26+00:00"
+   "t": "EU Inc set to miss 2026 deadline as Parliament talks falter again",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/eu-inc-set-to-miss-2026-deadline-as-parliament-talks-falter-again/",
+   "d": "2026-11-11T23:20:38+00:00"
   },
   {
-   "t": "Turkcell to showcase green technology investments at COP31",
+   "t": "Israeli strikes hit medical complex as nine killed across Gaza",
+   "s": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
+   "d": "2026-11-11T22:55:37+00:00"
+  },
+  {
+   "t": "Motor racing-Hamilton urges Israel to let Gaza aid in after Rafah visit",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/motor-racing-hamilton-urges-israel-let-gaza-aid-after-rafah-visit",
+   "d": "2026-11-11T17:47:12-05:00"
+  },
+  {
+   "t": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
+   "s": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
+   "d": "2026-11-11T22:34:43+00:00"
+  },
+  {
+   "t": "US envoys to meet Putin, Zelenskyy after war talks in Abu Dhabi",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/us-envoys-to-meet-putin-zelenskyy-after-war-talks-in-abu-dhabi-2/",
+   "d": "2026-11-11T22:10:01+00:00"
+  },
+  {
+   "t": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+   "s": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+   "d": "2026-11-11T21:03:40+00:00"
+  },
+  {
+   "t": "Oil production nears pre-Iran war levels, OPEC says",
+   "s": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
+   "d": "2026-11-11T20:45:30+00:00"
+  },
+  {
+   "t": "Geneva Dry: Belships’ Ivar Hansson Myklebust on China’s changing commodities role",
+   "s": "Splash247",
+   "u": "https://splash247.com/geneva-dry-belships-ivar-hansson-myklebust-on-chinas-changing-commodities-role/",
+   "d": "2026-11-11T20:12:00+00:00"
+  },
+  {
+   "t": "Where the Russia-Ukraine peace talks stand after Abu Dhabi",
+   "s": "Atlantic Council",
+   "u": "https://www.atlanticcouncil.org/content-series/fastthinking/where-the-russia-ukraine-peace-talks-stand-after-abu-dhabi/",
+   "d": "2026-11-11T19:59:30+00:00"
+  },
+  {
+   "t": "‘The only way to get this done’: Why the US wants Europe at Ukraine talks next time",
+   "s": "Politico Europe",
+   "u": "https://www.politico.eu/article/why-the-us-wants-europe-at-ukraine-talks-next-time/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-11T19:53:57+00:00"
+  },
+  {
+   "t": "Russian Diesel Tanker Makes U-Turn After Heading to U.S.",
+   "s": "gCaptain",
+   "u": "https://gcaptain.com/russian-diesel-tanker-makes-u-turn-after-heading-to-u-s/",
+   "d": "2026-11-11T19:52:09+00:00"
+  },
+  {
+   "t": "Air cargo’s hopes for end-of-year volume surge dwindle",
+   "s": "Supply Chain Dive",
+   "u": "https://www.supplychaindive.com/news/air-cargos-hopes-for-end-of-year-volume-surge-dwindle/874430/",
+   "d": "2026-11-11T13:55:52-05:00"
+  },
+  {
+   "t": "Trump planning new military assault or tighter sanctions, say Iranian officials",
+   "s": "Guardian World",
+   "u": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+   "d": "2026-11-11T18:47:57+00:00"
+  },
+  {
+   "t": "Russian Diesel Faces U.S. Buyer Resistance Despite Trump Sanctions Waiver",
+   "s": "gCaptain",
+   "u": "https://gcaptain.com/russian-diesel-faces-u-s-buyer-resistance-despite-trump-sanctions-waiver/",
+   "d": "2026-11-11T18:40:24+00:00"
+  },
+  {
+   "t": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+   "s": "BBC World",
+   "u": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+   "d": "2026-11-11T18:04:58+00:00"
+  },
+  {
+   "t": "Iran tells COP31 it wants compensation for environmental damage from US-Israeli strikes",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/iran-tells-cop31-it-wants-compensation-environmental-damage-us-israeli-strikes",
+   "d": "2026-11-11T12:47:51-05:00"
+  },
+  {
+   "t": "BMW announces new battery supply deals for the US, Europe",
+   "s": "Supply Chain Dive",
+   "u": "https://www.supplychaindive.com/news/bmw-announces-new-battery-supply-deals-for-the-us-europe/874409/",
+   "d": "2026-11-11T12:15:00-05:00"
+  },
+  {
+   "t": "Latam Cargo to increase flower exports with Bogota terminal expansion",
+   "s": "FreightWaves",
+   "u": "https://www.freightwaves.com/news/latam-cargo-to-increase-flower-exports-with-bogota-terminal-expansion",
+   "d": "2026-11-11T17:09:37+00:00"
+  },
+  {
+   "t": "Ukraine talks in Abu Dhabi bring progress on prisoners but not on peace",
+   "s": "Guardian World",
+   "u": "https://www.theguardian.com/world/2026/nov/11/ukraine-talks-in-abu-dhabi-bring-progress-on-prisoners-but-not-on-peace",
+   "d": "2026-11-11T17:03:43+00:00"
+  },
+  {
+   "t": "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
+   "s": "BBC World",
+   "u": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+   "d": "2026-11-11T16:59:34+00:00"
+  },
+  {
+   "t": "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
+   "s": "BBC World",
+   "u": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
+   "d": "2026-11-11T16:45:11+00:00"
+  },
+  {
+   "t": "Iranian, Iraqi presidents meet after border closure, militia row: What to know",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/iranian-iraqi-presidents-meet-after-border-closure-militia-row-what-know",
+   "d": "2026-11-11T11:38:33-05:00"
+  },
+  {
+   "t": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+   "s": "BBC World",
+   "u": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+   "d": "2026-11-11T16:38:07+00:00"
+  },
+  {
+   "t": "Canada puts Iranian tanker giant back under sanctions",
+   "s": "Splash247",
+   "u": "https://splash247.com/canada-puts-iranian-tanker-giant-back-under-sanctions/",
+   "d": "2026-11-11T16:38:00+00:00"
+  },
+  {
+   "t": "IMO Chief Calls for Strict Enforcement of SOLAS Rules in Strait of Hormuz",
+   "s": "gCaptain",
+   "u": "https://gcaptain.com/imo-chief-calls-for-strict-enforcement-of-solas-rules-in-strait-of-hormuz/",
+   "d": "2026-11-11T16:37:16+00:00"
+  },
+  {
+   "t": "UK Launches ‘Atlantic Net’ to Track Russian Submarines and Protect Undersea Cables",
+   "s": "gCaptain",
+   "u": "https://gcaptain.com/uk-launches-atlantic-net-to-track-russian-submarines-and-protect-undersea-cables/",
+   "d": "2026-11-11T16:25:50+00:00"
+  },
+  {
+   "t": "France denies Israeli settler leader entry: What to know",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/france-denies-israeli-settler-leader-entry-what-know",
+   "d": "2026-11-11T11:19:44-05:00"
+  },
+  {
+   "t": "EU needs a system to respond to AI incidents, Finland and Estonia say",
+   "s": "Politico Europe",
+   "u": "https://www.politico.eu/article/eu-needs-a-system-to-respond-to-ai-incidents-finland-and-estonia-say/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-11T16:19:06+00:00"
+  },
+  {
+   "t": "Von der Leyen endorses Turkish push for global electrification goal",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/von-der-leyen-endorses-turkish-push-for-global-electrification-goal/",
+   "d": "2026-11-11T16:15:58+00:00"
+  },
+  {
+   "t": "Watchdog urges Turkey to tighten digital asset rules for $144B crypto economy",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/watchdog-urges-turkey-tighten-digital-asset-rules-144b-crypto-economy",
+   "d": "2026-11-11T11:09:46-05:00"
+  },
+  {
+   "t": "Argentinian lawyer mocks UK’s sovereignty claim in Falklands oil case",
+   "s": "Guardian World",
+   "u": "https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case",
+   "d": "2026-11-11T16:05:45+00:00"
+  },
+  {
+   "t": "US postpones ‘million-dollar’ China ship tax until January",
+   "s": "FreightWaves",
+   "u": "https://www.freightwaves.com/news/us-postpones-million-dollar-china-ship-tax-until-january",
+   "d": "2026-11-11T16:02:32+00:00"
+  },
+  {
+   "t": "Germany must rein in debt-fuelled defence spending: experts",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/germany-must-rein-in-debt-fuelled-defence-spending-experts/",
+   "d": "2026-11-11T15:53:08+00:00"
+  },
+  {
+   "t": "Transpacific ocean rates ease slightly as peak winds down",
+   "s": "Supply Chain Dive",
+   "u": "https://www.supplychaindive.com/news/transpacific-ocean-rates-ease-slightly-as-peak-winds-down/874262/",
+   "d": "2026-11-11T10:48:40-05:00"
+  },
+  {
+   "t": "Russia's negotiator on Ukraine rejects option of territorial swaps with Kyiv, TASS reports",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/russias-negotiator-ukraine-rejects-option-territorial-swaps-kyiv-tass-reports",
+   "d": "2026-11-11T10:46:47-05:00"
+  },
+  {
+   "t": "CarParts.com revs up in-house last-mile delivery for cost, speed benefits",
+   "s": "Supply Chain Dive",
+   "u": "https://www.supplychaindive.com/news/carpartscom-revs-up-in-house-last-mile-delivery-for-cost-speed-benefits/874287/",
+   "d": "2026-11-11T10:23:46-05:00"
+  },
+  {
+   "t": "European gaming firms say new EU consumer rules will ‘cripple’ the industry",
+   "s": "Politico Europe",
+   "u": "https://www.politico.eu/article/european-gaming-firms-say-new-eu-consumer-rules-will-cripple-the-industry-digital-fairness-act/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-11T15:08:20+00:00"
+  },
+  {
+   "t": "Asics boosts inventory management using warehouse drones",
+   "s": "Supply Chain Dive",
+   "u": "https://www.supplychaindive.com/news/asics-boosts-inventory-management-using-warehouse-drones/874273/",
+   "d": "2026-11-11T10:00:00-05:00"
+  },
+  {
+   "t": "US rail traffic hits intermodal record as October freight gains signal economic resilience, says AAR",
+   "s": "FreightWaves",
+   "u": "https://www.freightwaves.com/news/us-rail-traffic-hits-intermodal-record-as-october-freight-gains-signal-economic-resilience-says-aar",
+   "d": "2026-11-11T14:39:03+00:00"
+  },
+  {
+   "t": "For China, Two’s Company and Three’s a Risk",
+   "s": "The Diplomat",
+   "u": "https://thediplomat.com/2026/11/for-china-twos-company-and-threes-a-risk/",
+   "d": "2026-11-11T23:30:00+09:00"
+  },
+  {
+   "t": "Türkiye deploys 58,000 personnel to secure COP31 summit in Antalya",
    "s": "Daily Sabah",
-   "u": "https://www.dailysabah.com/business/tech/turkcell-to-showcase-green-technology-investments-at-cop31",
-   "d": "2026-11-07T14:52:00+03:00"
+   "u": "https://www.dailysabah.com/business/energy/turkiye-deploys-58000-personnel-to-secure-cop31-summit-in-antalya",
+   "d": "2026-11-11T17:26:00+03:00"
   },
   {
-   "t": "Rains flood thousands of displaced families’ tents in Gaza",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/7/rains-flood-thousands-of-tents-in-gaza?traffic_source=rss",
-   "d": "2026-11-07T11:10:02+00:00"
+   "t": "EBRD plans $6B investment in Türkiye's clean energy projects",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/economy/ebrd-plans-6b-investment-in-turkiyes-clean-energy-projects",
+   "d": "2026-11-11T16:50:00+03:00"
   },
   {
-   "t": "Trump may have lost but don’t bet Democrats can fix the economy",
-   "s": "Guardian World",
-   "u": "https://www.theguardian.com/business/2026/nov/07/democrats-economy-affordability-crisis",
-   "d": "2026-11-07T11:00:08+00:00"
+   "t": "Germany to Set Up State Gas Reserve After Missing Winter Storage Targets",
+   "s": "gCaptain",
+   "u": "https://gcaptain.com/germany-to-set-up-state-gas-reserve-after-missing-winter-storage-targets/",
+   "d": "2026-11-11T13:30:38+00:00"
   },
   {
-   "t": "Sudan war and climate change see parents struggle to feed their children",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/features/2026/11/7/sudan-war-and-climate-change-sees-parents-struggle-to-feed-their-children?traffic_source=rss",
-   "d": "2026-11-07T10:36:32+00:00"
-  },
-  {
-   "t": "Home Office sued after stripping almost 1,500 EU citizens of right to live in UK",
-   "s": "Guardian World",
-   "u": "https://www.theguardian.com/politics/2026/nov/07/home-office-sued-the3million-eu-citizens-right-to-live-in-uk-pre-settled",
-   "d": "2026-11-07T09:15:35+00:00"
-  },
-  {
-   "t": "China’s EV safety push gives foreign brands from Tesla to GM an opening for a comeback",
-   "s": "SCMP Economy",
-   "u": "https://www.scmp.com/business/china-business/article/3373588/chinas-ev-safety-push-gives-foreign-brands-tesla-gm-opening-comeback",
-   "d": "2026-11-07T08:00:11+00:00"
-  },
-  {
-   "t": "Strait of Hormuz could reopen as part of Qatari plan for Iran nuclear inspections",
-   "s": "Guardian World",
-   "u": "https://www.theguardian.com/world/2026/nov/07/strait-of-hormuz-qatar-plan-iran-nuclear-inspections",
-   "d": "2026-11-07T07:00:04+00:00"
-  },
-  {
-   "t": "As COP31 comes to Turkey, satellites reveal a landfill methane problem",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/cop31-comes-turkey-satellites-reveal-landfill-methane-problem",
-   "d": "2026-11-07T01:46:27-05:00"
-  },
-  {
-   "t": "US midterm results may help unite Israeli coalition to unseat Netanyahu",
-   "s": "Guardian World",
-   "u": "https://www.theguardian.com/world/2026/nov/07/us-midterm-results-may-help-unite-israeli-coalition-to-unseat-netanyahu",
-   "d": "2026-11-07T06:00:04+00:00"
-  },
-  {
-   "t": "Iran says forces 'stronger' than at beginning of war",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/iran-says-forces-stronger-beginning-war",
-   "d": "2026-11-07T00:30:20-05:00"
-  },
-  {
-   "t": "What’s the point? Ten years after the Paris treaty, are climate talks getting anywhere?",
-   "s": "Guardian World",
-   "u": "https://www.theguardian.com/environment/ng-interactive/2026/nov/07/whats-the-point-ten-years-after-the-paris-treaty-are-climate-talks-getting-anywhere",
-   "d": "2026-11-07T05:00:02+00:00"
-  },
-  {
-   "t": "Qatar says its mediation efforts between US and Iran continue to prevent escalation",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/qatar-says-its-mediation-efforts-between-us-and-iran-continue-prevent-escalation",
-   "d": "2026-11-06T23:46:27-05:00"
-  },
-  {
-   "t": "Former Evergrande economist faces WeChat gag order after ‘buy the dip’ call",
-   "s": "SCMP Economy",
-   "u": "https://www.scmp.com/economy/china-economy/article/3373565/former-evergrande-economist-faces-wechat-gag-order-after-buy-dip-call",
-   "d": "2026-11-07T03:00:10+00:00"
-  },
-  {
-   "t": "US offers $20 mn reward for info on 'Iran's nuclear program': CENTCOM",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/us-offers-20-mn-reward-info-irans-nuclear-program-centcom",
-   "d": "2026-11-06T21:30:21-05:00"
-  },
-  {
-   "t": "Two missiles strike Iran's Qeshm Island, Tasnim news agency says",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/two-missiles-strike-irans-qeshm-island-tasnim-news-agency-says",
-   "d": "2026-11-06T18:46:26-05:00"
-  },
-  {
-   "t": "US Treasury sanctions Canadian money services firms over Iran-related transactions",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/us-treasury-sanctions-canadian-money-services-firms-over-iran-related",
-   "d": "2026-11-06T16:46:27-05:00"
-  },
-  {
-   "t": "To settle Russia’s Ukraine war, Europe needs to let Kyiv in. Trump can help (really).",
-   "s": "Atlantic Council",
-   "u": "https://www.atlanticcouncil.org/in-depth-research-reports/issue-brief/to-settle-russias-ukraine-war-europe-needs-to-let-kyiv-in-trump-can-help-really/",
-   "d": "2026-11-06T21:20:00+00:00"
-  },
-  {
-   "t": "Israel's Arab-led parties in spotlight after inconclusive election",
+   "t": "Russia and Ukraine agree to a prisoner exchange as talks end with no big breakthrough",
    "s": "NPR World",
-   "u": "https://www.npr.org/2026/11/06/g-s1-152138/israel-election-palestinian-arab-parties",
-   "d": "2026-11-06T15:42:51-05:00"
+   "u": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
+   "d": "2026-11-11T08:30:00-05:00"
   },
   {
-   "t": "UP CEO’s rate threat adds wrinkle to Norfolk Southern merger process",
-   "s": "Supply Chain Dive",
-   "u": "https://www.supplychaindive.com/news/up-ceos-rate-threat-adds-wrinkle-to-norfolk-southern-merger-process/874006/",
-   "d": "2026-11-06T14:49:00-05:00"
-  },
-  {
-   "t": "Iran turns to Putin as war, US election reshape strategic calculations",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/iran-turns-putin-war-us-election-reshape-strategic-calculations",
-   "d": "2026-11-06T13:55:16-05:00"
-  },
-  {
-   "t": "The Taipei Mayor Election Is Not About China",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/the-taipei-mayor-election-is-not-about-china/",
-   "d": "2026-11-07T03:44:00+09:00"
-  },
-  {
-   "t": "Can Europe Regulate China’s E-Commerce Giants Without Closing Its Market?",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/can-europe-regulate-chinas-e-commerce-giants-without-closing-its-market/",
-   "d": "2026-11-07T03:28:00+09:00"
-  },
-  {
-   "t": "Beijing Has Little Reason to Welcome America’s Midterm Results",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/beijing-has-little-reason-to-welcome-americas-midterm-results/",
-   "d": "2026-11-07T03:19:00+09:00"
-  },
-  {
-   "t": "U.S. Targets Cuba’s Oil Tanker Fleet in New Sanctions Crackdown",
+   "t": "Qatar Loses First LNG Customer Since War Disrupted Flows",
    "s": "gCaptain",
-   "u": "https://gcaptain.com/u-s-targets-cubas-oil-tanker-fleet-in-new-sanctions-crackdown/",
-   "d": "2026-11-06T17:11:47+00:00"
+   "u": "https://gcaptain.com/qatar-loses-first-lng-customer-since-war-disrupted-flows/",
+   "d": "2026-11-11T13:06:10+00:00"
   },
   {
-   "t": "EU Lawmakers Push Back Against Approval of Indian Ship Recycling Yards",
-   "s": "gCaptain",
-   "u": "https://gcaptain.com/eu-lawmakers-push-back-against-approval-of-indian-ship-recycling-yards/",
-   "d": "2026-11-06T17:03:56+00:00"
+   "t": "Fed officials consider faster hikes as higher prices seep into broader economy",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/economy/fed-officials-consider-faster-hikes-as-higher-prices-seep-into-broader-economy",
+   "d": "2026-11-11T16:04:00+03:00"
   },
   {
-   "t": "China Adopts Law on Antarctic Activities and Environmental Protection",
-   "s": "gCaptain",
-   "u": "https://gcaptain.com/china-adopts-law-on-antarctic-activities-and-environmental-protection/",
-   "d": "2026-11-06T16:45:53+00:00"
-  },
-  {
-   "t": "Talks, Attacks, and a Heist",
-   "s": "War on the Rocks",
-   "u": "https://warontherocks.com/talks-attacks-and-a-heist/",
-   "d": "2026-11-06T16:45:14+00:00"
-  },
-  {
-   "t": "Europe rebuffs US push for new ‘security architecture’ in Russia deal",
+   "t": "Hen cages could be scrapped by 2040, EU draft shows",
    "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/peace-agreement-in-ukraine-will-require-eu-kallas/",
-   "d": "2026-11-06T16:27:00+00:00"
+   "u": "https://www.rapporteur.com/news/hen-cages-could-be-scrapped-by-2040-eu-draft-shows/",
+   "d": "2026-11-11T12:50:38+00:00"
   },
   {
-   "t": "How China’s Naval-Air Reach Is Offsetting the Malacca Dilemma",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/how-chinas-naval-air-reach-is-offsetting-the-malacca-dilemma/",
-   "d": "2026-11-07T01:25:00+09:00"
-  },
-  {
-   "t": "Does China Have a Plan for Dealing With a Democratic Congress?",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/does-china-have-a-plan-for-dealing-with-a-democratic-congress/",
-   "d": "2026-11-07T01:20:00+09:00"
-  },
-  {
-   "t": "As Trump weighs Iran strikes, possible nuclear opening emerges",
-   "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/trump-weighs-iran-strikes-possible-nuclear-opening-emerges",
-   "d": "2026-11-06T10:59:21-05:00"
-  },
-  {
-   "t": "Green Hydrogen: India’s Big Ambitions, Costly Realities",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/green-hydrogen-indias-big-ambitions-costly-realities/",
-   "d": "2026-11-07T00:56:00+09:00"
-  },
-  {
-   "t": "Aurora’s truck production schedule delayed by supply, quality issues",
+   "t": "Honda to invest $3B in new Ohio hybrid vehicle plant",
    "s": "Supply Chain Dive",
-   "u": "https://www.supplychaindive.com/news/auroras-truck-production-schedule-delayed-by-supply-quality-issues/873995/",
-   "d": "2026-11-06T10:54:00-05:00"
+   "u": "https://www.supplychaindive.com/news/honda-to-invest-3b-in-new-ohio-hybrid-vehicle-plant/874281/",
+   "d": "2026-11-11T07:39:00-05:00"
   },
   {
-   "t": "After the Midterms: What Xi and Trump Should Discuss in Shenzhen",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/after-the-midterms-what-xi-and-trump-should-discuss-in-shenzhen/",
-   "d": "2026-11-07T00:30:00+09:00"
-  },
-  {
-   "t": "Poland urges faster EU social media ban for kids",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/poland-urges-faster-eu-social-media-ban-for-kids/",
-   "d": "2026-11-06T15:23:20+00:00"
-  },
-  {
-   "t": "Mexico widens US trade lead with record $96.3B September",
-   "s": "FreightWaves",
-   "u": "https://www.freightwaves.com/news/mexico-widens-us-trade-lead-with-record-96-3b-september",
-   "d": "2026-11-06T15:19:33+00:00"
-  },
-  {
-   "t": "North America container imports rise 9% as as freight pricing pressures mount",
-   "s": "FreightWaves",
-   "u": "https://www.freightwaves.com/news/north-america-container-imports-rise-9-as-as-freight-pricing-pressures-mount",
-   "d": "2026-11-06T15:09:01+00:00"
-  },
-  {
-   "t": "Mélenchon takes aim at the EU",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/melenchon-takes-aim-at-the-eu/",
-   "d": "2026-11-06T15:08:54+00:00"
-  },
-  {
-   "t": "Lear to open automated factory as ‘blueprint’ for global network",
-   "s": "Supply Chain Dive",
-   "u": "https://www.supplychaindive.com/news/lear-to-open-automated-factory-as-blueprint-for-global-network/873888/",
-   "d": "2026-11-06T09:43:00-05:00"
-  },
-  {
-   "t": "Why a Democrat-Held Congress in Washington Could Be Bad News for Modi’s India",
-   "s": "The Diplomat",
-   "u": "https://thediplomat.com/2026/11/why-a-democrat-held-congress-in-washington-could-be-bad-news-for-modis-india/",
-   "d": "2026-11-06T23:38:00+09:00"
-  },
-  {
-   "t": "EU’s animal testing phase-out hinges on regulators, not labs, says Tsiodras [Partner Content]",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/interview/eus-animal-testing-phase-out-hinges-on-regulators-not-labs-says-tsiodras/",
-   "d": "2026-11-06T14:30:16+00:00"
-  },
-  {
-   "t": "EU prosecutors open second fraud probe into Spanish high-speed rail",
-   "s": "Politico Europe",
-   "u": "https://www.politico.eu/article/eu-prosecutors-open-second-fraud-probe-spain-high-speed-rail-fatal-crash/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "d": "2026-11-06T14:28:29+00:00"
-  },
-  {
-   "t": "No ‘revolutions’ – EU aims to hold line at COP31",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/no-revolutions-eu-aims-to-hold-line-at-cop31/",
-   "d": "2026-11-06T13:52:56+00:00"
-  },
-  {
-   "t": "Not quite mercenaries: How Russia lures thousands of foreigners to fight in its war on Ukraine",
-   "s": "Atlantic Council",
-   "u": "https://www.atlanticcouncil.org/dispatches/not-quite-mercenaries-how-russia-lures-thousands-of-foreigners-to-fight-in-its-war-on-ukraine/",
-   "d": "2026-11-06T13:52:40+00:00"
-  },
-  {
-   "t": "Apple boosts purchase commitments by $33B amid memory crunch",
-   "s": "Supply Chain Dive",
-   "u": "https://www.supplychaindive.com/news/apple-boosts-purchase-commitments-by-33b-amid-memory-crunch/873936/",
-   "d": "2026-11-06T08:51:00-05:00"
-  },
-  {
-   "t": "China’s AI models, led by Kimi, dominate open-source enterprise spending",
+   "t": "China’s Huawei to roll out new smartphone brand Osta, 6 years after giving up Honor",
    "s": "SCMP Economy",
-   "u": "https://www.scmp.com/tech/tech-trends/article/3373550/chinas-ai-models-led-kimi-dominate-open-source-enterprise-spending",
-   "d": "2026-11-06T13:30:09+00:00"
+   "u": "https://www.scmp.com/tech/tech-trends/article/3374099/chinas-huawei-roll-out-new-smartphone-brand-osta-6-years-after-giving-honor",
+   "d": "2026-11-11T12:30:13+00:00"
   },
   {
-   "t": "US midterm results spark fears in Israel over future of two countries' ties",
-   "s": "BBC World",
-   "u": "https://www.bbc.co.uk/news/articles/cx30ee8018lvo?at_medium=RSS&at_campaign=rss",
-   "d": "2026-11-06T13:23:44+00:00"
-  },
-  {
-   "t": "Iran Oil Exports Near Zero But Peace Deal Not Likely, FGE Says",
-   "s": "gCaptain",
-   "u": "https://gcaptain.com/iran-oil-exports-near-zero-but-peace-deal-not-likely-fge-says/",
-   "d": "2026-11-06T13:06:54+00:00"
-  },
-  {
-   "t": "Ahead of Shenzhen trade talks, US holds off blacklist rule that angered Beijing",
-   "s": "SCMP Economy",
-   "u": "https://www.scmp.com/economy/policy/article/3373520/ahead-shenzhen-trade-talks-us-holds-blacklist-rule-angered-beijing",
-   "d": "2026-11-06T13:00:10+00:00"
-  },
-  {
-   "t": "Maersk eyes trade in deals for more than 50 terminals",
-   "s": "FreightWaves",
-   "u": "https://www.freightwaves.com/news/maersk-eyes-trade-in-deals-for-more-than-50-terminals",
-   "d": "2026-11-06T13:00:00+00:00"
-  },
-  {
-   "t": "Russian extremist group denies sending hoax bomb threats",
-   "s": "BBC World",
-   "u": "https://www.bbc.co.uk/news/articles/cm2d66n0lx1yo?at_medium=RSS&at_campaign=rss",
-   "d": "2026-11-06T12:51:38+00:00"
-  },
-  {
-   "t": "Democrats Shouldn’t Squander Their Chance to Launch a Foreign Policy Revolution",
-   "s": "Foreign Affairs",
-   "u": "https://www.foreignaffairs.com/united-states/matthew-duss-democrats-squander-chance-foreign-policy-congress-midterms",
-   "d": "2026-11-06T07:36:00-05:00"
-  },
-  {
-   "t": "Tilray Brands targets $20M in cost savings after craft brewery closures",
-   "s": "Supply Chain Dive",
-   "u": "https://www.supplychaindive.com/news/tilray-brands-targets-20m-in-cost-savings-after-craft-brewery-closures/873848/",
-   "d": "2026-11-06T07:15:00-05:00"
-  },
-  {
-   "t": "French far left enshrines leaving NATO in official presidential platform",
+   "t": "US to seek Putin’s ‘blessing’ for Europe to join Ukraine talks",
    "s": "Politico Europe",
-   "u": "https://www.politico.eu/article/france-far-left-jean-luc-melenchon-leaving-nato-official-platform/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "d": "2026-11-06T12:02:32+00:00"
+   "u": "https://www.politico.eu/article/u-s-to-seek-putins-blessing-for-europe-to-join-ukraine-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-11T12:18:29+00:00"
   },
   {
-   "t": "DenAr takes on Turkey’s first offshore wind seabed survey campaign",
-   "s": "Splash247",
-   "u": "https://splash247.com/denar-takes-on-turkeys-first-offshore-wind-seabed-survey-campaign/",
-   "d": "2026-11-06T12:00:00+00:00"
+   "t": "BYD apologises for wheel-rim error as China cracks down on car quality issues",
+   "s": "SCMP Economy",
+   "u": "https://www.scmp.com/business/china-evs/article/3374098/byd-apologises-wheel-rim-error-china-cracks-down-car-quality-issues",
+   "d": "2026-11-11T11:32:05+00:00"
   },
   {
-   "t": "Khalid Hashim set to pass the baton at Precious Shipping",
-   "s": "Splash247",
-   "u": "https://splash247.com/khalid-hashim-set-to-pass-the-baton-at-precious-shipping/",
-   "d": "2026-11-06T11:02:21+00:00"
+   "t": "Türkiye AI Summit held under 'Agents Are Among Us' theme",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/tech/turkiye-ai-summit-held-under-agents-are-among-us-theme",
+   "d": "2026-11-11T14:02:00+03:00"
   },
   {
-   "t": "Venergy doubles VLCC order at Hengli",
+   "t": "Turkish Airlines broadens China network with flights to Chengdu",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/transportation/turkish-airlines-broadens-china-network-with-flights-to-chengdu",
+   "d": "2026-11-11T13:56:00+03:00"
+  },
+  {
+   "t": "Turkish banking watchdog chair submits resignation to Erdoğan",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/economy/turkish-banking-watchdog-chair-submits-resignation-to-erdogan",
+   "d": "2026-11-11T13:13:00+03:00"
+  },
+  {
+   "t": "An Iran-backed trio is accused of plotting attacks on a U.K. base hosting U.S. jets",
+   "s": "NPR World",
+   "u": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy",
+   "d": "2026-11-11T05:02:54-05:00"
+  },
+  {
+   "t": "Elemental Energies wins offshore CCS deal from Harbour Energy",
    "s": "Splash247",
-   "u": "https://splash247.com/venergy-doubles-vlcc-order-at-hengli/",
-   "d": "2026-11-06T09:19:00+00:00"
+   "u": "https://splash247.com/elemental-energies-wins-offshore-ccs-deal-from-harbour-energy/",
+   "d": "2026-11-11T10:00:00+00:00"
+  },
+  {
+   "t": "Nvidia under deep scrutiny over China chip shipments, CEO affair",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/tech/nvidia-under-deep-scrutiny-over-china-chip-shipments-ceo-affair",
+   "d": "2026-11-11T12:26:00+03:00"
+  },
+  {
+   "t": "Türkiye could become one of wind energy leaders, official says",
+   "s": "Daily Sabah",
+   "u": "https://www.dailysabah.com/business/energy/turkiye-could-become-one-of-wind-energy-leaders-official-says",
+   "d": "2026-11-11T12:23:00+03:00"
   }
  ],
- "updated": "2026-11-07T12:33:42.962145+00:00",
+ "updated": "2026-11-12T01:07:39.694517+00:00",
  "health": {
   "Food Dive": 10,
   "AgFunder News": 50,
@@ -2290,9 +2260,7 @@
   "Harvard Business School Working Knowledge": 10,
   "Wharton Knowledge": 10,
   "The Register": 50,
-  "The Economist Business": 300,
   "AWS Machine Learning": 20,
-  "Stratechery": 10,
   "McKinsey": 0,
   "CIO Dive": 10,
   "Cybersecurity Dive": 10,
@@ -2308,12 +2276,12 @@
   "Fortune": 10,
   "Our World in Data": 10,
   "Music Business Worldwide": 10,
-  "Creative Review": 12,
+  "Creative Review": 0,
   "Variety": 10,
   "Deadline": 12,
   "CDM": 10,
   "Billboard": 10,
-  "Pitchfork News": 29,
+  "Pitchfork News": 28,
   "Consequence": 15,
   "Stereogum": 40,
   "Guardian Music": 26,
@@ -2332,14 +2300,13 @@
   "Ars Technica AI": 20,
   "The Verge AI": 10,
   "MIT News AI": 50,
-  "Hugging Face Blog": 899,
-  "OpenAI News": 1368,
+  "Hugging Face Blog": 904,
+  "OpenAI News": 1381,
   "Google AI Blog": 20,
   "The Decoder": 10,
   "MarkTechPost": 10,
-  "Import AI": 20,
+  "Import AI": 0,
   "Nvidia Blog": 18,
-  "SemiAnalysis": 10,
   "Latent Space": 20,
   "Simon Willison": 30,
   "AI Business": 50,
@@ -2348,16 +2315,13 @@
   "The Register AI": 50,
   "Tom's Hardware": 50,
   "ServeTheHome": 6,
-  "BBC World": 22,
+  "BBC World": 29,
   "Guardian World": 45,
   "Al Jazeera": 25,
   "The Diplomat": 96,
   "War on the Rocks": 100,
-  "Foreign Affairs": 20,
   "Al-Monitor": 20,
-  "Economist Finance": 300,
-  "Economist International": 300,
-  "Daily Sabah": 45,
+  "Daily Sabah": 44,
   "Supply Chain Dive": 10,
   "FreightWaves": 56,
   "gCaptain": 12,
