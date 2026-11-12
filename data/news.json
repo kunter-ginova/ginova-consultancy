@@ -573,12 +573,6 @@
    "d": "2026-11-11T13:42:45+00:00"
   },
   {
-   "t": "Buffett And The AI Boom",
-   "s": "Electronics Weekly",
-   "u": "https://www.electronicsweekly.com/blogs/mannerisms/markets/buffett-and-the-ai-boom-2026-11/",
-   "d": "2026-11-11T13:13:09+00:00"
-  },
-  {
    "t": "Memories.ai builds standardized egocentric video pipeline",
    "s": "The Robot Report",
    "u": "https://www.therobotreport.com/memories-ai-builds-standardized-egocentric-video-pipeline/",
@@ -811,9 +805,27 @@
    "s": "eeNews Europe",
    "u": "https://www.eenewseurope.com/en/nvidia-board-investigation-jensen-huang-spying/",
    "d": "2026-11-09T08:54:42+00:00"
+  },
+  {
+   "t": "High-voltage connectors for solar farms",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/high-voltage-connectors-for-solar-farms/",
+   "d": "2026-11-09T06:05:01+00:00"
   }
  ],
  "decision": [
+  {
+   "t": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
+   "s": "AWS Machine Learning",
+   "u": "https://aws.amazon.com/blogs/machine-learning/build-autonomous-ai-agents-with-amazon-bedrock-and-spring-ai/",
+   "d": "2026-11-12T01:18:23+00:00"
+  },
+  {
+   "t": "Mississippi elects first Democratic senator in 44 years as Dems finally find a winning strategy: Spend nothing and let the other candidate talk beef",
+   "s": "Fortune",
+   "u": "https://fortune.com/2026/11/11/mississippi-senate-race-democrats-beef-prices-scott-colom-cindy-hyde-smith/",
+   "d": "2026-11-12T00:39:46+00:00"
+  },
   {
    "t": "Jensen Huang may be out at Nvidia: The rise and fall of a key figure in the AI boom",
    "s": "Fast Company",
@@ -849,12 +861,6 @@
    "s": "Fast Company",
    "u": "https://www.fastcompany.com/91640482/ai-data-center-boom-can-anyone-stop-it-what-happens-next",
    "d": "2026-11-11T22:30:00+00:00"
-  },
-  {
-   "t": "ICYMI: What landed for AI builders in October 2026",
-   "s": "AWS Machine Learning",
-   "u": "https://aws.amazon.com/blogs/machine-learning/icymi-what-landed-for-ai-builders-in-october-2026/",
-   "d": "2026-11-11T22:26:40+00:00"
   },
   {
    "t": "A day after Anthropic’s office push, Databricks jumps in with AI agents that never sleep",
@@ -899,12 +905,6 @@
    "d": "2026-11-11T17:43:27+00:00"
   },
   {
-   "t": "Nvidia board’s idolatry of Jensen Huang could open the door to shareholder lawsuits in Delaware Chancery Court",
-   "s": "Fortune",
-   "u": "https://fortune.com/2026/11/11/nvidia-board-jensen-huang-caremark-shareholder-lawsuits-delaware/",
-   "d": "2026-11-11T17:20:38+00:00"
-  },
-  {
    "t": "N-able issues hotfix after researcher dumps PoCs in disclosure spat",
    "s": "Cybersecurity Dive",
    "u": "https://www.cybersecuritydive.com/news/n-able-hotfix-researcher-pocs-zero-days/874388/",
@@ -915,12 +915,6 @@
    "s": "Cybersecurity Dive",
    "u": "https://www.cybersecuritydive.com/news/cisa-priorities-memo-risks-partnerships/874381/",
    "d": "2026-11-11T10:28:39-05:00"
-  },
-  {
-   "t": "Atomic targets capital raise to fuel agentic AI work",
-   "s": "Banking Dive",
-   "u": "https://www.bankingdive.com/news/atomic-fintech-capital-raise-agentic-ai-work/874357/",
-   "d": "2026-11-11T08:17:26-05:00"
   },
   {
    "t": "The Download: preserving minds and weighing open AI risks",
@@ -947,10 +941,10 @@
    "d": "2026-11-11T07:00:00-05:00"
   },
   {
-   "t": "Northern Trust leans on Microsoft engineers to boost agentic buildout",
-   "s": "Banking Dive",
-   "u": "https://www.bankingdive.com/news/northern-trust-leans-microsoft-fde-agentic-buildout/874362/",
-   "d": "2026-11-11T07:00:00-05:00"
+   "t": "Intel Earnings, AMD Earnings, Intel and AMD’s Divergence",
+   "s": "Stratechery",
+   "u": "https://stratechery.com/2026/intel-earnings-amd-earnings-intel-and-amds-divergence/",
+   "d": "2026-11-11T11:00:00+00:00"
   },
   {
    "t": "AI leadership training tools are most effective when paired with managerial support",
@@ -1031,6 +1025,12 @@
    "d": "2026-11-10T11:32:14+00:00"
   },
   {
+   "t": "The Jensen Huang Story Gets Worse, Washington vs. New York, Silicon Valley",
+   "s": "Stratechery",
+   "u": "https://stratechery.com/2026/the-jensen-huang-story-gets-worse-washington-vs-new-york-silicon-valley/",
+   "d": "2026-11-10T11:00:00+00:00"
+  },
+  {
    "t": "Truth or consequences: What your AI strategy is standing on",
    "s": "Cybersecurity Dive",
    "u": "https://www.cybersecuritydive.com/spons/truth-or-consequences-what-your-ai-strategy-is-standing-on/873999/",
@@ -1071,6 +1071,12 @@
    "s": "MIT Technology Review",
    "u": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
    "d": "2026-11-09T17:05:43+00:00"
+  },
+  {
+   "t": "Bartleby newsletter: Can AI write newsletters",
+   "s": "The Economist Business",
+   "u": "https://www.economist.com/business/2026/11/09/bartleby-newsletter-can-ai-write-newsletters",
+   "d": "2026-11-09T16:39:37+00:00"
   },
   {
    "t": "Financially motivated threat cluster uses AI-enabled tools against banking sector",
@@ -1115,6 +1121,12 @@
    "d": "2026-11-09T12:00:41+00:00"
   },
   {
+   "t": "Jensen Huang’s Affair, The Culper Report, Huang’s Righteousness",
+   "s": "Stratechery",
+   "u": "https://stratechery.com/2026/jensen-huangs-affair-the-culper-report-huangs-righteousness/",
+   "d": "2026-11-09T11:00:00+00:00"
+  },
+  {
    "t": "Improving incident response with AI agents",
    "s": "Cybersecurity Dive",
    "u": "https://www.cybersecuritydive.com/spons/improving-incident-response-with-ai-agents/872988/",
@@ -1124,6 +1136,12 @@
    "t": "5 critical steps organizations should take to secure AI",
    "s": "Cybersecurity Dive",
    "u": "https://www.cybersecuritydive.com/spons/5-critical-steps-organizations-should-take-to-secure-ai/873682/",
+   "d": "2026-11-09T05:00:00-05:00"
+  },
+  {
+   "t": "Why augmentation, not automation, is banking’s AI sweet spot",
+   "s": "Banking Dive",
+   "u": "https://www.bankingdive.com/spons/why-augmentation-not-automation-is-bankings-ai-sweet-spot/873542/",
    "d": "2026-11-09T05:00:00-05:00"
   },
   {
@@ -1145,6 +1163,12 @@
    "d": "2026-11-07T12:30:27+00:00"
   },
   {
+   "t": "2026.45: Falling Leaves (and Stocks)",
+   "s": "Stratechery",
+   "u": "https://stratechery.com/2026/falling-leaves-and-stocks/",
+   "d": "2026-11-06T18:14:42+00:00"
+  },
+  {
    "t": "The Hidden Consequences of Losing",
    "s": "Wharton Knowledge",
    "u": "https://knowledge.wharton.upenn.edu/podcast/this-week-in-business/the-hidden-consequences-of-losing/",
@@ -1161,6 +1185,12 @@
    "s": "Harvard Law Forum on Corporate Governance",
    "u": "https://corpgov.law.harvard.edu/2026/11/06/early-lessons-from-the-new-accelerated-offering-periods-for-tender-offers/?utm_source=rss&utm_medium=rss&utm_campaign=early-lessons-from-the-new-accelerated-offering-periods-for-tender-offers",
    "d": "2026-11-06T12:32:37+00:00"
+  },
+  {
+   "t": "Firms are racing to protect themselves from AI cyber threats",
+   "s": "The Economist Business",
+   "u": "https://www.economist.com/business/2026/11/05/firms-are-racing-to-protect-themselves-from-ai-cyber-threats",
+   "d": "2026-11-05T13:58:17+00:00"
   },
   {
    "t": "Jon McNeill: How Elon Musk Makes Decisions",
@@ -1271,12 +1301,6 @@
    "s": "Deadline",
    "u": "https://deadline.com/2026/11/avengers-endgame-encore-disney-plus-stream-release-date-1237220911/",
    "d": "2026-11-11T22:02:06+00:00"
-  },
-  {
-   "t": "Austin’s Moontower Comedy Festival Taking Year Off In 2027 Amid Paramount Theatre Restoration",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/moontower-comedy-festival-sets-2027-hiatus-1237220943/",
-   "d": "2026-11-11T22:00:32+00:00"
   },
   {
    "t": "China’s Film Industry Arrives at AFM on a Domestic High",
@@ -1483,12 +1507,6 @@
    "d": "2026-11-11T12:22:00+00:00"
   },
   {
-   "t": "Netflix does not intend to remove Russell Brand stand-up special – but will hide it from subscribers",
-   "s": "NME",
-   "u": "https://www.nme.com/news/tv/russell-brand-rebirth-netflix-streamer-removed-rape-trail-3975671",
-   "d": "2026-11-11T11:40:56+00:00"
-  },
-  {
    "t": "Skydance Is Betting On AI To Help Dig Itself Out Of $87 Billion In Debt",
    "s": "Cartoon Brew",
    "u": "https://www.cartoonbrew.com/business/skydance-ai-cost-cutting-87-billion-debt-269275.html",
@@ -1505,6 +1523,18 @@
    "s": "Cartoon Brew",
    "u": "https://www.cartoonbrew.com/newsletter/too-much-ai-cat-in-the-hat-debuts-dc-executive-shakeup-269264.html",
    "d": "2026-11-10T20:10:19+00:00"
+  },
+  {
+   "t": "New ‘Spy x Family’ Movie And Fourth Season Announced For 2027",
+   "s": "Cartoon Brew",
+   "u": "https://www.cartoonbrew.com/anime/spy-x-family-season-4-new-feature-269251.html",
+   "d": "2026-11-10T18:35:50+00:00"
+  },
+  {
+   "t": "GTA VI Shares New Tove Lo Song, Announces Festival",
+   "s": "Stereogum",
+   "u": "https://stereogum.com/2517277/gta-vi-shares-new-tove-lo-song-announces-festival/news/",
+   "d": "2026-11-10T18:20:32+00:00"
   }
  ],
  "ai": [
@@ -2231,7 +2261,7 @@
    "d": "2026-11-11T12:23:00+03:00"
   }
  ],
- "updated": "2026-11-12T01:07:39.694517+00:00",
+ "updated": "2026-11-12T01:23:33.247022+00:00",
  "health": {
   "Food Dive": 10,
   "AgFunder News": 50,
@@ -2251,7 +2281,7 @@
   "New Atlas": 60,
   "TechXplore Engineering": 30,
   "Phys.org Technology": 30,
-  "Electronics Weekly": 10,
+  "Electronics Weekly": 0,
   "The Robot Report": 15,
   "Utility Dive": 10,
   "Energy Storage News": 300,
@@ -2260,7 +2290,9 @@
   "Harvard Business School Working Knowledge": 10,
   "Wharton Knowledge": 10,
   "The Register": 50,
+  "The Economist Business": 300,
   "AWS Machine Learning": 20,
+  "Stratechery": 10,
   "McKinsey": 0,
   "CIO Dive": 10,
   "Cybersecurity Dive": 10,
@@ -2307,6 +2339,7 @@
   "MarkTechPost": 10,
   "Import AI": 0,
   "Nvidia Blog": 18,
+  "SemiAnalysis": 10,
   "Latent Space": 20,
   "Simon Willison": 30,
   "AI Business": 50,
@@ -2320,7 +2353,10 @@
   "Al Jazeera": 25,
   "The Diplomat": 96,
   "War on the Rocks": 100,
+  "Foreign Affairs": 20,
   "Al-Monitor": 20,
+  "Economist Finance": 300,
+  "Economist International": 300,
   "Daily Sabah": 44,
   "Supply Chain Dive": 10,
   "FreightWaves": 56,
