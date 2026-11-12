@@ -1,6 +1,42 @@
 {
  "food": [
   {
+   "t": "Europe on alert as cyberattacks lead to spoiled food",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/europe-on-alert-as-cyberattacks-lead-to-spoiled-food/",
+   "d": "2026-11-12T05:05:00+00:00"
+  },
+  {
+   "t": "Oysters from Virginia river continue to test positive for Salmonella",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/oysters-from-virginia-river-continue-to-test-positive-for-salmonella/",
+   "d": "2026-11-12T05:04:00+00:00"
+  },
+  {
+   "t": "Research shows link between feedlot runoff and produce contamination",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/research-shows-link-between-feedlot-runoff-and-produce-contamination/",
+   "d": "2026-11-12T05:03:00+00:00"
+  },
+  {
+   "t": "Pork products linked to rise in Swiss hepatitis E cases",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/pork-products-linked-to-rise-in-swiss-hepatitis-e-cases/",
+   "d": "2026-11-12T05:01:00+00:00"
+  },
+  {
+   "t": "More sprouting seeds recalled because of possible contamination with E. coli and Salmonella",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/more-sprouting-seeds-recalled-because-of-possible-contamination-with-e-coli-and-salmonella/",
+   "d": "2026-11-12T04:42:35+00:00"
+  },
+  {
+   "t": "Family Farmstead recalls more raw cheese; this time because of Listeria",
+   "s": "Food Safety News",
+   "u": "https://www.foodsafetynews.com/2026/11/family-farmstead-recalls-more-raw-cheese-this-time-because-of-listeria/",
+   "d": "2026-11-12T01:45:27+00:00"
+  },
+  {
    "t": "USDA proposes SNAP eligibility reform",
    "s": "Feedstuffs",
    "u": "https://www.feedstuffs.com/policy/usda-proposes-snap-eligibility-reform",
@@ -199,30 +235,6 @@
    "d": "2026-11-11T05:06:00+00:00"
   },
   {
-   "t": "One in six Australians illegally drinking raw cow’s milk",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/one-in-six-australians-illegally-drinking-raw-cows-milk/",
-   "d": "2026-11-11T05:04:00+00:00"
-  },
-  {
-   "t": "UK Salmonella outbreak captures public’s attention",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/uk-salmonella-outbreak-captures-publics-attention/",
-   "d": "2026-11-11T05:03:00+00:00"
-  },
-  {
-   "t": "One death reported in relation to pumpkin patch outbreak in California",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/one-death-reported-in-relation-to-pumpkin-patch-outbreak-in-california/",
-   "d": "2026-11-11T04:53:42+00:00"
-  },
-  {
-   "t": "Baby goat found to be cause of E. coli outbreak",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/baby-goat-found-to-be-cause-of-e-coli-outbreak/",
-   "d": "2026-11-11T04:23:37+00:00"
-  },
-  {
    "t": "Smarter Cattle Vaccination Timing",
    "s": "Feedstuffs",
    "u": "https://www.feedstuffs.com/beef/smarter-cattle-vaccination-timing",
@@ -337,18 +349,6 @@
    "d": "2026-11-10T12:50:38+00:00"
   },
   {
-   "t": "CDC declares end to outbreak traced to sprouts; FDA still refuses to name seed supplier",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/cdc-declares-end-to-outbreak-traced-to-sprouts-fda-still-refuses-to-name-seed-supplier/",
-   "d": "2026-11-10T05:05:00+00:00"
-  },
-  {
-   "t": "FDA moves to revoke permission for some chemicals used in food dyes",
-   "s": "Food Safety News",
-   "u": "https://www.foodsafetynews.com/2026/11/fda-moves-to-revoke-permission-for-some-chemicals-used-in-food-dyes/",
-   "d": "2026-11-10T05:04:00+00:00"
-  },
-  {
    "t": "McDonald’s connects loyalty program with Uber",
    "s": "Restaurant Dive",
    "u": "https://www.restaurantdive.com/news/mcdonalds-connects-loyalty-program-with-uber/874177/",
@@ -423,6 +423,30 @@
  ],
  "engineering": [
   {
+   "t": "Electronica 2026: Low-power industrial embedded controllers",
+   "s": "eeNews Europe",
+   "u": "https://www.eenewseurope.com/en/electronica-2026-low-power-industrial-embedded-controllers/",
+   "d": "2026-11-12T07:00:19+00:00"
+  },
+  {
+   "t": "Bluetti's expandable home battery tackles a problem I know all too well",
+   "s": "New Atlas",
+   "u": "https://newatlas.com/energy/bluettis-expandable-home-battery-tackles-a-problem-i-know-all-too-well/",
+   "d": "2026-11-12T03:36:28+00:00"
+  },
+  {
+   "t": "IBM to merge two powerful quantum chips into a 1,040-qubit system for bigger workloads",
+   "s": "Interesting Engineering",
+   "u": "https://interestingengineering.com/innovation/ibm-nighthawk-r3-quantum-processor",
+   "d": "2026-11-12T03:24:50+00:00"
+  },
+  {
+   "t": "Torus uses spare grid connections to bring modular data centers online in 12–16 weeks",
+   "s": "Interesting Engineering",
+   "u": "https://interestingengineering.com/energy/torus-foundry-modular-compute-500m-funding",
+   "d": "2026-11-12T03:00:32+00:00"
+  },
+  {
    "t": "China’s new military drone uses dart-like injections to treat wounded troops remotely",
    "s": "Interesting Engineering",
    "u": "https://interestingengineering.com/military/china-drone-medicine-darts-injections",
@@ -453,22 +477,10 @@
    "d": "2026-11-11T16:00:23-05:00"
   },
   {
-   "t": "Google’s Gemini Decisions API processes 1,000 decisions in 150–250 milliseconds",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/ai-robotics/google-gemini-decisions-api-fast-ai-agents",
-   "d": "2026-11-11T20:51:40+00:00"
-  },
-  {
    "t": "Organic semiconductor sheet enables light-driven water splitting without external voltage",
    "s": "Phys.org Technology",
    "u": "https://techxplore.com/news/2026-11-semiconductor-sheet-enables-driven-external.html",
    "d": "2026-11-11T15:40:06-05:00"
-  },
-  {
-   "t": "Tiny bubbles could raise green hydrogen energy use by more than 50%, study shows",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/energy/tiny-bubbles-green-hydrogen-energy",
-   "d": "2026-11-11T20:28:27+00:00"
   },
   {
    "t": "3D-printed robotic frog swims using six artificial muscles powered by light",
@@ -477,22 +489,10 @@
    "d": "2026-11-11T15:20:08-05:00"
   },
   {
-   "t": "Laser recycling method cuts energy use by 84%, recovers valuable solar metals",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/energy/laser-technology-solar-panel-recycling",
-   "d": "2026-11-11T20:05:06+00:00"
-  },
-  {
    "t": "Engineers challenge 90-year limitation in digital audio sensing",
    "s": "Phys.org Technology",
    "u": "https://techxplore.com/news/2026-11-year-limitation-digital-audio.html",
    "d": "2026-11-11T15:00:02-05:00"
-  },
-  {
-   "t": "China launches world’s first 176-ton electric mining truck with 2,400-kWh battery",
-   "s": "Interesting Engineering",
-   "u": "https://interestingengineering.com/transportation/china-176-ton-electric-mining-truck",
-   "d": "2026-11-11T19:36:52+00:00"
   },
   {
    "t": "Clones and spies (AI is in a weird place right now)",
@@ -807,13 +807,19 @@
    "d": "2026-11-09T08:54:42+00:00"
   },
   {
-   "t": "High-voltage connectors for solar farms",
-   "s": "eeNews Europe",
-   "u": "https://www.eenewseurope.com/en/high-voltage-connectors-for-solar-farms/",
-   "d": "2026-11-09T06:05:01+00:00"
+   "t": "France’s vision for the warship of 2040 packs lasers, railguns and drones",
+   "s": "New Atlas",
+   "u": "https://newatlas.com/military/naval-group-super-warship-2040-concept/",
+   "d": "2026-11-09T00:03:00+00:00"
   }
  ],
  "decision": [
+  {
+   "t": "How Megaspeed built a network in Singapore and Malaysia to move $7.5 billion of Nvidia chips to Chinese companies",
+   "s": "Fortune",
+   "u": "https://fortune.com/2026/11/11/megaspeed-nvidia-chips-china-singapore-malaysia/",
+   "d": "2026-11-12T02:48:36+00:00"
+  },
   {
    "t": "Build autonomous AI agents with Amazon Bedrock and Spring AI",
    "s": "AWS Machine Learning",
@@ -897,12 +903,6 @@
    "s": "CIO Dive",
    "u": "https://www.ciodive.com/news/trump-signals-openness-ai-guardrails-blue-tsunami/874437/",
    "d": "2026-11-11T15:01:00-05:00"
-  },
-  {
-   "t": "J. Crew debuts new AI shopping tool that’s designed to think like a stylist",
-   "s": "Fortune",
-   "u": "https://fortune.com/2026/11/11/jcrew-anthropic-ai-style-advisor/",
-   "d": "2026-11-11T17:43:27+00:00"
   },
   {
    "t": "N-able issues hotfix after researcher dumps PoCs in disclosure spat",
@@ -1197,15 +1197,63 @@
    "s": "Farnam Street",
    "u": "https://fs.blog/knowledge-project-podcast/jon-mcneill/",
    "d": "2026-11-05T10:55:00+00:00"
-  },
-  {
-   "t": "Building a Modern Western Lifestyle Brand",
-   "s": "Wharton Knowledge",
-   "u": "https://knowledge.wharton.upenn.edu/podcast/marketing-matters/building-a-modern-western-lifestyle-brand/",
-   "d": "2026-11-05T06:14:04+00:00"
   }
  ],
  "media": [
+  {
+   "t": "How I created this ninja puppet scene inspired by Naruto",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/how-to/how-i-created-this-ninja-puppet-scene-inspired-by-naruto",
+   "d": "2026-11-12T07:00:00+00:00"
+  },
+  {
+   "t": "The toy company Tomy has a new logo, and people are baffled",
+   "s": "Creative Bloq",
+   "u": "https://www.creativebloq.com/news/the-toy-company-tomy-has-a-new-logo-and-people-are-baffled",
+   "d": "2026-11-12T07:00:00+00:00"
+  },
+  {
+   "t": "Jazz Documentary ‘Tokyo in 33 RPM’ Unveiled Ahead of India’s WAVES Film Bazaar (EXCLUSIVE)",
+   "s": "Variety",
+   "u": "https://variety.com/2026/film/markets-festivals/jazz-documentary-tokyo-in-33-rpm-unveiled-1236945240/",
+   "d": "2026-11-12T05:30:00+00:00"
+  },
+  {
+   "t": "DC Universe Actor Frank Grillo Calls James Gunn & Peter Safran “Two Of The Most Loyal Guys” Following Their DC Studios Exit",
+   "s": "Deadline",
+   "u": "https://deadline.com/2026/11/frank-grillo-reaction-james-gunn-peter-safran-dc-studios-exit-1237221357/",
+   "d": "2026-11-12T05:00:05+00:00"
+  },
+  {
+   "t": "‘Wet,’ Starring Connor Storrie, Rebecca Ferguson and Odessa A’zion, Acquired by Lionsgate",
+   "s": "Hollywood Reporter",
+   "u": "https://www.hollywoodreporter.com/movies/movie-news/lionsgate-acquires-wet-connor-storrie-rebecca-ferguson-1236753619/",
+   "d": "2026-11-12T03:49:50+00:00"
+  },
+  {
+   "t": "Lionsgate Acquires Alma Har’el’s ‘Wet’ Starring Connor Storrie, Rebecca Ferguson, Odessa A’zion and More",
+   "s": "Variety",
+   "u": "https://variety.com/2026/film/news/lionsgate-alma-harel-wet-connor-storrie-1236945829/",
+   "d": "2026-11-12T03:36:26+00:00"
+  },
+  {
+   "t": "Movie Marketing Veteran Gerry Rich on Opening ‘Iron Man,’ Grappling With AI and Maintaining the Human Touch",
+   "s": "Variety",
+   "u": "https://variety.com/2026/film/news/gerry-rich-iron-man-movie-marketing-strictly-business-1236945785/",
+   "d": "2026-11-12T02:18:44+00:00"
+  },
+  {
+   "t": "Meta Removes Russell Brand’s Instagram & Facebook Account After Rape Conviction",
+   "s": "Deadline",
+   "u": "https://deadline.com/2026/11/meta-removes-russell-brand-instagram-rape-conviction-1237221263/",
+   "d": "2026-11-12T01:48:00+00:00"
+  },
+  {
+   "t": "Sun Valley Film Festival to Open With ‘The Debut’; Honorees Announced",
+   "s": "Variety",
+   "u": "https://variety.com/2026/film/news/sun-valley-film-festival-the-debut-honorees-1236945764/",
+   "d": "2026-11-12T01:32:06+00:00"
+  },
   {
    "t": "Acclaimed French Adult Animated Comedy ‘Jim Queen’ Is Getting A U.S. Theatrical Release After Magnolia Pickup",
    "s": "Cartoon Brew",
@@ -1225,33 +1273,15 @@
    "d": "2026-11-12T00:32:17+00:00"
   },
   {
-   "t": "Jorge Juarez Accepts the VENU Disruptor Award | Billboard Live Music Summit 2026",
-   "s": "Billboard",
-   "u": "https://www.billboard.com/video/jorge-juarez-accepts-the-venu-disruptor-award/",
-   "d": "2026-11-12T00:31:18+00:00"
-  },
-  {
    "t": "Russell Brand’s Instagram Account Removed By Meta After Rape Conviction",
    "s": "Variety",
    "u": "https://variety.com/2026/film/news/russell-brand-instagram-removed-meta-rape-conviction-1236945732/",
    "d": "2026-11-12T00:23:22+00:00"
   },
   {
-   "t": "Gang Dong-won, Kim Go-eun to Star in Netflix’s ‘The Twilight Between Us’ From ‘When Life Gives You Tangerines’ Director, ‘Queen of Tears’ Writer",
-   "s": "Variety",
-   "u": "https://variety.com/2026/tv/news/gang-dong-won-kim-go-eun-netflix-twilight-between-us-1236945029/",
-   "d": "2026-11-12T00:00:00+00:00"
-  },
-  {
    "t": "Gang Dong-won & Kim Go-eun To Lead Netflix Korea Romance-Action Period Drama ‘The Twilight Between Us’ From Kim Won-suk",
    "s": "Deadline",
    "u": "https://deadline.com/2026/11/netflix-korea-twilight-between-us-gang-dong-won-kim-go-eun-1237220213/",
-   "d": "2026-11-12T00:00:00+00:00"
-  },
-  {
-   "t": "A Rom-Com Connoisseur Goes Into Business With the True Story of a Sex Toy Saleswoman",
-   "s": "Hollywood Reporter",
-   "u": "https://www.hollywoodreporter.com/movies/movie-features/andy-tennant-jessica-alba-the-fun-lady-linda-brewer-film-1236743435/",
    "d": "2026-11-12T00:00:00+00:00"
   },
   {
@@ -1289,30 +1319,6 @@
    "s": "Rolling Stone Music",
    "u": "https://www.rollingstone.com/music/music-news/summer-walker-label-lvrn-breach-of-contract-interscope-1235656161/",
    "d": "2026-11-11T22:23:21+00:00"
-  },
-  {
-   "t": "‘Constantine’ Director Feels “More Hopeful” For Sequel Following James Gunn & Peter Safran’s DC Studios Exit",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/constantine-francis-lawrence-james-gunn-peter-safran-dc-studios-1237220954/",
-   "d": "2026-11-11T22:15:33+00:00"
-  },
-  {
-   "t": "‘Avengers Endgame: Encore’ Sets Disney+ Release Date With New ‘Countdown To Doomsday’ Spot",
-   "s": "Deadline",
-   "u": "https://deadline.com/2026/11/avengers-endgame-encore-disney-plus-stream-release-date-1237220911/",
-   "d": "2026-11-11T22:02:06+00:00"
-  },
-  {
-   "t": "China’s Film Industry Arrives at AFM on a Domestic High",
-   "s": "Hollywood Reporter",
-   "u": "https://www.hollywoodreporter.com/movies/movie-news/china-film-industry-afm-1236747567/",
-   "d": "2026-11-11T21:59:58+00:00"
-  },
-  {
-   "t": "Netflix Poised to Buy Radford Studio Lot at Auction for Steep Discount",
-   "s": "Hollywood Reporter",
-   "u": "https://www.hollywoodreporter.com/business/business-news/netflix-radford-studio-lot-at-auction-for-steep-discount-1236753290/",
-   "d": "2026-11-11T21:32:11+00:00"
   },
   {
    "t": "Cannes And Annecy Winner ‘Iron Boy’ Gets U.S. Trailer And Release Dates",
@@ -1435,12 +1441,6 @@
    "d": "2026-11-11T16:45:46+00:00"
   },
   {
-   "t": "The Boulies EP600 office chair gave me an existential crisis",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/reviews/the-boulies-ep600-office-chair-gave-me-an-existential-crisis",
-   "d": "2026-11-11T16:15:55+00:00"
-  },
-  {
    "t": "Oklou Scored a New Animated Film",
    "s": "Pitchfork News",
    "u": "https://pitchfork.com/story/oklou-scored-a-new-animated-film/",
@@ -1469,12 +1469,6 @@
    "s": "Stereogum",
    "u": "https://stereogum.com/2517570/oklou-in-waves-movie-soundtrack-score-the-swirl-ahead-rob/music/",
    "d": "2026-11-11T14:28:56+00:00"
-  },
-  {
-   "t": "This coffee machine won two design awards and now has £150 off for Black Friday",
-   "s": "Creative Bloq",
-   "u": "https://www.creativebloq.com/deals/this-coffee-machine-won-two-design-awards-and-now-has-gbp150-off-for-black-friday",
-   "d": "2026-11-11T14:00:00+00:00"
   },
   {
    "t": "Spotify DJ now has more voices – and the ability to shut up",
@@ -1538,6 +1532,24 @@
   }
  ],
  "ai": [
+  {
+   "t": "[AINews] D-Day (Decision Models Day)",
+   "s": "Latent Space",
+   "u": "https://latent.space/p/ainews-d-day-decision-models-day/",
+   "d": "2026-11-12T05:26:54+00:00"
+  },
+  {
+   "t": "The Jev Revolution: What Engineers Are Already Building with System One Models",
+   "s": "Latent Space",
+   "u": "https://latent.space/p/jev-revolution/",
+   "d": "2026-11-12T05:08:20+00:00"
+  },
+  {
+   "t": "New research could lead to faster, trustworthy AI models for climate prediction",
+   "s": "MIT News AI",
+   "u": "https://news.mit.edu/2026/new-research-could-lead-faster-trustworthy-ai-models-climate-prediction-1112",
+   "d": "2026-11-12T00:00:00-05:00"
+  },
   {
    "t": "Nvidia is reportedly preparing to fire Jensen Huang",
    "s": "The Verge AI",
@@ -1879,38 +1891,104 @@
    "s": "Ars Technica AI",
    "u": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
    "d": "2026-11-10T20:30:01+00:00"
-  },
-  {
-   "t": "Designing for Agents — Zeno Rocha, Resend",
-   "s": "Latent Space",
-   "u": "https://latent.space/p/resend/",
-   "d": "2026-11-10T20:05:17+00:00"
-  },
-  {
-   "t": "The US is winning the AI race. Jensen Huang could have blown it",
-   "s": "The Verge AI",
-   "u": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
-   "d": "2026-11-10T14:31:58-05:00"
-  },
-  {
-   "t": "Gemini Intelligence: New features, on more devices",
-   "s": "Google AI Blog",
-   "u": "https://blog.google/products-and-platforms/platforms/android/gemini-intelligence-november-features-devices/",
-   "d": "2026-11-10T19:00:00+00:00"
   }
  ],
  "world": [
   {
-   "t": "Democrat Scott Colom to be first Black senator elected in Mississippi since 1874 after narrow win – US politics live",
-   "s": "Guardian World",
-   "u": "https://www.theguardian.com/us-news/live/2026/nov/11/donald-trump-pete-hegseth-impeachment-democrats-republicans-arlington-latest-news-updates",
-   "d": "2026-11-12T00:55:08+00:00"
+   "t": "Shipping’s $95bn fossil fuel bonfire",
+   "s": "Splash247",
+   "u": "https://splash247.com/shippings-95bn-fossil-fuel-bonfire/",
+   "d": "2026-11-12T06:29:28+00:00"
   },
   {
-   "t": "Iran war live: Iran warns of Europe retaliation, Israel attacks Gaza",
+   "t": "Singapore Strait robbery spike sparks fresh security warning",
+   "s": "Splash247",
+   "u": "https://splash247.com/singapore-strait-robbery-spike-sparks-fresh-security-warning/",
+   "d": "2026-11-12T06:24:58+00:00"
+  },
+  {
+   "t": "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
+   "s": "BBC World",
+   "u": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
+   "d": "2026-11-12T06:12:05+00:00"
+  },
+  {
+   "t": "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
+   "s": "BBC World",
+   "u": "https://www.bbc.co.uk/news/articles/cr1ewpd95d21o?at_medium=RSS&at_campaign=rss",
+   "d": "2026-11-12T05:59:18+00:00"
+  },
+  {
+   "t": "Israeli strike on southern Gaza hospital kills six, Gaza civil defence says",
+   "s": "Al-Monitor",
+   "u": "https://www.al-monitor.com/originals/2026/11/israeli-strike-southern-gaza-hospital-kills-six-gaza-civil-defence-says",
+   "d": "2026-11-12T00:46:53-05:00"
+  },
+  {
+   "t": "The summit Europe loves to hate",
+   "s": "Politico Europe",
+   "u": "https://www.politico.eu/podcast/brussels-playbook-podcast/the-summit-europe-loves-to-hate/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-12T05:05:00+00:00"
+  },
+  {
+   "t": "Scientists slam EU for climate action backsliding",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/scientists-slam-eu-for-climate-action-backsliding/",
+   "d": "2026-11-12T05:00:46+00:00"
+  },
+  {
+   "t": "Iran’s chief negotiator tells Al Jazeera ‘ball in US court’",
    "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
-   "d": "2026-11-12T00:00:44+00:00"
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/12/irans-chief-negotiator-tells-al-jazeera-ball-in-us?traffic_source=rss",
+   "d": "2026-11-12T04:19:55+00:00"
+  },
+  {
+   "t": "EU growth needs deeper markets and global capital",
+   "s": "Politico Europe",
+   "u": "https://www.politico.eu/sponsored-content/eu-growth-needs-deeper-markets-and-global-capital/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-12T04:00:00+00:00"
+  },
+  {
+   "t": "Iran warns of expanded retaliation as Israel reportedly readies to attack",
+   "s": "Al Jazeera",
+   "u": "https://www.aljazeera.com/news/2026/11/12/iran-warns-of-expanded-retaliation-as-israel-reportedly-readies-to-attack?traffic_source=rss",
+   "d": "2026-11-12T03:50:42+00:00"
+  },
+  {
+   "t": "Germany, Visegrád tee up EU fuel carbon price fight",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/defend-incoming-fuel-carbon-price-merz-tells-von-der-leyen/",
+   "d": "2026-11-12T03:30:05+00:00"
+  },
+  {
+   "t": "Ukraine war could end this winter, says Lithuania",
+   "s": "Euractiv",
+   "u": "https://www.rapporteur.com/news/ukraine-war-could-end-this-winter-says-lithuania/",
+   "d": "2026-11-12T03:00:42+00:00"
+  },
+  {
+   "t": "Oil slicks seen from space: the devastating impact of boat strikes on fragile Gulf ecosystems",
+   "s": "Guardian World",
+   "u": "https://www.theguardian.com/world/2026/nov/12/oil-slicks-seen-from-space-the-devastating-impact-of-boat-strikes-on-fragile-gulf-ecosystems",
+   "d": "2026-11-12T03:00:07+00:00"
+  },
+  {
+   "t": "Falklands oil dispute heads for international tribunal ruling",
+   "s": "Splash247",
+   "u": "https://splash247.com/falklands-oil-dispute-heads-for-international-tribunal-ruling/",
+   "d": "2026-11-12T02:40:00+00:00"
+  },
+  {
+   "t": "EU clears $2.2bn support to revive Belgian offshore wind tender",
+   "s": "Splash247",
+   "u": "https://splash247.com/eu-clears-2-2bn-support-to-revive-belgian-offshore-wind-tender/",
+   "d": "2026-11-12T02:20:00+00:00"
+  },
+  {
+   "t": "Israel strikes intensive care at Gaza’s Nasser Hospital",
+   "s": "Al Jazeera",
+   "u": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+   "d": "2026-11-12T01:20:55+00:00"
   },
   {
    "t": "EU Inc set to miss 2026 deadline as Parliament talks falter again",
@@ -1919,40 +1997,16 @@
    "d": "2026-11-11T23:20:38+00:00"
   },
   {
-   "t": "Israeli strikes hit medical complex as nine killed across Gaza",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
-   "d": "2026-11-11T22:55:37+00:00"
-  },
-  {
    "t": "Motor racing-Hamilton urges Israel to let Gaza aid in after Rafah visit",
    "s": "Al-Monitor",
    "u": "https://www.al-monitor.com/originals/2026/11/motor-racing-hamilton-urges-israel-let-gaza-aid-after-rafah-visit",
    "d": "2026-11-11T17:47:12-05:00"
   },
   {
-   "t": "Iran designates Argentinian navy, air force as ‘terrorist organisations’",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-   "d": "2026-11-11T22:34:43+00:00"
-  },
-  {
    "t": "US envoys to meet Putin, Zelenskyy after war talks in Abu Dhabi",
    "s": "Euractiv",
    "u": "https://www.rapporteur.com/news/us-envoys-to-meet-putin-zelenskyy-after-war-talks-in-abu-dhabi-2/",
    "d": "2026-11-11T22:10:01+00:00"
-  },
-  {
-   "t": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-   "d": "2026-11-11T21:03:40+00:00"
-  },
-  {
-   "t": "Oil production nears pre-Iran war levels, OPEC says",
-   "s": "Al Jazeera",
-   "u": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-   "d": "2026-11-11T20:45:30+00:00"
   },
   {
    "t": "Geneva Dry: Belships’ Ivar Hansson Myklebust on China’s changing commodities role",
@@ -2009,6 +2063,12 @@
    "d": "2026-11-11T12:47:51-05:00"
   },
   {
+   "t": "Former Brexit negotiator now open to scrapping Labour’s EU red lines",
+   "s": "Politico Europe",
+   "u": "https://www.politico.eu/article/former-brexit-negotiator-now-open-to-scrapping-labours-eu-red-lines/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
+   "d": "2026-11-11T17:26:41+00:00"
+  },
+  {
    "t": "BMW announces new battery supply deals for the US, Europe",
    "s": "Supply Chain Dive",
    "u": "https://www.supplychaindive.com/news/bmw-announces-new-battery-supply-deals-for-the-us-europe/874409/",
@@ -2045,18 +2105,6 @@
    "d": "2026-11-11T11:38:33-05:00"
   },
   {
-   "t": "Indonesia's vice president resigns amid signs ruling alliance is fraying",
-   "s": "BBC World",
-   "u": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-   "d": "2026-11-11T16:38:07+00:00"
-  },
-  {
-   "t": "Canada puts Iranian tanker giant back under sanctions",
-   "s": "Splash247",
-   "u": "https://splash247.com/canada-puts-iranian-tanker-giant-back-under-sanctions/",
-   "d": "2026-11-11T16:38:00+00:00"
-  },
-  {
    "t": "IMO Chief Calls for Strict Enforcement of SOLAS Rules in Strait of Hormuz",
    "s": "gCaptain",
    "u": "https://gcaptain.com/imo-chief-calls-for-strict-enforcement-of-solas-rules-in-strait-of-hormuz/",
@@ -2069,22 +2117,10 @@
    "d": "2026-11-11T16:25:50+00:00"
   },
   {
-   "t": "France denies Israeli settler leader entry: What to know",
+   "t": "France denies entry for Israeli settler leader: What to know",
    "s": "Al-Monitor",
-   "u": "https://www.al-monitor.com/originals/2026/11/france-denies-israeli-settler-leader-entry-what-know",
+   "u": "https://www.al-monitor.com/originals/2026/11/france-denies-entry-israeli-settler-leader-what-know",
    "d": "2026-11-11T11:19:44-05:00"
-  },
-  {
-   "t": "EU needs a system to respond to AI incidents, Finland and Estonia say",
-   "s": "Politico Europe",
-   "u": "https://www.politico.eu/article/eu-needs-a-system-to-respond-to-ai-incidents-finland-and-estonia-say/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "d": "2026-11-11T16:19:06+00:00"
-  },
-  {
-   "t": "Von der Leyen endorses Turkish push for global electrification goal",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/von-der-leyen-endorses-turkish-push-for-global-electrification-goal/",
-   "d": "2026-11-11T16:15:58+00:00"
   },
   {
    "t": "Watchdog urges Turkey to tighten digital asset rules for $144B crypto economy",
@@ -2105,12 +2141,6 @@
    "d": "2026-11-11T16:02:32+00:00"
   },
   {
-   "t": "Germany must rein in debt-fuelled defence spending: experts",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/germany-must-rein-in-debt-fuelled-defence-spending-experts/",
-   "d": "2026-11-11T15:53:08+00:00"
-  },
-  {
    "t": "Transpacific ocean rates ease slightly as peak winds down",
    "s": "Supply Chain Dive",
    "u": "https://www.supplychaindive.com/news/transpacific-ocean-rates-ease-slightly-as-peak-winds-down/874262/",
@@ -2127,12 +2157,6 @@
    "s": "Supply Chain Dive",
    "u": "https://www.supplychaindive.com/news/carpartscom-revs-up-in-house-last-mile-delivery-for-cost-speed-benefits/874287/",
    "d": "2026-11-11T10:23:46-05:00"
-  },
-  {
-   "t": "European gaming firms say new EU consumer rules will ‘cripple’ the industry",
-   "s": "Politico Europe",
-   "u": "https://www.politico.eu/article/european-gaming-firms-say-new-eu-consumer-rules-will-cripple-the-industry-digital-fairness-act/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "d": "2026-11-11T15:08:20+00:00"
   },
   {
    "t": "Asics boosts inventory management using warehouse drones",
@@ -2189,12 +2213,6 @@
    "d": "2026-11-11T16:04:00+03:00"
   },
   {
-   "t": "Hen cages could be scrapped by 2040, EU draft shows",
-   "s": "Euractiv",
-   "u": "https://www.rapporteur.com/news/hen-cages-could-be-scrapped-by-2040-eu-draft-shows/",
-   "d": "2026-11-11T12:50:38+00:00"
-  },
-  {
    "t": "Honda to invest $3B in new Ohio hybrid vehicle plant",
    "s": "Supply Chain Dive",
    "u": "https://www.supplychaindive.com/news/honda-to-invest-3b-in-new-ohio-hybrid-vehicle-plant/874281/",
@@ -2205,12 +2223,6 @@
    "s": "SCMP Economy",
    "u": "https://www.scmp.com/tech/tech-trends/article/3374099/chinas-huawei-roll-out-new-smartphone-brand-osta-6-years-after-giving-honor",
    "d": "2026-11-11T12:30:13+00:00"
-  },
-  {
-   "t": "US to seek Putin’s ‘blessing’ for Europe to join Ukraine talks",
-   "s": "Politico Europe",
-   "u": "https://www.politico.eu/article/u-s-to-seek-putins-blessing-for-europe-to-join-ukraine-talks/?utm_source=RSS_Feed&utm_medium=RSS&utm_campaign=RSS_Syndication",
-   "d": "2026-11-11T12:18:29+00:00"
   },
   {
    "t": "BYD apologises for wheel-rim error as China cracks down on car quality issues",
@@ -2241,27 +2253,9 @@
    "s": "NPR World",
    "u": "https://www.npr.org/2026/11/10/nx-s1-6036786/uk-iran-airbase-russia-spy",
    "d": "2026-11-11T05:02:54-05:00"
-  },
-  {
-   "t": "Elemental Energies wins offshore CCS deal from Harbour Energy",
-   "s": "Splash247",
-   "u": "https://splash247.com/elemental-energies-wins-offshore-ccs-deal-from-harbour-energy/",
-   "d": "2026-11-11T10:00:00+00:00"
-  },
-  {
-   "t": "Nvidia under deep scrutiny over China chip shipments, CEO affair",
-   "s": "Daily Sabah",
-   "u": "https://www.dailysabah.com/business/tech/nvidia-under-deep-scrutiny-over-china-chip-shipments-ceo-affair",
-   "d": "2026-11-11T12:26:00+03:00"
-  },
-  {
-   "t": "Türkiye could become one of wind energy leaders, official says",
-   "s": "Daily Sabah",
-   "u": "https://www.dailysabah.com/business/energy/turkiye-could-become-one-of-wind-energy-leaders-official-says",
-   "d": "2026-11-11T12:23:00+03:00"
   }
  ],
- "updated": "2026-11-12T01:23:33.247022+00:00",
+ "updated": "2026-11-12T07:04:08.767469+00:00",
  "health": {
   "Food Dive": 10,
   "AgFunder News": 50,
@@ -2281,7 +2275,7 @@
   "New Atlas": 60,
   "TechXplore Engineering": 30,
   "Phys.org Technology": 30,
-  "Electronics Weekly": 0,
+  "Electronics Weekly": 10,
   "The Robot Report": 15,
   "Utility Dive": 10,
   "Energy Storage News": 300,
@@ -2348,7 +2342,7 @@
   "The Register AI": 50,
   "Tom's Hardware": 50,
   "ServeTheHome": 6,
-  "BBC World": 29,
+  "BBC World": 31,
   "Guardian World": 45,
   "Al Jazeera": 25,
   "The Diplomat": 96,
