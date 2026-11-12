@@ -1,10 +1,8 @@
-# News desk robot: collects English headlines twice a day into data/news.json.
-# Translations into the other seven languages are made by the Cloudflare Worker "ginova-consultancy" (Workers AI), not here.
-name: News desk
+# News desk robot: RETIRED as the scheduler on 2026-11-12 (Kunter Bey).
+# The Cloudflare Worker "ginova-consultancy" now collects the headlines itself every day (published 08:00 Istanbul)
+# and translates them; the live desk does not read this repo's data/news.json. Kept only as a manual backup.
+name: News desk (manual backup)
 on:
-  schedule:
-    - cron: '30 4 * * *'      # 07:30 Istanbul
-    - cron: '30 16 * * *'     # 19:30 Istanbul
   workflow_dispatch:
 permissions:
   contents: write
